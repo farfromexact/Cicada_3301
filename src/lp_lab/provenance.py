@@ -7,7 +7,7 @@ def sha256(path):
 
 def verify_sources(root):
     entries = []
-    for name in ("manifest.json", "context-manifest.json", "clues-v1-manifest.json"):
+    for name in ("manifest.json", "context-manifest.json", "clues-v1-manifest.json", "feed002-manifest.json"):
         entries.extend(json.loads((root / "sources" / name).read_text(encoding="utf8"))["entries"])
     failures = []
     for entry in entries:

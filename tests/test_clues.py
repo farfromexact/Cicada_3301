@@ -20,7 +20,7 @@ class ClueTests(unittest.TestCase):
         self.assertEqual(result["row_sums"]+result["column_sums"]+result["diagonals"],[1033]*12)
 
     def test_graph_provenance_and_prior_negative(self):
-        self.assertEqual(validate(ROOT)["claims"],9)
+        self.assertEqual(validate(ROOT)["claims"],16)
         found=find(ROOT,"no-skip")
         self.assertTrue(any(e["outcome"]=="negative" for e in found["experiments"]))
 

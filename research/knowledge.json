@@ -1,6 +1,13 @@
 {
   "schema": 1,
   "claims": [
+    {"id":"C010","topic":"F29 GF29 finite field multiplication","status":"reproduced","claim":"枚举模 29 的 841 个乘法对：28 个非零序号各有唯一逆元，0 没有逆元。这是数学能力检查，不能证明 LP1/LP2 使用乘法密码。","evidence":[{"path":"sources/feed002/user-proposal.txt","anchor":"任何非零元素都有乘法逆元"}],"experiments":["E005-arithmetic"],"next_step":"只有给出明确乘法密钥族、参数与区分性依据后，才登记 cipher 实验。"},
+    {"id":"C011","topic":"1033 centrosymmetry center symmetry D4","status":"reproduced","claim":"固定 LP1/05 方阵在方形八种对称操作中，仅恒等与 180 度旋转精确保持 25 格。取格值 mod29 或 phi 后仍中心对称，是确定性映射的必然保留，不是三份独立证据。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/05.md","anchor":"### Magic Square"},{"path":"sources/feed002/user-proposal.txt","anchor":"centrosymmetry"}],"experiments":["E005-symmetry"],"next_step":"跨页统计须先定义比较单位、对称操作、零假设和多重检验方案；不能累计重复变换的证据。"},
+    {"id":"C012","topic":"GP prime index information loss mod29","status":"reproduced","claim":"GP[i]=p_(i+1) 使用零基符文序号；29 个完整素数值互异，但再取 mod29 只剩 24 个不同值，存在碰撞。素数编码、取模、词求和和拉丁转写不是任意可逆的同一表示。","evidence":[{"path":"sources/ibot/other/Gematria_Primus.md","anchor":"| ᚠ    | F      | 2     | 0"},{"path":"sources/feed002/user-proposal.txt","anchor":"语言"}],"experiments":["E005-arithmetic"],"next_step":"每项变换标注输入域、输出域和信息损失；不要用有碰撞的表示反推唯一原符文。"},
+    {"id":"C013","topic":"totient key stream position versus rune value","status":"reproduced","claim":"LP2/56 的 84 个已消费流素数均独立验证 phi(p)=p-1。保持 skip ordinal 56 时，替代方案 C-phi(GP[C]) 有 80 处不匹配；不是对所有 phi 构造的否定。","evidence":[{"path":"sources/ibot/liber_primus/markdown/73.md","anchor":"prime numbers - 1"}],"experiments":["E005-arithmetic","E005-rune-value-negative"],"next_step":"时钟位置 t 与符文序号 C 分开命名；后续 H002 只在明确时钟约定下比较。"},
+    {"id":"C014","topic":"MOBIUS mu function transformation strip","status":"conjecture","claim":"MOBIUS 的词项存在不决定其指向 mu 函数、分式线性变换还是带状几何；本轮没有把任何一种读法当成已确认的算法。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/05.md","anchor":"MOBIU"},{"path":"sources/feed002/user-proposal.txt","anchor":"Möbius function"}],"experiments":[],"next_step":"需提出有限输入、操作和可失败的预言，否则保留联想而不搜索。"},
+    {"id":"C015","topic":"corpus scan mod29 prime phi symmetry multiple testing","status":"conjecture","claim":"全体未解页的多表示结构扫描是待设计实验，目前未执行。多个确定性相关视图不能当独立证据，先固定转写版本、统计量、去重、对照与多重检验。","evidence":[{"path":"sources/feed002/user-proposal.txt","anchor":"系统扫描所有未解页"}],"experiments":[],"next_step":"先用已知页及合成负对照验证测量器，再决定一个有界未解页试点；不直接启动全库探索。"},
+    {"id":"C016","topic":"Wulfic page63 source numbering caution","status":"source_reported","claim":"引用的 Wulfic page_63 文档标作 SOME WISDOM，内容对应这里研究的 LP1/05 主题。不能将这个目录号直接视为标准 LP2 页码或新增已解页；其 tracker 的 solved 标签仍是未验收来源说法。","evidence":[{"path":"sources/feed002/wulfic/pages/page_63/README.md","anchor":"SOME WISDOM"},{"path":"sources/feed002/wulfic/MASTER_TRACKER.md","anchor":"Page Status Overview"}],"experiments":[],"next_step":"如要使用其其他页数据，先以原图哈希和逐符文序列建立页码对照。"},
     {"id":"C001","topic":"F index vs prime value","status":"corrected","claim":"F 的序号为 0，GP 素数值为 2；输入材料把两种数值混称。","evidence":[{"path":"sources/ibot/other/Gematria_Primus.md","anchor":"| ᚠ    | F      | 2     | 0"}],"experiments":[],"next_step":"所有涉及 F 的算法明确使用 index 或 prime_value。"},
     {"id":"C002","topic":"A WARNING Atbash","status":"reproduced","claim":"LP1/01 在原始转写上应用 28-index，184 个符文精确复现；恒等变换负对照不匹配。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/01.md","anchor":"Reverse the runic decoding"}],"experiments":["E004-warning"],"next_step":"行和是否特别偏向素数需单独定义单位、基线和检验；本轮未做显著性判断。"},
     {"id":"C003","topic":"PRIME TOTIENT matrix","status":"reproduced","claim":"LP1/05 方阵的实际符文按 GP 素数求和，25 格与参考一致；行列和两条对角线和均为 1033。仅复现方阵，不代表整页正文已逐符文验收。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/05.md","anchor":"### Magic Square"}],"experiments":["E004-matrix"],"next_step":"把方阵数值结构与密码流参数的关联另行提出可反驳假设。"},
@@ -12,6 +19,10 @@
     {"id":"C009","topic":"reverse plus shift 3 Koan","status":"source_reported","claim":"固定来源报告反向符文解码再 shift +3；本仓库尚未运行该 LP1 回归。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/06.md","anchor":"Shift +3 additionally"}],"experiments":[],"next_step":"先从密文分别检验变换次序与方向，不能只按叙述填入输出。"}
   ],
   "edges": [
+    {"from":"C003","to":"C011","relation":"extends_exact_observation","interpretation":"同一数阵新增中心对称检查，不重复声称重新发现 1033。"},
+    {"from":"C012","to":"C013","relation":"disambiguates_representation","interpretation":"符文 GP 值和密钥流位置对应素数不是同一函数输入。"},
+    {"from":"C011","to":"C015","relation":"qualifies_hypothesis","interpretation":"相关表示下保留的对称性不能作为独立显著性证据累加。"},
+    {"from":"C016","to":"C015","relation":"qualifies_source_scope","interpretation":"任何跨页扫描必须先解决页码和来源对齐。"},
     {"from":"C003","to":"C004","relation":"text_to_known_mechanism","interpretation":"LP1 的 totient 词项与 LP2 已知 prime-minus-one 机制相连；不是 author-intent 证明。"},
     {"from":"C005","to":"C007","relation":"motivates_hypothesis","interpretation":"一个来源报告的语义密钥例子。"},
     {"from":"C006","to":"C007","relation":"qualifies_hypothesis","interpretation":"语义关联不能省略符文构造差异。"},
@@ -19,6 +30,9 @@
     {"from":"C001","to":"C005","relation":"corrects_representation","interpretation":"跳位规范必须先区分序号与素数值。"}
   ],
   "experiments": [
+    {"id":"E005-arithmetic","hypothesis":"H005-v1","outcome":"passed","artifact":"runs/feed002-math-audit-v1/audit.json","assertions":{"field.status":"passed","gp_mapping.mod29_unique_count":24,"lp2_position_stream.status":"passed","lp2_position_stream.stream_primes_checked":84},"coverage":"29x29 有限域对、29 个 GP 值，以及 LP2/56 的 84 个已消费流素数；不证明乘法密码用途"},
+    {"id":"E005-symmetry","hypothesis":"H005-v1","outcome":"passed","artifact":"runs/feed002-math-audit-v1/audit.json","assertions":{"matrix.symmetries.rotate180.equal":true},"coverage":"仅固定 LP1/05 数阵，8 个方形操作各比较 25 个位置，无统计显著性推断"},
+    {"id":"E005-rune-value-negative","hypothesis":"H005-v1","outcome":"negative","artifact":"runs/feed002-math-audit-v1/audit.json","assertions":{"rune_value_alternative.status":"negative"},"coverage":"仅 LP2/56，P=C-phi(GP[C]) mod29，固定 skip ordinal 56；85 符文中 80 处不匹配"},
     {"id":"E004-warning-identity","hypothesis":"H004-v1","outcome":"negative","artifact":"runs/dev-clues-001/warning.json","assertions":{"negative_control.status":"negative"},"coverage":"仅 LP1/01 恒等映射；184 个符文中 182 个不匹配，不能据此否定其他页面的直接转写"},
     {"id":"E004-warning","hypothesis":"H004-v1","outcome":"passed","artifact":"runs/dev-clues-001/warning.json","assertions":{"status":"passed","exact_runes":true,"roundtrip_exact":true},"coverage":"仅 LP1/01、184 符文、Atbash；不是 LP1 全覆盖"},
     {"id":"E004-matrix","hypothesis":"H004-v1","outcome":"passed","artifact":"runs/dev-clues-001/matrix.json","assertions":{"status":"passed"},"coverage":"仅 LP1/05 原始 25 格 GP 求和"},

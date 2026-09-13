@@ -1,0 +1,41 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/feed002/wulfic/MASTER_TRACKER.md",
+      "url": "https://raw.githubusercontent.com/Wulfic/Cicada3301-Liber_Primus/9ef497883dde7c880453958187884ffceccb6d38/MASTER_TRACKER.md",
+      "upstream_version": "9ef497883dde7c880453958187884ffceccb6d38",
+      "acquired_at_utc": "2026-09-13T09:38:32.837768+00:00",
+      "acquisition": "https-download; source claims not adopted as verified",
+      "sha256": "df4ad55ad5ae250f0e93d8976bce7751e8f560e63465946ae94336833e46b3a5",
+      "bytes": 97916
+    },
+    {
+      "path": "sources/feed002/wulfic/data/key_search_corpus.txt",
+      "url": "https://raw.githubusercontent.com/Wulfic/Cicada3301-Liber_Primus/9ef497883dde7c880453958187884ffceccb6d38/data/key_search_corpus.txt",
+      "upstream_version": "9ef497883dde7c880453958187884ffceccb6d38",
+      "acquired_at_utc": "2026-09-13T09:38:34.445117+00:00",
+      "acquisition": "https-download; source claims not adopted as verified",
+      "sha256": "0f7545d470f2056b45b5de2c8c116ecdea66969fdca6be57ccbd8e591e40ee92",
+      "bytes": 137957
+    },
+    {
+      "path": "sources/feed002/wulfic/pages/page_63/README.md",
+      "url": "https://raw.githubusercontent.com/Wulfic/Cicada3301-Liber_Primus/9ef497883dde7c880453958187884ffceccb6d38/pages/page_63/README.md",
+      "upstream_version": "9ef497883dde7c880453958187884ffceccb6d38",
+      "acquired_at_utc": "2026-09-13T09:38:35.549974+00:00",
+      "acquisition": "https-download; source claims not adopted as verified",
+      "sha256": "7dc8f89cc108c3e3ff0bfde079a76788d8c14b758d22b2fa2e5e8f3e6bfc50d1",
+      "bytes": 1991
+    },
+    {
+      "path": "sources/feed002/user-proposal.txt",
+      "url": "user-attachment:1ff5e190-eb6d-4d4e-b5e7-2167fbaee45e/pasted-text.txt",
+      "upstream_version": null,
+      "acquired_at_utc": "2026-09-13T09:38:35.550974+00:00",
+      "acquisition": "user feed snapshot",
+      "sha256": "21014b1fe5a9b4bc1ed5f67446a15a6683aea71a4fdfbdd525789d3ed36e5633",
+      "bytes": 9670
+    }
+  ]
+}

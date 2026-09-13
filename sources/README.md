@@ -2,6 +2,8 @@
 
 `manifest.json` 固定本轮 13 个主要来源；`context-manifest.json` 固定 5 个历史/用户上下文来源。
 第二轮 `clues-v1-manifest.json` 增加 11 个固定来源，包括第一条正式 feed 原文和 LP1 相关资料；累计 29 个。
+第三轮 `feed002-manifest.json` 增加数学 feed 原文及其 3 个固定 GitHub 引用；累计 33 个。
+其中 Wulfic 页码/已解标签只作为被引用说法，不替代本项目已核对的页码和回归状态。
 各条目包含 URL、UTC 获取时间、上游 commit（无版本的网页为 null）、文件大小和 SHA-256。
 获取时间对本地副本表示本次快照时间；历史下载只能确认旧清单声称的 2026-09-13，精确时刻未知。
 

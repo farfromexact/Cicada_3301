@@ -1,0 +1,39 @@
+{
+  "code": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "21b8e4d6c19f342ed7c1e31089f73148a065d0d6c582e9a43fadb273169c2326",
+    "files": {
+      "pyproject.toml": "5195cc024297b7c9ddae7ca0465fbe564169b88e45f422d77d8a4c97cdfaf82c",
+      "scripts/acquire_clue_sources.py": "f1704510b14ad4b2b7a4132c2ea33bff097f22de1b0b017073ea81af4814ad36",
+      "scripts/acquire_math_sources.py": "b49e3ad3eb3e5c4d6f49528bb9b329275fa6b4a462c3812e3f5fc4a77c0e336b",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/check_clues.py": "a547f9498e199bf89e9cdb406d47e8bbd4f7430f71021fd2d7ca4268b50bff6b",
+      "scripts/check_math.py": "5c8fe24e0ffb023ad731a69c814d862cdd7b75d78704a1c4c84970674118a9a6",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/research.py": "e32b7176f39cfeb3b8528a1150462dc1f76120f6e1a6d58e011e5411915617a8",
+      "scripts/run_round.py": "6c5938b4fa7a31e7c1e7d5795b08eb6f46fe7aeca90c8be5de7fc83203696436",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/snapshot_context.py": "5c28dcfff9dbff6719552d0e52dc1be9d6781b64f1486f6dce4f35b1491b8edf",
+      "scripts/synthetic_benchmark.py": "a7f54559049290960296a50259754e916537cced9737dcbd259f6b80c22fa542",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+      "src/lp_lab/clues.py": "0dee6564916eaa28c7cb91d43bf3bb0a413da5f4974af82d08cd0f53fd95b794",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/math_audit.py": "48bcc73f0d68457301a8ba73cd7ff5d0105e0a5324e378baaaeabdc27f437b0e",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/provenance.py": "78f01e8f9f1dc109eb40b9bf8a8ef8fe418dd1e2a882027a6fcc447f7f99fd66",
+      "src/lp_lab/reference.py": "eebc50bfb69c8e59d4f6e5a1e9f78102a1eb7a36666e31bc0f7b4396a4ac69b6",
+      "src/lp_lab/research.py": "4b33d55081012d83b050344277a016d3e5241d779b7105c7d4232f2ab7e539df",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_clues.py": "e198cee397c6ab24a9605a131371ec06b73902737664bd77d6c54ca7bfdd64eb",
+      "tests/test_lab.py": "697f35edf9eb71c2c114f8ed5df8a3f63172875a0750d7ddeb04f126e3f9446c",
+      "tests/test_math_audit.py": "b333895f67927a6739a118ce64ba56f68a62fd1fac038e98c70c609b5d9ca9f3"
+    }
+  },
+  "training_sha256": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff",
+  "heldout_sha256": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+  "hypothesis_sha256": "155168718ce619a2c5065f3599c20f2305b90154131aad9902469aa8402bb2e6",
+  "statement": "Profile, code and criteria frozen before drawing keys; heldout not used in scoring"
+}

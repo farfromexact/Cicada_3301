@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "source_run": "runs\\20260913T094329.814230Z",
+  "archive_sha256": "ea4fdf07aa590dfe33a3685dec13a282e897ca8d7d1f6ce7e9135ea151fbdf2f",
+  "required_files": 75,
+  "missing": [],
+  "byte_mismatches": [],
+  "scope": "ZIP CRC and exact code/data/evidence bytes; no additional execution of this archive"
+}

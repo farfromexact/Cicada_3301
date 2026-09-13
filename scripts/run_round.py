@@ -30,12 +30,13 @@ def main():
     hypothesis = json.loads((ROOT / "hypotheses/H000-baseline.json").read_text(encoding="utf8"))
     git = subprocess.run(["git","rev-parse","HEAD"],cwd=ROOT,capture_output=True,text=True)
     report = dict(schema=1, hypothesis=hypothesis, started_at_utc=started.isoformat(),
-                  additional_hypotheses=[json.loads((ROOT / "hypotheses/H004-clue-graph-v1.json").read_text(encoding="utf8"))],
+                  additional_hypotheses=[json.loads((ROOT / p).read_text(encoding="utf8")) for p in
+                      ("hypotheses/H004-clue-graph-v1.json","hypotheses/H005-math-representations-v1.json")],
                   environment=dict(python=sys.version, executable=sys.executable, platform=platform.platform()),
                   code_version=snapshot, git_head=git.stdout.strip() if git.returncode == 0 else None,
                   reproduction_bundle=dict(path=archive.name, sha256=sha256(archive)),
                   data_version={p.relative_to(ROOT).as_posix():sha256(p) for p in
-                                [ROOT / "sources/manifest.json", ROOT / "sources/context-manifest.json", ROOT / "sources/clues-v1-manifest.json", *sorted((ROOT / "research").rglob("*.json")), *sorted((ROOT / "data").rglob("*.json")),
+                                [ROOT / "sources/manifest.json", ROOT / "sources/context-manifest.json", ROOT / "sources/clues-v1-manifest.json", ROOT / "sources/feed002-manifest.json", *sorted((ROOT / "research").rglob("*.json")), *sorted((ROOT / "data").rglob("*.json")),
                                  *sorted((ROOT / "data/synthetic").glob("*.txt"))]},
                   commands=[], status="running", next_step="See STATE.md; do not infer unsolved-page exclusion")
     def save():
@@ -47,6 +48,7 @@ def main():
                 ("reproduce",[sys.executable,"-X","utf8","scripts/reproduce.py","--out",str(run / "reproduce")],30),
                 ("research",[sys.executable,"-X","utf8","scripts/research.py","validate"],30),
                 ("clues",[sys.executable,"-X","utf8","scripts/check_clues.py","--out",str(run / "clues")],30),
+                ("math",[sys.executable,"-X","utf8","scripts/check_math.py","--out",str(run / "math")],30),
                 ("synthetic",[sys.executable,"-X","utf8","scripts/synthetic_benchmark.py","--out",str(run / "synthetic")],60)]
         for name, command, timeout in jobs:
             result = execute(command,cwd=ROOT,timeout=timeout)
@@ -70,6 +72,9 @@ def main():
             report["actual_coverage"] = dict(known_pages=[56,57], known_runes=180,
                 synthetic_trials=summary["trials"], unsolved_page_candidates=0)
             report["actual_coverage"]["additional_checks"] = json.loads((run / "clues/summary.json").read_text(encoding="utf8"))
+            report["actual_coverage"]["math_checks"] = json.loads((run / "math/summary.json").read_text(encoding="utf8"))
+            if report["actual_coverage"]["math_checks"]["status"] == "negative" and report["status"] == "passed":
+                report["status"] = "negative"
             if report["actual_coverage"]["additional_checks"]["status"] == "negative" and report["status"] == "passed":
                 report["status"] = "negative"
             report["random_seeds"] = [json.loads((run / f"synthetic/trial-{i}/verifier-only/answer.json").read_text(encoding="utf8"))["seed"] for i in range(3)]
