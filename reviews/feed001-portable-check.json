@@ -1,0 +1,15 @@
+{
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/run_round.py"
+  ],
+  "cwd": "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\feed001-portable-check",
+  "source_run": "runs\\20260913T093327.825382Z",
+  "bundle_sha256": "327a074fd88bd79b0f5c26226bf9f4679ff965c82f51370a16cb3567bf198da3",
+  "exit_code": 0,
+  "stdout": "tests completed exit 0\nreproduce completed exit 0\n[{\"page\": 56, \"rune_count\": 85, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 84, \"negative_mismatches\": 29}, {\"page\": 57, \"rune_count\": 95, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 0, \"negative_mismatches\": null}]\nresearch completed exit 0\n{\n  \"claims\": 9,\n  \"edges\": 5,\n  \"experiments\": 5,\n  \"status\": \"passed\"\n}\nclues completed exit 0\n{\"warning_status\": \"passed\", \"warning_runes\": 184, \"warning_identity_mismatches\": 182, \"matrix_status\": \"passed\", \"matrix_cells\": 25, \"row_sums\": [1033, 1033, 1033, 1033, 1033], \"column_sums\": [1033, 1033, 1033, 1033, 1033], \"diagonals\": [1033, 1033], \"unsolved_candidates\": 0, \"status\": \"passed\"}\nsynthetic completed exit 0\n{\"trials\": [{\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}], \"training_runes\": 1291, \"heldout_runes\": 1196, \"status\": \"passed\", \"replay_of\": null}\nRUN runs/20260913T093357.768062Z passed\n",
+  "stderr": "",
+  "status": "passed"
+}

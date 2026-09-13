@@ -1,0 +1,104 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/markdown/01.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/01.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:35.757415+00:00",
+      "acquisition": "https-download",
+      "sha256": "4fcabb90cb7b98de61cdb35437520568d9cfb5c663a7a4a901ae603188ef1573",
+      "bytes": 3262
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/markdown/03.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/03.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:36.732366+00:00",
+      "acquisition": "https-download",
+      "sha256": "1329632ce461ea80d647f420e0a77c27ea65520f8f4545c1f9864b4ca92a572d",
+      "bytes": 4524
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/05.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:37.653635+00:00",
+      "acquisition": "https-download",
+      "sha256": "bf0c8263b187a2a4b68c93edba72bb846c081207d4e90eaf922242decb9553f5",
+      "bytes": 3300
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/markdown/06.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/06.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:38.765473+00:00",
+      "acquisition": "https-download",
+      "sha256": "e00cacd04bd7b97ef1956ebf4b8d1647c6731e5172494a8c1754351bd5e80405",
+      "bytes": 3636
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/markdown/14.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/14.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:39.644552+00:00",
+      "acquisition": "https-download",
+      "sha256": "317313395cd762681ecd20d3ae38d08fe15b579ac05bef939ccce89351b9389d",
+      "bytes": 4081
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/markdown/16.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/16.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:40.681256+00:00",
+      "acquisition": "https-download",
+      "sha256": "5074e521bf43e3b010742398a75a50a3042a6a03570209989cbb8cb9bcdfd0bb",
+      "bytes": 2498
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/01.jpg",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/01.jpg",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:43.846728+00:00",
+      "acquisition": "https-download",
+      "sha256": "71f4bd03c692ede630091272597d2b18702184ed32fdd1977ef0ba7306632b46",
+      "bytes": 1476614
+    },
+    {
+      "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/05.jpg",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:46.572704+00:00",
+      "acquisition": "https-download",
+      "sha256": "2db94921ae5216d8a589890495fa5432446cd3227c45fbeb4934cbb0525112f7",
+      "bytes": 673066
+    },
+    {
+      "path": "sources/clues-v1/ibot/other/A_Loss_Page10_11_12_13.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/other/A_Loss_Page10_11_12_13.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:47.583308+00:00",
+      "acquisition": "https-download",
+      "sha256": "a85ad605902330fe8af9ac2b0a6e7e2b9cb8b0047cf5de2cc7ef4b631231e1d0",
+      "bytes": 1314
+    },
+    {
+      "path": "sources/clues-v1/ibot/other/A_Koan_Page14_15_16.md",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/other/A_Koan_Page14_15_16.md",
+      "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+      "acquired_at_utc": "2026-09-13T09:26:48.483148+00:00",
+      "acquisition": "https-download",
+      "sha256": "dce523a1f4cb9d80f42982c5d8e19cb99c07086b3123b8faf70a448649d09794",
+      "bytes": 915
+    },
+    {
+      "path": "sources/clues-v1/user-proposal.txt",
+      "url": "user-attachment:bf8c9f5e-31f8-481d-bd03-d49f81d0ef98/pasted-text.txt",
+      "upstream_version": null,
+      "acquired_at_utc": "2026-09-13T09:26:48.483148+00:00",
+      "acquisition": "user proposal; claims to audit, not accepted findings",
+      "sha256": "512d307623a929687eec4219f7b5fdf517c2e07a8fbb76464e02984d2845eac5",
+      "bytes": 15248
+    }
+  ]
+}

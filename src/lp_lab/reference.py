@@ -26,10 +26,10 @@ def segment_word(word, rune_count):
         raise ValueError(f"Expected exactly one reference segmentation: {word}, {rune_count}, {len(matches)}")
     return list(matches[0])
 
-def reference_indices(md_path):
+def reference_indices(md_path, cipher_block=1):
     md = Path(md_path).read_text(encoding="utf8")
     blocks = re.findall(r"```\n(.*?)```", md, re.S)
-    ciphertext_words = blocks[1].split()
+    ciphertext_words = blocks[cipher_block].split()
     plaintext = re.search(r"### Plaintext\s+```\n(.*?)```", md, re.S).group(1)
     plain_words = plaintext.split()
     if len(ciphertext_words) != len(plain_words):

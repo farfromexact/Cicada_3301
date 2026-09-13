@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "claims": [
+    {"id":"C001","topic":"F index vs prime value","status":"corrected","claim":"F 的序号为 0，GP 素数值为 2；输入材料把两种数值混称。","evidence":[{"path":"sources/ibot/other/Gematria_Primus.md","anchor":"| ᚠ    | F      | 2     | 0"}],"experiments":[],"next_step":"所有涉及 F 的算法明确使用 index 或 prime_value。"},
+    {"id":"C002","topic":"A WARNING Atbash","status":"reproduced","claim":"LP1/01 在原始转写上应用 28-index，184 个符文精确复现；恒等变换负对照不匹配。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/01.md","anchor":"Reverse the runic decoding"}],"experiments":["E004-warning"],"next_step":"行和是否特别偏向素数需单独定义单位、基线和检验；本轮未做显著性判断。"},
+    {"id":"C003","topic":"PRIME TOTIENT matrix","status":"reproduced","claim":"LP1/05 方阵的实际符文按 GP 素数求和，25 格与参考一致；行列和两条对角线和均为 1033。仅复现方阵，不代表整页正文已逐符文验收。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/05.md","anchor":"### Magic Square"}],"experiments":["E004-matrix"],"next_step":"把方阵数值结构与密码流参数的关联另行提出可反驳假设。"},
+    {"id":"C004","topic":"TOTIENT LP2/56 prime stream","status":"reproduced","claim":"LP2/56 的 prime-minus-one 加指定跳位已复现；LP1/05 文本提到 totient。机制的一致关联不证明出题人的主观设计意图。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/05.md","anchor":"THE TOTIENT FUN"},{"path":"sources/ibot/liber_primus/markdown/73.md","anchor":"prime numbers - 1"}],"experiments":["E000-lp2-56"],"next_step":"H002 检验哪些分隔边界参与素数时钟。"},
+    {"id":"C005","topic":"DIVINITY Vigenere F skip","status":"source_reported","claim":"固定来源给出 DIVINITY 符文密钥及特定跳位，但本项目尚未复现 LP1 的密钥方向和消费语义；不可泛化成遇见任何密文 F 都跳过。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/03.md","anchor":"Using a reverse Vigenere cipher"}],"experiments":[],"next_step":"执行 H001，先核对来源跳位的坐标系与完整跨页转写。"},
+    {"id":"C006","topic":"CIRCUMFERENCE FIRFUMFERENFE key","status":"corrected","claim":"来源密钥是 ᚠᛁᚱᚠᚢᛗᚠᛖᚱᛖᚾᚠᛖ。F 与 C/K 并非同一符文，不能把该密钥直接解释为 CIRCUMFERENCE 的普通 GP 转写；语义联系与密钥构造规则分开待验。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/14.md","anchor":"ᚠᛁᚱᚠᚢᛗᚠᛖᚱᛖᚾᚠᛖ"},{"path":"sources/ibot/other/Gematria_Primus.md","anchor":"| ᚳ    | C/K"}],"experiments":[],"next_step":"复现 14-15 页后比较原始密钥与显式 C/K 拼写的差异，不进行静默替换。"},
+    {"id":"C007","topic":"semantic key preference author design","status":"conjecture","claim":"DIVINITY/CIRCUMFERENCE 的主题联系可能提示语义密钥，但少数已知解法不能证明未解页排除随机密钥。","evidence":[{"path":"sources/clues-v1/user-proposal.txt","anchor":"key 倾向于有语义"}],"experiments":[],"next_step":"如提出语义候选集，预先冻结词项、符文化分支、预算，并使用随机密钥与错误主题对照。"},
+    {"id":"C008","topic":"WITHIN INTUS self reference","status":"conjecture","claim":"within、内外和边界可以作为文学/结构联想节点；目前没有确定到遍历方向、嵌套层数或算法参数。","evidence":[{"path":"sources/clues-v1/user-proposal.txt","anchor":"WITHIN / INTUS"},{"path":"sources/ibot/liber_primus/markdown/74.md","anchor":"WITHIN AND EMERGE"}],"experiments":[],"next_step":"先提出能与其他读法区分的有限操作，未操作化之前不跑搜索。"},
+    {"id":"C009","topic":"reverse plus shift 3 Koan","status":"source_reported","claim":"固定来源报告反向符文解码再 shift +3；本仓库尚未运行该 LP1 回归。","evidence":[{"path":"sources/clues-v1/ibot/liber_primus/markdown/06.md","anchor":"Shift +3 additionally"}],"experiments":[],"next_step":"先从密文分别检验变换次序与方向，不能只按叙述填入输出。"}
+  ],
+  "edges": [
+    {"from":"C003","to":"C004","relation":"text_to_known_mechanism","interpretation":"LP1 的 totient 词项与 LP2 已知 prime-minus-one 机制相连；不是 author-intent 证明。"},
+    {"from":"C005","to":"C007","relation":"motivates_hypothesis","interpretation":"一个来源报告的语义密钥例子。"},
+    {"from":"C006","to":"C007","relation":"qualifies_hypothesis","interpretation":"语义关联不能省略符文构造差异。"},
+    {"from":"C008","to":"C007","relation":"thematic_association","interpretation":"文学关联，尚无密码机制证据。"},
+    {"from":"C001","to":"C005","relation":"corrects_representation","interpretation":"跳位规范必须先区分序号与素数值。"}
+  ],
+  "experiments": [
+    {"id":"E004-warning-identity","hypothesis":"H004-v1","outcome":"negative","artifact":"runs/dev-clues-001/warning.json","assertions":{"negative_control.status":"negative"},"coverage":"仅 LP1/01 恒等映射；184 个符文中 182 个不匹配，不能据此否定其他页面的直接转写"},
+    {"id":"E004-warning","hypothesis":"H004-v1","outcome":"passed","artifact":"runs/dev-clues-001/warning.json","assertions":{"status":"passed","exact_runes":true,"roundtrip_exact":true},"coverage":"仅 LP1/01、184 符文、Atbash；不是 LP1 全覆盖"},
+    {"id":"E004-matrix","hypothesis":"H004-v1","outcome":"passed","artifact":"runs/dev-clues-001/matrix.json","assertions":{"status":"passed"},"coverage":"仅 LP1/05 原始 25 格 GP 求和"},
+    {"id":"E000-lp2-56","hypothesis":"H000-v1","outcome":"passed","artifact":"runs/20260913T091942.491315Z/reproduce/lp2_56.json","assertions":{"exact_runes":true,"roundtrip_exact":true},"coverage":"LP2/56、offset 0、shift 1、skip ordinal 56 不消费流"},
+    {"id":"E000-no-skip","hypothesis":"H000-v1","outcome":"negative","artifact":"runs/20260913T091942.491315Z/reproduce/lp2_56.json","assertions":{"negative_control.status":"negative"},"coverage":"LP2/56、offset 0、shift 1、无跳位，29 处不匹配；不能排除整个素数流族"}
+  ]
+}

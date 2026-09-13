@@ -19,8 +19,10 @@ def main():
     # Archive actual code and input bytes, not just hashes of a moving worktree.
     archive = run / "reproduction-bundle.zip"
     bundle_paths = [ROOT / p for p in snapshot["files"]]
-    for directory in ("data", "sources", "hypotheses"):
+    for directory in ("data", "sources", "hypotheses", "research"):
         bundle_paths.extend(p for p in (ROOT / directory).rglob("*") if p.is_file())
+    knowledge = json.loads((ROOT / "research/knowledge.json").read_text(encoding="utf8"))
+    bundle_paths.extend(ROOT / e["artifact"] for e in knowledge["experiments"])
     bundle_paths.extend(ROOT / p for p in ("README.md", "AGENTS.md"))
     with zipfile.ZipFile(archive,"w",compression=zipfile.ZIP_DEFLATED) as bundle:
         for p in sorted(set(bundle_paths)):
@@ -28,11 +30,12 @@ def main():
     hypothesis = json.loads((ROOT / "hypotheses/H000-baseline.json").read_text(encoding="utf8"))
     git = subprocess.run(["git","rev-parse","HEAD"],cwd=ROOT,capture_output=True,text=True)
     report = dict(schema=1, hypothesis=hypothesis, started_at_utc=started.isoformat(),
+                  additional_hypotheses=[json.loads((ROOT / "hypotheses/H004-clue-graph-v1.json").read_text(encoding="utf8"))],
                   environment=dict(python=sys.version, executable=sys.executable, platform=platform.platform()),
                   code_version=snapshot, git_head=git.stdout.strip() if git.returncode == 0 else None,
                   reproduction_bundle=dict(path=archive.name, sha256=sha256(archive)),
                   data_version={p.relative_to(ROOT).as_posix():sha256(p) for p in
-                                [ROOT / "sources/manifest.json", ROOT / "sources/context-manifest.json", *sorted((ROOT / "data").rglob("*.json")),
+                                [ROOT / "sources/manifest.json", ROOT / "sources/context-manifest.json", ROOT / "sources/clues-v1-manifest.json", *sorted((ROOT / "research").rglob("*.json")), *sorted((ROOT / "data").rglob("*.json")),
                                  *sorted((ROOT / "data/synthetic").glob("*.txt"))]},
                   commands=[], status="running", next_step="See STATE.md; do not infer unsolved-page exclusion")
     def save():
@@ -42,6 +45,8 @@ def main():
         report["source_files_verified"] = verify_sources(ROOT)
         jobs = [("tests",[sys.executable,"-X","utf8","-m","unittest","discover","-s","tests","-v"],30),
                 ("reproduce",[sys.executable,"-X","utf8","scripts/reproduce.py","--out",str(run / "reproduce")],30),
+                ("research",[sys.executable,"-X","utf8","scripts/research.py","validate"],30),
+                ("clues",[sys.executable,"-X","utf8","scripts/check_clues.py","--out",str(run / "clues")],30),
                 ("synthetic",[sys.executable,"-X","utf8","scripts/synthetic_benchmark.py","--out",str(run / "synthetic")],60)]
         for name, command, timeout in jobs:
             result = execute(command,cwd=ROOT,timeout=timeout)
@@ -64,6 +69,9 @@ def main():
             report["status"] = summary["status"]
             report["actual_coverage"] = dict(known_pages=[56,57], known_runes=180,
                 synthetic_trials=summary["trials"], unsolved_page_candidates=0)
+            report["actual_coverage"]["additional_checks"] = json.loads((run / "clues/summary.json").read_text(encoding="utf8"))
+            if report["actual_coverage"]["additional_checks"]["status"] == "negative" and report["status"] == "passed":
+                report["status"] = "negative"
             report["random_seeds"] = [json.loads((run / f"synthetic/trial-{i}/verifier-only/answer.json").read_text(encoding="utf8"))["seed"] for i in range(3)]
     except Exception as exc:
         report.update(status="error", error=repr(exc))

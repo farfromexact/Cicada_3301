@@ -1,0 +1,827 @@
+{
+  "page": "LP1/05",
+  "scope": "matrix only; page prose is source-reported",
+  "cells": [
+    {
+      "row": 0,
+      "column": 0,
+      "raw": "272",
+      "indices": [],
+      "prime_values": [],
+      "value": 272,
+      "expected": 272,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 1, cell 1",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          580,
+          2190,
+          835,
+          2330
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "raw": "138",
+      "indices": [],
+      "prime_values": [],
+      "value": 138,
+      "expected": 138,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 1, cell 2",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          835,
+          2190,
+          1080,
+          2330
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "raw": "ᛋᚻᚪᛞᚩᚹᛋ",
+      "indices": [
+        15,
+        8,
+        24,
+        23,
+        3,
+        7,
+        15
+      ],
+      "prime_values": [
+        53,
+        23,
+        97,
+        89,
+        7,
+        19,
+        53
+      ],
+      "value": 341,
+      "expected": 341,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 1, cell 3",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1080,
+          2190,
+          1340,
+          2330
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "raw": "131",
+      "indices": [],
+      "prime_values": [],
+      "value": 131,
+      "expected": 131,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 1, cell 4",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1340,
+          2190,
+          1590,
+          2330
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 0,
+      "column": 4,
+      "raw": "151",
+      "indices": [],
+      "prime_values": [],
+      "value": 151,
+      "expected": 151,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 1, cell 5",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1590,
+          2190,
+          1820,
+          2330
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "raw": "ᚫᚦᛖᚱᛠᛚ",
+      "indices": [
+        25,
+        2,
+        18,
+        4,
+        28,
+        20
+      ],
+      "prime_values": [
+        101,
+        5,
+        67,
+        11,
+        109,
+        73
+      ],
+      "value": 366,
+      "expected": 366,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 2, cell 1",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          580,
+          2316,
+          835,
+          2456
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "raw": "ᛒᚢᚠᚠᛖᚱᛋ",
+      "indices": [
+        17,
+        1,
+        0,
+        0,
+        18,
+        4,
+        15
+      ],
+      "prime_values": [
+        61,
+        3,
+        2,
+        2,
+        67,
+        11,
+        53
+      ],
+      "value": 199,
+      "expected": 199,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 2, cell 2",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          835,
+          2316,
+          1080,
+          2456
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "raw": "ᚢᚩᛁᛞ",
+      "indices": [
+        1,
+        3,
+        10,
+        23
+      ],
+      "prime_values": [
+        3,
+        7,
+        31,
+        89
+      ],
+      "value": 130,
+      "expected": 130,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 2, cell 3",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1080,
+          2316,
+          1340,
+          2456
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "raw": "ᚳᚪᚱᚾᚪᛚ",
+      "indices": [
+        5,
+        24,
+        4,
+        9,
+        24,
+        20
+      ],
+      "prime_values": [
+        13,
+        97,
+        11,
+        29,
+        97,
+        73
+      ],
+      "value": 320,
+      "expected": 320,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 2, cell 4",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1340,
+          2316,
+          1590,
+          2456
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "raw": "18",
+      "indices": [],
+      "prime_values": [],
+      "value": 18,
+      "expected": 18,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 2, cell 5",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1590,
+          2316,
+          1820,
+          2456
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "raw": "226",
+      "indices": [],
+      "prime_values": [],
+      "value": 226,
+      "expected": 226,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 3, cell 1",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          580,
+          2442,
+          835,
+          2582
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "raw": "ᚩᛒᛋᚳᚢᚱᚪ",
+      "indices": [
+        3,
+        17,
+        15,
+        5,
+        1,
+        4,
+        24
+      ],
+      "prime_values": [
+        7,
+        61,
+        53,
+        13,
+        3,
+        11,
+        97
+      ],
+      "value": 245,
+      "expected": 245,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 3, cell 2",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          835,
+          2442,
+          1080,
+          2582
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "raw": "ᚠᚩᚱᛗ",
+      "indices": [
+        0,
+        3,
+        4,
+        19
+      ],
+      "prime_values": [
+        2,
+        7,
+        11,
+        71
+      ],
+      "value": 91,
+      "expected": 91,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 3, cell 3",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1080,
+          2442,
+          1340,
+          2582
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "raw": "245",
+      "indices": [],
+      "prime_values": [],
+      "value": 245,
+      "expected": 245,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 3, cell 4",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1340,
+          2442,
+          1590,
+          2582
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "raw": "ᛗᚩᛒᛁᚢᛋ",
+      "indices": [
+        19,
+        3,
+        17,
+        10,
+        1,
+        15
+      ],
+      "prime_values": [
+        71,
+        7,
+        61,
+        31,
+        3,
+        53
+      ],
+      "value": 226,
+      "expected": 226,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 3, cell 5",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1590,
+          2442,
+          1820,
+          2582
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "raw": "18",
+      "indices": [],
+      "prime_values": [],
+      "value": 18,
+      "expected": 18,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 4, cell 1",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          580,
+          2568,
+          835,
+          2708
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "raw": "ᚪᚾᚪᛚᚩᚷ",
+      "indices": [
+        24,
+        9,
+        24,
+        20,
+        3,
+        6
+      ],
+      "prime_values": [
+        97,
+        29,
+        97,
+        73,
+        7,
+        17
+      ],
+      "value": 320,
+      "expected": 320,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 4, cell 2",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          835,
+          2568,
+          1080,
+          2708
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "raw": "ᚢᚩᛁᛞ",
+      "indices": [
+        1,
+        3,
+        10,
+        23
+      ],
+      "prime_values": [
+        3,
+        7,
+        31,
+        89
+      ],
+      "value": 130,
+      "expected": 130,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 4, cell 3",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1080,
+          2568,
+          1340,
+          2708
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "raw": "ᛗᚩᚢᚱᚾᚠᚢᛚ",
+      "indices": [
+        19,
+        3,
+        1,
+        4,
+        9,
+        0,
+        1,
+        20
+      ],
+      "prime_values": [
+        71,
+        7,
+        3,
+        11,
+        29,
+        2,
+        3,
+        73
+      ],
+      "value": 199,
+      "expected": 199,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 4, cell 4",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1340,
+          2568,
+          1590,
+          2708
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "raw": "ᚫᚦᛖᚱᛠᛚ",
+      "indices": [
+        25,
+        2,
+        18,
+        4,
+        28,
+        20
+      ],
+      "prime_values": [
+        101,
+        5,
+        67,
+        11,
+        109,
+        73
+      ],
+      "value": 366,
+      "expected": 366,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 4, cell 5",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1590,
+          2568,
+          1820,
+          2708
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 4,
+      "column": 0,
+      "raw": "151",
+      "indices": [],
+      "prime_values": [],
+      "value": 151,
+      "expected": 151,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 5, cell 1",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          580,
+          2694,
+          835,
+          2834
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "raw": "131",
+      "indices": [],
+      "prime_values": [],
+      "value": 131,
+      "expected": 131,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 5, cell 2",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          835,
+          2694,
+          1080,
+          2834
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "raw": "ᚳᚪᛒᚪᛚ",
+      "indices": [
+        5,
+        24,
+        17,
+        24,
+        20
+      ],
+      "prime_values": [
+        13,
+        97,
+        61,
+        97,
+        73
+      ],
+      "value": 341,
+      "expected": 341,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 5, cell 3",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1080,
+          2694,
+          1340,
+          2834
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "raw": "138",
+      "indices": [],
+      "prime_values": [],
+      "value": 138,
+      "expected": 138,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 5, cell 4",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1340,
+          2694,
+          1590,
+          2834
+        ],
+        "precision": "cell_region_manual"
+      }
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "raw": "272",
+      "indices": [],
+      "prime_values": [],
+      "value": 272,
+      "expected": 272,
+      "equal": true,
+      "source": "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+      "locator": "first fenced block, matrix row 5, cell 5",
+      "image": {
+        "path": "sources/clues-v1/ibot/liber_primus/05.jpg",
+        "bbox": [
+          1590,
+          2694,
+          1820,
+          2834
+        ],
+        "precision": "cell_region_manual"
+      }
+    }
+  ],
+  "values": [
+    [
+      272,
+      138,
+      341,
+      131,
+      151
+    ],
+    [
+      366,
+      199,
+      130,
+      320,
+      18
+    ],
+    [
+      226,
+      245,
+      91,
+      245,
+      226
+    ],
+    [
+      18,
+      320,
+      130,
+      199,
+      366
+    ],
+    [
+      151,
+      131,
+      341,
+      138,
+      272
+    ]
+  ],
+  "expected": [
+    [
+      272,
+      138,
+      341,
+      131,
+      151
+    ],
+    [
+      366,
+      199,
+      130,
+      320,
+      18
+    ],
+    [
+      226,
+      245,
+      91,
+      245,
+      226
+    ],
+    [
+      18,
+      320,
+      130,
+      199,
+      366
+    ],
+    [
+      151,
+      131,
+      341,
+      138,
+      272
+    ]
+  ],
+  "row_sums": [
+    1033,
+    1033,
+    1033,
+    1033,
+    1033
+  ],
+  "column_sums": [
+    1033,
+    1033,
+    1033,
+    1033,
+    1033
+  ],
+  "diagonals": [
+    1033,
+    1033
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,269 @@
+{
+  "schema": 1,
+  "hypothesis": {
+    "id": "H000-v1",
+    "hypothesis": "LP2/57 identity and LP2/56 prime-minus-one with the documented skip reproduce the pinned references; a blind bounded search recovers synthetic prime-stream keys.",
+    "basis": [
+      "sources/quickstart.html",
+      "sources/ibot/liber_primus/markdown/73.md",
+      "sources/ibot/liber_primus/markdown/74.md"
+    ],
+    "registered_before_first_synthetic_run": true,
+    "synthetic_family": "C[i]=(P[i]+prime[i+offset]-shift) mod 29; no skip",
+    "parameters": {
+      "offset": [
+        0,
+        31
+      ],
+      "shift": [
+        0,
+        28
+      ],
+      "trials": 3,
+      "timeout_seconds_per_worker": 30
+    },
+    "scorer": "v1 sum log((training_count[rune]+1)/(training_total+29)); no candidate-specific changes",
+    "success": "Both LP references exact at every rune, lossless inverse, and all 3 synthetic trials recover full rune sequence plus key; read guard probe passes; each search covers 928 candidates",
+    "failure": "Completed exhaustive synthetic search selects a wrong answer or key: negative for this benchmark only; LP mismatch: regression failure",
+    "error_timeout_policy": "Runtime exception is error; subprocess deadline is timeout; neither is a cryptanalytic negative",
+    "coverage_limit": "Only two known pages and a no-skip synthetic subfamily; no unsolved page search and no proof of general language scoring reliability"
+  },
+  "started_at_utc": "2026-09-13T09:33:00.560555+00:00",
+  "additional_hypotheses": [
+    {
+      "id": "H004-v1",
+      "hypothesis": "LP1 offers documented mechanisms and text associations that can be represented as evidence-typed links; A WARNING reproduces with 28-index and the LP1/05 matrix values follow GP sums of the actual runes.",
+      "basis": [
+        "sources/clues-v1/user-proposal.txt",
+        "sources/clues-v1/ibot/liber_primus/markdown/01.md",
+        "sources/clues-v1/ibot/liber_primus/markdown/05.md"
+      ],
+      "parameters": {
+        "warning_transforms": [
+          "28-index",
+          "identity negative control"
+        ],
+        "matrix_transform": "sum GP prime values of raw rune cell; preserve decimal cells",
+        "new_unsolved_page_candidates": 0
+      },
+      "scorer": "none; exact rune references and exact integer table only",
+      "success": "A WARNING source rune sequences agree, exact independent expected sequence and inverse pass; all 25 matrix cells equal the pinned reference; graph evidence locators resolve and speculative links are not promoted to verified mechanism.",
+      "failure": "Completed comparison mismatch is negative for the specified source/transform, not for all LP1 theories; graph invalidity is an error.",
+      "limits": "No author-intent identification, no Vigenere solve in this round, no large key search, no assertion that an English word uniquely determines runes, no statistical prime-sum significance claim.",
+      "timeout_seconds": 30,
+      "random_seed": null,
+      "next_step": "Turn selected graph edges into preregistered, discriminating experiments; prioritize F-skip semantics and exact CIRCUMFERENCE key representation."
+    }
+  ],
+  "environment": {
+    "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "code_version": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "3ed76cfeaceeb9cc858524f600f288a1b1cf35ba1914adef7a7df344291265fa",
+    "files": {
+      "pyproject.toml": "5195cc024297b7c9ddae7ca0465fbe564169b88e45f422d77d8a4c97cdfaf82c",
+      "scripts/acquire_clue_sources.py": "f1704510b14ad4b2b7a4132c2ea33bff097f22de1b0b017073ea81af4814ad36",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/check_clues.py": "a798de5d8ea1e711204eae62d52628899548ebff9f293c06330919718f7deb67",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/research.py": "e32b7176f39cfeb3b8528a1150462dc1f76120f6e1a6d58e011e5411915617a8",
+      "scripts/run_round.py": "68e67e6ddff5a453a56e85452a4cbb5bad48e8790ec1b8f54c6f58c47fb73a27",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/snapshot_context.py": "5c28dcfff9dbff6719552d0e52dc1be9d6781b64f1486f6dce4f35b1491b8edf",
+      "scripts/synthetic_benchmark.py": "a7f54559049290960296a50259754e916537cced9737dcbd259f6b80c22fa542",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+      "src/lp_lab/clues.py": "0dee6564916eaa28c7cb91d43bf3bb0a413da5f4974af82d08cd0f53fd95b794",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/provenance.py": "388e443fd539b6a74feaee79f19593977d05ee9acd5a3a153a5bb85eb4c7b4ee",
+      "src/lp_lab/reference.py": "eebc50bfb69c8e59d4f6e5a1e9f78102a1eb7a36666e31bc0f7b4396a4ac69b6",
+      "src/lp_lab/research.py": "4b33d55081012d83b050344277a016d3e5241d779b7105c7d4232f2ab7e539df",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_clues.py": "0b6ccdd3addddc1416b16aaa7416ef7ec89a4ae724789a6f5781a4d172224f68",
+      "tests/test_lab.py": "0cb0bc72f4e79858775e574c3d8807e37822575027d55121586e26a733375247"
+    }
+  },
+  "git_head": "8fc1819159105f9c1a207e56a87ab2f18891888f",
+  "reproduction_bundle": {
+    "path": "reproduction-bundle.zip",
+    "sha256": "cdfb4dd08e27d54d3b5ea6e44b538bd86289211fe39cc3dba794f5e2d230461e"
+  },
+  "data_version": {
+    "sources/manifest.json": "d0d2fb9b061a8661fcddef668229c8af1fa9a2abf135518bc4158a2a7268f039",
+    "sources/context-manifest.json": "96e30f2a5367bee37a011eba55794a9607bec47d2d8136a23c730a79affc6ee3",
+    "sources/clues-v1-manifest.json": "817b079a9a442b7cd053dff7f4793058fdf996338405841be5b1c0a378807d30",
+    "research/feeds/FEED-001.json": "f8bafb09586a435f36f8590241af96b6f1ea5da99e86f165b35a419c486d1d3a",
+    "research/knowledge.json": "ce97ec8683ffee9293197fd3a8e5d1c1d24a64934d8c505dcd359af263afebda",
+    "data/pages/lp2_56.json": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+    "data/pages/lp2_57.json": "123777733060cea7e9f64120e73d33d5e6e5616f12fd12ef4e86ca9b6a940dbc",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "data/synthetic/training.txt": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff"
+  },
+  "commands": [
+    {
+      "name": "tests",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_cannot_promote_untested_interpretation (test_clues.ClueTests.test_cannot_promote_untested_interpretation) ... ok\ntest_graph_provenance_and_prior_negative (test_clues.ClueTests.test_graph_provenance_and_prior_negative) ... ok\ntest_matrix_cells_and_structure (test_clues.ClueTests.test_matrix_cells_and_structure) ... ok\ntest_rejects_missing_source_locator (test_clues.ClueTests.test_rejects_missing_source_locator) ... ok\ntest_warning_from_original_and_identity_negative (test_clues.ClueTests.test_warning_from_original_and_identity_negative) ... ok\ntest_delimiter_ambiguity_is_preserved (test_lab.DataTests.test_delimiter_ambiguity_is_preserved) ... ok\ntest_lossless_tokens_and_locations (test_lab.DataTests.test_lossless_tokens_and_locations) ... ok\ntest_mapping_against_pinned_gp_table (test_lab.DataTests.test_mapping_against_pinned_gp_table) ... ok\ntest_pinned_source_hashes (test_lab.DataTests.test_pinned_source_hashes) ... ok\ntest_transcription_is_exact_master_slice (test_lab.DataTests.test_transcription_is_exact_master_slice) ... ok\ntest_unknown_rune_is_error (test_lab.DataTests.test_unknown_rune_is_error) ... ok\ntest_nonzero_is_error (test_lab.ProtocolTests.test_nonzero_is_error) ... ok\ntest_real_timeout (test_lab.ProtocolTests.test_real_timeout) ... ok\ntest_timeout_is_separate (test_lab.ProtocolTests.test_timeout_is_separate) ... ok\ntest_verifier_requires_full_answer_not_just_roundtrip (test_lab.ProtocolTests.test_verifier_requires_full_answer_not_just_roundtrip) ... ok\ntest_worker_rejects_seed_field (test_lab.ProtocolTests.test_worker_rejects_seed_field) ... ok\ntest_exact_rune_references_and_inverse (test_lab.RegressionTests.test_exact_rune_references_and_inverse) ... ok\ntest_identity_57 (test_lab.RegressionTests.test_identity_57) ... ok\ntest_input_mutation_cannot_pass (test_lab.RegressionTests.test_input_mutation_cannot_pass) ... ok\ntest_invalid_skip_rejected (test_lab.RegressionTests.test_invalid_skip_rejected) ... ok\ntest_no_skip_negative_and_first_divergence (test_lab.RegressionTests.test_no_skip_negative_and_first_divergence) ... ok\ntest_reference_segmentation_not_greedy (test_lab.RegressionTests.test_reference_segmentation_not_greedy) ... ok\ntest_wrong_prime_offset_cannot_pass (test_lab.RegressionTests.test_wrong_prime_offset_cannot_pass) ... ok\n\n----------------------------------------------------------------------\nRan 23 tests in 0.281s\n\nOK\n",
+      "elapsed_seconds": 0.4680000000007567,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "reproduce",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/reproduce.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T093300.560555Z\\reproduce"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "[{\"page\": 56, \"rune_count\": 85, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 84, \"negative_mismatches\": 29}, {\"page\": 57, \"rune_count\": 95, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 0, \"negative_mismatches\": null}]\n",
+      "stderr": "",
+      "elapsed_seconds": 0.11000000000058208,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "research",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/research.py",
+        "validate"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\n  \"claims\": 9,\n  \"edges\": 5,\n  \"experiments\": 5,\n  \"status\": \"passed\"\n}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.09299999999711872,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "clues",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/check_clues.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T093300.560555Z\\clues"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\"warning_status\": \"passed\", \"warning_runes\": 184, \"warning_identity_mismatches\": 182, \"matrix_status\": \"passed\", \"matrix_cells\": 25, \"row_sums\": [1033, 1033, 1033, 1033, 1033], \"column_sums\": [1033, 1033, 1033, 1033, 1033], \"diagonals\": [1033, 1033], \"unsolved_candidates\": 0}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.125,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "synthetic",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/synthetic_benchmark.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T093300.560555Z\\synthetic"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\"trials\": [{\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}], \"training_runes\": 1291, \"heldout_runes\": 1196, \"status\": \"passed\", \"replay_of\": null}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.7190000000009604,
+      "timeout_seconds": 60
+    }
+  ],
+  "status": "passed",
+  "next_step": "See STATE.md; do not infer unsolved-page exclusion",
+  "source_files_verified": 29,
+  "actual_coverage": {
+    "known_pages": [
+      56,
+      57
+    ],
+    "known_runes": 180,
+    "synthetic_trials": [
+      {
+        "status": "passed",
+        "exact_plaintext": true,
+        "exact_key": true,
+        "roundtrip": true,
+        "covered": 928,
+        "score_gap": 768.5529355238505,
+        "read_guard_probe_passed": true
+      },
+      {
+        "status": "passed",
+        "exact_plaintext": true,
+        "exact_key": true,
+        "roundtrip": true,
+        "covered": 928,
+        "score_gap": 768.5529355238505,
+        "read_guard_probe_passed": true
+      },
+      {
+        "status": "passed",
+        "exact_plaintext": true,
+        "exact_key": true,
+        "roundtrip": true,
+        "covered": 928,
+        "score_gap": 768.5529355238505,
+        "read_guard_probe_passed": true
+      }
+    ],
+    "unsolved_page_candidates": 0,
+    "additional_checks": {
+      "warning_status": "passed",
+      "warning_runes": 184,
+      "warning_identity_mismatches": 182,
+      "matrix_status": "passed",
+      "matrix_cells": 25,
+      "row_sums": [
+        1033,
+        1033,
+        1033,
+        1033,
+        1033
+      ],
+      "column_sums": [
+        1033,
+        1033,
+        1033,
+        1033,
+        1033
+      ],
+      "diagonals": [
+        1033,
+        1033
+      ],
+      "unsolved_candidates": 0
+    }
+  },
+  "random_seeds": [
+    130023195581654704934066540080800407307,
+    133794148640466710454925671765863766612,
+    218274784550029281433992435841639192503
+  ],
+  "finished_at_utc": "2026-09-13T09:33:02.380098+00:00"
+}

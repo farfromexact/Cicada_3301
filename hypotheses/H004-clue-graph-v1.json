@@ -1,0 +1,13 @@
+{
+  "id": "H004-v1",
+  "hypothesis": "LP1 offers documented mechanisms and text associations that can be represented as evidence-typed links; A WARNING reproduces with 28-index and the LP1/05 matrix values follow GP sums of the actual runes.",
+  "basis": ["sources/clues-v1/user-proposal.txt", "sources/clues-v1/ibot/liber_primus/markdown/01.md", "sources/clues-v1/ibot/liber_primus/markdown/05.md"],
+  "parameters": {"warning_transforms": ["28-index", "identity negative control"], "matrix_transform": "sum GP prime values of raw rune cell; preserve decimal cells", "new_unsolved_page_candidates": 0},
+  "scorer": "none; exact rune references and exact integer table only",
+  "success": "A WARNING source rune sequences agree, exact independent expected sequence and inverse pass; all 25 matrix cells equal the pinned reference; graph evidence locators resolve and speculative links are not promoted to verified mechanism.",
+  "failure": "Completed comparison mismatch is negative for the specified source/transform, not for all LP1 theories; graph invalidity is an error.",
+  "limits": "No author-intent identification, no Vigenere solve in this round, no large key search, no assertion that an English word uniquely determines runes, no statistical prime-sum significance claim.",
+  "timeout_seconds": 30,
+  "random_seed": null,
+  "next_step": "Turn selected graph edges into preregistered, discriminating experiments; prioritize F-skip semantics and exact CIRCUMFERENCE key representation."
+}

@@ -1,7 +1,8 @@
 # Liber Primus Lab
 
-长期、可复现、符文级的 Cicada 3301 研究仓库。当前最小闭环：LP2 56/57 已知解法回归 + 隔离答案的合成素数流搜索。
+长期、可复现、符文级的 Cicada 3301 研究仓库。持续接收输入，积累思路、已有尝试、失败范围和未决问题。
 先读 [STATE.md](STATE.md) 看实际结果与边界；研究纪律见 [AGENTS.md](AGENTS.md)。
+研究记忆的入口是 [research/README.md](research/README.md) 和 [主张/实验索引](research/knowledge.json)。
 
 ## 离线复跑
 
@@ -12,7 +13,7 @@
 python -X utf8 scripts/run_round.py
 ```
 
-命令校验 18 个来源文件哈希、运行 unittest、从原始符文复现两页、生成三个新随机密钥并运行盲搜索。
+命令校验 29 个来源文件哈希、运行 unittest、复现 LP2 两页与 LP1 A WARNING、检查 LP1/05 方阵和研究索引，生成三个新随机密钥并运行盲搜索。
 每次写入新的 `runs/<UTC时间>/`：`record.json`、原始 stdout/stderr、逐符文 trace、完整候选分数、验证结果、随机种子与代码/输入 ZIP。
 不覆盖历史运行，不联网、不访问暗网、不运行上游脚本。
 
