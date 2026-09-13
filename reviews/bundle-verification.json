@@ -1,0 +1,56 @@
+{
+  "source_run": "runs\\20260913T091942.491315Z",
+  "bundle_sha256": "f73be238d3a8f7b8187fa2693ef674d21d501d1c214488bedd731a276e484485",
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/run_round.py"
+      ],
+      "cwd": "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\bundle-round001",
+      "exit_code": 0,
+      "stdout": "tests completed exit 0\nreproduce completed exit 0\n[{\"page\": 56, \"rune_count\": 85, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 84, \"negative_mismatches\": 29}, {\"page\": 57, \"rune_count\": 95, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 0, \"negative_mismatches\": null}]\nsynthetic completed exit 0\n{\"trials\": [{\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}], \"training_runes\": 1291, \"heldout_runes\": 1196, \"status\": \"passed\", \"replay_of\": null}\nRUN runs/20260913T092019.130432Z passed\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/synthetic_benchmark.py",
+        "--out",
+        "runs/replay-original",
+        "--replay",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T091942.491315Z\\synthetic"
+      ],
+      "cwd": "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\bundle-round001",
+      "exit_code": 0,
+      "stdout": "{\"trials\": [{\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}], \"training_runes\": 1291, \"heldout_runes\": 1196, \"status\": \"passed\", \"replay_of\": \"C:\\\\Users\\\\macon\\\\Documents\\\\cicada 3301\\\\runs\\\\20260913T091942.491315Z\\\\synthetic\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/prepare_data.py"
+      ],
+      "cwd": "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\bundle-round001",
+      "exit_code": 0,
+      "stdout": "[{\"page\": 56, \"runes\": 85, \"skip\": [56]}, {\"page\": 57, \"runes\": 95, \"skip\": []}]\n",
+      "stderr": ""
+    }
+  ],
+  "replay_stdout_byte_equal": [
+    true,
+    true,
+    true
+  ],
+  "rederived_data_byte_equal": [
+    true,
+    true
+  ],
+  "status": "passed"
+}

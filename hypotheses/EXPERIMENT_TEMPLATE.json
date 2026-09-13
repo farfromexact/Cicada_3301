@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "id": "Hxxx-v1",
+  "status": "planned",
+  "hypothesis": "REQUIRED: falsifiable claim",
+  "basis": [],
+  "data_versions": [],
+  "code_version": null,
+  "frozen_before_run": null,
+  "parameters": {},
+  "scorer_version_and_hash": null,
+  "success_criteria": "REQUIRED: fixed before candidates are observed",
+  "failure_criteria": "REQUIRED: distinguish completed negative from incomplete coverage",
+  "commands": [],
+  "random_seeds_verifier_only": [],
+  "actual_coverage": null,
+  "raw_stdout_path": null,
+  "raw_stderr_path": null,
+  "exit_code": null,
+  "timeout_seconds": null,
+  "next_step": null,
+  "allowed_statuses": ["planned", "running", "passed", "negative", "error", "timeout", "inconclusive"]
+}

@@ -1,0 +1,28 @@
+{
+  "code": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "66f7f1a9f771dff016d3af444f8071620866de51cf908b62368f66304f5d910e",
+    "files": {
+      "pyproject.toml": "5195cc024297b7c9ddae7ca0465fbe564169b88e45f422d77d8a4c97cdfaf82c",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/run_round.py": "a59627a208788da468a3af89105ddf97d83f156e2d283681051807c382c1bbcc",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/synthetic_benchmark.py": "6ddc16d5176b6e62bece50fcf6088ed9ad25d6c6734667bda922264c8739cd6f",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/cipher.py": "01f8f79bf6ff551a38cc6eb530f2f4ccb058712825e280b1918b37a3d5bfb44e",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/provenance.py": "e617ba24973c0b715f396cac065a28488e8cbeb90c5441a4333c166ffbeaf0ad",
+      "src/lp_lab/reference.py": "d6556dfee50e2fd08f67063ea5c2391f6c14c2ede5bcb3e6add8a3fa4f391f90",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_lab.py": "7cd99b8c1e3ec57c70dcbe89ec31c2e700a0dba33f6ee93feb1efd4af8ebd64f"
+    }
+  },
+  "training_sha256": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff",
+  "heldout_sha256": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+  "hypothesis_sha256": "155168718ce619a2c5065f3599c20f2305b90154131aad9902469aa8402bb2e6",
+  "statement": "Profile, code and criteria frozen before drawing keys; heldout not used in scoring"
+}
