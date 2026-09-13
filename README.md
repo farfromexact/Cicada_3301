@@ -13,7 +13,8 @@
 python -X utf8 scripts/run_round.py
 ```
 
-命令校验 33 个来源文件哈希、运行 unittest、复现 LP2 两页与 LP1 A WARNING、检查 LP1/05 方阵、数学表示和研究索引，生成三个新随机密钥并运行盲搜索。
+命令自动发现并校验来源清单（当前 34 个文件）、运行 unittest、复现 LP2 两页与 LP1 A WARNING、检查 LP1/05 方阵、数学表示和研究索引，生成三个新随机密钥并运行盲搜索。
+未解页研究路线遵循 [统一、有界、以机制为主的方法](research/METHOD.md)；合成搜索仅是验证工具。
 每次写入新的 `runs/<UTC时间>/`：`record.json`、原始 stdout/stderr、逐符文 trace、完整候选分数、验证结果、随机种子与代码/输入 ZIP。
 不覆盖历史运行，不联网、不访问暗网、不运行上游脚本。
 

@@ -5,13 +5,22 @@ import json
 def sha256(path):
     return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
-def verify_sources(root):
+def source_entries(root):
     entries = []
-    for name in ("manifest.json", "context-manifest.json", "clues-v1-manifest.json", "feed002-manifest.json"):
-        entries.extend(json.loads((root / "sources" / name).read_text(encoding="utf8"))["entries"])
+    manifests = sorted((root / "sources").glob("*manifest.json"))
+    if not manifests:
+        raise ValueError("No source manifests")
+    for path in manifests:
+        entries.extend(json.loads(path.read_text(encoding="utf8"))["entries"])
+    return entries
+
+def verify_sources(root):
+    entries = source_entries(root)
     failures = []
     for entry in entries:
         path = root / entry["path"]
+        if not path.resolve().is_relative_to(root.resolve()):
+            raise ValueError("Source path escapes repository")
         if not path.exists() or sha256(path) != entry["sha256"]:
             failures.append(entry["path"])
     if failures:

@@ -1,0 +1,12 @@
+{
+  "schema":1,
+  "entries":[
+    {"id":"M001","kind":"user_preference","origin":"user quote in forwarded summary","topic":"全库 全部适用页面 corpus coverage","statement":"用户希望新的思路在所有50多页上尝试，而不是只对某一页尝试不同解法。适用集合和统一规则的具体安排是 M004/M006 的操作建议。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"如果有一个新的思路应该所有50多页都试一下","scope":"preference for future hypothesis batches; not immediate execution"},
+    {"id":"M002","kind":"user_preference","origin":"user quote in forwarded summary","topic":"非暴力 破解 explanatory mechanism","statement":"用户不希望这个 repo 最后通过暴力破解。有限枚举与盲目暴力的操作边界另记 M005，不能冒充用户逐字定义。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"我不希望这个 repo 最后是通过暴力破解","scope":"research strategy"},
+    {"id":"M003","kind":"assistant_proposal","origin":"assistant clarification in forwarded summary","topic":"feed 不必 自动 新实验","statement":"先判断 feed 是新增、重复、冲突或补证；并非每条输入都必须触发新实验。固定回归不会自主发明解法。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"并非每条 feed 都必须启动实验","scope":"intake workflow"},
+    {"id":"M004","kind":"assistant_proposal","origin":"operational proposal based on user preferences","topic":"统一规范 页间连续性 时钟重置","statement":"观察结构、提出机制和可反驳预测，冻结算法/参数策略/验收/预算/连续性，再统一检验适用页。不同页允许按固定策略得到不同密钥；不能看结果后修改规则。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"页或章节边界是否重置密码流本身也是假设","scope":"batch preregistration"},
+    {"id":"M005","kind":"assistant_interpretation","origin":"cautious boundary interpretation, not a new compute authorization","topic":"有限枚举 brute force 分支判别","statement":"少量有机制依据的偏移、方向或重置分支可用有界枚举区分；不得用这一例外扩大无依据搜索。既有合成回归是验证工具，不是未解页破解主路线。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"助手建议保留有限枚举","scope":"no expansion of current scope or budget"},
+    {"id":"M006","kind":"assistant_proposal","origin":"operational recording proposal","topic":"覆盖表 negative timeout error inconclusive","statement":"每个页面/区段记录适用性、实际覆盖、结果、候选证据、耗时、退出状态和未覆盖范围；仅做部分页需说明原因。未执行不是失败。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"保存全库覆盖表","scope":"future corpus batch records"},
+    {"id":"M007","kind":"assistant_proposal","origin":"operational validation proposal consistent with existing discipline","topic":"结构扫描 过拟合 独立验证 多重检验","statement":"结构统计须有预注册、对照、相关变换去重和与搜索规模匹配的多重检验；候选用独立预测/保留数据和精确符文对应验证，区分发现路径与验证路径。","source":"sources/feed003/forwarded-method-discussion.txt","anchor":"结构扫描也可能过拟合","scope":"evidence standards; not a cryptanalytic finding"}
+  ]
+}

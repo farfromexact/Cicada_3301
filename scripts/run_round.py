@@ -36,7 +36,7 @@ def main():
                   code_version=snapshot, git_head=git.stdout.strip() if git.returncode == 0 else None,
                   reproduction_bundle=dict(path=archive.name, sha256=sha256(archive)),
                   data_version={p.relative_to(ROOT).as_posix():sha256(p) for p in
-                                [ROOT / "sources/manifest.json", ROOT / "sources/context-manifest.json", ROOT / "sources/clues-v1-manifest.json", ROOT / "sources/feed002-manifest.json", *sorted((ROOT / "research").rglob("*.json")), *sorted((ROOT / "data").rglob("*.json")),
+                                [*sorted((ROOT / "sources").glob("*manifest.json")), *sorted((ROOT / "research").rglob("*.json")), *sorted((ROOT / "data").rglob("*.json")),
                                  *sorted((ROOT / "data/synthetic").glob("*.txt"))]},
                   commands=[], status="running", next_step="See STATE.md; do not infer unsolved-page exclusion")
     def save():

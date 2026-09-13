@@ -12,6 +12,7 @@
 5. 更新索引和 STATE。后来修正结论时保留原说法和变更理由，不删除失败路径。
 
 `knowledge.json` 是当前可检索索引，`feeds/` 是输入记录；实验正文和原始输出仍在 hypotheses/runs/reviews。
+用户偏好与研究方法另存 `methods.json` 和 `METHOD.md`，明确区分用户原话、助手建议及谨慎解释；不混入密码学已证实主张。
 主张状态：reproduced（限定范围内复现）、source_reported（来源有说法尚未复现）、conjecture（推测）、corrected（已纠正）。
 实验状态独立使用 passed/negative/error/timeout/inconclusive。文档误述、未尝试与实验阴性是三件事。
 
