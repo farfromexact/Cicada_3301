@@ -1,0 +1,22 @@
+{
+  "id": "evaluation-positive-08",
+  "phase": "evaluation",
+  "kind": "positive",
+  "start": 636,
+  "seed": 207056440368225036436364916195988894505,
+  "status": "passed",
+  "exact_key": true,
+  "exact_plaintext": true,
+  "roundtrip": true,
+  "selected": {
+    "offset": 28,
+    "shift": 4,
+    "score": -736.8844565074085
+  },
+  "score": -736.8844565074085,
+  "score_gap": 155.47678841919037,
+  "covered": 928,
+  "read_guard_probe_passed": true,
+  "accepted": true,
+  "case_status": "true_recovery"
+}

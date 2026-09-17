@@ -1,0 +1,22 @@
+{
+  "id": "calibration-random-06",
+  "phase": "calibration",
+  "kind": "random_control",
+  "start": null,
+  "seed": 311743600678222289147057475413817923978,
+  "status": "passed",
+  "exact_key": false,
+  "exact_plaintext": false,
+  "roundtrip": null,
+  "selected": {
+    "offset": 15,
+    "shift": 14,
+    "score": -1014.230402041581
+  },
+  "score": -1014.230402041581,
+  "score_gap": 1.464808364493706,
+  "covered": 928,
+  "read_guard_probe_passed": true,
+  "accepted": null,
+  "case_status": "calibration_only"
+}

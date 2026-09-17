@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2.py", line 440, in main
+    verification = validate_observed(observed_output, applicable)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2.py", line 303, in validate_observed
+    raise ValueError(f"R015-B observed mismatch {page_id}:{name}:{key}")
+ValueError: R015-B observed mismatch LP2/49:raw:full_order

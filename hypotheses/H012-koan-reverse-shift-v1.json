@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "H012-koan-reverse-shift-v1",
+  "attempt": "auto-cycle R004 method-family-switch",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M005", "M006", "M007", "M008"],
+  "basis": [
+    "C009 records a source-reported LP1/06 method, reverse runic decoding followed by shift +3, which was never executed in the existing index.",
+    "H009-H011 produced no unsolved-page candidate across scorer calibration, a new multiplicative family and its Legendre projection; this round intentionally changes method family to a source-directed known-page regression.",
+    "The source's Plaintext block is parsed by the existing independent reference segmenter; it is not language-model completion."
+  ],
+  "hypothesis": "The LP1/06 one-line ciphertext is exactly decoded by the fixed affine map P=(28-C+3) mod29, equivalent to reverse runic decoding followed by a +3 shift.",
+  "mechanistic_basis": "Reverse runic decoding maps rune ordinal C to 28-C; the source then specifies a further +3 rotation. No key, dictionary, page-specific tuning or output-selected edits are added.",
+  "falsifiable_predictions": [
+    "The source one-line ciphertext and independently segmented Plaintext contain the same 209 rune positions.",
+    "All 209 positions match under P=(28-C+3) mod29 and inverse re-encryption returns the original rune sequence exactly.",
+    "Thirty-two fixed-seed random invertible affine controls excluding (a,b)=(28,2) do not match the full reference sequence.",
+    "This is a known-page source regression only; it creates zero new LP2 unsolved-page candidates and does not establish that the same map applies to LP2."
+  ],
+  "data_versions": [
+    "sources/clues-v1/ibot/liber_primus/markdown/06.md"
+  ],
+  "scope": "LP1/06 source-reported known-page regression; no LP2 unknown ciphertext is searched.",
+  "algorithm_version": "H012-v1: decode=(28*cipher_index+2) mod29; inverse cipher=(28*plain_index+?); non-rune source whitespace is not altered.",
+  "parameter_derivation_policy": "The affine coefficients (a,b)=(28,2), source block selection, reference segmenter and 32 random control pairs are frozen before comparison.",
+  "page_and_section_continuity_hypothesis": "One source one-line block is a single affine-transform unit; no clock, reset, separator consumption or skip rule is introduced.",
+  "scorer_and_acceptance_version": {
+    "score": "None. Exact rune-by-rune reference equality only.",
+    "success": "209/209 exact rune equality, exact inverse roundtrip and all random affine controls negative.",
+    "negative": "A complete source parse with nonzero mismatch is negative for this LP1/06 source claim only; parse/integrity failure is error, not negative.",
+    "decipherment": "A known source regression is not an unsolved-page solution and is not promoted to a universal LP rule."
+  },
+  "frozen_before_candidates": "The runner stores source/specification hashes, parsed block and reference lengths, selected affine coefficients, random control seed and code snapshot before evaluating equality.",
+  "total_budget": {
+    "known_rune_positions": 209,
+    "random_affine_controls": 32,
+    "wall_seconds": 120,
+    "origin": "Bounded method-family-switch known-page regression for auto-cycle R004; no side-chat budget inherited."
+  },
+  "controls": [
+    "Thirty-two reproducible random invertible affine maps over Z/29Z, excluding the registered map.",
+    "Independent source reference segmentation and exact inverse arithmetic.",
+    "No language completion, cleanup or glyph substitution; source alternatives remain in reference segmentation."
+  ],
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011201,
+    "role": "Negative affine controls only; never a candidate seed or key."
+  },
+  "discovery_path": "Read-only source blocks and fixed affine arithmetic; no unknown-page data or hidden answer is available.",
+  "independent_validation_path": "Reference indices come from lp_lab.reference.segment_word; arithmetic and inverse are recomputed in a separate control loop without calling the cipher transform.",
+  "correlated_transform_deduplication": "The registered reverse+3 map is tested once; random controls are labeled controls and do not add candidate hypotheses.",
+  "uncovered_parameters": [
+    "LP2 unsolved-page applicability",
+    "other LP1 pages, C/K or S/Z ambiguity beyond the reference segmenter",
+    "keyed/stream/skip/composite mechanisms",
+    "image-level independent glyph audit"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If the source regression passes, preserve it as a known mechanism and stop at the four-round cap; any LP2 extension must be a separately preregistered all-page batch.",
+  "note": "The inverse coefficient is intentionally left as a derived check rather than a second candidate: a=28 is self-inverse and b=2 gives the same affine involution."
+}

@@ -1,0 +1,1 @@
+ValueError('Expected exactly five LaTeX numeric matrix rows in feed')

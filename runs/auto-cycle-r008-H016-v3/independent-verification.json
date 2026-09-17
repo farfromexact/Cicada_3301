@@ -1,0 +1,92 @@
+{
+  "status": "passed",
+  "worker_jobs": 7,
+  "public_sha256": "621e73ec66750960ee820149c79e3f6e87810c30bb5f09720c3c4216d0fe2492",
+  "positive_path_checks": [
+    {
+      "job": "synthetic-positive-1-continuous",
+      "pages": 2,
+      "endpoint_phase": 9,
+      "expected_page_phases": [
+        10,
+        9
+      ]
+    },
+    {
+      "job": "synthetic-positive-1-page_reset",
+      "pages": 2,
+      "endpoint_phase": 12,
+      "expected_page_phases": [
+        10,
+        12
+      ]
+    },
+    {
+      "job": "synthetic-positive-2-continuous",
+      "pages": 2,
+      "endpoint_phase": 4,
+      "expected_page_phases": [
+        8,
+        4
+      ]
+    },
+    {
+      "job": "synthetic-positive-2-page_reset",
+      "pages": 2,
+      "endpoint_phase": 9,
+      "expected_page_phases": [
+        8,
+        9
+      ]
+    }
+  ],
+  "positive_page_endpoint_checks": [
+    {
+      "job": "synthetic-positive-1-continuous",
+      "page": "synthetic-positive-1-p1",
+      "endpoint_phase": 10
+    },
+    {
+      "job": "synthetic-positive-1-continuous",
+      "page": "synthetic-positive-1-p2",
+      "endpoint_phase": 9
+    },
+    {
+      "job": "synthetic-positive-1-page_reset",
+      "page": "synthetic-positive-1-p1",
+      "endpoint_phase": 10
+    },
+    {
+      "job": "synthetic-positive-1-page_reset",
+      "page": "synthetic-positive-1-p2",
+      "endpoint_phase": 12
+    },
+    {
+      "job": "synthetic-positive-2-continuous",
+      "page": "synthetic-positive-2-p1",
+      "endpoint_phase": 8
+    },
+    {
+      "job": "synthetic-positive-2-continuous",
+      "page": "synthetic-positive-2-p2",
+      "endpoint_phase": 4
+    },
+    {
+      "job": "synthetic-positive-2-page_reset",
+      "page": "synthetic-positive-2-p1",
+      "endpoint_phase": 8
+    },
+    {
+      "job": "synthetic-positive-2-page_reset",
+      "page": "synthetic-positive-2-p2",
+      "endpoint_phase": 9
+    }
+  ],
+  "incompatible_checks": [
+    {
+      "job": "incompatible-control-v3",
+      "status": "negative"
+    }
+  ],
+  "independent_algorithm": "forward-enumerated 13x29 transition table plus capped path recurrence; endpoints checked page-by-page"
+}

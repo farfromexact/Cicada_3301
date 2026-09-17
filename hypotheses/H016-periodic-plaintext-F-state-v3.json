@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "id": "H016-periodic-plaintext-F-state-v3",
+  "attempt": "auto-cycle R008 H016-v3",
+  "status": "preregistered",
+  "supersedes": "H016-periodic-plaintext-F-state-v2",
+  "reclassification": "v2's scientific result is retained. v3 only strengthens the pre-registered validation contract with genuine two-page positive jobs, persistent short-domain enumeration, and a final deadline check; it does not add a key, parameter, score, or LP2 decision rule.",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "C017 records exact known-page evidence that plaintext F can be copied without advancing a clock, while ordinary encryption can also produce ciphertext F.",
+    "H016-v2 corrected the empty-positive, cross-page-count, and status-classification defects in v1, but its positive jobs were still one-page jobs.",
+    "Astra's audit identified the remaining validation boundary: the worker/orchestrator must be exercised on genuinely split pages, and the promised short-path enumeration must be a persistent regression rather than an ad hoc check."
+  ],
+  "hypothesis": "The fixed FIRFUMFERENFE subtractive repeating-key model remains compatible with LP2 when plaintext F is an exception copied without consuming the 13-position key clock; unknown ciphertext F positions must retain both legal inverse transitions, including their capped path multiplicities across page boundaries.",
+  "falsifiable_predictions": [
+    "Each of four verifier-only synthetic jobs (two plaintext plans times page-reset and continuous branches) is split into two public pages, and its generating path reaches the independently reconstructed endpoint on every page.",
+    "The preregistered incompatible ciphertext [1,10] has no terminal state from phase 0 because the second symbol would decode to forbidden plaintext F at key phase 1; its first death position is zero-based 1.",
+    "All 55 applicable LP2 pages are evaluated under page-reset and numeric-order continuous branches; a complete control set and maxT-adjusted p<=0.01 are required for a statistic lead.",
+    "A page with a surviving terminal state is model compatibility evidence only. It is never accepted as a decrypted page without an independent plaintext or structural prediction."
+  ],
+  "sources": [
+    {"path": "hypotheses/H016-periodic-plaintext-F-state-v2.json", "role": "Previous corrected specification and unchanged scientific model/statistical contract."},
+    {"path": "hypotheses/H014-circumference-transfer-v1.json", "role": "Previously frozen public key and source basis."},
+    {"path": "sources/context/known-keys.txt", "role": "Archived source-reported FIRFUMFERENFE key indices."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus and page applicability."},
+    {"path": "research/knowledge.json", "role": "C017 known-page exception evidence and prior experiment index."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 pages containing registered rune tokens, including rune portions of mixed literal pages LP2/49 and LP2/51.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; its literal alphanumeric grid is outside this rune-domain state model and is unexecuted, not negative."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; all non-rune characters remain outside the public state sequence and are not silently deleted or rewritten.",
+  "key": {
+    "label": "FIRFUMFERENFE",
+    "indices": [0, 10, 4, 0, 1, 19, 0, 18, 4, 18, 9, 0, 18],
+    "direction": "subtractive inverse P=(C-K[r]) mod29",
+    "initial_phase": 0,
+    "phase_domain": "r in 0..12; consuming a normal transition advances r modulo 13"
+  },
+  "state_model": {
+    "normal_transition": "Forward-enumerate plaintext p=1..28 as C=(p+K[r]) mod29; inverse transitions are legal only for those outputs and consume one key phase.",
+    "plaintext_f_exception": "Plaintext F is p=0, emits ciphertext 0 without consuming the key phase. For ciphertext 0, retain this edge together with the ordinary non-F edge when one exists.",
+    "merge": "Merge states with equal processed position and phase; carry capped path multiplicity per phase with cap 2 across continuous page boundaries.",
+    "literals": "Non-rune characters do not enter the state sequence and do not consume phase.",
+    "continuity": ["page_reset", "continuous_numeric_page_order"],
+    "classification": {
+      "compatible": "A non-empty initial state has at least one terminal path after all runes in the reached page.",
+      "dead": "A non-empty initial state loses every path at a rune; first_dead_position is zero-based and legal_prefix_length equals that position.",
+      "not_reached": "A continuous page begins with no state because an earlier page killed the continuous prefix; no rune in this page contributes to the prefix metric."
+    }
+  },
+  "algorithm_version": "H016-v3: H016-v2 state model plus two-page positive orchestration checks, persistent short-domain exhaustive regression, and final deadline audit; no key search, skip-mask search, dictionary, language completion or output-selected exception set.",
+  "statistics": {
+    "metric": "Longest legal prefix ratio per page-reset page and for the complete continuous corpus; a complete reached path has ratio 1.0. Not-reached page ratios are null and excluded from the continuous prefix accumulation.",
+    "units": "55 page-reset units plus 1 continuous whole-corpus unit; continuous downstream pages after an empty prefix are classified not_reached, not as independent negatives.",
+    "maxT": "Standardize observed and 999 control metric vectors together; compare each observed unit with the maximum control z across all 56 units using plus-one p and fixed tie tolerance 1e-12.",
+    "statistic_status": "lead when complete controls yield maxT-adjusted p<=0.01; not_detected otherwise; zero_variance is reported separately.",
+    "candidate": "Only a unit that is both model_status=compatible and statistic_status=lead is listed as an unsolved-page candidate. A statistical lead on a dead prefix is not a candidate.",
+    "overall_status": "With complete controls and passed verification, report inconclusive if any reached page is compatible or any statistic lead exists; otherwise report negative for this exact frozen model and null. Never call a surviving state a decryption."
+  },
+  "controls": {
+    "random_replicates": 999,
+    "random_null": "For every applicable page, keep ciphertext-F positions fixed and uniformly shuffle only the multiset of nonzero rune values among the remaining positions; preserve page length, page order and page boundaries. Each replicate supplies one joint 56-unit vector.",
+    "synthetic_positive": "Verifier-only deterministic two-page plaintexts include copied plaintext F and a nonzero plaintext whose fixed-key normal encryption produces ciphertext F. Continuous jobs encrypt the concatenated plaintext before splitting; page-reset jobs encrypt each page independently. Expected plaintext, traces and endpoints are never passed to the worker.",
+    "impossible_control": "Public one-page ciphertext [1,10] must have no terminal state from phase 0 and must die at zero-based position 1.",
+    "independent": "A separate verifier builds a complete 13x29 ciphertext transition table by forward-enumerating p=0..28, recomputes every state summary and capped count, checks every synthetic page endpoint, and checks the impossible control. The permanent regression exhausts every ciphertext sequence of lengths 0 through 3 over F29 and compares uncapped brute-force counts after applying the same cap."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011603,
+    "synthetic_seed_verifier_only": 33011604,
+    "role": "Observed/control page permutations only; never passed to worker and never used as key or plaintext seed. Checkpoints retain replicate IDs, partial rows, hashes and replay state digests."
+  },
+  "frozen_before_candidates": "The runner writes specification, source/data hashes, public ciphertext jobs, verifier-only expected paths, code snapshot and control seed before invoking the guarded worker or calculating control statistics.",
+  "independent_validation_path": "The worker uses lp_lab.periodic_f_state_v2's guarded inverse recurrence. The orchestrator uses a forward-enumerated direct transition table and separate recurrence, with exact field-by-field comparison, two-page private positive-path checks and a public impossible control.",
+  "validation_contract": {
+    "cross_page_positive_jobs": 4,
+    "positive_pages_each": 2,
+    "positive_page_endpoint_checks": 8,
+    "continuous_cumulative_endpoint_checks": 8,
+    "short_exhaustive_lengths": [0, 1, 2, 3],
+    "short_exhaustive_domain": "all 29 ciphertext values per position",
+    "deadline_guard": "Monotonic checks are recorded immediately before and after final source verification once statistics are written; elapsed >=120 seconds is timeout, statistics are marked accepted=false, and the run is never negative."
+  },
+  "timeout_policy": "A single 120-second monotonic deadline covers worker execution, observations, controls and final statistics. The worker receives only the remaining time. Every completed replicate is appended to a partial JSONL file; an atomically replaced checkpoint records the completed count, partial hash, frozen hash, seed, replay rule and RNG-state digest. Timeout never becomes negative.",
+  "total_budget": {
+    "pages": 55,
+    "runes": 12956,
+    "continuity_branches": 2,
+    "statistic_units": 56,
+    "control_replicates": 999,
+    "wall_seconds": 120,
+    "path_cap": 2,
+    "state_transition_upper_bound": "At most two outgoing transitions per reachable phase and rune; no complete exception-mask enumeration."
+  },
+  "uncovered_parameters": [
+    "Other keys, directions, offsets, periods and key derivations",
+    "Other F policies, unknown literal/grid consumption and alternative page orders",
+    "Feedback/autokey, multiplicative projections, PGL transforms and geometry",
+    "Independent LP2 plaintext, image-level glyph audit and LP2/50 literal grid"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a compatible unit also has a statistic lead, register an independent plaintext or structural prediction before interpretation. Otherwise retain the compatibility/dead map and move to a new method family; do not tune H016 parameters after observing LP2.",
+  "note": "This is a finite-state compatibility diagnostic, not a plaintext search or decryption claim. v2 remains an independent prior result; v3 is the strengthened validation batch."
+}

@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "R013-H023-independent-audit-v1",
+  "status": "passed",
+  "source_run": "runs/auto-cycle-r013-H023-v1",
+  "audit_scope": "Read-only independent recomputation of the frozen H023 gate, LP2 page metrics, circular-shift controls and maxT p-values.",
+  "gate": {
+    "positive_requested": 20,
+    "positive_passes": 20,
+    "negative_requested": 99,
+    "negative_false_accepts": 0,
+    "worker_jobs": 119,
+    "independent_page_checks": 119,
+    "independent_rune_checks": 294168
+  },
+  "lp2": {
+    "pages": 55,
+    "parsed_runes": 12956,
+    "statistic_units": 55,
+    "statistical_rows": 578,
+    "statistical_runes": 12621,
+    "edge_runes": 1156,
+    "interior_runes": 11465,
+    "excluded_runes_by_hard_segment_rule": 335,
+    "independent_page_checks": 55,
+    "independent_rune_checks": 12956
+  },
+  "controls": {
+    "requested": 999,
+    "replayed": 999,
+    "replayed_score_values": 54945,
+    "max_abs_score_error": 7.82e-13,
+    "p_values_reproduced": 55,
+    "checkpoint_status": "complete"
+  },
+  "strongest": [
+    {"page": "LP2/26", "g_stat": 47.26082834111193, "z": 2.662260327279369, "p_adjusted": 0.38},
+    {"page": "LP2/7", "g_stat": 40.942437960905885, "z": 2.2919117256397334, "p_adjusted": 0.617},
+    {"page": "LP2/35", "g_stat": 40.48030439638805, "z": 1.5596248960102708, "p_adjusted": 0.967}
+  ],
+  "conclusion": "H023-v1 remains a scoped negative. The parsed-rune total and the smaller eligible row statistic population are distinct; the result does not claim that unlocated physical geometry is absent.",
+  "next_method_rule": "R011-R013 had no independently reproducible candidate; leave the geometry family and do not run H024 as a parameter retest."
+}

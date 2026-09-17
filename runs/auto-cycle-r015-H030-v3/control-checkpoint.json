@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "status": "partial",
+  "completed": 575,
+  "requested": 999,
+  "next_replicate": 575,
+  "seed": 33011521,
+  "replicate_indexing": "0-based",
+  "source_run": "runs/auto-cycle-r015-H030-v2-retry3",
+  "source_completed": 200,
+  "partial_sha256": "bbc78cf9edaecca272c1c6354fd283209b5e55a314b55711fe3789fd89e29656",
+  "frozen_sha256": "baecef9c9d8f0c8451d4ac489c281a43f8aaa1e8c5e6900a6ec0b192e388d880",
+  "replay_rule": "each replicate uses Random(CONTROL_SEED + replicate); source rows 0..199 are checked, rows 200..998 are newly generated"
+}

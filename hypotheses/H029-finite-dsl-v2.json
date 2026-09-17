@@ -1,0 +1,77 @@
+{
+  "schema": 1,
+  "id": "H029-finite-dsl-v2",
+  "attempt": "auto-cycle R015-A v2",
+  "status": "preregistered",
+  "basis": [
+    "Known-page evidence reproduces a DIVINITY reverse-Vigenere state and a prime-minus-one state; LP1/06 reproduces the fixed reverse-plus-three affine map.",
+    "FEED-011 requires a typed, source-limited DSL and warns that depth alone does not bound keys, resets or exception positions.",
+    "The user explicitly authorized a depth-at-most-three search, so only the four atoms and state contract below are admitted.",
+    "The v1 implementation audit found an A-atom constant mismatch and an unreachable Holm acceptance rule; this version fixes the atom and preregisters maxT as the family-wise page correction."
+  ],
+  "hypothesis": "One common program made from the registered atoms produces a language score that generalizes from a fixed discovery page set to a fixed held-out page set.",
+  "falsifiable_predictions": [
+    "A finite universe has exactly 49 grammar programs before source-independent algebraic deduplication; the deduplication does not use LP2 ciphertext or a private answer.",
+    "The synthetic gate runs the complete multi-page selection pipeline, recovers at least 18/20 verifier-known programs and accepts 0/99 public negatives under the fixed all-path scoring rule.",
+    "After a passed gate, the same selected program is scored on LP2/0..27 and then, without reselection, on LP2/28..55 excluding LP2/50; a lead requires both random-control families, the same at least two held-out pages, and maxT-adjusted p<=0.003."
+  ],
+  "sources": [
+    {"path": "data/attempt1-corpus-v1.json", "sha256": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519", "role": "Pinned LP2 raw corpus and page applicability."},
+    {"path": "data/README.md", "role": "Rune, separator, raw-token and grid boundary contract."},
+    {"path": "sources/context/known-keys.txt", "sha256": "3a5a21569a1e2893a7ac2ce892211f7d0f28dd7c8842f4c881118ce6cab1a07a", "role": "Known DIVINITY operation and F exception source."},
+    {"path": "sources/ibot/liber_primus/markdown/73.md", "sha256": "09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9", "role": "Known LP2/56 prime-minus-one source."},
+    {"path": "sources/clues-v1/ibot/liber_primus/markdown/06.md", "sha256": "e00cacd04bd7b97ef1956ebf4b8d1647c6731e5172494a8c1754351bd5e80405", "role": "Known LP1/06 reverse-plus-three source."},
+    {"path": "hypotheses/H023-row-edge-interior-g-v1.json", "role": "Prior R013 boundary and no-repeat record."},
+    {"path": "reviews/auto-cycle-009.md", "role": "Predecessor review and H025 gate-only supersession boundary."},
+    {"path": "hypotheses/H029-finite-dsl-v1.json", "role": "Superseded v1 preregistration; retained for no-repeat and audit comparison."},
+    {"path": "runs/auto-cycle-r015-H029-v1-retry/record.json", "role": "Interrupted v1 audit trail; partial controls are not scientific evidence for v2."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 pages containing registered rune tokens; discovery D=LP2/0..27, holdout H=LP2/28..55 excluding LP2/50.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "No registered rune tokens; its alphanumeric grid is not converted into rune values."},
+    {"rule": "LP2/49 and LP2/51 grid literals", "reason": "Grid literals are hard boundaries and are not converted or used as hidden rune data."}
+  ],
+  "representation": "Rune ordinals 0..28, one page-local rune stream, original raw token metadata retained separately; non-runes do not consume state and no row/segment/grid reset is introduced.",
+  "dsl": {
+    "atoms": {
+      "A": "x -> 28-x mod29",
+      "S3": "x -> x+3 mod29",
+      "DIVINITY": "reverse decoder with fixed key (23,10,1,10,9,10,16,26)",
+      "PRIME_MINUS_ONE": "reverse decoder with p_1=2 and delta_t=p_(t+1)-1"
+    },
+    "depth": "0..3 inclusive",
+    "state_operator_limit": 1,
+    "raw_program_count": 49,
+    "state_contract": "Plaintext 0 is emitted unchanged and does not consume; every nonzero plaintext consumes one key/prime state. In reverse, C=0 has the explicit F branch and the normal branch is retained only when its decoded value is nonzero. All legal paths are retained.",
+    "scope": "Each page starts state at zero; non-runes, rows, segments and grid literals do not consume or reset.",
+    "deduplication": "Only source-independent symbol/operator equivalence is used; stateless equality is probed for every input 0..28 at fixed positions 0..1023. Stateful programs are not merged from observed-page output equality.",
+    "selection": "29-symbol first-order add-one model; sum likelihood over all legal state paths; page score is complete log likelihood divided by rune count; D is one program selected by score, then frozen for H. Ties use shortest depth then normalized dictionary order."
+  },
+  "statistics": {
+    "discovery": "Equal-weight mean of page scores over D; each random control repeats D selection.",
+    "holdout": "The D-selected program is evaluated on H without program, phase or mask reselection.",
+    "lead": "Both control families complete, independent validation passes, and the same at least two holdout pages have maxT-adjusted p<=0.003 under both controls; Holm values are recorded descriptively but are not the decision rule. This remains only a structural language lead, not a plaintext solution.",
+    "negative": "Gate and controls complete with no lead; scope is limited to this 49-program grammar and state contract."
+  },
+  "power_gate": {
+    "positive_count": 20,
+    "negative_count": 99,
+    "acceptance": "At least 18/20 hidden expected programs rank first and 0/99 negatives reach the fixed positive score/selection acceptance; gate failure is inconclusive and does not dispatch LP2.",
+    "holdout": "Synthetic positive text windows are generated from heldout.txt; private plaintext, recipe and generation state remain verifier-only.",
+    "seeds": {"positive": 33011511, "negative": 33011512}
+  },
+  "controls": {
+    "replicates_per_family": 999,
+    "families": [
+      "Per-page rune multiset permutation with raw markers untouched.",
+      "One common random S29 bijection over the whole corpus, preserving order and repeat structure."
+    ],
+    "seeds": {"multiset": 33011511, "global_bijection": 33011512},
+    "multiple_testing": "Two declared null families, page selection and D selection are rerun per control; per-item alpha is 0.01/3=0.003. Page statistics use maxT over all H pages for each control family; Holm-adjusted values are retained as descriptive diagnostics only."
+  },
+  "total_budget": {"gate_positive": 20, "gate_negative": 99, "control_replicates_each": 999, "wall_seconds": 7200},
+  "independent_validation_path": "A guarded worker evaluates only public rune streams and model weights. The runner independently recomputes the state path recurrence, all-path log-sum, program universe, inverse synthetic encryption and control statistics without importing the worker implementation.",
+  "uncovered_parameters": ["FIRFUMFERENFE specified masks", "cross-page continuous state", "unknown keys, offsets, skips or resets", "difference, cumulative feedback, geometry, arbitrary affine parameters and PGL"],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"]
+}

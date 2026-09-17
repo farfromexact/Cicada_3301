@@ -1,0 +1,87 @@
+{
+  "schema": 1,
+  "id": "H018-fourth-power-projection-v2",
+  "attempt": "auto-cycle R010 retry",
+  "status": "preregistered",
+  "basis": [
+    "FEED-009 derives the four-component projection V(x)=x^4 mod29 and the four fourth roots of unity {1,12,17,28}; this is a constrained multiplicative-family proposal, not evidence that LP uses it.",
+    "H011 tested the two-valued Legendre projection x^14; x^4 has seven nonzero classes plus the retained zero class and is not the same statistic, but the two belong to one projection family and must not be counted as independent cryptanalytic discoveries.",
+    "The H018-v1 run is retained as inconclusive after audit: its synthetic negative gate moved the zero class, contrary to the preregistered zero-mask boundary. This v2 changes the frozen control and uses a new experiment version.",
+    "H016-v2 and H017 produced no independently reproducible LP2 candidate; this retry tests the corrected necessary-condition family after an explicit synthetic power gate."
+  ],
+  "hypothesis": "If a position-wise multiplicative mechanism uses a_t in {1,12,17,28}, then V(C_t)=C_t^4 mod29 equals V(P_t)=P_t^4 mod29; the eight-class projected sequence (zero plus seven nonzero classes) may preserve detectable order even though the raw multiplier is unknown.",
+  "falsifiable_predictions": [
+    "The fixed adjacent-equality statistic on V(C) detects a preregistered synthetic projected-order signal after preserving its projected multiset and zero positions; at least 18/20 positives pass the fixed 0.75 threshold and no negative permutation passes.",
+    "The independent verifier reconstructs V from all 29 rune indices and confirms V(a*x)=V(x) for every a in the four-element subgroup and every x, including zero.",
+    "Only after the power gate passes, the independent verifier passes, and all 999 controls complete, the same V statistic is evaluated on all 55 applicable LP2 pages; a maxT-adjusted p<=0.01 is a lead only, not a decryption."
+  ],
+  "sources": [
+    {"path": "reviews/feed009-29-group-ideas.md", "role": "Derivation and limitations of the x^4 four-component projection."},
+    {"path": "hypotheses/H011-legendre-projection-v1.json", "role": "Related but distinct projection experiment; used to define the non-duplication boundary."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus and page applicability."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 pages containing registered rune tokens, including rune portions of mixed literal pages LP2/49 and LP2/51.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; its literal alphanumeric grid is outside this rune-domain projection and is unexecuted, not negative."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; V is a derived eight-class representation (zero plus seven nonzero classes) and never replaces the original rune sequence.",
+  "projection": {
+    "formula": "V(x)=x^4 mod29",
+    "domain": "x in 0..28, with zero retained as its own class",
+    "nonzero_class_count": 7,
+    "total_class_count": 8,
+    "multiplier_subgroup": [1, 12, 17, 28],
+    "invariant": "V(a*x)=V(x) mod29 for every a in the subgroup and x in 0..28",
+    "deduplication": "This is one fourth-power projection family; roots, raw/log coordinates and Legendre views are not extra trials."
+  },
+  "algorithm_version": "H018-v2: fixed x^4 mod29 projection followed by adjacent projected-class equality; zero-preserving synthetic negative gate, gate-failure hard stop, final deadline check and source-review archive; no multiplier search, exponent search, language completion or output-selected transform.",
+  "power_gate": {
+    "positive_design": "20 verifier-only 128-rune pages use a fixed high-run projected-class run pattern, are lifted to rune preimages and encrypted with position-wise random subgroup multipliers; the worker must recover the exact projected class sequence.",
+    "negative_design": "20 pages use the same projected-class multiset and the same zero positions as their positive counterpart, but a fixed-seed random permutation of only the nonzero projected classes; no positive order is passed to the worker.",
+    "score": "Adjacent equality ratio of V(C) over positions 1..127.",
+    "acceptance": "At least 18/20 positives have exact projection recovery and score>=0.75, while 0/20 negative permutations score>=0.75. This is a measurement gate, not an LP2 result.",
+    "failure_action": "Write the gate and verification artifacts, mark the run inconclusive, skip LP2 scoring and controls, and leave unsolved_page_candidates empty."
+  },
+  "statistics": {
+    "metric": "Adjacent equality ratio of V(C) over every applicable LP2 page, positions 1..n-1; first rune is retained and projection-checked but not scored.",
+    "units": "55 page-reset LP2 units; no continuous or cross-page state is assumed.",
+    "maxT": "Standardize observed and 999 control score vectors together; compare each observed unit with the maximum control z across all 55 units using plus-one p and tie tolerance 1e-12.",
+    "lead": "A complete power gate, complete controls and maxT-adjusted p<=0.01; this is an exploratory necessary-condition lead only.",
+    "negative": "Complete power gate, complete controls, passed independent validation and no lead; scoped only to V=x^4, the adjacent-equality statistic and the zero-preserving permutation null."
+  },
+  "controls": {
+    "random_replicates": 999,
+    "random_null": "For every applicable page, keep ciphertext-F positions fixed and uniformly shuffle only the multiset of nonzero raw rune values; this preserves page length, zero positions, raw multiset and hence projected-class multiset.",
+    "synthetic_positive": "Gate answers remain verifier-only and include exact projected classes and source plaintext; the worker sees only public ciphertext pages.",
+    "synthetic_negative": "Each negative gate sequence preserves the positive sequence's zero mask and projected-class multiset; only nonzero projected values are shuffled.",
+    "independent": "The worker computes V with the guarded path; the orchestrator computes V through independent repeated multiplication, verifies all 29 inputs and subgroup invariance, and rejects mutated projected output."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011801,
+    "control_seed": 33011804,
+    "role": "Synthetic gate and LP2 control permutations only; seeds and expected projected sequences never enter the worker."
+  },
+  "frozen_before_candidates": "The runner writes this specification, source/data/review hashes, public gate/LP2 ciphertext jobs, verifier-only expected projections, code snapshot and all seeds before worker execution or LP2 scoring.",
+  "independent_validation_path": "The worker uses a guarded power calculation; the verifier uses repeated modular multiplication, an explicit subgroup table and exact page/job comparisons. Discovery and validation paths do not share the projection helper.",
+  "timeout_policy": "One 120-second monotonic deadline covers gate, worker, observations, controls, statistics and finalization. Each completed control row is appended to partial JSONL and an atomic checkpoint records the completed count, partial hash, frozen hash and RNG-state digest. Timeout never becomes negative.",
+  "total_budget": {
+    "power_gate_positive_pages": 20,
+    "power_gate_negative_pages": 20,
+    "gate_runes_per_page": 128,
+    "lp2_pages": 55,
+    "lp2_runes": 12956,
+    "score_units": 55,
+    "control_replicates": 999,
+    "wall_seconds": 120
+  },
+  "uncovered_parameters": [
+    "Other exponents, multiplier schedules, keys, feedback, additive layers and page/line reset rules",
+    "Legendre x^14, x^7 and other projections beyond this single x^4 family",
+    "Geometry, literal grid participation, image-level glyph audit and independent LP2 plaintext"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If the gate fails, retain the failed gate and do not interpret LP2. If the gate passes and LP2 has no lead, switch families without changing V or the threshold.",
+  "note": "This tests one necessary projection condition; it cannot identify arbitrary position-wise multipliers or recover plaintext by itself."
+}

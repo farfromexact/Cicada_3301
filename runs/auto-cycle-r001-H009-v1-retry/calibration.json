@@ -1,0 +1,7 @@
+{
+  "min_positive_score": -734.5629798518438,
+  "max_random_score": -984.5896335034679,
+  "threshold": -859.5763066776558,
+  "separated": true,
+  "rule": "midpoint when separated, otherwise min positive score"
+}

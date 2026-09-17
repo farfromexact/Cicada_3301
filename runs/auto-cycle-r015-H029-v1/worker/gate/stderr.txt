@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_worker.py", line 99, in <module>
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_worker.py", line 74, in main
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_worker.py", line 39, in validate_public
+ValueError: invalid R015-A job count

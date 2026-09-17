@@ -1,0 +1,88 @@
+{
+  "schema": 1,
+  "id": "H007-finite-state-v1",
+  "attempt": "attempt 3",
+  "status": "preregistered",
+  "authorization": "User explicitly requested attempt 3 and authorized a bounded local experiment.",
+  "method_policy_ids": ["M001", "M002", "M004", "M005", "M006", "M007"],
+  "hypothesis": "The rune-bearing LP2/0..55 material is compatible with the prime-minus-one subtractive stream when plaintext F (rune index 0) is copied without consuming the stream. Unknown F positions can therefore be represented by a finite set of reachable consumed-clock states rather than by enumerating complete skip subsets.",
+  "mechanistic_basis": [
+    "C017: LP1/03-04 and LP2/56 have exact known-page evidence for plaintext F copied without advancing the stream.",
+    "C018: LP2/56 has exact evidence for a continuous prime-minus-one page clock with the documented exception.",
+    "H006-v1: the same no-skip prime family had no frequency lead on LP2/0..55; H007 tests a distinct, mechanism-motivated exception model rather than repeating that family."
+  ],
+  "falsifiable_predictions": [
+    "The documented LP2/56 plaintext path, including its single F exception at rune ordinal 56, is reachable from clock 0 under the continuous branch and ends at clock 84.",
+    "Three pre-generated synthetic H007 positives, including one with random nonzero and F plaintext values, have their exact private paths reachable under both registered continuity branches.",
+    "The one-rune incompatible control ciphertext [1] has no reachable state because C=1 at t=0 would decode to forbidden plaintext F.",
+    "For LP2/0..55, every page is evaluated under both continuous corpus flow and page-reset flow. A page with no terminal state is negative only for that fixed branch; any surviving state is compatibility evidence, not a decipherment."
+  ],
+  "data_versions": [
+    "data/attempt1-corpus-v1.json sha256=adbc565d01546ddb24efc6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+    "data/pages/lp2_56.json sha256=4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+    "sources/ibot/liber_primus/markdown/73.md sha256=09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9",
+    "data/synthetic/heldout.txt sha256=8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "all sources/*manifest.json entries verified before dispatch"
+  ],
+  "page_universe": "LP2 numeric pages 0..55 in pinned master order",
+  "default_scope": "all applicable unsolved pages",
+  "applicable_objects": "All 55 LP2 pages containing registered rune tokens, including rune portions of mixed literal pages 49 and 51.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; literal grid is outside this rune-domain state model. It is unexecuted, not negative."}
+  ],
+  "exclusion_reason_required": true,
+  "algorithm_version": "H007-v1: d[t]=(prime[t]-1) mod29, offset=0, shift=1, subtractive inverse. For C!=0, P=(C-d[t]) mod29 and the transition is retained only when P!=0, consuming t. For C=0, retain P=0 with t unchanged and also retain P=(-d[t]) mod29 when nonzero, consuming t. Merge states with identical processed position and t; cap path multiplicity at 2 only for ambiguity diagnostics.",
+  "parameter_derivation_policy": "No keyword, offset, shift, direction, affine family, dictionary, language score, or output-selected skip set. Only the fixed prime-minus-one stream and the two preregistered continuity branches are evaluated.",
+  "page_and_section_continuity_hypothesis": "Evaluate the complete LP2/0..55 numeric order as one continuous batch, and independently evaluate the same pages with t reset to 0 at each page. Literals and separators are not in the public rune sequence and do not consume the stream.",
+  "reset_branches": {
+    "continuous": "Carry every reachable t from LP2/n to LP2/(n+1), starting LP2/0 at t=0.",
+    "page_reset": "Start each page at t=0; do not carry states across pages."
+  },
+  "literals_and_ambiguity": "The worker receives only registered rune indices 0..28. Original raw text, separators, line/paragraph boundaries, glyph ambiguity, and source hashes remain in orchestrator-side provenance; no silent normalization is performed.",
+  "scorer_and_acceptance_version": {
+    "score": "None. H003 short-text scorer calibration is not part of this attempt.",
+    "algorithmic_control_pass": "Independent set-based recurrence must match the worker state counts, terminal clocks, capped path counts, edge counts, first-dead position, and state digest for every public batch and branch; private known/synthetic paths must satisfy the registered transition relation; the incompatible control must be rejected.",
+    "unsolved_page_negative": "A fixed branch with zero terminal states after complete coverage is negative only for H007-v1 on that page/continuity and its exact pinned ciphertext.",
+    "unsolved_page_inconclusive": "A fixed branch with one or more terminal states is inconclusive: reachability alone does not choose a plaintext, prove uniqueness of the mechanism, or count as a decrypted page.",
+    "decipherment": "No LP2/0..55 page is accepted as decrypted in this attempt. A readable-looking witness, a unique endpoint, or reverse arithmetic alone is insufficient without an independent structural/key prediction."
+  },
+  "frozen_before_candidates": "The runner records this specification, all source/data hashes, public ciphertext hash, verifier-only control answers, code snapshot, and UTC timestamp before invoking the guarded worker.",
+  "total_budget": {
+    "corpus_pages": 55,
+    "continuity_branches": 2,
+    "control_jobs": 8,
+    "state_transitions": "At most 2 transitions per reachable state per rune; no complete F-subset enumeration.",
+    "wall_seconds": 120,
+    "origin": "Bounded local budget selected for this explicit attempt 3; no side-chat budget inherited."
+  },
+  "controls": [
+    "Known LP2/56 private reference plaintext from a separate markdown block; expected H007 path has one F exception and final clock 84.",
+    "Three deterministic synthetic positives: two heldout-text slices and one seeded random plaintext, encrypted by the registered H007 rule; seeds and plaintext remain verifier-only.",
+    "One incompatible one-rune control [1] with no legal H007 path.",
+    "Three deterministic uniform random ciphertext controls, observed but not scored or treated as proof of either solvability or failure.",
+    "Independent set recurrence, prime generation, exact transition replay, and worker read-isolation/field-whitelist checks."
+  ],
+  "correlated_transform_deduplication": "Not applicable: H007 is a single state transition model. The continuous and page-reset branches are reported separately and are not deduplicated by coincident summaries.",
+  "multiple_testing_policy": "No language ranking or significance test is performed. Page/branch rows are descriptive compatibility results only; no maximum-score claim is made.",
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seeds": [33010703, 33010711, 33010712, 33010713],
+    "role": "Verifier-only synthetic/random-control generation; no seed is passed to the worker."
+  },
+  "discovery_path": "Guarded -I -S worker receives only fixed public ciphertext rune indices and job ids. It cannot read files, reference answers, plaintext, seeds, network, or subprocesses.",
+  "independent_validation_path": "The orchestrator separately generates the prime stream and recomputes the recurrence with Python sets; it checks every public result summary and replays private expected paths without importing the worker transition function.",
+  "uncovered_parameters": [
+    "unknown keywords or semantic keys",
+    "nonzero offsets or shifts",
+    "additive/reversed direction",
+    "other cipher layers or affine transforms",
+    "literal/grid consumption",
+    "line/paragraph/hash/delimiter resets",
+    "chapter/page order alternatives",
+    "alternate transcriptions or unverified glyph corrections",
+    "language scoring and dictionary-based path selection"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If controls pass, inspect the per-page state-width pattern. Do not call surviving paths plaintext; choose H003 scorer calibration or a separately preregistered mechanism only after reviewing this coverage.",
+  "note": "This specification freezes a reachability experiment, not a claim that any unknown page is solved."
+}

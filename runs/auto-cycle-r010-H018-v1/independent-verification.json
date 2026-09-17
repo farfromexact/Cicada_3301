@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "worker_jobs": 41,
+  "public_sha256": "08457af6bc9558046105475af1e2ddb45494d68d9f3f11fb828350511d617ee8",
+  "positive_projection_checks": [
+    {
+      "job": "gate-positive-01",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-02",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-03",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-04",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-05",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-06",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-07",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-08",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-09",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-10",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-11",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-12",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-13",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-14",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-15",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-16",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-17",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-18",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-19",
+      "rune_count": 128
+    },
+    {
+      "job": "gate-positive-20",
+      "rune_count": 128
+    }
+  ],
+  "subgroup_invariant_checks": 116,
+  "page_checks": 95,
+  "independent_algorithm": "repeated modular multiplication x^2 then x^4, separate from worker helper"
+}

@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "id": "H030-berlekamp-massey-v2",
+  "attempt": "auto-cycle R015-B v2",
+  "status": "preregistered",
+  "basis": [
+    "FEED-011 proposes prefix-fit/postfix-prediction calibration and warns that ciphertext complexity does not identify hidden key complexity.",
+    "The LP2 corpus is already registered as rune ordinals 0..28; BM is a new measurement target, not a rerun of H017's language score.",
+    "The user explicitly authorized original, difference, prime-derived and totient-derived views with F29 Berlekamp--Massey.",
+    "The v1 audit removed unrequested GP-value projections, made the four-view contract explicit, added exact-tail acceptance, and corrected the zero-variance statistic rule."
+  ],
+  "hypothesis": "At least one preregistered representation of a page has a fixed low-order F29 recurrence whose coefficients fitted on the first two thirds predict the untouched final third exactly, beyond the page-preserving random controls.",
+  "falsifiable_predictions": [
+    "The four fixed views below are computed without searching offsets, skips, concatenations, GP-value projections or alternate initial values.",
+    "The synthetic gate detects at least 18/20 low-order recurrence positives and accepts 0/99 random, frequency-biased or changed-tail negatives under the fixed prediction rule.",
+    "A formal LP2 lead must pass both low-complexity and exact-tail-prediction maxT p<=0.003, have every untouched suffix symbol correct, and be present in the fixed holdout partition, not only the discovery partition."
+  ],
+  "sources": [
+    {"path": "data/attempt1-corpus-v1.json", "sha256": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519", "role": "Pinned LP2 raw corpus and page applicability."},
+    {"path": "data/README.md", "role": "Rune ordinal and non-rune boundary contract."},
+    {"path": "research/feeds/FEED-011.json", "role": "BM prefix/postfix observability proposal and limitations."},
+    {"path": "reviews/feed011-composite-mechanisms.md", "role": "Massey/BM scope and non-identifiability warning."},
+    {"path": "hypotheses/H017-ciphertext-feedback-v1.json", "role": "Non-duplication boundary: H017 language-scored first difference is not BM complexity."},
+    {"path": "hypotheses/H030-berlekamp-massey-v1.json", "role": "Superseded v1 preregistration; retained for no-repeat and contract audit."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 rune-bearing pages; discovery D=LP2/0..27, holdout H=LP2/28..55 excluding LP2/50. Pages/views with N<96 are descriptive only and explicitly inconclusive_short.",
+  "excluded_objects": [{"page": "LP2/50", "reason": "No registered rune tokens; no conversion of the alphanumeric grid."}],
+  "views": {
+    "raw": "C_i",
+    "difference": "C_(i+1)-C_i mod29, length N-1, no artificial initial term",
+    "position_prime_residual": "C_i-p_(i+1) mod29",
+    "position_totient_residual": "C_i-phi(p_(i+1)) mod29"
+  },
+  "algorithm_version": "H030-v2: BM recurrence s_t + sum(c_j*s_(t-j))=0 mod29; fit first floor(2N/3), predict the untouched suffix recursively using only predicted values.",
+  "parameters": {"minimum_length": 96, "prefix_fraction": "floor(2N/3)", "max_order": "min(16,floor(prefix_length/4))", "field": "F29", "phi_domain": "positive integer prime values only", "position_origin": "p_1=2 with zero-based implementation prime[0]=2", "page_reset": true, "non_rune_policy": "B uses only the rune sequence; no non-rune consumes position or resets"},
+  "statistics": {
+    "T_L": "1-2L/m, higher means lower fitted order",
+    "T_P": "exact suffix hits/(N-m)",
+    "controls": "Each of 999 controls first permutes the original C within each page, then regenerates all four views and refits BM.",
+    "maxT": "Separate maxT correction for T_L and T_P across at most 55*4=220 eligible page-view cells; the two statistics share the item family and alpha is 0.01/3=0.003. Holm is not used as a second gate.",
+    "lead": "Order within cap, every held-out suffix symbol exact, both maxT p values pass, independent finite-field recurrence/minimal-order checks for capped candidates pass, and the signal is present in H.",
+    "negative": "Complete gate, 999 controls, independent verification and no lead; scope is limited to the four views and fixed protocol."
+  },
+  "power_gate": {
+    "positive_count": 20,
+    "negative_count": 99,
+    "acceptance": "At least 18/20 public sequences pass raw-view order/prediction acceptance and 0/99 negatives do; failure is inconclusive and no LP2 batch is interpreted.",
+    "negative_classes": ["uniform random", "frequency-biased random", "low-order prefix with changed-tail mechanism"],
+    "seed": 33011521
+  },
+  "controls": {"replicates": 999, "seed": 33011521, "null": "Independent within-page permutation of original C before all four views", "multiple_testing": "Both statistics use maxT across the complete eligible page-view family; no 7/14/28 special threshold."},
+  "total_budget": {"gate_positive": 20, "gate_negative": 99, "control_replicates": 999, "wall_seconds": 3600},
+  "independent_validation_path": "A second implementation recomputes BM by direct finite-field discrepancy updates, verifies every prefix equation and recurrence, regenerates each view independently, and replays the held-out prediction without calling the worker module.",
+  "uncovered_parameters": ["hidden key-generator complexity", "other recurrence orders or fields", "alternate page concatenation, offsets, skips, clocks and resets", "nonlinear or time-varying mechanisms"],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"]
+}

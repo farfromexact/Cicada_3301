@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "completed": 999,
+  "requested": 999,
+  "seed": 33011101,
+  "cells": 1540,
+  "npz_path": "runs/auto-cycle-r003-H011-v1/control-scores.npz",
+  "npz_sha256": "4a06eb502214bce6c2a29556bd6b72cab1c39540ca53c503ec286b5f102e45fc"
+}

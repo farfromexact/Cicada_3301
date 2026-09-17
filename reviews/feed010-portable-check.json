@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-13T11:37:37.346172+00:00",
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/check_geometry.py",
+    "--out",
+    "runs/feed010-replay"
+  ],
+  "exit_code": 0,
+  "stdout": "{\"status\": \"passed\", \"grids\": {\"LP1/05\": {\"unique_sequences\": {\"integer_cell\": 8, \"cell_mod29\": 8, \"phi_cell_mod29\": 8}, \"ring_sums\": [3286, 1788, 91], \"controls\": {\"distinct_label_paths\": 16, \"broken_corner_unique_sequences\": 16, \"broken_corner_rotate180\": false}}, \"LP1/16\": {\"unique_sequences\": {\"integer_cell\": 8, \"cell_mod29\": 8, \"phi_cell_mod29\": 8}, \"ring_sums\": [10404, 5292, 809], \"controls\": {\"distinct_label_paths\": 16, \"broken_corner_unique_sequences\": 16, \"broken_corner_rotate180\": false}}}}\n",
+  "stderr": "",
+  "archive_crc_passed": true,
+  "audit_byte_equal": true,
+  "original_feed_byte_equal": true,
+  "review_hash_equal": true,
+  "archive_sha256": "47a540af196ed3302c5490612a5d51c6d3d98d513799d601f26ed31a6b709797",
+  "scope": "Offline deterministic geometry replay only; no unknown-page search"
+}

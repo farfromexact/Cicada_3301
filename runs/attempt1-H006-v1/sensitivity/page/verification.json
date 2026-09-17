@@ -1,0 +1,152 @@
+{
+  "arithmetic": {
+    "status": "passed",
+    "unique_transform_checks": 7,
+    "comparisons": [
+      {
+        "page": "synthetic/page/0",
+        "methods": [
+          "page",
+          "corpus"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      },
+      {
+        "page": "synthetic/page/0",
+        "methods": [
+          "line"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      },
+      {
+        "page": "synthetic/page/0",
+        "methods": [
+          "paragraph"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      },
+      {
+        "page": "synthetic/page/1",
+        "methods": [
+          "page"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      },
+      {
+        "page": "synthetic/page/1",
+        "methods": [
+          "line"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      },
+      {
+        "page": "synthetic/page/1",
+        "methods": [
+          "paragraph"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      },
+      {
+        "page": "synthetic/page/1",
+        "methods": [
+          "corpus"
+        ],
+        "rune_count": 256,
+        "delta_exact": true,
+        "arithmetic_exact": true,
+        "roundtrip_exact": true,
+        "plaintext_truth": "unknown unless synthetic verifier"
+      }
+    ]
+  },
+  "exact_recovery": [
+    {
+      "page": "synthetic/page/0",
+      "methods": [
+        "page",
+        "corpus"
+      ],
+      "matching_family": true,
+      "mismatch_count": 0,
+      "status": "passed"
+    },
+    {
+      "page": "synthetic/page/0",
+      "methods": [
+        "line"
+      ],
+      "matching_family": false,
+      "mismatch_count": 212,
+      "status": "negative"
+    },
+    {
+      "page": "synthetic/page/0",
+      "methods": [
+        "paragraph"
+      ],
+      "matching_family": false,
+      "mismatch_count": 123,
+      "status": "negative"
+    },
+    {
+      "page": "synthetic/page/1",
+      "methods": [
+        "page"
+      ],
+      "matching_family": true,
+      "mismatch_count": 0,
+      "status": "passed"
+    },
+    {
+      "page": "synthetic/page/1",
+      "methods": [
+        "line"
+      ],
+      "matching_family": false,
+      "mismatch_count": 212,
+      "status": "negative"
+    },
+    {
+      "page": "synthetic/page/1",
+      "methods": [
+        "paragraph"
+      ],
+      "matching_family": false,
+      "mismatch_count": 123,
+      "status": "negative"
+    },
+    {
+      "page": "synthetic/page/1",
+      "methods": [
+        "corpus"
+      ],
+      "matching_family": false,
+      "mismatch_count": 243,
+      "status": "negative"
+    }
+  ]
+}

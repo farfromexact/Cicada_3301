@@ -1,0 +1,2337 @@
+{
+  "metadata": {
+    "schema": 1,
+    "generated_at_utc": "2026-09-13T10:03:36.996823+00:00",
+    "algorithm": "exact conditional permutation moments and corpus-wide maximum z",
+    "rng": "Python random.Random, MT19937; shuffle per page reused across clocks",
+    "python_version": "3.12.8",
+    "control_seed": 33010601,
+    "requested_control_replicates": 999,
+    "completed_control_replicates": 999,
+    "timeout_seconds": 180,
+    "unique_candidates": 169,
+    "rune_pages": 55,
+    "page_order": [
+      "LP2/0",
+      "LP2/1",
+      "LP2/2",
+      "LP2/3",
+      "LP2/4",
+      "LP2/5",
+      "LP2/6",
+      "LP2/7",
+      "LP2/8",
+      "LP2/9",
+      "LP2/10",
+      "LP2/11",
+      "LP2/12",
+      "LP2/13",
+      "LP2/14",
+      "LP2/15",
+      "LP2/16",
+      "LP2/17",
+      "LP2/18",
+      "LP2/19",
+      "LP2/20",
+      "LP2/21",
+      "LP2/22",
+      "LP2/23",
+      "LP2/24",
+      "LP2/25",
+      "LP2/26",
+      "LP2/27",
+      "LP2/28",
+      "LP2/29",
+      "LP2/30",
+      "LP2/31",
+      "LP2/32",
+      "LP2/33",
+      "LP2/34",
+      "LP2/35",
+      "LP2/36",
+      "LP2/37",
+      "LP2/38",
+      "LP2/39",
+      "LP2/40",
+      "LP2/41",
+      "LP2/42",
+      "LP2/43",
+      "LP2/44",
+      "LP2/45",
+      "LP2/46",
+      "LP2/47",
+      "LP2/48",
+      "LP2/49",
+      "LP2/51",
+      "LP2/52",
+      "LP2/53",
+      "LP2/54",
+      "LP2/55"
+    ],
+    "seed_scope": "control generator only; never a candidate key",
+    "zero_variance_rule": "z=0 and adjusted p=1; constant residual tolerance is 64 binary64 eps times max(1, max_abs_weight)",
+    "input_sha256": "735e52dfd34b8d6dc560f7650f1f3d0b443b9fb6f414fdac8bb3975196c0790b",
+    "weights_sha256": "ce959bf44576f19c3e3569f24a671190a1b6b419c7c45937fb8883ec95388c1d",
+    "p_adjusted_rule": "(1 + count(control family maximum z >= observed candidate z))/(B+1)",
+    "family": "all supplied page-by-clock candidates, deduplicated by full per-rune delta vector",
+    "interpretation": "Global within-page exchangeability null; significant unigram alignment is a lead, not decipherment; absence of a lead is limited to this scorer and family",
+    "status": "completed",
+    "elapsed_seconds": 4.639999999999418
+  },
+  "rows": [
+    {
+      "page": "LP2/0",
+      "methods": [
+        "page",
+        "paragraph",
+        "corpus"
+      ],
+      "log_likelihood": -1156.267485314742,
+      "z": -1.1610917341348557,
+      "null_mean": -1123.000510710267,
+      "null_variance": 820.9062207158728,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/0",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1143.3611162818297,
+      "z": -0.6058310220970118,
+      "null_mean": -1126.1710067799766,
+      "null_variance": 805.1082378772703,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/1",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1133.047206502278,
+      "z": 0.2653876467212018,
+      "null_mean": -1140.7194473328307,
+      "null_variance": 835.7628193964778,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/1",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1125.8370435743238,
+      "z": 0.8558582927983699,
+      "null_mean": -1150.638405223281,
+      "null_variance": 839.7448018935515,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/1",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1115.57257652105,
+      "z": 0.8766252515450978,
+      "null_mean": -1140.9088343456822,
+      "null_variance": 835.3278989821437,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/2",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -848.78113498963,
+      "z": 0.6092562194927205,
+      "null_mean": -864.1004731444696,
+      "null_variance": 632.2372252786051,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/2",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -859.6487602421148,
+      "z": 0.12895295044427108,
+      "null_mean": -862.8354737986009,
+      "null_variance": 610.6937695946342,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/2",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -892.8013928828128,
+      "z": -1.168639764449717,
+      "null_mean": -863.4104459422564,
+      "null_variance": 632.5077310283482,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "page"
+      ],
+      "log_likelihood": -937.2846612103101,
+      "z": -0.24158117371636134,
+      "null_mean": -930.9736718461733,
+      "null_variance": 682.4466757627453,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -954.1110623414742,
+      "z": -0.80380450015094,
+      "null_mean": -933.2747082118519,
+      "null_variance": 671.9587188439543,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "paragraph"
+      ],
+      "log_likelihood": -946.0638769556405,
+      "z": -0.5847019106211495,
+      "null_mean": -930.7878431267486,
+      "null_variance": 682.5778592014484,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -963.8635404076415,
+      "z": -1.183484712180687,
+      "null_mean": -932.9361586203571,
+      "null_variance": 682.906123028456,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/4",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1145.900132968171,
+      "z": -0.9845792622563705,
+      "null_mean": -1117.7989060284917,
+      "null_variance": 814.6089852389462,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/4",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1095.308255938997,
+      "z": 0.8667094377719652,
+      "null_mean": -1119.7868156193933,
+      "null_variance": 797.67259062557,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/4",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1105.686688984932,
+      "z": 0.475564176063113,
+      "null_mean": -1119.280514103472,
+      "null_variance": 817.0809645881759,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/5",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1088.116307636183,
+      "z": 1.3770393359582063,
+      "null_mean": -1127.6014734341297,
+      "null_variance": 822.1957721973309,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/5",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1095.449516930689,
+      "z": 1.4716610320859587,
+      "null_mean": -1137.8297061110165,
+      "null_variance": 829.2972041592232,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/5",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1115.3701055196043,
+      "z": 0.48638449155516406,
+      "null_mean": -1129.3319165342245,
+      "null_variance": 823.9940437921516,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "page"
+      ],
+      "log_likelihood": -846.0653384059451,
+      "z": -0.23831164914179728,
+      "null_mean": -840.1550937534886,
+      "null_variance": 615.0640921572519,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -828.6351940270782,
+      "z": 0.47904005044472725,
+      "null_mean": -840.4135782987696,
+      "null_variance": 604.5438249804,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "paragraph"
+      ],
+      "log_likelihood": -832.4119099623173,
+      "z": 0.30294936228873626,
+      "null_mean": -839.9265254245936,
+      "null_variance": 615.2809066304128,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -814.9449391973624,
+      "z": 1.0781257971305969,
+      "null_mean": -841.7442151425557,
+      "null_variance": 617.8844211370293,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/7",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -883.6363545235736,
+      "z": 0.27356738376741685,
+      "null_mean": -890.6113122802408,
+      "null_variance": 650.0616249605564,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/7",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -894.1497774019632,
+      "z": -0.047323422755401814,
+      "null_mean": -892.9526652353725,
+      "null_variance": 639.9077836842899,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/7",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -923.8206172511915,
+      "z": -1.2621796190046612,
+      "null_mean": -891.6516104056041,
+      "null_variance": 649.5805011781026,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/8",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1108.8745769663594,
+      "z": -0.5167639698784893,
+      "null_mean": -1094.2616648728267,
+      "null_variance": 799.6300226623324,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/8",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1082.6493394362653,
+      "z": 0.3557090896242609,
+      "null_mean": -1092.623888199887,
+      "null_variance": 786.3150525864581,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/8",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1122.8472505855916,
+      "z": -0.9762131839102114,
+      "null_mean": -1095.2202186924264,
+      "null_variance": 800.9015256279215,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/9",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1167.5414093474142,
+      "z": -0.6345844945261625,
+      "null_mean": -1149.137412592713,
+      "null_variance": 841.0956432211899,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/9",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1192.1839933859178,
+      "z": -1.2774853702470947,
+      "null_mean": -1155.2697957028327,
+      "null_variance": 834.9779304232641,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/9",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1131.825853007308,
+      "z": 0.5717726088031044,
+      "null_mean": -1148.3919043999726,
+      "null_variance": 839.4432011985202,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/10",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1145.1144100877218,
+      "z": -0.5214874614359948,
+      "null_mean": -1130.1173159404689,
+      "null_variance": 827.0399606211729,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/10",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1175.0678277687546,
+      "z": -1.6375343721695172,
+      "null_mean": -1128.6122293129079,
+      "null_variance": 804.8135302147158,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/10",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1128.3926041809827,
+      "z": 0.0997937479857623,
+      "null_mean": -1131.2647342159414,
+      "null_variance": 828.326450054687,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/11",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1185.769266412563,
+      "z": -0.45580327942705695,
+      "null_mean": -1172.4009904150926,
+      "null_variance": 860.1930226885037,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/11",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1163.3170406426484,
+      "z": 0.3249949448504666,
+      "null_mean": -1172.7224187159748,
+      "null_variance": 837.5279400675922,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/11",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1229.3669200077588,
+      "z": -1.8666544840579098,
+      "null_mean": -1174.5550802708822,
+      "null_variance": 862.225539431538,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/12",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1166.0093511612436,
+      "z": -1.5918956818255845,
+      "null_mean": -1120.326155188595,
+      "null_variance": 823.5382008814382,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/12",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1147.6480632284668,
+      "z": -0.7123488241507522,
+      "null_mean": -1127.3387370610328,
+      "null_variance": 812.8410071737794,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/12",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1114.881039084948,
+      "z": 0.19366266349923517,
+      "null_mean": -1120.4273987702434,
+      "null_variance": 820.208488994183,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/13",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1225.8672801604425,
+      "z": -2.042851518872879,
+      "null_mean": -1166.2341064704638,
+      "null_variance": 852.1229118046531,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/13",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1145.2314355191738,
+      "z": 0.6300257998995619,
+      "null_mean": -1163.4087379653458,
+      "null_variance": 832.4194091224897,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/13",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1177.9863513772025,
+      "z": -0.3987670497255205,
+      "null_mean": -1166.3499604018555,
+      "null_variance": 851.5263260210046,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/14",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -608.6508811094252,
+      "z": -1.0629722130563322,
+      "null_mean": -586.7075851895788,
+      "null_variance": 426.1474519881855,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/14",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -607.2919766919343,
+      "z": -0.759657885277615,
+      "null_mean": -591.5534887021043,
+      "null_variance": 429.22984705651413,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/14",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -579.9150822004657,
+      "z": 0.3519689555724181,
+      "null_mean": -587.1933143894242,
+      "null_variance": 427.6053139275176,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "page"
+      ],
+      "log_likelihood": -698.372991405964,
+      "z": -0.7562339171762258,
+      "null_mean": -681.528462809655,
+      "null_variance": 496.14134514517684,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -657.1970879201742,
+      "z": 1.2536033041033994,
+      "null_mean": -684.8019633560342,
+      "null_variance": 484.8990433378806,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "paragraph"
+      ],
+      "log_likelihood": -716.3150061555149,
+      "z": -1.5167855012545781,
+      "null_mean": -682.4967041604723,
+      "null_variance": 497.1131582462074,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -695.6815414540629,
+      "z": -0.635915837008994,
+      "null_mean": -681.5842496524218,
+      "null_variance": 491.4418044218175,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/16",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1126.6966485882463,
+      "z": 0.6584494597559284,
+      "null_mean": -1145.7906922303653,
+      "null_variance": 840.9127365431879,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/16",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1147.132452927021,
+      "z": 0.11404192526945717,
+      "null_mean": -1150.4333271572943,
+      "null_variance": 837.7778489801992,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/16",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1131.0251117673677,
+      "z": 0.47316355646898095,
+      "null_mean": -1144.7214559438326,
+      "null_variance": 837.8894976501833,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/17",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1132.9293699823154,
+      "z": 1.3231007767824572,
+      "null_mean": -1171.7154231705606,
+      "null_variance": 859.3405956323539,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/17",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1185.418853591992,
+      "z": -0.39321107293345925,
+      "null_mean": -1173.9712133823084,
+      "null_variance": 847.5795398140242,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/17",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1165.3939671404344,
+      "z": 0.19534114656849555,
+      "null_mean": -1171.1173477705547,
+      "null_variance": 858.4555124248961,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/18",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1108.5405296561628,
+      "z": 0.30771764355850745,
+      "null_mean": -1117.3488390289128,
+      "null_variance": 819.3704996349858,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/18",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1131.1145533062067,
+      "z": -0.27280153658533673,
+      "null_mean": -1123.3354721306373,
+      "null_variance": 813.1356132051068,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/18",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1101.9402619052146,
+      "z": 0.5089247108662781,
+      "null_mean": -1116.4861980468238,
+      "null_variance": 816.9138818706081,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/19",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1157.3943786037576,
+      "z": 0.2336947492159968,
+      "null_mean": -1164.2191368961617,
+      "null_variance": 852.8578293880987,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/19",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1120.5506936002344,
+      "z": 1.5692328857835416,
+      "null_mean": -1166.1803742912678,
+      "null_variance": 845.5125486462092,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/19",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1152.6017901264245,
+      "z": 0.3648171917067664,
+      "null_mean": -1163.2273410539963,
+      "null_variance": 848.3055777084726,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/20",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1161.6961288010277,
+      "z": -0.3500645380721334,
+      "null_mean": -1151.5452499709693,
+      "null_variance": 840.8355215333322,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/20",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1160.7213014669942,
+      "z": -0.2672788958102567,
+      "null_mean": -1153.0432016855068,
+      "null_variance": 825.2360023023534,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/20",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1172.4591967084773,
+      "z": -0.6642729209867143,
+      "null_mean": -1153.1945884664183,
+      "null_variance": 841.0605559290184,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/21",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1132.199223819671,
+      "z": 1.335838940534938,
+      "null_mean": -1171.3221841604354,
+      "null_variance": 857.7391245043482,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/21",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1180.667357163719,
+      "z": -0.21002599121848675,
+      "null_mean": -1174.5341587086248,
+      "null_variance": 852.7622153127008,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/21",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1188.9265404247788,
+      "z": -0.6388512650621098,
+      "null_mean": -1170.228183636383,
+      "null_variance": 856.6577862313552,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/22",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -567.3512598481199,
+      "z": -0.28581633255730865,
+      "null_mean": -561.5794576985036,
+      "null_variance": 407.8014696758001,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/22",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -539.1667382422856,
+      "z": 0.8843464849862646,
+      "null_mean": -556.720500870911,
+      "null_variance": 393.9993765920413,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/22",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -605.5910470071851,
+      "z": -2.2279874206684567,
+      "null_mean": -560.8479483420126,
+      "null_variance": 403.29853689952057,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/23",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -907.6080838408559,
+      "z": 0.2497648504960791,
+      "null_mean": -914.075042248742,
+      "null_variance": 670.4053876196938,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/23",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -940.4397268149513,
+      "z": -1.1114435482239295,
+      "null_mean": -912.0091954418044,
+      "null_variance": 654.3274429891854,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/23",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -952.198362259082,
+      "z": -1.436258983686833,
+      "null_mean": -914.9575617211901,
+      "null_variance": 672.3145339919226,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/24",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1181.460529059444,
+      "z": -0.7738087063601652,
+      "null_mean": -1158.9070318676427,
+      "null_variance": 849.49448646275,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/24",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1152.9292584011885,
+      "z": 0.231763103848808,
+      "null_mean": -1159.6011398179749,
+      "null_variance": 828.7204207543239,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/24",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1174.7868097652988,
+      "z": -0.5121796806894349,
+      "null_mean": -1159.8607066881575,
+      "null_variance": 849.2746926494456,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/25",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1175.0080316739895,
+      "z": -0.14957348798498707,
+      "null_mean": -1170.6305937597156,
+      "null_variance": 856.5066666370197,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/25",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1153.913229803664,
+      "z": 0.4835972265992672,
+      "null_mean": -1167.9345112939818,
+      "null_variance": 840.6356686807778,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/25",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1132.240647155767,
+      "z": 1.3370729844250826,
+      "null_mean": -1171.4195172980471,
+      "null_variance": 858.6053435310463,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/26",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1102.3435360254778,
+      "z": 1.2096213791201027,
+      "null_mean": -1137.2282285137414,
+      "null_variance": 831.7080210827942,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/26",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1113.5547954147532,
+      "z": 0.92934075300895,
+      "null_mean": -1140.1447187725662,
+      "null_variance": 818.6234987176477,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/26",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1130.6230110008544,
+      "z": 0.16415417506153215,
+      "null_mean": -1135.3435306144543,
+      "null_variance": 826.9433269412852,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/27",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1014.6781486499993,
+      "z": -0.35781301807568894,
+      "null_mean": -1004.9694233740681,
+      "null_variance": 736.2276943087103,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/27",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1026.1059648290309,
+      "z": -0.8850948362451676,
+      "null_mean": -1002.408883179876,
+      "null_variance": 716.8200028391135,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/27",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1057.488890650765,
+      "z": -1.9485926048433946,
+      "null_mean": -1004.6760671571283,
+      "null_variance": 734.5758949959419,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/28",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1155.8123618278626,
+      "z": -0.0171826855053417,
+      "null_mean": -1155.3127355954741,
+      "null_variance": 845.4898191452864,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/28",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1179.723780193892,
+      "z": -0.7379293065825905,
+      "null_mean": -1158.4089124513757,
+      "null_variance": 834.325980256866,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/28",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1197.2238319602968,
+      "z": -1.4157933649371566,
+      "null_mean": -1156.0665218288675,
+      "null_variance": 845.0729904081312,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/29",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1208.5965096260181,
+      "z": -0.7163654538434416,
+      "null_mean": -1187.5050241647086,
+      "null_variance": 866.8522235185407,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/29",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1135.9627135655255,
+      "z": 1.6356400788151249,
+      "null_mean": -1183.5835592320059,
+      "null_variance": 847.6542025190402,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/29",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1169.2164784667796,
+      "z": 0.6433974948886353,
+      "null_mean": -1188.1328219571599,
+      "null_variance": 864.4017785202733,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/30",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1137.8204195242383,
+      "z": -0.3219224224945508,
+      "null_mean": -1128.5673714592178,
+      "null_variance": 826.1657410059079,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/30",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1185.2544458262764,
+      "z": -1.882289112876415,
+      "null_mean": -1131.563079439276,
+      "null_variance": 813.6474211167389,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/30",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1114.0690424836725,
+      "z": 0.459705948322148,
+      "null_mean": -1127.2504083449992,
+      "null_variance": 822.1680244629061,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/31",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1193.55922646786,
+      "z": -1.3139327077283602,
+      "null_mean": -1155.3678593212835,
+      "null_variance": 844.8588604370204,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/31",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1171.1722565097953,
+      "z": -0.6287255251847347,
+      "null_mean": -1153.1872504636024,
+      "null_variance": 818.2744514918625,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/31",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1142.3307847753415,
+      "z": 0.44927668761557626,
+      "null_mean": -1155.3851005149877,
+      "null_variance": 844.2682490752127,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/32",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -513.6867127918034,
+      "z": 0.32669025009084407,
+      "null_mean": -520.0416832068528,
+      "null_variance": 378.4031294535078,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/32",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -509.6622447524573,
+      "z": 0.22343114605429448,
+      "null_mean": -513.8831210789202,
+      "null_variance": 356.87639918208293,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/32",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -487.14814453928415,
+      "z": 1.7394478558805275,
+      "null_mean": -520.9782680740079,
+      "null_variance": 378.25470502218946,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "page"
+      ],
+      "log_likelihood": -917.0624352627971,
+      "z": 0.07048649187206964,
+      "null_mean": -918.8919528856472,
+      "null_variance": 673.6920183541696,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -957.887531796908,
+      "z": -1.5729795455032902,
+      "null_mean": -917.7729177938019,
+      "null_variance": 650.3678805120371,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "paragraph"
+      ],
+      "log_likelihood": -927.2413251352818,
+      "z": -0.3085499036853187,
+      "null_mean": -919.2331706174779,
+      "null_variance": 673.6185810548595,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -938.0032873696944,
+      "z": -0.7552838209721132,
+      "null_mean": -918.4023077650647,
+      "null_variance": 673.4962626874806,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/34",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1105.7942609426907,
+      "z": 0.529762406269673,
+      "null_mean": -1120.969442185413,
+      "null_variance": 820.5508530834115,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/34",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1110.998724461306,
+      "z": 0.36773603881352934,
+      "null_mean": -1121.387814852761,
+      "null_variance": 798.1465901549798,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/34",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1102.5889056417975,
+      "z": 0.6237381798383603,
+      "null_mean": -1120.4537442903131,
+      "null_variance": 820.3393400309793,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/35",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1135.367921116284,
+      "z": 0.8572547645590658,
+      "null_mean": -1160.3635850256335,
+      "null_variance": 850.1773644639726,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/35",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1239.0170321124517,
+      "z": -2.5167469881740137,
+      "null_mean": -1165.6746146888713,
+      "null_variance": 849.2417292553582,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/35",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1172.023266440559,
+      "z": -0.4005170421310855,
+      "null_mean": -1160.3669148757406,
+      "null_variance": 846.9997358329742,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/36",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1064.459278973503,
+      "z": -1.5896574052857513,
+      "null_mean": -1021.1237571404342,
+      "null_variance": 743.1577071193626,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/36",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1012.7397254957572,
+      "z": 0.32928830173429174,
+      "null_mean": -1021.6772018254628,
+      "null_variance": 736.6771591530827,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/36",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1027.3611846448905,
+      "z": -0.36785450097672046,
+      "null_mean": -1017.3794865939319,
+      "null_variance": 736.3032335802388,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/37",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -942.6525181947709,
+      "z": 1.326182822473404,
+      "null_mean": -978.1224826741882,
+      "null_variance": 715.3436237197731,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/37",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -990.1601621480418,
+      "z": -0.4732524989892615,
+      "null_mean": -977.6561181675082,
+      "null_variance": 698.0960059916646,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/37",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -990.1144269940137,
+      "z": -0.49876185261600936,
+      "null_mean": -976.7938922111556,
+      "null_variance": 713.274770945766,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/38",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -999.3709860232186,
+      "z": -0.8566720168802476,
+      "null_mean": -976.4900623516559,
+      "null_variance": 713.3750940569226,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/38",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -974.5301261537918,
+      "z": 0.02449957261906421,
+      "null_mean": -975.1788842623148,
+      "null_variance": 701.210775123705,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/38",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -961.2034294175902,
+      "z": 0.5884601222576427,
+      "null_mean": -976.9516127848685,
+      "null_variance": 716.1876876595094,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "page"
+      ],
+      "log_likelihood": -1004.8252443788748,
+      "z": 0.8966391193245534,
+      "null_mean": -1029.4269561058004,
+      "null_variance": 752.827170919071,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1069.8755840784734,
+      "z": -1.6936528709937915,
+      "null_mean": -1024.1376383156066,
+      "null_variance": 729.297130871495,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "paragraph"
+      ],
+      "log_likelihood": -1005.690028598255,
+      "z": 0.8647660200559225,
+      "null_mean": -1029.402593787688,
+      "null_variance": 751.899581809466,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1028.6796569804994,
+      "z": -0.07375236680890537,
+      "null_mean": -1026.6619324499134,
+      "null_variance": 748.4655645304496,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/40",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -990.9442056445954,
+      "z": 0.036214827977891786,
+      "null_mean": -991.9208317285247,
+      "null_variance": 727.2500929264352,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/40",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1006.4716057451191,
+      "z": -0.47731785141482425,
+      "null_mean": -993.6630067339167,
+      "null_variance": 720.0918662798437,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/40",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -940.0388148324968,
+      "z": 1.9161947898605804,
+      "null_mean": -991.6675820929624,
+      "null_variance": 725.9458069059431,
+      "exceedances": 991,
+      "p_adjusted": 0.992,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/41",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1158.0037841193994,
+      "z": 0.4574669494193785,
+      "null_mean": -1171.3982965626699,
+      "null_variance": 857.3030599871291,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/41",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1129.2811541313336,
+      "z": 1.502063091445099,
+      "null_mean": -1173.0784368987968,
+      "null_variance": 850.1939003581987,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/41",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1155.610131458687,
+      "z": 0.5051577104880357,
+      "null_mean": -1170.3751048743134,
+      "null_variance": 854.3018881445375,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/42",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1167.9990046360995,
+      "z": 0.0008643032251173152,
+      "null_mean": -1168.0242674862368,
+      "null_variance": 854.3433128601986,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/42",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1146.9191832933534,
+      "z": 0.6884689953259481,
+      "null_mean": -1166.7064874722985,
+      "null_variance": 826.0464823623184,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/42",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1142.2711703185244,
+      "z": 0.8762637173991643,
+      "null_mean": -1167.8919596526398,
+      "null_variance": 854.9000681596073,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/43",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1195.3701225995421,
+      "z": -0.6073759145181132,
+      "null_mean": -1177.5382576595816,
+      "null_variance": 861.9427086677555,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/43",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1153.3809184287495,
+      "z": 0.8199496498806071,
+      "null_mean": -1177.305923848268,
+      "null_variance": 851.3923039863403,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/43",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1226.2681755060034,
+      "z": -1.7263680448192051,
+      "null_mean": -1175.7672596907514,
+      "null_variance": 855.7200950327416,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/44",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1174.2079430664053,
+      "z": -0.12824168414706194,
+      "null_mean": -1170.4594491220912,
+      "null_variance": 854.3881211082484,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/44",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1202.2950806609551,
+      "z": -0.9643658617048797,
+      "null_mean": -1174.212348365596,
+      "null_variance": 847.998460502214,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/44",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1182.7312027248427,
+      "z": -0.4151952068200823,
+      "null_mean": -1170.5952744739882,
+      "null_variance": 854.3608476732031,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/45",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1172.5695572795942,
+      "z": -0.4696025401745562,
+      "null_mean": -1158.8872980223132,
+      "null_variance": 848.896525162671,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/45",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1154.475892540452,
+      "z": 0.08707451958749753,
+      "null_mean": -1157.0032630046385,
+      "null_variance": 842.472314032221,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/45",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1168.3421712249572,
+      "z": -0.3389548417276875,
+      "null_mean": -1158.479676449609,
+      "null_variance": 846.6226605630471,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/46",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1216.890792674934,
+      "z": -1.9746684819554192,
+      "null_mean": -1159.413431716984,
+      "null_variance": 847.23765656317,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/46",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1150.1653878133907,
+      "z": 0.1971098074950763,
+      "null_mean": -1155.8204444329533,
+      "null_variance": 823.1091840537761,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/46",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1207.592955534018,
+      "z": -1.713013490796553,
+      "null_mean": -1157.8603940377966,
+      "null_variance": 842.8690174492821,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/47",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1235.4201254025654,
+      "z": -2.0301343234769633,
+      "null_mean": -1175.818394745284,
+      "null_variance": 861.9224512908053,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/47",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1206.9183331669733,
+      "z": -1.2179736918698145,
+      "null_mean": -1171.7221307134325,
+      "null_variance": 835.0563809559001,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/47",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1168.9169645586917,
+      "z": 0.256392049369968,
+      "null_mean": -1176.440552994371,
+      "null_variance": 861.0749458047152,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/48",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1187.498504642265,
+      "z": -0.8575112573839881,
+      "null_mean": -1162.4956895051898,
+      "null_variance": 850.1550901073897,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/48",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1160.4716678897405,
+      "z": 0.20927679441246658,
+      "null_mean": -1166.5397946827563,
+      "null_variance": 840.7505201930404,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/48",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1184.2238088930874,
+      "z": -0.7267136691132571,
+      "null_mean": -1163.0545730094811,
+      "null_variance": 848.5622474765155,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/49",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -286.6205823734926,
+      "z": -0.3659851576819032,
+      "null_mean": -281.3761266732371,
+      "null_variance": 205.34016005745139,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/49",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -286.008579954627,
+      "z": -0.1858441437510559,
+      "null_mean": -283.3552960704077,
+      "null_variance": 203.83073836428304,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/49",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -261.0692934900175,
+      "z": 1.4716682970314394,
+      "null_mean": -282.3185211302906,
+      "null_variance": 208.48097504601614,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/51",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -384.2896760332988,
+      "z": 0.6127271663095314,
+      "null_mean": -394.73514027708285,
+      "null_variance": 290.61713806754216,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/51",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -372.9503878061718,
+      "z": 1.1940816765646576,
+      "null_mean": -392.9910318078383,
+      "null_variance": 281.67952431315325,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/51",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -381.93099523742364,
+      "z": 0.7190069026447057,
+      "null_mean": -394.08960187488253,
+      "null_variance": 285.95750343985844,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/52",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -1168.566905451177,
+      "z": -1.4084341382471965,
+      "null_mean": -1128.0947683760883,
+      "null_variance": 825.7321387698103,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/52",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1121.9322096803812,
+      "z": 0.30632874459564674,
+      "null_mean": -1130.6847327059056,
+      "null_variance": 816.3774906539142,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/52",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1146.4549498510362,
+      "z": -0.5668870573438968,
+      "null_mean": -1130.1402196652202,
+      "null_variance": 828.2600384723178,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/53",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -769.1534025974469,
+      "z": -0.008645918573178047,
+      "null_mean": -768.9482951139145,
+      "null_variance": 562.7826893142661,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/53",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -788.016895982149,
+      "z": -0.9179856559597174,
+      "null_mean": -766.4603800009719,
+      "null_variance": 551.4236016022436,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/53",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -776.6542827972326,
+      "z": -0.3544512303895834,
+      "null_mean": -768.234589087903,
+      "null_variance": 564.2604484297149,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/54",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -960.5920975824083,
+      "z": 1.2711535984905113,
+      "null_mean": -994.8650710423756,
+      "null_variance": 726.9549646121849,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/54",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -1022.7847650458976,
+      "z": -1.0905753387438168,
+      "null_mean": -993.5920641492077,
+      "null_variance": 716.5346714217709,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/54",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -1015.5346647388352,
+      "z": -0.784878023872715,
+      "null_mean": -994.3909453319993,
+      "null_variance": 725.7021921478869,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/55",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "log_likelihood": -329.8370209154923,
+      "z": -0.14855514489697055,
+      "null_mean": -327.54414161605973,
+      "null_variance": 238.22481167109066,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/55",
+      "methods": [
+        "line"
+      ],
+      "log_likelihood": -331.37688330068573,
+      "z": -0.36434545459616097,
+      "null_mean": -325.89151952722557,
+      "null_variance": 226.66483910795935,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    },
+    {
+      "page": "LP2/55",
+      "methods": [
+        "corpus"
+      ],
+      "log_likelihood": -327.07897782136575,
+      "z": -0.016214947510850144,
+      "null_mean": -326.828361337237,
+      "null_variance": 238.88461012702402,
+      "exceedances": 999,
+      "p_adjusted": 1.0,
+      "status": "negative"
+    }
+  ],
+  "lead_count": 0,
+  "completed_control_replicates": 999,
+  "requested_control_replicates": 999,
+  "unique_candidates": 169,
+  "control_scores_path": "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\attempt1-H006-v1\\statistics\\control-scores.json",
+  "control_scores_sha256": "d0e575adac5cf2899b63c8574ffd3f660ef0b6399761ea2dd26f57f2d387b766"
+}

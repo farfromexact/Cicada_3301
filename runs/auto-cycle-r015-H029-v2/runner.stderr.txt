@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_v2.py", line 460, in main
+    gate_output = run_worker(run, "gate", gate_public)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_v2.py", line 218, in run_worker
+    raise TimeoutError(f"R015-A worker {name}: {result['status']}") if result["status"] == "timeout" else RuntimeError(f"R015-A worker {name} failed")
+RuntimeError: R015-A worker gate failed

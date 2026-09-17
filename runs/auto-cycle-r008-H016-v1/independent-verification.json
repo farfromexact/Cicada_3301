@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "worker_jobs": 7,
+  "public_sha256": "44bf58aa77b27b3a19d5d8af28622375cc031fb831bd1d93ca97289bf5265f05",
+  "positive_path_checks": [],
+  "incompatible_checks": [
+    {
+      "job": "incompatible",
+      "status": "negative"
+    }
+  ],
+  "independent_algorithm": "separate set recurrence with modulo-13 phase and capped path multiplicity"
+}

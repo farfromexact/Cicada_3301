@@ -1,0 +1,8 @@
+{
+  "status": "skipped",
+  "reason": "power_gate_failed",
+  "power_gate_sha256": "327973a200270fd810d86b20a81938bc957e07677d3d80251b573ace5756b31b",
+  "requested_pages": 55,
+  "requested_runes": 12956,
+  "controls_not_started": true
+}

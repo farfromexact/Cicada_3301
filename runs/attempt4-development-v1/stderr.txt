@@ -1,0 +1,22 @@
+test_corrupt_raw_or_rune_mapping_fails (test_structure_inputs.StructuralInputTests.test_corrupt_raw_or_rune_mapping_fails) ... ok
+test_grid_only_page_is_inapplicable_without_empty_segments (test_structure_inputs.StructuralInputTests.test_grid_only_page_is_inapplicable_without_empty_segments) ... ok
+test_hard_boundaries_never_bridge_rune_fragments (test_structure_inputs.StructuralInputTests.test_hard_boundaries_never_bridge_rune_fragments) ... ok
+test_line_wrap_does_not_invent_word_start (test_structure_inputs.StructuralInputTests.test_line_wrap_does_not_invent_word_start) ... ok
+test_preserves_raw_mapping_and_provenance (test_structure_inputs.StructuralInputTests.test_preserves_raw_mapping_and_provenance) ... ok
+test_registered_soft_markers_do_not_split_analysis_span (test_structure_inputs.StructuralInputTests.test_registered_soft_markers_do_not_split_analysis_span) ... ok
+test_unregistered_runic_literal_is_rejected (test_structure_inputs.StructuralInputTests.test_unregistered_runic_literal_is_rejected) ... ok
+test_constants_are_nondiscriminating (test_structure_stats.StructureStatisticsTests.test_constants_are_nondiscriminating) ... ok
+test_duplicate_occurrence_multiplicity_and_relabel_scope (test_structure_stats.StructureStatisticsTests.test_duplicate_occurrence_multiplicity_and_relabel_scope) ... ok
+test_hard_groups_block_pairs_windows_and_ineligible_boundaries (test_structure_stats.StructureStatisticsTests.test_hard_groups_block_pairs_windows_and_ineligible_boundaries) ... ok
+test_invalid_layout_rejected (test_structure_stats.StructureStatisticsTests.test_invalid_layout_rejected) ... ok
+test_metrics_match_enumerated_small_sequences (test_structure_stats.StructureStatisticsTests.test_metrics_match_enumerated_small_sequences) ... ok
+test_rotation_null_is_in_product_of_segment_rotations (test_structure_stats.StructureStatisticsTests.test_rotation_null_is_in_product_of_segment_rotations) ... ok
+test_shared_a_c_permutations_belongs_to_enumerated_joint_support (test_structure_stats.StructureStatisticsTests.test_shared_a_c_permutations_belongs_to_enumerated_joint_support) ... ok
+test_symmetric_standardization_max_t_plus_one_and_replay (test_structure_stats.StructureStatisticsTests.test_symmetric_standardization_max_t_plus_one_and_replay) ... ok
+test_synthetic_positive_controls (test_structure_stats.StructureStatisticsTests.test_synthetic_positive_controls) ... ok
+test_timeout_retains_completed_controls_but_disables_leads (test_structure_stats.StructureStatisticsTests.test_timeout_retains_completed_controls_but_disables_leads) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.361s
+
+OK

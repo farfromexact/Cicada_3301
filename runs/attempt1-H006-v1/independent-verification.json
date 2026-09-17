@@ -1,0 +1,1916 @@
+{
+  "status": "passed",
+  "unique_transform_checks": 169,
+  "comparisons": [
+    {
+      "page": "LP2/0",
+      "methods": [
+        "page",
+        "paragraph",
+        "corpus"
+      ],
+      "rune_count": 262,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/0",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 262,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/1",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 266,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/1",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 266,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/1",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 266,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/2",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 201,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/2",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 201,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/2",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 201,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "page"
+      ],
+      "rune_count": 217,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 217,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "paragraph"
+      ],
+      "rune_count": 217,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/3",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 217,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/4",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/4",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/4",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/5",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/5",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/5",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "page"
+      ],
+      "rune_count": 196,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 196,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "paragraph"
+      ],
+      "rune_count": 196,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/6",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 196,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/7",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 208,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/7",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 208,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/7",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 208,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/8",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 255,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/8",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 255,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/8",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 255,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/9",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 268,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/9",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 268,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/9",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 268,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/10",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/10",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/10",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/11",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/11",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/11",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/12",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/12",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/12",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/13",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 272,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/13",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 272,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/13",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 272,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/14",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 137,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/14",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 137,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/14",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 137,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "page"
+      ],
+      "rune_count": 159,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 159,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "paragraph"
+      ],
+      "rune_count": 159,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/15",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 159,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/16",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 267,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/16",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 267,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/16",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 267,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/17",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/17",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/17",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/18",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 260,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/18",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 260,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/18",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 260,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/19",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/19",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/19",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/20",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/20",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/20",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/21",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/21",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/21",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/22",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 131,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/22",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 131,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/22",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 131,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/23",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 213,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/23",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 213,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/23",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 213,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/24",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/24",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/24",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/25",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/25",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/25",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/26",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 265,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/26",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 265,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/26",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 265,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/27",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 234,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/27",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 234,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/27",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 234,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/28",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/28",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/28",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/29",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 277,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/29",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 277,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/29",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 277,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/30",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/30",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/30",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/31",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/31",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/31",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 269,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/32",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 121,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/32",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 121,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/32",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 121,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "page"
+      ],
+      "rune_count": 214,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 214,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "paragraph"
+      ],
+      "rune_count": 214,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/33",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 214,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/34",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/34",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/34",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 261,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/35",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/35",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/35",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/36",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 238,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/36",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 238,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/36",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 238,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/37",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 228,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/37",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 228,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/37",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 228,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/38",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 228,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/38",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 228,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/38",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 228,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "page"
+      ],
+      "rune_count": 240,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 240,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "paragraph"
+      ],
+      "rune_count": 240,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/39",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 240,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/40",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 231,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/40",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 231,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/40",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 231,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/41",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/41",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/41",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/42",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 272,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/42",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 272,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/42",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 272,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/43",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 274,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/43",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 274,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/43",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 274,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/44",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/44",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/44",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 273,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/45",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/45",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/45",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/46",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/46",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/46",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 270,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/47",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 274,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/47",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 274,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/47",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 274,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/48",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/48",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/48",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 271,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/49",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 66,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/49",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 66,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/49",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 66,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/51",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 92,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/51",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 92,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/51",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 92,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/52",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/52",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/52",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 263,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/53",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 179,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/53",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 179,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/53",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 179,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/54",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 232,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/54",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 232,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/54",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 232,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/55",
+      "methods": [
+        "page",
+        "paragraph"
+      ],
+      "rune_count": 76,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/55",
+      "methods": [
+        "line"
+      ],
+      "rune_count": 76,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    },
+    {
+      "page": "LP2/55",
+      "methods": [
+        "corpus"
+      ],
+      "rune_count": 76,
+      "delta_exact": true,
+      "arithmetic_exact": true,
+      "roundtrip_exact": true,
+      "plaintext_truth": "unknown unless synthetic verifier"
+    }
+  ]
+}

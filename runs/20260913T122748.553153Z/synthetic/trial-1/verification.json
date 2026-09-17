@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "exact_plaintext": true,
+  "exact_key": true,
+  "roundtrip": true,
+  "covered": 928,
+  "score_gap": 768.5529355238505,
+  "read_guard_probe_passed": true
+}

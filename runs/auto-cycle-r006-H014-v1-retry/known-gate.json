@@ -1,0 +1,34 @@
+{
+  "input_runes": 226,
+  "expected_runes": 226,
+  "skip_coordinates": [
+    65,
+    76
+  ],
+  "skip_ordinals": [
+    49,
+    58
+  ],
+  "key_indices": [
+    0,
+    10,
+    4,
+    0,
+    1,
+    19,
+    0,
+    18,
+    4,
+    18,
+    9,
+    0,
+    18
+  ],
+  "mismatch_count": 0,
+  "mismatch_ordinals": [],
+  "exact": true,
+  "terminal_clock": 224,
+  "inverse_roundtrip": true,
+  "inverse_terminal_clock": 224,
+  "status": "passed"
+}

@@ -1,0 +1,27 @@
+{
+  "warning_status": "passed",
+  "warning_runes": 184,
+  "warning_identity_mismatches": 182,
+  "matrix_status": "passed",
+  "matrix_cells": 25,
+  "row_sums": [
+    1033,
+    1033,
+    1033,
+    1033,
+    1033
+  ],
+  "column_sums": [
+    1033,
+    1033,
+    1033,
+    1033,
+    1033
+  ],
+  "diagonals": [
+    1033,
+    1033
+  ],
+  "unsolved_candidates": 0,
+  "status": "passed"
+}

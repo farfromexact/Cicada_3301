@@ -1,0 +1,102 @@
+{
+  "H001-divinity-subtract-specified_free-continuous": {
+    "source_skip": [
+      48,
+      74,
+      84,
+      132,
+      159,
+      160,
+      250,
+      421,
+      443,
+      465,
+      514
+    ],
+    "expected_plaintext_f": [
+      48,
+      74,
+      84,
+      132,
+      159,
+      160,
+      250,
+      421,
+      443,
+      465,
+      514
+    ],
+    "same_mask": true,
+    "forward_from_plaintext_f_exact": true,
+    "cipher_f": [
+      5,
+      14,
+      47,
+      48,
+      74,
+      84,
+      132,
+      144,
+      152,
+      159,
+      160,
+      165,
+      219,
+      250,
+      317,
+      331,
+      398,
+      421,
+      423,
+      443,
+      465,
+      470,
+      499,
+      505,
+      514
+    ],
+    "ordinary_cipher_f": [
+      5,
+      14,
+      47,
+      144,
+      152,
+      165,
+      219,
+      317,
+      331,
+      398,
+      423,
+      470,
+      499,
+      505
+    ],
+    "non_f_consumed": 504,
+    "interpretation": "Scoped observed compatibility on exact known pages; not a universal skip selector from ciphertext"
+  },
+  "H001-prime-specified_free": {
+    "source_skip": [
+      56
+    ],
+    "expected_plaintext_f": [
+      56
+    ],
+    "same_mask": true,
+    "forward_from_plaintext_f_exact": true,
+    "cipher_f": [
+      35,
+      47,
+      51,
+      56,
+      74
+    ],
+    "ordinary_cipher_f": [
+      35,
+      47,
+      51,
+      74
+    ],
+    "non_f_consumed": 84,
+    "interpretation": "Scoped observed compatibility on exact known pages; not a universal skip selector from ciphertext"
+  }
+}

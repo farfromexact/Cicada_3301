@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "hypothesis": "H012-koan-reverse-shift-v1",
+  "attempt": "auto-cycle R004 method-family-switch",
+  "status": "passed",
+  "started_at_utc": "2026-09-13T11:53:23.873214+00:00",
+  "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+  "executable": "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "unsolved_page_candidates": [],
+  "frozen_sha256": "a365af54d9ca38a91f58746a1c0774fc819ec5740194775e193f3cce8747e1ef",
+  "source_files_verified": 103,
+  "result": {
+    "mismatch_count": 0,
+    "inverse_roundtrip": true,
+    "random_controls": 32,
+    "controls_ok": true
+  },
+  "actual_coverage": {
+    "known_page": "LP1/06",
+    "rune_positions": 209,
+    "random_affine_controls": 32,
+    "unsolved_page_candidates": []
+  },
+  "reproduction_bundle": {
+    "path": "runs/auto-cycle-r004-H012-v1/reproduction-bundle.zip",
+    "sha256": "da6f0e8c8754712be3f79a1f96d6c69614d1f4db0d8adc7cf2f564f5b434b97d",
+    "bytes": 33512534
+  },
+  "finished_at_utc": "2026-09-13T11:53:30.069346+00:00",
+  "elapsed_seconds": 6.186999999998079
+}

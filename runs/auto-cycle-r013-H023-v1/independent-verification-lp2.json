@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "worker_jobs": 1,
+  "positive_row_checks": [],
+  "page_checks": 55,
+  "rune_checks": 12956,
+  "independent_algorithm": "separate raw-character parser and pooled 29x2 G calculation"
+}

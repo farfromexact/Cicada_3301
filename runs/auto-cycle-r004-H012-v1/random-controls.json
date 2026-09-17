@@ -1,0 +1,232 @@
+{
+  "seed": 33011201,
+  "requested": 32,
+  "completed": 32,
+  "controls": [
+    {
+      "a": 25,
+      "b": 6,
+      "mismatch_count": 205,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 13,
+      "b": 4,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 12,
+      "b": 22,
+      "mismatch_count": 196,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 14,
+      "b": 14,
+      "mismatch_count": 201,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 16,
+      "b": 10,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 17,
+      "b": 14,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 3,
+      "b": 1,
+      "mismatch_count": 201,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 14,
+      "b": 11,
+      "mismatch_count": 205,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 17,
+      "b": 17,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 13,
+      "b": 21,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 8,
+      "b": 19,
+      "mismatch_count": 205,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 3,
+      "b": 24,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 4,
+      "b": 23,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 27,
+      "b": 12,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 17,
+      "b": 21,
+      "mismatch_count": 188,
+      "first_mismatch": 1,
+      "status": "negative"
+    },
+    {
+      "a": 20,
+      "b": 3,
+      "mismatch_count": 205,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 12,
+      "b": 7,
+      "mismatch_count": 180,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 3,
+      "b": 28,
+      "mismatch_count": 197,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 15,
+      "b": 1,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 26,
+      "b": 7,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 12,
+      "b": 12,
+      "mismatch_count": 204,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 4,
+      "b": 25,
+      "mismatch_count": 188,
+      "first_mismatch": 1,
+      "status": "negative"
+    },
+    {
+      "a": 19,
+      "b": 15,
+      "mismatch_count": 199,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 17,
+      "b": 13,
+      "mismatch_count": 201,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 11,
+      "b": 1,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 11,
+      "b": 6,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 20,
+      "b": 18,
+      "mismatch_count": 208,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 23,
+      "b": 20,
+      "mismatch_count": 202,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 3,
+      "b": 11,
+      "mismatch_count": 201,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 6,
+      "b": 11,
+      "mismatch_count": 188,
+      "first_mismatch": 1,
+      "status": "negative"
+    },
+    {
+      "a": 25,
+      "b": 21,
+      "mismatch_count": 192,
+      "first_mismatch": 0,
+      "status": "negative"
+    },
+    {
+      "a": 28,
+      "b": 0,
+      "mismatch_count": 209,
+      "first_mismatch": 0,
+      "status": "negative"
+    }
+  ],
+  "all_negative": true
+}

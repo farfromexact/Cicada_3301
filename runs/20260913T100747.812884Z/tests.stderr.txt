@@ -1,0 +1,43 @@
+test_control_correlations_maxima_plus_one_and_replay (test_attempt1_stats.Attempt1StatisticsTests.test_control_correlations_maxima_plus_one_and_replay) ... ok
+test_exact_moments_match_all_permutations_including_duplicates (test_attempt1_stats.Attempt1StatisticsTests.test_exact_moments_match_all_permutations_including_duplicates) ... ok
+test_invariant_delta_is_nondiscriminating_and_cannot_be_lead (test_attempt1_stats.Attempt1StatisticsTests.test_invariant_delta_is_nondiscriminating_and_cannot_be_lead) ... ok
+test_single_rune_and_constant_weights_have_zero_variance (test_attempt1_stats.Attempt1StatisticsTests.test_single_rune_and_constant_weights_have_zero_variance) ... ok
+test_timeout_preserves_completed_control_replicates (test_attempt1_stats.Attempt1StatisticsTests.test_timeout_preserves_completed_control_replicates) ... ok
+test_bad_boundaries_fail (test_attempt1_worker.FixedClockWorkerTests.test_bad_boundaries_fail) ... ok
+test_guard_and_rejected_secret_field (test_attempt1_worker.FixedClockWorkerTests.test_guard_and_rejected_secret_field) ... ok
+test_manual_prime_clock_and_aliases (test_attempt1_worker.FixedClockWorkerTests.test_manual_prime_clock_and_aliases) ... ok
+test_cannot_promote_untested_interpretation (test_clues.ClueTests.test_cannot_promote_untested_interpretation) ... ok
+test_graph_provenance_and_prior_negative (test_clues.ClueTests.test_graph_provenance_and_prior_negative) ... ok
+test_matrix_cells_and_structure (test_clues.ClueTests.test_matrix_cells_and_structure) ... ok
+test_rejects_missing_source_locator (test_clues.ClueTests.test_rejects_missing_source_locator) ... ok
+test_warning_from_original_and_identity_negative (test_clues.ClueTests.test_warning_from_original_and_identity_negative) ... ok
+test_delimiter_ambiguity_is_preserved (test_lab.DataTests.test_delimiter_ambiguity_is_preserved) ... ok
+test_lossless_tokens_and_locations (test_lab.DataTests.test_lossless_tokens_and_locations) ... ok
+test_mapping_against_pinned_gp_table (test_lab.DataTests.test_mapping_against_pinned_gp_table) ... ok
+test_pinned_source_hashes (test_lab.DataTests.test_pinned_source_hashes) ... ok
+test_transcription_is_exact_master_slice (test_lab.DataTests.test_transcription_is_exact_master_slice) ... ok
+test_unknown_rune_is_error (test_lab.DataTests.test_unknown_rune_is_error) ... ok
+test_nonzero_is_error (test_lab.ProtocolTests.test_nonzero_is_error) ... ok
+test_real_timeout (test_lab.ProtocolTests.test_real_timeout) ... ok
+test_timeout_is_separate (test_lab.ProtocolTests.test_timeout_is_separate) ... ok
+test_verifier_requires_full_answer_not_just_roundtrip (test_lab.ProtocolTests.test_verifier_requires_full_answer_not_just_roundtrip) ... ok
+test_worker_rejects_seed_field (test_lab.ProtocolTests.test_worker_rejects_seed_field) ... ok
+test_exact_rune_references_and_inverse (test_lab.RegressionTests.test_exact_rune_references_and_inverse) ... ok
+test_identity_57 (test_lab.RegressionTests.test_identity_57) ... ok
+test_input_mutation_cannot_pass (test_lab.RegressionTests.test_input_mutation_cannot_pass) ... ok
+test_invalid_skip_rejected (test_lab.RegressionTests.test_invalid_skip_rejected) ... ok
+test_no_skip_negative_and_first_divergence (test_lab.RegressionTests.test_no_skip_negative_and_first_divergence) ... ok
+test_reference_segmentation_not_greedy (test_lab.RegressionTests.test_reference_segmentation_not_greedy) ... ok
+test_wrong_prime_offset_cannot_pass (test_lab.RegressionTests.test_wrong_prime_offset_cannot_pass) ... ok
+test_asymmetric_control_and_invalid_shape (test_math_audit.MathAuditTests.test_asymmetric_control_and_invalid_shape) ... ok
+test_finite_field_and_no_zero_inverse (test_math_audit.MathAuditTests.test_finite_field_and_no_zero_inverse) ... ok
+test_mapping_collision_is_not_reversible (test_math_audit.MathAuditTests.test_mapping_collision_is_not_reversible) ... ok
+test_phi_composite_and_boundary_values (test_math_audit.MathAuditTests.test_phi_composite_and_boundary_values) ... ok
+test_position_and_rune_value_controls_differ (test_math_audit.MathAuditTests.test_position_and_rune_value_controls_differ) ... ok
+test_method_is_not_a_reproduced_cipher_claim (test_methods.MethodTests.test_method_is_not_a_reproduced_cipher_claim) ... ok
+test_preference_retrieval_retains_attribution (test_methods.MethodTests.test_preference_retrieval_retains_attribution) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 0.517s
+
+OK

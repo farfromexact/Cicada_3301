@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "id": "H016-periodic-plaintext-F-state-v1",
+  "attempt": "auto-cycle R008",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "C017 records exact known-page evidence that plaintext F can be copied without advancing a clock, while ordinary encryption can also produce ciphertext F.",
+    "H007 tested the same ambiguity as a finite state model for a prime stream, but did not test a periodic repeating key.",
+    "H014 tested FIRFUMFERENFE with deterministic ciphertext-F consume/free policies; it did not preserve both inverse paths for each ciphertext F."
+  ],
+  "hypothesis": "The fixed FIRFUMFERENFE subtractive repeating-key model remains compatible with LP2 when plaintext F is an exception that is copied without consuming the 13-position key clock; unknown ciphertext F positions must therefore be represented by both legal inverse transitions.",
+  "falsifiable_predictions": [
+    "A private synthetic ciphertext encrypted with the fixed key and containing both copied plaintext-F exceptions and ordinary non-F plaintexts that encrypt to ciphertext F has its generating path reachable under both continuity branches.",
+    "The preregistered incompatible ciphertext [1,10] has no terminal state from phase 0 because the second symbol would decode to forbidden plaintext F at key phase 1.",
+    "All 55 applicable LP2 pages are evaluated under page-reset and numeric-order continuous branches; at least one of the 56 registered statistic units must have maxT-adjusted p<=0.01 to count as a diagnostic lead.",
+    "A surviving state is compatibility evidence only; no LP2 page is accepted as decrypted without an independent plaintext or structural prediction."
+  ],
+  "sources": [
+    {"path": "hypotheses/H014-circumference-transfer-v1.json", "role": "Previously frozen public key and deterministic F policy; this experiment adds the finite-state ambiguity."},
+    {"path": "sources/context/known-keys.txt", "role": "Archived source-reported FIRFUMFERENFE key indices."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus and page applicability."},
+    {"path": "research/knowledge.json", "role": "C017 known-page exception evidence; read for registration only."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 pages containing registered rune tokens, including rune portions of mixed literal pages LP2/49 and LP2/51.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; its literal alphanumeric grid is outside this rune-domain state model and is unexecuted, not negative."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; all non-rune characters remain outside the public state sequence and are not silently deleted or rewritten.",
+  "key": {
+    "label": "FIRFUMFERENFE",
+    "indices": [0, 10, 4, 0, 1, 19, 0, 18, 4, 18, 9, 0, 18],
+    "direction": "subtractive inverse P=(C-K[r]) mod29",
+    "initial_phase": 0,
+    "phase_domain": "r in 0..12; consuming a normal transition advances r modulo 13"
+  },
+  "state_model": {
+    "normal_transition": "For input c, p=(c-K[r]) mod29 is legal only when p!=0; it consumes one key phase and advances r.",
+    "plaintext_f_exception": "Only when c=0, emit p=0 without consuming the key phase; retain this transition together with any legal normal transition.",
+    "merge": "Merge states with equal processed position and phase; cap path multiplicity per phase at 2 for ambiguity diagnostics.",
+    "literals": "Non-rune characters do not enter the state sequence and do not consume phase.",
+    "continuity": ["page_reset", "continuous_numeric_page_order"]
+  },
+  "algorithm_version": "H016-v1: repeating 13-rune key finite-state inverse with copied plaintext-F exception; no key search, skip-mask search, dictionary, language completion or output-selected exception set.",
+  "statistics": {
+    "metric": "Longest legal prefix ratio per page-reset page and for the complete continuous corpus; a complete path has ratio 1.0.",
+    "units": "55 page-reset units plus 1 continuous whole-corpus unit; continuous downstream pages after an empty prefix are marked not_reached and are not treated as independent negatives.",
+    "maxT": "Standardize observed and 999 control metric vectors together; compare each observed unit with the maximum control z across all 56 units using plus-one p and fixed tie tolerance 1e-12.",
+    "lead": "A complete control set and maxT-adjusted p<=0.01 is an exploratory compatibility lead only; it is not a decryption acceptance criterion.",
+    "negative": "Complete controls, passed independent validation and no lead is negative only for this exact key, transition rule, two continuity branches and fixed F-mask permutation null."
+  },
+  "controls": {
+    "random_replicates": 999,
+    "random_null": "For every page, keep ciphertext-F positions fixed and uniformly shuffle only the multiset of nonzero rune values among the remaining positions; preserve page length and page boundaries.",
+    "synthetic_positive": "Verifier-only deterministic plaintexts include at least one copied plaintext F and at least one nonzero plaintext whose fixed-key normal encryption produces ciphertext F; expected paths never enter the worker.",
+    "impossible_control": "Public one-page ciphertext [1,10] must have no terminal state from phase 0.",
+    "independent": "A separate set-based recurrence recomputes every observed state summary; a direct encryptor checks synthetic positive paths and a direct transition check confirms the impossible control."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011601,
+    "role": "Observed/control page permutations only; never passed to worker and never used as key or plaintext seed."
+  },
+  "frozen_before_candidates": "The runner writes specification, source/data hashes, public ciphertext jobs, verifier-only expected paths, code snapshot and control seed before invoking the guarded worker or calculating control statistics.",
+  "independent_validation_path": "The worker uses a guarded phase-set implementation; the orchestrator uses a separate set recurrence and direct path arithmetic, with exact field-by-field comparison and no worker access to verifier-only files.",
+  "total_budget": {
+    "pages": 55,
+    "runes": 12956,
+    "continuity_branches": 2,
+    "statistic_units": 56,
+    "control_replicates": 999,
+    "wall_seconds": 120,
+    "state_transition_upper_bound": "At most two outgoing transitions per reachable phase and rune; no complete exception-mask enumeration."
+  },
+  "uncovered_parameters": [
+    "Other keys, directions, offsets, periods and key derivations",
+    "Other F policies, unknown literal/grid consumption and alternative page orders",
+    "Feedback/autokey, multiplicative projections, PGL transforms and geometry",
+    "Independent LP2 plaintext, image-level glyph audit and LP2/50 literal grid"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a diagnostic lead survives controls, register an independent prediction and exact page before interpretation; otherwise move to a new method family without adding key or exception parameters to H016.",
+  "note": "This is a finite-state compatibility diagnostic, not a plaintext search or decryption claim."
+}

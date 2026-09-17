@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "H013-affine-generalization-v1",
+  "attempt": "auto-cycle R005",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "H012 reproduced a source-reported reverse-plus-three map on LP1/06 but explicitly excluded LP2; this is a new all-applicable-page transfer test, not a repeat of H012.",
+    "The map is fixed before observing LP2 output: P=(28-C+3) mod29, or (a,b)=(28,2) over rune ordinals 0..28.",
+    "H009 qualified a training-only unigram scorer as a diagnostic; it cannot by itself certify unknown plaintext."
+  ],
+  "hypothesis": "The fixed LP1/06 reverse-plus-three affine map transfers to LP2 rune pages and produces language-like rune outputs more often or more strongly than random invertible affine maps.",
+  "mechanistic_basis": "Reverse ordinal mapping gives 28-C and the source adds +3, yielding P=(28-C+3) mod29. No key, dictionary, page-specific tuning, skip, reset, delimiter consumption or post-hoc spelling correction is introduced.",
+  "falsifiable_predictions": [
+    "The fixed map can be applied losslessly to all 55 rune-bearing pages in the pinned LP2/0..55 corpus while preserving every non-rune character and page boundary.",
+    "At least one applicable page has a fixed-map training-only unigram mean score at maxT-adjusted p<=0.01 against 256 preregistered random invertible affine controls, with higher score meaning more language-like.",
+    "The fixed-map output re-encrypts exactly to the original rune sequence on every applicable page, and an independent arithmetic path reproduces all observed scores.",
+    "A statistical lead remains only a candidate diagnostic; without an independent plaintext prediction it is not a solved page."
+  ],
+  "data_versions": [
+    "data/attempt1-corpus-v1.json",
+    "data/synthetic/training.txt"
+  ],
+  "page_universe": "LP2/0..55 from attempt1-corpus-v1; rune-bearing LP2/0..49 and LP2/51..55 are applicable, LP2/50 has no rune-domain symbols and is excluded.",
+  "scope": "All 55 applicable LP2 pages, 12956 rune positions; LP2/50 retained in coverage as inapplicable. No LP1 source plaintext is supplied to the scoring path.",
+  "algorithm_version": "H013-v1: decode each rune ordinal with (28*C+2) mod29; preserve all non-rune raw characters; score decoded rune indices with H009's frozen training-only unigram weights.",
+  "parameter_derivation_policy": "The affine coefficients are inherited only as the fixed, source-derived H012 prediction; no LP2 page may choose its own coefficients. Control pairs, seed, score, maxT rule and applicability set are frozen before decoding.",
+  "page_and_section_continuity_hypothesis": "The substitution is memoryless within each page; no cross-page stream, line reset, separator consumption or page-specific phase is added.",
+  "scorer_and_acceptance_version": {
+    "scorer": "Per-page mean of H009's additive-smoothed training-only unigram log weights; no candidate-specific retuning, Latin completion or dictionary.",
+    "controls": "For each page, compare the fixed map with 256 unique random invertible affine maps over Z/29Z, excluding (28,2). Standardize each page using observed plus controls and use the maximum control z across pages for maxT p-values.",
+    "lead": "A page is a diagnostic lead only when its fixed-map p_adjusted<=0.01 and its rune count is positive. No lead is accepted as plaintext without a separately registered independent prediction.",
+    "negative": "If no page meets the lead rule after all controls and validations complete, report negative only for this fixed transfer prediction, score and affine-control null.",
+    "error_or_timeout": "Source/data integrity failure, incomplete control budget or failed independent arithmetic is error/timeout/inconclusive, never negative."
+  },
+  "frozen_before_candidates": "The runner writes frozen.json with source hashes, page order, coefficients, training counts, control seed/pairs and acceptance rule before writing decoded outputs or statistics.",
+  "total_budget": {
+    "pages": 55,
+    "runes": 12956,
+    "random_affine_controls": 256,
+    "score_cells": 14080,
+    "wall_seconds": 120,
+    "origin": "Bounded all-applicable-page transfer test for auto-cycle R005; no prior side-chat budget inherited."
+  },
+  "controls": [
+    "256 fixed-seed unique random invertible affine maps, labeled controls and never promoted to keys.",
+    "Page order, rune counts, raw hashes and excluded LP2/50 applicability are checked against the pinned corpus.",
+    "Independent direct arithmetic recomputes the fixed transform, score and inverse re-encryption for every rune position.",
+    "Decoded raw output preserves delimiters, line markers, whitespace and non-rune literals; no silent normalization is allowed."
+  ],
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011301,
+    "role": "Control-map selection only; never a candidate key, seed or plaintext source."
+  },
+  "discovery_path": "Fixed source-derived affine transfer plus training-only score; no brute-force parameter selection and no hidden answer, dictionary or external network input.",
+  "independent_validation_path": "A separate direct loop recomputes P=(28-C+3) mod29, the inverse involution, per-page scores and exact rune roundtrips without calling the observed transform helper.",
+  "correlated_transform_deduplication": "The registered (28,2) map is evaluated once. Random affine pairs are controls, not 256 additional hypotheses; maxT accounts for page multiplicity.",
+  "uncovered_parameters": [
+    "Other affine coefficients, keyed/stream/composite transforms and transpositions",
+    "LP2 glyph-image corrections, Latin ambiguity resolution and delimiter semantics",
+    "Independent plaintext prediction for any score lead",
+    "LP1/14-15 CIRCUMFERENCE and geometry-derived key streams"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a lead appears, freeze its page and an independent plaintext or structural prediction in a new experiment before interpreting it; otherwise switch to an untested mechanism family rather than retuning affine parameters.",
+  "note": "A fixed-map score lead is evidence for follow-up only. This batch cannot claim a solved LP2 page from language score alone."
+}

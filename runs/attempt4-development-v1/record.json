@@ -1,0 +1,22 @@
+{
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-p",
+    "test_structure*.py",
+    "-v"
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout": "",
+  "stderr": "test_corrupt_raw_or_rune_mapping_fails (test_structure_inputs.StructuralInputTests.test_corrupt_raw_or_rune_mapping_fails) ... ok\ntest_grid_only_page_is_inapplicable_without_empty_segments (test_structure_inputs.StructuralInputTests.test_grid_only_page_is_inapplicable_without_empty_segments) ... ok\ntest_hard_boundaries_never_bridge_rune_fragments (test_structure_inputs.StructuralInputTests.test_hard_boundaries_never_bridge_rune_fragments) ... ok\ntest_line_wrap_does_not_invent_word_start (test_structure_inputs.StructuralInputTests.test_line_wrap_does_not_invent_word_start) ... ok\ntest_preserves_raw_mapping_and_provenance (test_structure_inputs.StructuralInputTests.test_preserves_raw_mapping_and_provenance) ... ok\ntest_registered_soft_markers_do_not_split_analysis_span (test_structure_inputs.StructuralInputTests.test_registered_soft_markers_do_not_split_analysis_span) ... ok\ntest_unregistered_runic_literal_is_rejected (test_structure_inputs.StructuralInputTests.test_unregistered_runic_literal_is_rejected) ... ok\ntest_constants_are_nondiscriminating (test_structure_stats.StructureStatisticsTests.test_constants_are_nondiscriminating) ... ok\ntest_duplicate_occurrence_multiplicity_and_relabel_scope (test_structure_stats.StructureStatisticsTests.test_duplicate_occurrence_multiplicity_and_relabel_scope) ... ok\ntest_hard_groups_block_pairs_windows_and_ineligible_boundaries (test_structure_stats.StructureStatisticsTests.test_hard_groups_block_pairs_windows_and_ineligible_boundaries) ... ok\ntest_invalid_layout_rejected (test_structure_stats.StructureStatisticsTests.test_invalid_layout_rejected) ... ok\ntest_metrics_match_enumerated_small_sequences (test_structure_stats.StructureStatisticsTests.test_metrics_match_enumerated_small_sequences) ... ok\ntest_rotation_null_is_in_product_of_segment_rotations (test_structure_stats.StructureStatisticsTests.test_rotation_null_is_in_product_of_segment_rotations) ... ok\ntest_shared_a_c_permutations_belongs_to_enumerated_joint_support (test_structure_stats.StructureStatisticsTests.test_shared_a_c_permutations_belongs_to_enumerated_joint_support) ... ok\ntest_symmetric_standardization_max_t_plus_one_and_replay (test_structure_stats.StructureStatisticsTests.test_symmetric_standardization_max_t_plus_one_and_replay) ... ok\ntest_synthetic_positive_controls (test_structure_stats.StructureStatisticsTests.test_synthetic_positive_controls) ... ok\ntest_timeout_retains_completed_controls_but_disables_leads (test_structure_stats.StructureStatisticsTests.test_timeout_retains_completed_controls_but_disables_leads) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.361s\n\nOK\n",
+  "elapsed_seconds": 0.7030000000013388,
+  "timeout_seconds": 30,
+  "recorded_at_utc": "2026-09-13T10:50:50.279537+00:00"
+}

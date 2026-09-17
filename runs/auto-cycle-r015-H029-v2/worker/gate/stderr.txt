@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_v2_worker.py", line 99, in <module>
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_v2_worker.py", line 74, in main
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt20_dsl_v2_worker.py", line 61, in validate_public
+ValueError: R015-A rune budget exceeded

@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/prepare_attempt1.py"
+  ],
+  "started_at_utc": "2026-09-13T09:58:37.064001+00:00",
+  "finished_at_utc": "2026-09-13T09:58:37.881501+00:00",
+  "status": "passed",
+  "exit_code": 0,
+  "stdout": "stdout.txt",
+  "stderr": "stderr.txt",
+  "candidate_cryptanalysis_executed": 0,
+  "script_sha256": "4e9a8a8e510ece5adb047f57bc7b1753f28e72e444924274375aa8c2dc4a0de5"
+}

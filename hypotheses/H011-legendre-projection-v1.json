@@ -1,0 +1,71 @@
+{
+  "schema": 1,
+  "id": "H011-legendre-projection-v1",
+  "attempt": "auto-cycle R003",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "FEED-009 P3: for the explicit base-2 prime exponent multiplier, the Legendre projection is preserved at every position after the first square-residue exception.",
+    "H008 already tested full-symbol equality lags, literal-hyphen association and four-rune collisions; this is a new lossy three-valued representation and a separate registered statistic family.",
+    "H010 was a complete negative for its full multiplicative decode/score branches, so this round tests the lower-cost projection consequence without adding an unregistered key search."
+  ],
+  "hypothesis": "If the unsolved rune pages use a fixed base-2 prime-exponent multiplicative layer, an order-sensitive Legendre projection of the ciphertext may retain language-structured lag correlations even when full rune equality does not.",
+  "mechanistic_basis": "chi(0)=0 and chi(x)=x^14 in F29 for nonzero x. For a_t=2^(p_t-1), chi(a_t)=1 for every t>=1; only the first exponent is a registered exception. The projection is a diagnostic consequence, not a decryption rule.",
+  "falsifiable_predictions": [
+    "All 55 rune-bearing LP2 pages are tested at lags 1..28 within the original hard prose groups, yielding 1540 fixed page/lag cells; LP2/50 remains explicitly inapplicable.",
+    "The absolute mean product chi(C_i)*chi(C_(i+lag)) for at least one cell exceeds the family-wide maximum from 999 independent within-page rune permutations at adjusted p<=0.01 if a projected structural lead exists.",
+    "A complete scan with no adjusted lead is negative only for this projection, lag window, boundaries and permutation null; it does not reject the multiplicative family or the LP cipher.",
+    "The independent synthetic sensitivity check must reproduce the projection exactly for a base-2 prime-exponent encryption with the first plaintext rune fixed to F; failure is error, not negative."
+  ],
+  "data_versions": [
+    "data/attempt1-corpus-v1.json",
+    "data/synthetic/heldout.txt"
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "default_scope": "all applicable unsolved pages",
+  "applicable_objects": "All 55 LP2 pages containing registered rune tokens; hard groups come from lossless token/layout parsing and no pair crosses a hard break.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "No registered rune tokens; literal alphanumeric grid is outside this rune-projection experiment and is retained as unexecuted, not negative."}
+  ],
+  "representation": "chi(0)=0; chi(x)=+1 when pow(x,14,29)=1 and -1 otherwise for x=1..28. Original rune index and zero mask remain available; no Latin or GP conversion.",
+  "algorithm_version": "H011-v1 / legendre-lag-v1: for each page and lag 1..28, compute abs(mean of chi products over pairs whose endpoints share a hard prose group).",
+  "parameter_derivation_policy": "Lag window, group boundaries, absolute two-sided statistic, first-position handling, permutation seed, maxT correction and sensitivity control are fixed before the unknown-page statistics are inspected.",
+  "page_and_section_continuity_hypothesis": "This statistic is position-local and does not assume a clock reset; numeric page boundaries and hard token groups are respected. The first-position exception is retained in the sequence, not silently edited.",
+  "scorer_and_acceptance_version": {
+    "score": "No language model and no candidate plaintext; absolute order-sensitive Legendre autocorrelation only.",
+    "controls": "999 independent Python MT19937 within-page permutations preserving every page's full rune multiset, with fixed groups and lag cells.",
+    "multiple_testing": "Standardize each of 1540 cells using observed plus all controls; compare each observed z with the maximum z over all cells in every control replicate. Adjusted p=(1+exceedances)/1000.",
+    "lead": "A complete-control p<=0.01 cell is an exploratory projection lead and remains inconclusive until a new independent mechanism/key prediction is registered.",
+    "decipherment": "No page is accepted as decrypted from a projection lead, a high score, or a readable-looking mapping."
+  },
+  "frozen_before_candidates": "The runner stores all hashes, page/group layout, statistic definition, control seed and code snapshot before calculating unknown-page observed statistics or generating permutations.",
+  "total_budget": {
+    "cells": 1540,
+    "control_replicates": 999,
+    "control_cell_evaluations": 1538460,
+    "wall_seconds": 120,
+    "origin": "Bounded local full-corpus projection diagnostic for auto-cycle R003; no side-chat budget inherited."
+  },
+  "controls": [
+    "999 page-wise permutations preserve full rune counts and hard group masks.",
+    "Synthetic sensitivity: fixed heldout slice, first plaintext rune F, base-2 prime-exponent encryption, and exact chi preservation for all later positions.",
+    "Independent pure-Python chi/manual replay against the vectorized measurement; raw control matrix retained in NPZ."
+  ],
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011101,
+    "role": "Permutation controls only; never a key or plaintext seed."
+  },
+  "discovery_path": "Only lossless public rune indices and group masks are used. No reference plaintext, answer, dictionary, candidate key or external feed is read by the statistic.",
+  "independent_validation_path": "Pure-Python product accumulation recomputes every observed page/lag statistic; an independent synthetic formula check verifies the stated Legendre multiplier property.",
+  "correlated_transform_deduplication": "Only one projection family is tested. Absolute positive/negative correlations are combined in one two-sided statistic; no alternate roots, log28 views or mod4/mod7 projections are added.",
+  "uncovered_parameters": [
+    "H010 full multiplicative decode already tested",
+    "other multiplicative bases/exponents and affine/composite layers",
+    "higher-order projection ngrams, lags >28 and alternative segmentation",
+    "LP2 grid/image geometry, transposition, page order and key recovery"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a projection lead appears, freeze a separate source-directed drilldown; otherwise count this as the third no-candidate round and force a method-family switch in R004.",
+  "note": "This experiment tests a necessary consequence only under a restricted multiplier model. It cannot independently establish that LP uses that model."
+}

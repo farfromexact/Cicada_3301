@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "created_at_utc": "2026-09-13T14:08:05.562101+00:00",
+  "reason": "H023 audited population assertions were attached to H018 coverage object where those fields do not exist. Correct evidence path is H023 audit lp2 object.",
+  "failed_regression": "runs/20260913T140657.442900Z/record.json",
+  "before_entry": {
+    "id": "E021-h018-v2-fourth-power-projection",
+    "hypothesis": "H018-fourth-power-projection-v2",
+    "outcome": "negative",
+    "artifact": "runs/auto-cycle-r010-H018-v2/statistics.json",
+    "assertions": {
+      "status": "negative",
+      "verification_status": "passed",
+      "controls_completed": 999,
+      "coverage.pages": 55,
+      "coverage.runes": 12956,
+      "coverage.score_units": 55,
+      "coverage.statistical_rows": 578,
+      "coverage.statistical_runes": 12621,
+      "coverage.excluded_runes_by_hard_segment_rule": 335,
+      "coverage.control_replicates": 999,
+      "coverage.unsolved_page_candidates": [],
+      "power_gate.status": "passed",
+      "power_gate.positive_score_passes": 20,
+      "power_gate.negative_false_accepts": 0,
+      "leads": []
+    },
+    "coverage": "H018-v2：x^4 mod29的八类投影（零加七个非零类），先经20/20正例和0/20负误收功效门，再对LP2全部55个含符文页/12956符文完成999组零保持页内非零密文置换和独立验证；无lead或候选，最强LP2/55的maxT校正p=0.958。阴性仅限固定投影、相邻类相等统计、逐页重置和置换零假设。"
+  },
+  "after_entry": {
+    "id": "E021-h018-v2-fourth-power-projection",
+    "hypothesis": "H018-fourth-power-projection-v2",
+    "outcome": "negative",
+    "artifact": "runs/auto-cycle-r010-H018-v2/statistics.json",
+    "assertions": {
+      "status": "negative",
+      "verification_status": "passed",
+      "controls_completed": 999,
+      "coverage.pages": 55,
+      "coverage.runes": 12956,
+      "coverage.score_units": 55,
+      "coverage.control_replicates": 999,
+      "coverage.unsolved_page_candidates": [],
+      "power_gate.status": "passed",
+      "power_gate.positive_score_passes": 20,
+      "power_gate.negative_false_accepts": 0,
+      "leads": []
+    },
+    "coverage": "H018-v2：x^4 mod29的八类投影（零加七个非零类），先经20/20正例和0/20负误收功效门，再对LP2全部55个含符文页/12956符文完成999组零保持页内非零密文置换和独立验证；无lead或候选，最强LP2/55的maxT校正p=0.958。阴性仅限固定投影、相邻类相等统计、逐页重置和置换零假设。"
+  },
+  "new_entry": {
+    "id": "E025-h023-coverage-audit",
+    "hypothesis": "H023-row-edge-interior-g-v1",
+    "outcome": "passed",
+    "artifact": "runs/auto-cycle-r013-H023-v1-audit.json",
+    "assertions": {
+      "status": "passed",
+      "lp2.statistical_rows": 578,
+      "lp2.statistical_runes": 12621,
+      "lp2.excluded_runes_by_hard_segment_rule": 335
+    },
+    "coverage": "已有R013/H023审计的覆盖计数索引：578行、12621统计符文、335个硬段排除符文。修正误挂H018的指针；本次只核对已有artifact，不重跑H023，不是新密码学发现。"
+  },
+  "prior_knowledge_sha256": "d708fdb498a5ac1e4a39fb4f56c1200a0eed5b96d86fadfef8dfb330bcbd3882",
+  "corrected_knowledge_sha256": "433cfd911f8be53a4c529b393ee3fd85497e07b1a82bcc486ba26cdfba4e5ecf",
+  "evidence_sha256": "a8f889c77308ec9f377eb710f103b38999c5611e66f67a3d3dc1ad964f7157ee",
+  "original_run_files_modified": false,
+  "new_cryptanalytic_execution": false
+}

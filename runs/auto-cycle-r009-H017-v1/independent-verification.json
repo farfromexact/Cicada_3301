@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "worker_jobs": 3,
+  "public_sha256": "a98e12309600e590bfe9f7a1ad986fae7a6c2b011d48f7878ea508aaf31e3a19",
+  "positive_path_checks": [
+    {
+      "job": "synthetic-positive-1",
+      "rune_count": 128
+    },
+    {
+      "job": "synthetic-positive-2",
+      "rune_count": 128
+    }
+  ],
+  "independent_algorithm": "direct neighbor subtraction and cumulative roundtrip"
+}

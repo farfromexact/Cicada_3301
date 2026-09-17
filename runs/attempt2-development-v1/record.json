@@ -1,0 +1,37 @@
+{
+  "status": "passed_after_development_fixes",
+  "created_at_utc": "2026-09-13T10:25:37.965127+00:00",
+  "real_cipher_candidates_executed": 0,
+  "observed_errors": [
+    {
+      "component": "standalone skip test import",
+      "error": "Missing repository src sys.path in initial standalone test",
+      "resolution": "Added existing repository sys.path convention; seven toy tests passed",
+      "classification": "development error, not cryptanalytic negative"
+    },
+    {
+      "component": "isolated worker output",
+      "error": "UnicodeEncodeError: cp1252 cannot encode rune U+16A0 in ensure_ascii=False JSON output",
+      "observed_test_exit_code": 1,
+      "resolution": "Worker emits ASCII escaped JSON; parsed rune values unchanged; two isolation tests passed",
+      "classification": "development error, not cryptanalytic negative"
+    }
+  ],
+  "review_fixes": [
+    {
+      "component": "skip_mechanics",
+      "fix": "Reject unknown rune-block glyph before treating other characters as literals; added test"
+    },
+    {
+      "component": "preregistered wording",
+      "fix": "Corrected attempt1 no-lead wording before real execution; criteria/parameters unchanged"
+    }
+  ],
+  "final_toy_tests": {
+    "skip": 7,
+    "boundary": 7,
+    "worker": 2,
+    "status": "passed"
+  },
+  "evidence_scope": "Summary of pre-candidate tool-observed development tests; not a claim that full prior tool transcripts were captured here."
+}

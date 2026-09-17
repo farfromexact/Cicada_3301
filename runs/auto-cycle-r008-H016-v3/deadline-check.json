@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "stage": "after_statistics_before_and_after_final_source_verification",
+  "before_seconds": 34.469000000011874,
+  "after_seconds": 34.54700000000594,
+  "wall_seconds": 120,
+  "checked_at_utc": "2026-09-14T00:25:54.482308+00:00"
+}

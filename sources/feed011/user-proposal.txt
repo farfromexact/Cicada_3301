@@ -1,0 +1,486 @@
+有。看你这张图，我觉得你们已经把“单一算法层”的 obvious space 扫得相当多了。下一步我反而不会继续加 Caesar/Vigenère/素数变体，而会转向 **“组合机制、隐藏状态、表示方式”**。有几个方向我认为明显值得补，而且其中两个我会排得很高。
+
+| 优先级   | 新方向                                      | 为什么和已做的不一样                      |
+| ----- | ---------------------------------------- | ------------------------------- |
+| ★★★★★ | **有限 DSL / program synthesis**           | 搜“已知 Cicada 操作的短组合”，而不是单个算法     |
+| ★★★★★ | **Berlekamp–Massey / F29 线性复杂度**         | 检测隐藏递推/密钥生成器，不需要先猜明文            |
+| ★★★★☆ | **29 runes + separator = 30点 Möbius 模型** | `MOBIUS` 有明确文本依据，而且搜索空间有限       |
+| ★★★★☆ | **1033/3301 两个 magic square 联合研究**       | 很可能是 key material，而不仅是版面谜题      |
+| ★★★★☆ | **LP2 cipher-family clustering**         | 先判断哪些页实际上共享机制                   |
+| ★★★☆☆ | **crib algebra**                         | 不解全文，用 LP1 词汇反推 key constraints |
+| ★★★☆☆ | **原图 typography/layout channel**         | 不猜图意，只分析作者实际控制的版面信息             |
+
+我展开几个最值得做的。
+
+### 1. 我现在最想试的：不是继续找算法，而是“程序合成”
+
+你现在截图里已经做了：
+
+prime shift、reverse+3、CIRCUMFERENCE、mod29 乘法、Legendre、反馈、几何……
+
+问题是 Cicada 已知解法很可能本来就是**简单操作的组合**。
+
+例如：
+
+$$
+C
+\overset{\text{reverse}}{\longrightarrow}
+X
+\overset{\phi(p_i)}{\longrightarrow}
+Y
+\overset{\text{skip F}}{\longrightarrow}
+P
+$$
+
+所以建立一个很小的 DSL：
+
+```text
+REVERSE
+ADD(k)
+SUB(k)
+AFFINE(a,b)
+VIGENERE(key)
+PRIME(i)
+TOTIENT(i)
+SKIP_F
+RESET_LINE
+RESET_PAGE
+DIFFERENCE
+CUMSUM
+REVERSE_ORDER
+ODD_EVEN
+CENTER_OUT
+OUTSIDE_IN
+```
+
+然后只允许：
+
+$$
+\boxed{\text{组合深度}\le 3}
+$$
+
+或者最多 4。
+
+这不是“大规模无依据组合搜索”，因为 **primitive 全是 Cicada 已经使用过或者 LP1 明示过的操作**。
+
+最重要的约束是：
+
+> 一个 program 如果只能让一页变得“像英文”，不要；
+> 同一 program 能解释两个以上页面/区段，才升级。
+
+这个和你截图中的“已知机制迁移”有本质区别——后者似乎是在把已有机制分别搬过去；这里是在寻找**出题人的 grammar**。
+
+我觉得这是目前最高信息增益的一条。
+
+---
+
+### 2. Berlekamp–Massey：我很建议立刻让 Codex 跑
+
+这条很适合 29。
+
+既然：
+
+$$
+\mathbb F_{29}
+$$
+
+是有限域，那么可以直接问：
+
+> ciphertext 或某种派生序列是否具有**低阶线性递推**？
+
+例如：
+
+$$
+x_n=a_1x_{n-1}+a_2x_{n-2}+\cdots+a_kx_{n-k}\pmod{29}.
+$$
+
+Berlekamp–Massey 可以直接找出最短 recurrence。
+
+分别喂：
+
+$$
+C_i
+$$
+
+$$
+C_i-C_{i-1}
+$$
+
+$$
+C_i-\phi(p_i)
+$$
+
+$$
+C_i-p_i
+$$
+
+$$
+\text{cumulative }C_i
+$$
+
+以及跨页 concatenation。
+
+然后比较随机对照的 **linear complexity profile**。
+
+如果随机文本一般需要：
+
+$$
+k\approx n/2
+$$
+
+而真实某组页面突然只有：
+
+$$
+k=7,\;14,\;28
+$$
+
+这种低复杂度，那就非常有意思。
+
+尤其 7、14、28 又正好对应：
+
+$$
+29-1=28=4\times7.
+$$
+
+这个方法漂亮在于：
+
+**完全不需要猜英文。**
+
+它直接问：
+
+> 密文背后有没有低复杂度状态机？
+
+你截图中虽然做了简单反馈差分，但这个比
+
+$$
+P_i=C_i-C_{i-1}
+$$
+
+泛化很多。
+
+---
+
+### 3. 一个比较“怪但很干净”的方向：29 rune + 1 separator = 30
+
+你前面问 29 的数学时我提过：
+
+$$
+\mathbb P^1(\mathbb F_{29})
+=
+\mathbb F_{29}\cup\{\infty\}
+$$
+
+一共有：
+
+$$
+\boxed{30}
+$$
+
+个点。
+
+而 Möbius transformation：
+
+$$
+x\mapsto\frac{ax+b}{cx+d}
+$$
+
+恰好自然作用在这 30 个点上。
+
+现在 LP1 magic square 里面**真的出现了 `MOBIUS` 这个词**。([GitHub][1])
+
+问题一直是：
+
+> Liber Primus 有 29 rune，Möbius transformation 却天然需要那个额外的 \(\infty\)。
+
+但是如果：
+
+$$
+\boxed{\text{word separator / special delimiter}=\infty}
+$$
+
+那么刚好：
+
+$$
+29+1=30.
+$$
+
+这就突然闭合了。
+
+更好的是，整个
+
+$$
+PGL(2,29)
+$$
+
+只有：
+
+$$
+29(29^2-1)=24,360
+$$
+
+个元素。
+
+**才 24,360 个。**
+
+这甚至算不上大 brute force。
+
+所以完全可以定义：
+
+```text
+29 rune → 0...28
+separator → ∞
+```
+
+穷举所有 distinct Möbius transformations：
+
+$$
+x\mapsto\frac{ax+b}{cx+d}.
+$$
+
+然后做 matched controls。
+
+这条我不会说“很可能就是答案”，但它具备三个很优秀的研究特征：
+
+**文本有 MOBIUS；29 的数学天然支持；搜索空间非常有限。**
+
+所以值得一次性彻底排掉。
+
+---
+
+### 4. 我会重新认真研究两个 magic square，而不是继续把它们当装饰
+
+这里有个特别漂亮的事实。
+
+第一组 LP1 magic square 每行/列/对角线：
+
+$$
+\boxed{1033}
+$$
+
+而 LP1 后面的另一个 5×5 square 每行/列/对角线：
+
+$$
+\boxed{3301}.
+$$
+
+([Connor Tumbleson][2])
+
+显然：
+
+$$
+\boxed{1033=\operatorname{reverseDigits}(3301)}
+$$
+
+而两个矩阵又都是明显的 180° 中心对称结构。
+
+这对 Cicada 来说太“on brand”了：
+
+$$
+3301\leftrightarrow1033
+$$
+
+正好又对应 LP1 已经实际使用过的 **reverse** 概念。
+
+所以我不会再问：
+
+> “这个 magic square 能不能直接解成一句话？”
+
+而会问：
+
+> **这两个 square 是否是在提供两个 transformation/key schedule？**
+
+我会只定义几种非常有限的东西：
+
+矩阵值 mod 29：
+
+$$
+M_{ij}\bmod29
+$$
+
+两个矩阵之差：
+
+$$
+M^{3301}_{ij}-M^{1033}_{ij}\pmod{29}
+$$
+
+中心→外层序列；
+
+外层→中心序列；
+
+25 个元素 rank permutation；
+
+对应格子 pair：
+
+$$
+(M^{1033}_{ij},M^{3301}_{ij}).
+$$
+
+然后把得到的 25-period sequence 当作 key stream 测 LP2。
+
+**25 这个周期之前你们可能根本没重点搜，因为大家天然盯 7/14/28。**
+
+这恰恰可能是另一类 signal。
+
+---
+
+### 5. 我会停止“55 页一起扫”，先做 cipher-family clustering
+
+你截图里的统计分析看起来主要还是找：
+
+重复间隔、字符关系、四符文等。
+
+我会更进一步，给每页/每段建立一个 feature vector：
+
+$$
+\begin{aligned}
+&IC\\
+&H(X)\\
+&H(X_i|X_{i-1})\\
+&\text{lag autocorrelation}\\
+&\Delta C\text{ distribution}\\
+&\text{quadratic-residue imbalance}\\
+&\text{run-length statistics}\\
+&\text{separator statistics}\\
+&\text{word-length distribution}\\
+&\text{linear complexity}
+\end{aligned}
+$$
+
+然后无监督 cluster。
+
+目的不是“AI 判断这些页长得像”。
+
+而是问：
+
+$$
+\boxed{\text{LP2 到底有几个 cipher regimes？}}
+$$
+
+例如突然发现：
+
+```text
+pages 1–8    cluster A
+pages 9–17   cluster B
+pages 18–31  cluster A
+pages 32–40  cluster C
+```
+
+那就非常重要。
+
+因为 LP1 已经明确证明 Cicada **不会整本书只使用一种密码**：direct Gematria、reverse、Vigenère、reverse+shift 都出现过。([GitHub][1])
+
+因此现在“逐页试算法”可能一开始就没有抓住正确单位。
+
+---
+
+### 6. 一个便宜但可能非常有效的办法：不要解全文，做 crib algebra
+
+固定一个很小的词表：
+
+```text
+DIVINITY
+CIRCUMFERENCE
+PRIME
+TOTIENT
+TRUTH
+SELF
+PILGRIM
+WISDOM
+WITHIN
+EMERGE
+```
+
+不是让语言模型说：
+
+> “我感觉这里可能是 DIVINITY。”
+
+而是假设某个位置是 `DIVINITY` 后，反推出：
+
+$$
+K_i=C_i-P_i\pmod{29}.
+$$
+
+然后问：
+
+> 产生的 key 是否具有周期、prime relation、递推、跨页复用？
+
+如果一个 crib 给：
+
+```text
+6, 12, 4, 9, 6, 12, 4, 9...
+```
+
+突然暴露 period 4，那就有信息。
+
+一个 crib 不算证据。
+
+但如果两个互不重叠的 LP1 vocabulary crib 都推导出**同一个 key rule**，价值就完全不同。
+
+这会比“英语评分最高候选”稳很多。
+
+---
+
+### 7. 你截图最后说“猜物理图像系列没做”，这里我会换一种方式做
+
+**不要先猜图是什么意思。**
+
+直接研究原始图片作者能够控制的结构：
+
+字符的：
+
+$$
+x,y
+$$
+
+坐标；
+
+行首 indentation；
+
+字符间距；
+
+word separator 宽度；
+
+illustration 与文字相对位置；
+
+是否存在 glyph variant；
+
+某些 rune 是否系统性偏移/旋转；
+
+红黑/颜色差异；
+
+行长。
+
+这些全转成数字序列。
+
+然后再检测：
+
+$$
+\bmod29,\quad prime,\quad periodicity,\quad symmetry.
+$$
+
+如果做文件层分析，一定使用最原始的 archive JPEG；经过网站重压缩的图片做 LSB/quantization 分析基本没有意义。
+
+---
+
+## 如果让我现在只给 Codex 三条新任务
+
+我会按这个顺序：
+
+> **① restricted program synthesis（已知 primitive 的深度≤3组合）**
+> **② Berlekamp–Massey / linear complexity over F29**
+> **③ 29 runes + separator = \(P^1(F_{29})\)，完整穷举 Möbius 24,360 transformations**
+
+这三条共同的好处是：
+
+**搜索空间都能严格定义，而且失败也是真正有价值的失败。**
+
+我反而暂时不会继续增加 Fibonacci、Lucas、更多 number sequences。那个方向非常容易无限扩张，最后什么都能拟合。
+
+给 Codex 的下一轮 prompt 可以极简地写成：
+
+> **继续 LP2 研究，但暂停已有单算法变体。本轮依次检验三个未覆盖方向：①以 LP1/已解 LP2 已确认操作建立有限 DSL，搜索深度≤3的组合，并要求跨页泛化；②在 F29 上对原序列、差分及 prime/totient 派生序列运行 Berlekamp–Massey，比较随机对照的线性复杂度；③将29 rune+separator建模为 \(P^1(F_{29})\)，穷举全部 Möbius 变换。所有结果须 holdout、随机对照和可复现；无异常也记录，不扩展到无依据组合。**
+
+如果是我下注，**我现在最期待 Berlekamp–Massey 的结果**。因为它可以非常快地告诉我们：LP2 背后到底有没有一个“程序化生成的隐藏状态”，而这个问题你目前这批实验其实还没有真正回答。
+
+[1]: https://github.com/krisyotam/cicada3301/blob/main/liber-primus/decoded/DECODED-PAGES.md?utm_source=chatgpt.com "cicada3301/liber-primus/decoded/DECODED-PAGES.md at main · krisyotam/cicada3301 · GitHub"
+[2]: https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/?utm_source=chatgpt.com "The Cicada 3301 Mystery (Puzzle 3 Solve) - Part 2"

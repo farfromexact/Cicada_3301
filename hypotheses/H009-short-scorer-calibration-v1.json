@@ -1,0 +1,69 @@
+{
+  "schema": 1,
+  "id": "H009-short-scorer-calibration-v1",
+  "attempt": "auto-cycle R001",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "hypothesis": "For 256-rune texts, the frozen additive-smoothed unigram scorer can identify the exact offset/shift in the registered prime-minus-one family and reject uniformly random ciphertext controls.",
+  "mechanistic_basis": [
+    "H006 used the same scorer on long unknown pages but did not establish short-text key-recovery or false-acceptance calibration.",
+    "The existing blind worker has a fixed 32 x 29 = 928 offset/shift family and no answer-file access.",
+    "H003 in hypotheses/NEXT.md requires calibration before language ranking is used on an unsolved-page candidate."
+  ],
+  "falsifiable_predictions": [
+    "The worker completes exactly 928 candidates for every calibration and evaluation case.",
+    "On the 20 positive evaluation cases, at least 18 exact keys and plaintexts are recovered and pass the preregistered acceptance threshold.",
+    "On the 20 independent uniform-random ciphertext controls, at most one case exceeds the threshold.",
+    "Any incomplete worker, failed isolation check, or failed independent arithmetic replay is error/timeout, never a negative result."
+  ],
+  "data_versions": [
+    "data/synthetic/training.txt",
+    "data/synthetic/heldout.txt"
+  ],
+  "scope": "Synthetic calibration only; no LP2 unsolved ciphertext is supplied to the worker or used to select a threshold.",
+  "algorithm_version": "search_worker.py v1; P=(C-prime[t+offset]+shift) mod29; offset 0..31; shift 0..28; no skip",
+  "parameter_derivation_policy": "All case start offsets, positive key seeds, random-control seeds, calibration/evaluation split, and threshold rule are fixed before generating any ciphertext or reading evaluation outputs.",
+  "page_and_section_continuity_hypothesis": "Each 256-rune synthetic case starts its own prime stream; no LP page boundary or literal consumes a clock.",
+  "scorer_and_acceptance_version": {
+    "scorer": "Sum of frozen training-only unigram log weights log((count+1)/(N+29)); no candidate-specific retuning.",
+    "calibration": "Run 8 positive and 8 uniform-random controls first. If min positive best score exceeds max negative best score, threshold is their midpoint; otherwise threshold is min positive best score. The rule is fixed before calibration outputs are inspected.",
+    "acceptance": "A case is accepted only when its worker-selected best score is strictly greater than the frozen calibration threshold.",
+    "positive_success": "Accepted exact key and exact 256-rune plaintext, with independent re-encryption equality.",
+    "negative_control_failure": "A random-control best score strictly above threshold is a false acceptance; controls have no hidden registered key."
+  },
+  "frozen_before_candidates": "The runner writes frozen.json containing all hashes, seeds, case offsets, and criteria before generating case ciphertexts and before dispatching the blind worker.",
+  "total_budget": {
+    "calibration_cases": 16,
+    "evaluation_cases": 40,
+    "candidate_evaluations": 51968,
+    "wall_seconds": 120,
+    "origin": "Bounded local calibration budget for auto-cycle R001; no side-chat budget inherited."
+  },
+  "controls": [
+    "Eight calibration and twenty evaluation ciphertexts generated as independent uniform random rune-index controls.",
+    "Blind worker receives only public ciphertext, training counts, and the fixed schema; seeds, keys, plaintext and heldout text remain verifier-only.",
+    "Independent prime-sieve, score, ranking, inverse, re-encryption, coverage and read-isolation checks."
+  ],
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seeds": {
+      "case_plan": 33010900,
+      "positive_calibration": 33010901,
+      "positive_evaluation": 33010902,
+      "negative_calibration": 33010903,
+      "negative_evaluation": 33010904
+    },
+    "role": "Verifier-only case generation and fixed sampling; no seed is passed to the blind worker."
+  },
+  "discovery_path": "Guarded -I -S worker receives only one public case at a time and cannot read files, seeds, answers, network or subprocesses.",
+  "independent_validation_path": "The orchestrator uses a separate prime sieve and score replay, checks every selected candidate and re-encrypts positive outputs from the private answer.",
+  "uncovered_parameters": [
+    "LP2 unsolved-page ciphertext",
+    "unknown offsets/shifts outside 0..31/0..28",
+    "skip masks, multiplicative/affine families, transposition and language models beyond frozen unigram",
+    "independent natural-language texts beyond the fixed heldout source windows"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If the calibration gate passes, use it only as a qualification for a separately preregistered mechanism experiment; if it fails, do not rank unknown-page candidates by this scorer.",
+  "note": "Passing this hypothesis calibrates a measurement tool; it is not an LP decryption and cannot be promoted to a solved page."
+}

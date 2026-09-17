@@ -1,0 +1,22 @@
+{
+  "id": "evaluation-random-11",
+  "phase": "evaluation",
+  "kind": "random_control",
+  "start": null,
+  "seed": 179144933065725756172420113198918045702,
+  "status": "passed",
+  "exact_key": false,
+  "exact_plaintext": false,
+  "roundtrip": null,
+  "selected": {
+    "offset": 19,
+    "shift": 10,
+    "score": -1012.454854885447
+  },
+  "score": -1012.454854885447,
+  "score_gap": 5.06565957330406,
+  "covered": 928,
+  "read_guard_probe_passed": true,
+  "accepted": false,
+  "case_status": "rejected_or_wrong"
+}

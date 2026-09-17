@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-09-13T10:27:03.943343+00:00",
+  "status": "passed",
+  "members": 322,
+  "bad_crc_member": null,
+  "byte_mismatches": [],
+  "archive_sha256": "47c67b15f52810586d6c55486564985e959edc32baac6e15579136641edef7bc",
+  "scope": "Archive exactbytes and CRC immediately after run; no repeat candidate execution. Archive has run-time STATE/index, not future postrun report."
+}

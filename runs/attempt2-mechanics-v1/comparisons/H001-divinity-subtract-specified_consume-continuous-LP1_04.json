@@ -1,0 +1,2384 @@
+{
+  "page": "LP1/04",
+  "steps": [
+    {
+      "rune_ordinal": 0,
+      "source_offset": 3,
+      "expected": 10,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 251,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 1,
+      "source_offset": 4,
+      "expected": 16,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 252,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 2,
+      "source_offset": 6,
+      "expected": 10,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 253,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 3,
+      "source_offset": 7,
+      "expected": 15,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 254,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 4,
+      "source_offset": 9,
+      "expected": 2,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 255,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 5,
+      "source_offset": 10,
+      "expected": 4,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 256,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 6,
+      "source_offset": 11,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 257,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 7,
+      "source_offset": 12,
+      "expected": 1,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 258,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 8,
+      "source_offset": 13,
+      "expected": 6,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 259,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 9,
+      "source_offset": 14,
+      "expected": 8,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 260,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 10,
+      "source_offset": 16,
+      "expected": 2,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 261,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 11,
+      "source_offset": 17,
+      "expected": 10,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 262,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 12,
+      "source_offset": 18,
+      "expected": 15,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 263,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 13,
+      "source_offset": 20,
+      "expected": 13,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 264,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 14,
+      "source_offset": 21,
+      "expected": 10,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 265,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 15,
+      "source_offset": 22,
+      "expected": 20,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 266,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 16,
+      "source_offset": 23,
+      "expected": 6,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 267,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 17,
+      "source_offset": 24,
+      "expected": 4,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 268,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 18,
+      "source_offset": 25,
+      "expected": 10,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 269,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 19,
+      "source_offset": 26,
+      "expected": 19,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 270,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 20,
+      "source_offset": 30,
+      "expected": 24,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 271,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 21,
+      "source_offset": 31,
+      "expected": 6,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 272,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 22,
+      "source_offset": 32,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 273,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 23,
+      "source_offset": 34,
+      "expected": 2,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 274,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 24,
+      "source_offset": 35,
+      "expected": 24,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 275,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 25,
+      "source_offset": 36,
+      "expected": 16,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 276,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 26,
+      "source_offset": 38,
+      "expected": 7,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 277,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 27,
+      "source_offset": 39,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 278,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 28,
+      "source_offset": 41,
+      "expected": 15,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 279,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 29,
+      "source_offset": 42,
+      "expected": 8,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 280,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 30,
+      "source_offset": 43,
+      "expected": 24,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 281,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 31,
+      "source_offset": 44,
+      "expected": 13,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 282,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 32,
+      "source_offset": 45,
+      "expected": 18,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 283,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 33,
+      "source_offset": 47,
+      "expected": 3,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 284,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 34,
+      "source_offset": 48,
+      "expected": 1,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 285,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 35,
+      "source_offset": 49,
+      "expected": 4,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 286,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 36,
+      "source_offset": 50,
+      "expected": 15,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 287,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 37,
+      "source_offset": 51,
+      "expected": 18,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 288,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 38,
+      "source_offset": 52,
+      "expected": 20,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 289,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 39,
+      "source_offset": 53,
+      "expected": 1,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 290,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 40,
+      "source_offset": 54,
+      "expected": 18,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 291,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 41,
+      "source_offset": 58,
+      "expected": 15,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 292,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 42,
+      "source_offset": 60,
+      "expected": 24,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 293,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 43,
+      "source_offset": 61,
+      "expected": 9,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 294,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 44,
+      "source_offset": 62,
+      "expected": 23,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 295,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 45,
+      "source_offset": 64,
+      "expected": 3,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 296,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 46,
+      "source_offset": 65,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 297,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 47,
+      "source_offset": 66,
+      "expected": 4,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 298,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 48,
+      "source_offset": 68,
+      "expected": 4,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 299,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 49,
+      "source_offset": 69,
+      "expected": 28,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 300,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 50,
+      "source_offset": 70,
+      "expected": 20,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 301,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 51,
+      "source_offset": 71,
+      "expected": 10,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 302,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 52,
+      "source_offset": 72,
+      "expected": 16,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 303,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 53,
+      "source_offset": 73,
+      "expected": 10,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 304,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 54,
+      "source_offset": 74,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 305,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 55,
+      "source_offset": 75,
+      "expected": 15,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 306,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 56,
+      "source_offset": 77,
+      "expected": 11,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 307,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 57,
+      "source_offset": 78,
+      "expected": 3,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 308,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 58,
+      "source_offset": 79,
+      "expected": 1,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 309,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 59,
+      "source_offset": 80,
+      "expected": 4,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 310,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 60,
+      "source_offset": 81,
+      "expected": 9,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 311,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 61,
+      "source_offset": 82,
+      "expected": 18,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 312,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 62,
+      "source_offset": 83,
+      "expected": 26,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 313,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 63,
+      "source_offset": 85,
+      "expected": 23,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 314,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 64,
+      "source_offset": 89,
+      "expected": 18,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 315,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 65,
+      "source_offset": 90,
+      "expected": 18,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 316,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 66,
+      "source_offset": 91,
+      "expected": 13,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 317,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 67,
+      "source_offset": 93,
+      "expected": 7,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 318,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 68,
+      "source_offset": 94,
+      "expected": 10,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 319,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 69,
+      "source_offset": 95,
+      "expected": 2,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 320,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 70,
+      "source_offset": 96,
+      "expected": 10,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 321,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 71,
+      "source_offset": 97,
+      "expected": 9,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 322,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 72,
+      "source_offset": 99,
+      "expected": 24,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 323,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 73,
+      "source_offset": 100,
+      "expected": 9,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 324,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 74,
+      "source_offset": 101,
+      "expected": 23,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 325,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 75,
+      "source_offset": 103,
+      "expected": 26,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 326,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 76,
+      "source_offset": 104,
+      "expected": 3,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 327,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 77,
+      "source_offset": 105,
+      "expected": 1,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 328,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 78,
+      "source_offset": 107,
+      "expected": 7,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 329,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 79,
+      "source_offset": 108,
+      "expected": 10,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 330,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 80,
+      "source_offset": 109,
+      "expected": 20,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 331,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 81,
+      "source_offset": 110,
+      "expected": 20,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 332,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 82,
+      "source_offset": 112,
+      "expected": 24,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 333,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 83,
+      "source_offset": 113,
+      "expected": 4,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 334,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 84,
+      "source_offset": 114,
+      "expected": 4,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 335,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 85,
+      "source_offset": 115,
+      "expected": 10,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 336,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 86,
+      "source_offset": 116,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 337,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 87,
+      "source_offset": 120,
+      "expected": 18,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 338,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 88,
+      "source_offset": 122,
+      "expected": 3,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 339,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 89,
+      "source_offset": 123,
+      "expected": 1,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 340,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 90,
+      "source_offset": 124,
+      "expected": 16,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 341,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 91,
+      "source_offset": 125,
+      "expected": 15,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 342,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 92,
+      "source_offset": 126,
+      "expected": 10,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 343,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 93,
+      "source_offset": 127,
+      "expected": 23,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 344,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 94,
+      "source_offset": 128,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 345,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 95,
+      "source_offset": 130,
+      "expected": 20,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 346,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 96,
+      "source_offset": 131,
+      "expected": 10,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 347,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 97,
+      "source_offset": 132,
+      "expected": 5,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 348,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 98,
+      "source_offset": 133,
+      "expected": 18,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 349,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 99,
+      "source_offset": 135,
+      "expected": 2,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 350,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 100,
+      "source_offset": 136,
+      "expected": 18,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 351,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 101,
+      "source_offset": 138,
+      "expected": 10,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 352,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 102,
+      "source_offset": 139,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 353,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 103,
+      "source_offset": 140,
+      "expected": 15,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 354,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 104,
+      "source_offset": 141,
+      "expected": 16,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 355,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 105,
+      "source_offset": 142,
+      "expected": 24,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 356,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 106,
+      "source_offset": 143,
+      "expected": 4,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 357,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 107,
+      "source_offset": 146,
+      "expected": 10,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 358,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 108,
+      "source_offset": 147,
+      "expected": 16,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 359,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 109,
+      "source_offset": 149,
+      "expected": 10,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 360,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 110,
+      "source_offset": 153,
+      "expected": 15,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 361,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 111,
+      "source_offset": 155,
+      "expected": 3,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 362,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 112,
+      "source_offset": 156,
+      "expected": 9,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 363,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 113,
+      "source_offset": 157,
+      "expected": 20,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 364,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 114,
+      "source_offset": 158,
+      "expected": 26,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 365,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 115,
+      "source_offset": 160,
+      "expected": 2,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 366,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 116,
+      "source_offset": 161,
+      "expected": 4,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 367,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 117,
+      "source_offset": 162,
+      "expected": 3,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 368,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 118,
+      "source_offset": 163,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 369,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 119,
+      "source_offset": 164,
+      "expected": 6,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 370,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 120,
+      "source_offset": 165,
+      "expected": 8,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 371,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 121,
+      "source_offset": 167,
+      "expected": 6,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 372,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 122,
+      "source_offset": 168,
+      "expected": 3,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 373,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 123,
+      "source_offset": 169,
+      "expected": 21,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 374,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 124,
+      "source_offset": 171,
+      "expected": 7,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 375,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 125,
+      "source_offset": 172,
+      "expected": 10,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 376,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 126,
+      "source_offset": 173,
+      "expected": 2,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 377,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 127,
+      "source_offset": 174,
+      "expected": 10,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 378,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 128,
+      "source_offset": 175,
+      "expected": 9,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 379,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 129,
+      "source_offset": 177,
+      "expected": 2,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 380,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 130,
+      "source_offset": 178,
+      "expected": 24,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 381,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 131,
+      "source_offset": 182,
+      "expected": 16,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 382,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 132,
+      "source_offset": 184,
+      "expected": 7,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 383,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 133,
+      "source_offset": 185,
+      "expected": 18,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 384,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 134,
+      "source_offset": 187,
+      "expected": 19,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 385,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 135,
+      "source_offset": 188,
+      "expected": 24,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 386,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 136,
+      "source_offset": 189,
+      "expected": 26,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 387,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 137,
+      "source_offset": 191,
+      "expected": 18,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 388,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 138,
+      "source_offset": 192,
+      "expected": 19,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 389,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 139,
+      "source_offset": 193,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 390,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 140,
+      "source_offset": 194,
+      "expected": 4,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 391,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 141,
+      "source_offset": 195,
+      "expected": 6,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 392,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 142,
+      "source_offset": 196,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 393,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 143,
+      "source_offset": 204,
+      "expected": 7,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 394,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 144,
+      "source_offset": 205,
+      "expected": 10,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 395,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 145,
+      "source_offset": 206,
+      "expected": 23,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 396,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 146,
+      "source_offset": 207,
+      "expected": 15,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 397,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 147,
+      "source_offset": 208,
+      "expected": 3,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 398,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 148,
+      "source_offset": 209,
+      "expected": 19,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 399,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 149,
+      "source_offset": 211,
+      "expected": 26,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 400,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 150,
+      "source_offset": 212,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 401,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 151,
+      "source_offset": 213,
+      "expected": 1,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 402,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 152,
+      "source_offset": 215,
+      "expected": 24,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 403,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 153,
+      "source_offset": 216,
+      "expected": 4,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 404,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 154,
+      "source_offset": 217,
+      "expected": 18,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 405,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 155,
+      "source_offset": 219,
+      "expected": 24,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 406,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 156,
+      "source_offset": 221,
+      "expected": 17,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 407,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 157,
+      "source_offset": 222,
+      "expected": 18,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 408,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 158,
+      "source_offset": 223,
+      "expected": 21,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 409,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 159,
+      "source_offset": 225,
+      "expected": 1,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 410,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 160,
+      "source_offset": 226,
+      "expected": 9,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 411,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 161,
+      "source_offset": 230,
+      "expected": 16,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 412,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 162,
+      "source_offset": 231,
+      "expected": 3,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 413,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 163,
+      "source_offset": 233,
+      "expected": 26,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 414,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 164,
+      "source_offset": 234,
+      "expected": 3,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 415,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 165,
+      "source_offset": 235,
+      "expected": 1,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 416,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 166,
+      "source_offset": 236,
+      "expected": 4,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 417,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 167,
+      "source_offset": 237,
+      "expected": 15,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 418,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 168,
+      "source_offset": 238,
+      "expected": 18,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 419,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 169,
+      "source_offset": 239,
+      "expected": 20,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 420,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 170,
+      "source_offset": 240,
+      "expected": 0,
+      "actual": 0,
+      "equal": true,
+      "independent_clock": 421,
+      "signed_delta": 0
+    },
+    {
+      "rune_ordinal": 171,
+      "source_offset": 242,
+      "expected": 26,
+      "actual": 26,
+      "equal": true,
+      "independent_clock": 422,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 172,
+      "source_offset": 243,
+      "expected": 3,
+      "actual": 3,
+      "equal": true,
+      "independent_clock": 423,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 173,
+      "source_offset": 244,
+      "expected": 1,
+      "actual": 1,
+      "equal": true,
+      "independent_clock": 424,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 174,
+      "source_offset": 246,
+      "expected": 24,
+      "actual": 24,
+      "equal": true,
+      "independent_clock": 425,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 175,
+      "source_offset": 247,
+      "expected": 4,
+      "actual": 4,
+      "equal": true,
+      "independent_clock": 426,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 176,
+      "source_offset": 248,
+      "expected": 18,
+      "actual": 18,
+      "equal": true,
+      "independent_clock": 427,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 177,
+      "source_offset": 250,
+      "expected": 24,
+      "actual": 24,
+      "equal": true,
+      "independent_clock": 428,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 178,
+      "source_offset": 255,
+      "expected": 20,
+      "actual": 20,
+      "equal": true,
+      "independent_clock": 429,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 179,
+      "source_offset": 256,
+      "expected": 24,
+      "actual": 24,
+      "equal": true,
+      "independent_clock": 430,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 180,
+      "source_offset": 257,
+      "expected": 7,
+      "actual": 7,
+      "equal": true,
+      "independent_clock": 431,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 181,
+      "source_offset": 259,
+      "expected": 1,
+      "actual": 1,
+      "equal": true,
+      "independent_clock": 432,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 182,
+      "source_offset": 260,
+      "expected": 9,
+      "actual": 9,
+      "equal": true,
+      "independent_clock": 433,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 183,
+      "source_offset": 261,
+      "expected": 16,
+      "actual": 16,
+      "equal": true,
+      "independent_clock": 434,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 184,
+      "source_offset": 262,
+      "expected": 3,
+      "actual": 3,
+      "equal": true,
+      "independent_clock": 435,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 185,
+      "source_offset": 264,
+      "expected": 26,
+      "actual": 26,
+      "equal": true,
+      "independent_clock": 436,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 186,
+      "source_offset": 265,
+      "expected": 3,
+      "actual": 3,
+      "equal": true,
+      "independent_clock": 437,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 187,
+      "source_offset": 266,
+      "expected": 1,
+      "actual": 1,
+      "equal": true,
+      "independent_clock": 438,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 188,
+      "source_offset": 267,
+      "expected": 4,
+      "actual": 4,
+      "equal": true,
+      "independent_clock": 439,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 189,
+      "source_offset": 268,
+      "expected": 15,
+      "actual": 15,
+      "equal": true,
+      "independent_clock": 440,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 190,
+      "source_offset": 269,
+      "expected": 18,
+      "actual": 18,
+      "equal": true,
+      "independent_clock": 441,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 191,
+      "source_offset": 270,
+      "expected": 20,
+      "actual": 20,
+      "equal": true,
+      "independent_clock": 442,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 192,
+      "source_offset": 271,
+      "expected": 0,
+      "actual": 0,
+      "equal": true,
+      "independent_clock": 443,
+      "signed_delta": 0
+    },
+    {
+      "rune_ordinal": 193,
+      "source_offset": 273,
+      "expected": 28,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 444,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 194,
+      "source_offset": 274,
+      "expected": 5,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 445,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 195,
+      "source_offset": 275,
+      "expected": 8,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 446,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 196,
+      "source_offset": 280,
+      "expected": 10,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 447,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 197,
+      "source_offset": 281,
+      "expected": 9,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 448,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 198,
+      "source_offset": 282,
+      "expected": 16,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 449,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 199,
+      "source_offset": 283,
+      "expected": 18,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 450,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 200,
+      "source_offset": 284,
+      "expected": 20,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 451,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 201,
+      "source_offset": 285,
+      "expected": 20,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 452,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 202,
+      "source_offset": 286,
+      "expected": 10,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 453,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 203,
+      "source_offset": 287,
+      "expected": 6,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 454,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 204,
+      "source_offset": 288,
+      "expected": 18,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 455,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 205,
+      "source_offset": 289,
+      "expected": 9,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 456,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 206,
+      "source_offset": 290,
+      "expected": 5,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 457,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 207,
+      "source_offset": 291,
+      "expected": 18,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 458,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 208,
+      "source_offset": 293,
+      "expected": 10,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 459,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 209,
+      "source_offset": 294,
+      "expected": 15,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 460,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 210,
+      "source_offset": 296,
+      "expected": 8,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 461,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 211,
+      "source_offset": 297,
+      "expected": 3,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 462,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 212,
+      "source_offset": 298,
+      "expected": 20,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 463,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 213,
+      "source_offset": 299,
+      "expected": 26,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 464,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 214,
+      "source_offset": 301,
+      "expected": 0,
+      "actual": 0,
+      "equal": true,
+      "independent_clock": 465,
+      "signed_delta": 0
+    },
+    {
+      "rune_ordinal": 215,
+      "source_offset": 302,
+      "expected": 3,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 466,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 216,
+      "source_offset": 306,
+      "expected": 4,
+      "actual": 4,
+      "equal": true,
+      "independent_clock": 467,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 217,
+      "source_offset": 308,
+      "expected": 24,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 468,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 218,
+      "source_offset": 309,
+      "expected": 20,
+      "actual": 20,
+      "equal": true,
+      "independent_clock": 469,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 219,
+      "source_offset": 310,
+      "expected": 20,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 470,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 220,
+      "source_offset": 312,
+      "expected": 2,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 471,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 221,
+      "source_offset": 313,
+      "expected": 24,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 472,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 222,
+      "source_offset": 314,
+      "expected": 16,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 473,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 223,
+      "source_offset": 316,
+      "expected": 20,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 474,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 224,
+      "source_offset": 317,
+      "expected": 10,
+      "actual": 10,
+      "equal": true,
+      "independent_clock": 475,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 225,
+      "source_offset": 318,
+      "expected": 1,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 476,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 226,
+      "source_offset": 319,
+      "expected": 18,
+      "actual": 18,
+      "equal": true,
+      "independent_clock": 477,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 227,
+      "source_offset": 320,
+      "expected": 15,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 478,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 228,
+      "source_offset": 322,
+      "expected": 10,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 479,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 229,
+      "source_offset": 323,
+      "expected": 15,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 480,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 230,
+      "source_offset": 325,
+      "expected": 8,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 481,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 231,
+      "source_offset": 326,
+      "expected": 3,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 482,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 232,
+      "source_offset": 327,
+      "expected": 20,
+      "actual": 20,
+      "equal": true,
+      "independent_clock": 483,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 233,
+      "source_offset": 328,
+      "expected": 26,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 484,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 234,
+      "source_offset": 333,
+      "expected": 24,
+      "actual": 24,
+      "equal": true,
+      "independent_clock": 485,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 235,
+      "source_offset": 334,
+      "expected": 9,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 486,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 236,
+      "source_offset": 336,
+      "expected": 10,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 487,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 237,
+      "source_offset": 337,
+      "expected": 9,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 488,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 238,
+      "source_offset": 338,
+      "expected": 15,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 489,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 239,
+      "source_offset": 339,
+      "expected": 16,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 490,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 240,
+      "source_offset": 340,
+      "expected": 4,
+      "actual": 4,
+      "equal": true,
+      "independent_clock": 491,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 241,
+      "source_offset": 341,
+      "expected": 1,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 492,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 242,
+      "source_offset": 342,
+      "expected": 5,
+      "actual": 5,
+      "equal": true,
+      "independent_clock": 493,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 243,
+      "source_offset": 343,
+      "expected": 16,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 494,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 244,
+      "source_offset": 344,
+      "expected": 27,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 495,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 245,
+      "source_offset": 345,
+      "expected": 9,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 496,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 246,
+      "source_offset": 347,
+      "expected": 5,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 497,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 247,
+      "source_offset": 348,
+      "expected": 3,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 498,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 248,
+      "source_offset": 349,
+      "expected": 19,
+      "actual": 19,
+      "equal": true,
+      "independent_clock": 499,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 249,
+      "source_offset": 350,
+      "expected": 19,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 500,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 250,
+      "source_offset": 351,
+      "expected": 24,
+      "actual": 24,
+      "equal": true,
+      "independent_clock": 501,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 251,
+      "source_offset": 352,
+      "expected": 9,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 502,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 252,
+      "source_offset": 353,
+      "expected": 23,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 503,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 253,
+      "source_offset": 355,
+      "expected": 26,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 504,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 254,
+      "source_offset": 356,
+      "expected": 3,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 505,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 255,
+      "source_offset": 357,
+      "expected": 1,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 506,
+      "signed_delta": -1
+    },
+    {
+      "rune_ordinal": 256,
+      "source_offset": 358,
+      "expected": 4,
+      "actual": 4,
+      "equal": true,
+      "independent_clock": 507,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 257,
+      "source_offset": 360,
+      "expected": 3,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 508,
+      "signed_delta": -9
+    },
+    {
+      "rune_ordinal": 258,
+      "source_offset": 361,
+      "expected": 7,
+      "actual": 7,
+      "equal": true,
+      "independent_clock": 509,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 259,
+      "source_offset": 362,
+      "expected": 9,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 510,
+      "signed_delta": -16
+    },
+    {
+      "rune_ordinal": 260,
+      "source_offset": 364,
+      "expected": 15,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 511,
+      "signed_delta": -26
+    },
+    {
+      "rune_ordinal": 261,
+      "source_offset": 365,
+      "expected": 18,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 512,
+      "signed_delta": -23
+    },
+    {
+      "rune_ordinal": 262,
+      "source_offset": 366,
+      "expected": 20,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 513,
+      "signed_delta": -10
+    },
+    {
+      "rune_ordinal": 263,
+      "source_offset": 367,
+      "expected": 0,
+      "actual": 0,
+      "equal": true,
+      "independent_clock": 514,
+      "signed_delta": 0
+    }
+  ],
+  "roundtrip_exact": true,
+  "non_runes_exact": true,
+  "arithmetic_exact": true
+}

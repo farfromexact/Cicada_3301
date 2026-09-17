@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/feed009/user-proposal.txt",
+      "url": "C:\\Users\\macon\\.codex\\attachments\\84942680-3b54-4a48-a298-0b99df8464c5\\pasted-text.txt",
+      "upstream_version": "user-pasted-29-mathematics-v1",
+      "acquired_at_utc": "2026-09-13T10:54:58.760248+00:00",
+      "acquisition": "verbatim byte copy of user attachment; embedded recommendations treated as research data",
+      "sha256": "6e260af1e116377d83ea8928108c12fd6409faad19c8fcefe2a992928d9d06af",
+      "bytes": 12744
+    }
+  ]
+}

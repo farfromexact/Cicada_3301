@@ -1,0 +1,737 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "audited_at_utc": "2026-09-13T10:31:36.534924+00:00",
+  "scope": "Independent H001 audit of saved steps; no transform calls, candidate search or candidate rerun.",
+  "method": "Source expected sequences reconstructed through standalone exact segmentation, raw positions and clocks checked from input and policy masks, each saved operation checked using independent sieve primes, and known plaintext forward-encrypted from its independently derived F mask.",
+  "source_hashes": {
+    "hypotheses/H001-skip-clock-v1.json": "858565d0364cd1378670069439d249d386d4a4e9b9a4675a8a0892f6d2957641",
+    "hypotheses/H002-boundary-clock-v1.json": "c9c2cbec9c7ec4c78440d8d8cbe4833f144c1426afc9317d4e367bff6b365c66",
+    "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "sources/clues-v1/ibot/liber_primus/markdown/03.md": "1329632ce461ea80d647f420e0a77c27ea65520f8f4545c1f9864b4ca92a572d",
+    "sources/attempt2/ibot/liber_primus/markdown/04.md": "ce6868867e524ee40c6084a35aa11335fb8775f620256414817ec3c0cce5f222",
+    "sources/ibot/liber_primus/markdown/73.md": "09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9",
+    "data/pages/lp2_56.json": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+    "sources/attempt1-manifest.json": "cb23f409e14fb9d07e96b86536407007c276660e7faa670cd168f44d18b8c9f5",
+    "sources/attempt1-request-manifest.json": "0e6a4be40af01be440b2778924bf897636f18a170b84b73b0c6738fd896a3854",
+    "sources/attempt2-known-manifest.json": "6fb377cec909a1b5a6df57f67277b91fed7f7ead409d40d47e5fe797ab7afb13",
+    "sources/attempt2-request-manifest.json": "6e6a71d7b321ede746e1a17477715bd7d9311b657f08e4a4781f7284f291ee19",
+    "sources/clues-v1-manifest.json": "817b079a9a442b7cd053dff7f4793058fdf996338405841be5b1c0a378807d30",
+    "sources/context-manifest.json": "96e30f2a5367bee37a011eba55794a9607bec47d2d8136a23c730a79affc6ee3",
+    "sources/feed002-manifest.json": "6328139776ae384da64964a8f34956b92d95401bfe54735a45393cadbb39054c",
+    "sources/feed003-manifest.json": "a68f4f707b74d1ea1b3e2d31da67f31a372abbbcadd2f855a72e0b53da6fdd36",
+    "sources/feed005-manifest.json": "522d495798f1121d3486f82202ba85248aae520b57591a03017d3899a53236fb",
+    "sources/manifest.json": "d0d2fb9b061a8661fcddef668229c8af1fa9a2abf135518bc4158a2a7268f039",
+    "sources/context/known-keys.txt": "3a5a21569a1e2893a7ac2ce892211f7d0f28dd7c8842f4c881118ce6cab1a07a",
+    "sources/attempt2/iddqd/LP1-03.jpg": "b8b142f9b7854ec4f240e076cad03a98a2e3e9cf7c20f1da4fcde1ed25e3be3f",
+    "sources/attempt2/iddqd/LP1-04.jpg": "745c6a46f67de1e5a2a9ac76175c323af82c2432e3b7483a8dc6244f8de9478f",
+    "runs/attempt2-mechanics-v1/frozen.json": "19d28d1c77e995dbe6f82aaaf0ecd33b177eaf0f594b2d1eb7452d70ccccdb84",
+    "runs/attempt2-mechanics-v1/inputs.json": "0416041aaf8155a09f6b1df7adacc8fe0c191e5fa3b2252a66329e91955586fe",
+    "runs/attempt2-mechanics-v1/public.json": "c774c32f7d680c860009e83a346f5d7eebc38161a578ac877a51a6db2281fe74",
+    "runs/attempt2-mechanics-v1/stdout.json": "4f70e9ea6d48a69e45f5fb7bc2c61f2ce3b840dc857c6baa85ab7ec1aee575cb",
+    "runs/attempt2-mechanics-v1/summary.json": "8c777562d567ef3efd35e7c789eb47fda3ecb11dffb2d358177e39a24e927d36",
+    "runs/attempt2-mechanics-v1/plaintext-f-diagnostic.json": "192266503f76b970096c0d7eefd7d843b34f124c7b14b323c850b0c315bcd99a",
+    "runs/attempt2-mechanics-v1/verifier-only/answers.json": "4fadc58765e9d35540444bccd8a10820ca2adaaba14ede709bf00a171ece50ee",
+    "runs/attempt2-mechanics-v1/record.json": "31e72ae46e7c3949b7ca6cf48f6902be7bd9d52698efb6af119b502ad5676816",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-none-continuous-LP1_03.json": "668d8ef730a44d90b97fa6331c76356a4482be48a94d9f92fd12c436860b905a",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-none-continuous-LP1_04.json": "035a3581ef6c0eb6ba92c39a9dae96551420c9233e49f7a3bf24cdf848f44e58",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-none-page_reset-LP1_03.json": "668d8ef730a44d90b97fa6331c76356a4482be48a94d9f92fd12c436860b905a",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-none-page_reset-LP1_04.json": "717be233b0b22a2efb2ab78bf8de9263051040757227f60a85c60a5633f7c1ca",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_free-continuous-LP1_03.json": "eb13aedb670a97318d9a5ec3baf52cb220a9b947d9248de0971fccb0d8b235c5",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_free-continuous-LP1_04.json": "337906bb5680608fd74f388901fb097ed622a995225008425b44a9be229f6fc0",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_free-page_reset-LP1_03.json": "eb13aedb670a97318d9a5ec3baf52cb220a9b947d9248de0971fccb0d8b235c5",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_free-page_reset-LP1_04.json": "600bd8f79d203f2f21bbeb8878b8bbc3e26a7587dc2000f0310aa27f8af110a4",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_consume-continuous-LP1_03.json": "ae2809c64c504f5a4cfafd6f01d33d4afe3ac875d8c856b7249940a149452aa7",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_consume-continuous-LP1_04.json": "4702a929b8c248526a98cd607386040cca548c41926616d8cdbd4b51944e95b8",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_consume-page_reset-LP1_03.json": "ae2809c64c504f5a4cfafd6f01d33d4afe3ac875d8c856b7249940a149452aa7",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-specified_consume-page_reset-LP1_04.json": "851709450552e7149a932225b0809e686749729b7d3c9a06f68c23ca188758ab",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-all_cipher_f_free-continuous-LP1_03.json": "c6c2e528eb7d22c66bf32ab0ec4ebd561f67f40a2a9e0dde378e6981a7c604ac",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-all_cipher_f_free-continuous-LP1_04.json": "af0d4d7062257deca80f57c1606ec8b59214352af0ff1a1fa43de58b9f117028",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-all_cipher_f_free-page_reset-LP1_03.json": "c6c2e528eb7d22c66bf32ab0ec4ebd561f67f40a2a9e0dde378e6981a7c604ac",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-subtract-all_cipher_f_free-page_reset-LP1_04.json": "19ed5f7f65e6ddefc96424fede1e1356bd405ff2f55db6714675eacd78a23210",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-none-continuous-LP1_03.json": "5abec21a64bc3161c5f20009af8a2a440310e024c513a6c2678495081462dce9",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-none-continuous-LP1_04.json": "b50fc6fb87a890450520850b7b59a8f2f059dea0e14c4ca21fa38ffd990a03f5",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-none-page_reset-LP1_03.json": "5abec21a64bc3161c5f20009af8a2a440310e024c513a6c2678495081462dce9",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-none-page_reset-LP1_04.json": "20dddc2dc535f61f204c9b13dc4bf64180ca1c25aa5968012070281751979cee",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_free-continuous-LP1_03.json": "23caa42946575543055239a20eefcf4d6ab44c042b2ea4f900a8e957bc70e07f",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_free-continuous-LP1_04.json": "5e2960a89b0622daa719a1dc12d2c7c9446639b1e63272ab079ad6dd42b657e8",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_free-page_reset-LP1_03.json": "23caa42946575543055239a20eefcf4d6ab44c042b2ea4f900a8e957bc70e07f",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_free-page_reset-LP1_04.json": "85b335aeaf431f0c985039d4ca8a1dce4d74815e88f09be23483a9624256fa3b",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_consume-continuous-LP1_03.json": "56a8263ea580f8e314e41b5e8611ecddce0ab26b52eb46d455880dcb11527cbb",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_consume-continuous-LP1_04.json": "dd6dec12a4eba3b9406bd8a1df7067ad321eaa7fa87d5198fddc4b0d7405e216",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_consume-page_reset-LP1_03.json": "56a8263ea580f8e314e41b5e8611ecddce0ab26b52eb46d455880dcb11527cbb",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-specified_consume-page_reset-LP1_04.json": "ed1516179525a25175f8688eed5d7cbe0cb4679b1dc16b27848876727b420a96",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-all_cipher_f_free-continuous-LP1_03.json": "a2d4e65fd061ca891a9b22f823dca2e494d590208d5a839b0acb6327f6ea0846",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-all_cipher_f_free-continuous-LP1_04.json": "a68c91d4fe243427051a5eaee20d8c768c16f1224a5dad82c6581aff169d7dd0",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-all_cipher_f_free-page_reset-LP1_03.json": "a2d4e65fd061ca891a9b22f823dca2e494d590208d5a839b0acb6327f6ea0846",
+    "runs/attempt2-mechanics-v1/comparisons/H001-divinity-add-all_cipher_f_free-page_reset-LP1_04.json": "d3ed957a912d49aa019164d5385522f43faae42a998c7ac19a2f48f2720c47cf",
+    "runs/attempt2-mechanics-v1/comparisons/H001-prime-none-LP2_56.json": "6eb4689ad75380ad3edaf33e490ed19c4d764754e688956324d068911faf27d2",
+    "runs/attempt2-mechanics-v1/comparisons/H001-prime-specified_free-LP2_56.json": "08f6d78fea800a85c20c5b45d9f9d193524cb249ee1e25e48b4a89f6e392e346",
+    "runs/attempt2-mechanics-v1/comparisons/H001-prime-specified_consume-LP2_56.json": "a4e1751215a0ee3092e14eb31a6ca0391b6d8debd911ca6d01b0375fc4abc864",
+    "runs/attempt2-mechanics-v1/comparisons/H001-prime-all_cipher_f_free-LP2_56.json": "dc71c0710533974e33d6fe934aa3ed3aa714150a6e5a560c41b2995f95281e31"
+  },
+  "checks": {
+    "source_hashes_exact": true,
+    "raw_sources_and_newlines_exact": true,
+    "references": [
+      {
+        "page": "LP1/03",
+        "runes": 251,
+        "source": "sources/clues-v1/ibot/liber_primus/markdown/03.md",
+        "unique_reference_segmentation": true,
+        "saved_expected_exact": true,
+        "cipher_source_agreement": true
+      },
+      {
+        "page": "LP1/04",
+        "runes": 264,
+        "source": "sources/attempt2/ibot/liber_primus/markdown/04.md",
+        "unique_reference_segmentation": true,
+        "saved_expected_exact": true,
+        "cipher_source_agreement": true
+      },
+      {
+        "page": "LP2/56",
+        "runes": 85,
+        "source": "sources/ibot/liber_primus/markdown/73.md",
+        "unique_reference_segmentation": true,
+        "saved_expected_exact": true,
+        "cipher_source_agreement": true
+      }
+    ],
+    "unique_reference_runes": 600,
+    "h001_configurations": 20,
+    "h001_saved_steps_verified": 8580,
+    "h001_comparison_steps_verified": 8580,
+    "statuses": {
+      "passed": 2,
+      "negative": 18
+    },
+    "every_step_fields": [
+      "page",
+      "source_offset",
+      "global_rune_ordinal",
+      "local_rune_ordinal",
+      "input_index",
+      "output_index",
+      "clock_index",
+      "delta",
+      "skipped",
+      "consumed"
+    ],
+    "all_literals_preserved": true,
+    "all_frozen_inverse_checks": true,
+    "source_coordinate_mapping_exact": true
+  },
+  "cases": [
+    {
+      "id": "H001-divinity-subtract-none-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 401,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 170,
+          "first_mismatch": 48,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 231,
+          "first_mismatch": 0,
+          "first_clock": 251,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 515,
+      "selected_skip_count": 0
+    },
+    {
+      "id": "H001-divinity-subtract-none-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 385,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 170,
+          "first_mismatch": 48,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 215,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 264,
+      "selected_skip_count": 0
+    },
+    {
+      "id": "H001-divinity-subtract-specified_free-continuous",
+      "status": "passed",
+      "runes": 515,
+      "mismatch_count": 0,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 0,
+          "first_mismatch": null,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 0,
+          "first_mismatch": null,
+          "first_clock": 244,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 504,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-subtract-specified_free-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 195,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 0,
+          "first_mismatch": null,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 195,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 260,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-subtract-specified_consume-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 390,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 163,
+          "first_mismatch": 49,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 227,
+          "first_mismatch": 0,
+          "first_clock": 251,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 515,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-subtract-specified_consume-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 374,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 163,
+          "first_mismatch": 49,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 211,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 264,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-subtract-all_cipher_f_free-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 447,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 215,
+          "first_mismatch": 5,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 232,
+          "first_mismatch": 0,
+          "first_clock": 237,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 490,
+      "selected_skip_count": 25
+    },
+    {
+      "id": "H001-divinity-subtract-all_cipher_f_free-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 396,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 215,
+          "first_mismatch": 5,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 181,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 253,
+      "selected_skip_count": 25
+    },
+    {
+      "id": "H001-divinity-add-none-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 515,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 251,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 264,
+          "first_mismatch": 0,
+          "first_clock": 251,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 515,
+      "selected_skip_count": 0
+    },
+    {
+      "id": "H001-divinity-add-none-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 515,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 251,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 264,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 264,
+      "selected_skip_count": 0
+    },
+    {
+      "id": "H001-divinity-add-specified_free-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 504,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 244,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 260,
+          "first_mismatch": 0,
+          "first_clock": 244,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 504,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-add-specified_free-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 504,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 244,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 260,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 260,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-add-specified_consume-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 504,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 244,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 260,
+          "first_mismatch": 0,
+          "first_clock": 251,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 515,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-add-specified_consume-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 504,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 244,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 260,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 264,
+      "selected_skip_count": 11
+    },
+    {
+      "id": "H001-divinity-add-all_cipher_f_free-continuous",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 504,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 244,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 260,
+          "first_mismatch": 0,
+          "first_clock": 237,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 490,
+      "selected_skip_count": 25
+    },
+    {
+      "id": "H001-divinity-add-all_cipher_f_free-page_reset",
+      "status": "negative",
+      "runes": 515,
+      "mismatch_count": 504,
+      "pages": [
+        {
+          "page": "LP1/03",
+          "runes": 251,
+          "mismatch_count": 244,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        },
+        {
+          "page": "LP1/04",
+          "runes": 264,
+          "mismatch_count": 260,
+          "first_mismatch": 0,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 253,
+      "selected_skip_count": 25
+    },
+    {
+      "id": "H001-prime-none",
+      "status": "negative",
+      "runes": 85,
+      "mismatch_count": 29,
+      "pages": [
+        {
+          "page": "LP2/56",
+          "runes": 85,
+          "mismatch_count": 29,
+          "first_mismatch": 56,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 85,
+      "selected_skip_count": 0
+    },
+    {
+      "id": "H001-prime-specified_free",
+      "status": "passed",
+      "runes": 85,
+      "mismatch_count": 0,
+      "pages": [
+        {
+          "page": "LP2/56",
+          "runes": 85,
+          "mismatch_count": 0,
+          "first_mismatch": null,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 84,
+      "selected_skip_count": 1
+    },
+    {
+      "id": "H001-prime-specified_consume",
+      "status": "negative",
+      "runes": 85,
+      "mismatch_count": 28,
+      "pages": [
+        {
+          "page": "LP2/56",
+          "runes": 85,
+          "mismatch_count": 28,
+          "first_mismatch": 57,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 85,
+      "selected_skip_count": 1
+    },
+    {
+      "id": "H001-prime-all_cipher_f_free",
+      "status": "negative",
+      "runes": 85,
+      "mismatch_count": 49,
+      "pages": [
+        {
+          "page": "LP2/56",
+          "runes": 85,
+          "mismatch_count": 49,
+          "first_mismatch": 35,
+          "first_clock": 0,
+          "all_step_metadata_arithmetic_and_frozen_inverse_exact": true
+        }
+      ],
+      "final_clock": 80,
+      "selected_skip_count": 5
+    }
+  ],
+  "plaintext_f_diagnostics": [
+    {
+      "id": "H001-divinity-subtract-specified_free-continuous",
+      "source_skip": [
+        48,
+        74,
+        84,
+        132,
+        159,
+        160,
+        250,
+        421,
+        443,
+        465,
+        514
+      ],
+      "expected_plaintext_f": [
+        48,
+        74,
+        84,
+        132,
+        159,
+        160,
+        250,
+        421,
+        443,
+        465,
+        514
+      ],
+      "same_mask": true,
+      "forward_from_plaintext_f_exact": true,
+      "cipher_f": [
+        5,
+        14,
+        47,
+        48,
+        74,
+        84,
+        132,
+        144,
+        152,
+        159,
+        160,
+        165,
+        219,
+        250,
+        317,
+        331,
+        398,
+        421,
+        423,
+        443,
+        465,
+        470,
+        499,
+        505,
+        514
+      ],
+      "ordinary_cipher_f": [
+        5,
+        14,
+        47,
+        144,
+        152,
+        165,
+        219,
+        317,
+        331,
+        398,
+        423,
+        470,
+        499,
+        505
+      ],
+      "non_f_consumed": 504
+    },
+    {
+      "id": "H001-prime-specified_free",
+      "source_skip": [
+        56
+      ],
+      "expected_plaintext_f": [
+        56
+      ],
+      "same_mask": true,
+      "forward_from_plaintext_f_exact": true,
+      "cipher_f": [
+        35,
+        47,
+        51,
+        56,
+        74
+      ],
+      "ordinary_cipher_f": [
+        35,
+        47,
+        51,
+        74
+      ],
+      "non_f_consumed": 84
+    }
+  ],
+  "key_phase": {
+    "LP1_03_runes": 251,
+    "LP1_03_free_skips": 7,
+    "LP1_04_first_clock": 244,
+    "LP1_04_first_key_phase_mod8": 4,
+    "LP1_04_first_key_index": 9,
+    "LP1_04_first_cipher_index": 19,
+    "LP1_04_first_plaintext_index": 10,
+    "total_consumed": 504,
+    "total_final_phase_mod8": 0
+  },
+  "audit_process_note": "An initial audit-only assertion treated comparison signed_delta as unreduced. Worker delta is raw prime-minus-one while comparison signed_delta is reduced mod29; corrected the audit assumption and all comparisons passed. This was not a candidate mismatch and no run artifact was altered.",
+  "interpretation": [
+    "Subtract, source-specific free skips and a continuous clock exactly reproduce all515 DIVINITY runes; prime-minus-one with its fixed free skip exactly reproduces all85 LP2/56 runes.",
+    "Resetting DIVINITY at LP1/04 despite retaining source free skips causes195/264 mismatches; inherited clock244 has phase4, whereas page reset has phase0.",
+    "Every expected plaintext F equals a prescribed skip here. But14 of25 DIVINITY ciphertext Fs and4 of5 LP2/56 ciphertext Fs are ordinary encrypted non-F plaintext; skipping all ciphertext Fs corrupts clock alignment.",
+    "This is a new local reproduction of an already source-reported plaintext-F omission rule. It is not a new cryptanalytic discovery, a validated unknown-ciphertext skip selector, proof of unique inversion or a universal rule for unsolved pages.",
+    "Cross-repository agreement does not establish independent historical ancestry; source spelling and bracket alternatives were preserved."
+  ]
+}

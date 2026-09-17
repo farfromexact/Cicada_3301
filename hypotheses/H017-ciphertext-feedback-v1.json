@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "id": "H017-ciphertext-feedback-v1",
+  "attempt": "auto-cycle R009",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "FEED-010 records PROGRAM/feedback as an untested mechanism proposal, not as an author-confirmed rule.",
+    "H016-v2 tested an external repeating key and F exception; this hypothesis uses no external key and no F exception, so it is a new mechanism family rather than an H016 parameter variation.",
+    "H008 tested adjacent equality as one structural statistic, but did not test the complete first-difference transform followed by an independent language-score gate."
+  ],
+  "hypothesis": "LP2 encodes plaintext by first-order ciphertext feedback: for each page, C[-1]=0, P[0]=C[0], and P[i]=(C[i]-C[i-1]) mod29 for i>0; the transformed rune sequence should be measurably more text-like than its within-page permutation controls.",
+  "falsifiable_predictions": [
+    "A verifier-only synthetic ciphertext formed by cumulative mod29 addition of an exact plaintext is recovered exactly by the worker, including a first-rune F, adjacent-equal ciphertext values, and a page boundary.",
+    "The fixed feedback transform applied to all 55 applicable LP2 pages yields at least one maxT-adjusted p<=0.01 unit under the frozen training-only unigram score if it produces an exploratory page lead; otherwise this exact feedback and score/null combination is negative only within its stated scope.",
+    "Changing one internal ciphertext value by delta changes only the corresponding difference by +delta and the following difference by -delta modulo29; a direct independent perturbation check must confirm this locality."
+  ],
+  "sources": [
+    {"path": "reviews/feed010-operational-metaphors.md", "role": "Untested PROGRAM/feedback proposal and explicit method boundary."},
+    {"path": "hypotheses/H009-short-scorer-calibration-v1.json", "role": "Previously calibrated training-only unigram scorer; no new threshold tuning in this batch."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus and page applicability."},
+    {"path": "data/synthetic/training.txt", "role": "Frozen scorer training material."},
+    {"path": "data/synthetic/heldout.txt", "role": "Verifier-only synthetic positive plaintext material; never passed to worker."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 pages containing registered rune tokens, including rune portions of mixed literal pages LP2/49 and LP2/51.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; its literal alphanumeric grid is outside this rune-domain feedback model and is unexecuted, not negative."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; non-rune characters remain in the raw source and are not silently included in the feedback sequence.",
+  "transform": {
+    "initial_previous_cipher": 0,
+    "forward_relation": "C[-1]=0; C[i]=(C[i-1]+P[i]) mod29",
+    "inverse_relation": "P[0]=C[0]; P[i]=(C[i]-C[i-1]) mod29",
+    "boundary": "Reset C[-1]=0 at every applicable page; no row, paragraph, delimiter or chapter reset.",
+    "f_policy": "F is ordinary rune index 0 in this model; no copied-F exception or skip is added.",
+    "literals": "Non-rune characters do not enter the sequence and do not update the previous ciphertext."
+  },
+  "algorithm_version": "H017-v1: fixed page-reset first difference over ciphertext modulo29, first transformed rune retained for exact validation but omitted from score, training-only unigram score, no key search or language completion.",
+  "scoring": {
+    "score": "Mean log-smoothed unigram weight over decoded indices P[1:] only; weights are frozen from data/synthetic/training.txt with add-one smoothing and no LP2 data.",
+    "units": "55 page-reset LP2 units; one score per applicable page.",
+    "maxT": "Standardize observed and 999 control score vectors together; compare each observed unit against the maximum control z across all 55 units with plus-one p and tie tolerance 1e-12.",
+    "lead": "Complete controls and maxT-adjusted p<=0.01; this is an exploratory feedback lead, not a decryption acceptance.",
+    "negative": "Complete controls, passed independent validation and no lead; scoped only to this exact feedback transform, scorer and within-page permutation null."
+  },
+  "controls": {
+    "random_replicates": 999,
+    "random_null": "For every applicable page, uniformly shuffle its complete ciphertext multiset within the page; preserve page length, rune multiset, page order and boundaries. Each replicate supplies one joint 55-unit score vector.",
+    "synthetic_positive": "Two verifier-only exact plaintexts include first-rune F, adjacent-equal ciphertext opportunities and ordinary boundary behavior; cumulative mod29 encryption is checked independently against the worker's difference output.",
+    "negative_mutation": "Independent verification must reject a changed decoded rune or changed page output; a local internal-ciphertext perturbation check is separate from the corpus statistic.",
+    "independent": "The worker computes the public difference transform; the orchestrator independently subtracts neighboring ciphertext values, recomputes every score and exact synthetic roundtrip, and checks coverage/order."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011701,
+    "synthetic_seed_verifier_only": 33011702,
+    "role": "Page-permutation controls and private synthetic generation only; no key, plaintext or seed is passed to the worker. Partial controls are checkpointed with replay hashes."
+  },
+  "frozen_before_candidates": "The runner writes this specification, source/data hashes, public ciphertext jobs, private expected plaintexts, code snapshot, scorer weights and control seed before invoking the guarded worker or calculating corpus scores.",
+  "independent_validation_path": "The worker receives only public jobs. The verifier uses a separate direct neighbor-subtraction implementation and direct cumulative encryptor; no output-selected rule or language completion is used.",
+  "timeout_policy": "One 120-second monotonic deadline covers worker, observations, controls and statistics. Each completed control row is appended to partial JSONL; atomically replaced checkpoints record count, partial hash, frozen hash, seed, replay rule and RNG-state digest. Timeout is never negative.",
+  "total_budget": {
+    "pages": 55,
+    "runes": 12956,
+    "score_units": 55,
+    "control_replicates": 999,
+    "wall_seconds": 120,
+    "candidate_parameters": 1
+  },
+  "uncovered_parameters": [
+    "Other initial previous-cipher values, feedback orders and page/line reset policies",
+    "H016's repeating keys and plaintext-F exception, other keys, skip rules and feedback/autokey families",
+    "Multiplicative/PGL projections, geometry and literal grid participation",
+    "Independent LP2 plaintext and image-level glyph audit"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a score lead appears, freeze an independent predicted plaintext/page before interpretation. If no lead appears, do not tune the feedback order or initial value; switch to a new method family.",
+  "note": "This is a deterministic feedback compatibility and measurement experiment, not an unconstrained differential search or decryption claim."
+}

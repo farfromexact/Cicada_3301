@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "worker_jobs": 7,
+  "public_sha256": "c4b6799d8772768dc603f65f39b1ef4a86541b2a86cc802b48230f23cc2c3d20",
+  "positive_path_checks": [
+    {
+      "job": "synthetic-positive-1-continuous",
+      "endpoint_phase": 9
+    },
+    {
+      "job": "synthetic-positive-1-page_reset",
+      "endpoint_phase": 9
+    },
+    {
+      "job": "synthetic-positive-2-continuous",
+      "endpoint_phase": 1
+    },
+    {
+      "job": "synthetic-positive-2-page_reset",
+      "endpoint_phase": 1
+    }
+  ],
+  "incompatible_checks": [
+    {
+      "job": "incompatible-control-v2",
+      "status": "negative"
+    }
+  ],
+  "independent_algorithm": "forward-enumerated 13x29 transition table plus capped path recurrence"
+}

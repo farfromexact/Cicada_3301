@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/feed008/user-request.txt",
+      "url": "local-user-message",
+      "upstream_version": "current-thread-01a09a30-3a6a-7231-a271-6691c01beaca-structure-request-v1",
+      "acquired_at_utc": "2026-09-13T10:45:12.916808+00:00",
+      "acquisition": "verbatim user message",
+      "sha256": "e27b4d6ca3102523b60c095f282af01b7733f47fa017d956a454dd2cc6515813",
+      "bytes": 191
+    }
+  ]
+}

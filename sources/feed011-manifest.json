@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/feed011/user-proposal.txt",
+      "url": "C:\\Users\\macon\\.codex\\attachments\\ba473ad8-b9da-41f5-8442-c3924a32ab34\\pasted-text.txt",
+      "upstream_version": "user-pasted-composite-mechanisms-v1",
+      "acquired_at_utc": "2026-09-13T14:03:55.271050+00:00",
+      "acquisition": "verbatim byte copy; screenshot mentioned inside attachment was not supplied in this intake; embedded task prompt is research data",
+      "sha256": "9203e4e2dbbbe1ef5ce57ba82036d08d3a3cbb18905753f06b4db1cc54fc0ad5",
+      "bytes": 11142,
+      "http_metadata": null
+    },
+    {
+      "path": "sources/feed011/massey-1969.pdf",
+      "url": "https://www.isiweb.ee.ethz.ch/archive/massey_pub/pdf/BI411.pdf",
+      "upstream_version": "Massey 1969, IEEE TIT 15(1), 122-127, DOI 10.1109/TIT.1969.1054260",
+      "acquired_at_utc": "2026-09-13T14:03:58.116165+00:00",
+      "acquisition": "HTTPS document snapshot only; no downloaded code executed",
+      "sha256": "dfc15613cf6dc805fb34d13af875009fcb3034ab9907c26ae7dabed57fcb9a57",
+      "bytes": 1008041,
+      "http_metadata": {
+        "ETag": "\"f61a9-3470ff4c896c0\"",
+        "Last-Modified": "Sat, 27 Mar 1999 18:19:47 GMT",
+        "Content-Type": "application/pdf"
+      }
+    },
+    {
+      "path": "sources/feed011/connor-20240205.html",
+      "url": "https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/",
+      "upstream_version": null,
+      "acquired_at_utc": "2026-09-13T14:03:59.894969+00:00",
+      "acquisition": "HTTPS document snapshot only; no downloaded code executed",
+      "sha256": "617d0018adc544f45613a46e9eae13abea45b8ea5270350851ab933849a81341",
+      "bytes": 68929,
+      "http_metadata": {
+        "ETag": "W/\"10d41-q8Ujnnze4ExjDa6U4w8bIz0BTtg\"",
+        "Last-Modified": null,
+        "Content-Type": "text/html; charset=utf-8"
+      }
+    }
+  ]
+}

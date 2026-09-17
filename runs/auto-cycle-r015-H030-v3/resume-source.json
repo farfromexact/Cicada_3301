@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "source_run": "runs/auto-cycle-r015-H030-v2-retry3",
+  "requested": 200,
+  "first_replicate": 0,
+  "last_replicate": 199,
+  "source_partial_sha256": "b28bb8bed244187d545c7d09e76be843339518a31835ae29c79438b1b4ed3c78",
+  "source_record_sha256": "5dbce0ba30fc7e350bdd92e9d9bbfdd28e88a17faa847e169cb208c4cde4fd20",
+  "source_frozen_sha256": "30fb05ed0b06e0a71ed5911f24165855efba47bdc28313f67d5e95615e284239",
+  "source_record_controls_completed": 0,
+  "source_rows_preserved": true,
+  "replay_rule": "recompute each page with Random(CONTROL_SEED + replicate) and compare input_sha256 plus compact metrics"
+}

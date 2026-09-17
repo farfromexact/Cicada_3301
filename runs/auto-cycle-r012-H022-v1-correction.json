@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "id": "E023-h022-v1-audit",
+  "hypothesis": "H022-snake-row-bigram-v1",
+  "status": "inconclusive",
+  "original_record": "runs/auto-cycle-r012-H022-v1/record.json",
+  "original_record_status": "inconclusive",
+  "formal_negative_valid": false,
+  "audit_basis": "Independent Astra read-only audit after the synthetic gate failure",
+  "findings": [
+    "The fixed gate failed: 20/20 positives passed, but 2/33 random-direction negatives crossed delta 0.05, violating the preregistered 0/99 boundary.",
+    "The runner did not physically defer LP2 dispatch: the single public worker job list included the 55-page LP2 batch before the gate decision. LP2 output was not interpreted and no LP2 controls or candidates were published, but the execution coverage must not be described as LP2 not executed.",
+    "The normalized directed-bigram and fixed alternating reversal formulas are valid for the narrow directional consistency statistic, but the gate layout is not a sufficient power claim for LP2."
+  ],
+  "operational_observations": {
+    "power_gate_status": "failed",
+    "positive_score_passes": 20,
+    "negative_false_accepts": 2,
+    "worker_jobs": 120,
+    "lp2_worker_pages_touched": 55,
+    "lp2_scientific_interpretation": false,
+    "controls_completed": 0,
+    "unsolved_page_candidates": []
+  },
+  "required_action": "Do not use H022-v1 as cryptanalytic evidence or negative. Future retries require a new preregistered version, independent gate calibration and two-stage worker dispatch so LP2 is not sent before gate success.",
+  "next_direction": "H023-row-edge-interior-g-v1"
+}

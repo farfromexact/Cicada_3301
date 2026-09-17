@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "H025-plaintext-feedback-v1",
+  "attempt": "auto-cycle R014",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "R011 H021, R012 H022 and R013 H023 had no independently reproducible candidate; the next batch must leave the geometry/structure family.",
+    "Astra's R013 audit proposed plaintext feedback as a distinct recurrence from H017 ciphertext neighbor difference.",
+    "H017 used a frozen training-only unigram score; H025 uses a separately fixed training-only bigram score so a shuffled plaintext negative is not accepted merely for preserving unigram counts."
+  ],
+  "hypothesis": "LP2 encodes plaintext with page-reset first-order plaintext feedback: P[-1]=0, C[i]=(P[i]+P[i-1]) mod29; inverse P[i]=(C[i]-P[i-1]) mod29 should yield a sequence with detectable training-only bigram structure.",
+  "falsifiable_predictions": [
+    "A verifier-only exact ciphertext formed by C[i]=(P[i]+P[i-1]) mod29 is recovered exactly by the worker, including P[0]=F, adjacent equal ciphertext values and page-boundary reset.",
+    "On a fixed actual-page-length synthetic gate, at least 18/20 positive natural-text cases score >= -5.9 after exact recovery, while 0/99 negatives across uniform ciphertext, wrong H017 cumulative feedback and shuffled plaintext score >= -5.9.",
+    "After the gate passes, the fixed recurrence over all 55 applicable LP2 pages has at least one maxT-adjusted p<=0.01 unit to count as a structural lead; otherwise the exact recurrence, scorer and within-page permutation null are negative only within scope."
+  ],
+  "sources": [
+    {"path": "reviews/auto-cycle-009.md", "role": "R014 forced method switch, three-direction comparison and H025 selection."},
+    {"path": "reviews/auto-cycle-008.md", "role": "R013/H023 completion and three-round method-family boundary."},
+    {"path": "hypotheses/H017-ciphertext-feedback-v1.json", "role": "H017 ciphertext-difference boundary; H025 must not repeat its transform or score exclusion."},
+    {"path": "hypotheses/H009-short-scorer-calibration-v1.json", "role": "Existing scorer calibration boundary; H025 uses a new fixed bigram measurement with its own gate."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus, page order and applicability."},
+    {"path": "data/synthetic/training.txt", "role": "Frozen training-only bigram counts and weights."},
+    {"path": "data/synthetic/heldout.txt", "role": "Verifier-only natural-text windows for fixed synthetic gate positives."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 pages containing registered rune tokens, including rune portions of LP2/49 and LP2/51.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "No registered rune tokens; the literal alphanumeric grid is not converted into the rune-domain feedback model."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; non-rune characters remain in the raw source and do not update the plaintext feedback state.",
+  "transform": {
+    "initial_previous_plain": 0,
+    "forward_relation": "P[-1]=0; C[i]=(P[i]+P[i-1]) mod29",
+    "inverse_relation": "P[i]=(C[i]-P[i-1]) mod29",
+    "boundary": "Reset P[-1]=0 at every applicable page; no row, paragraph, delimiter or chapter reset.",
+    "f_policy": "F is ordinary rune index 0; no copied-F exception, skip or key is added.",
+    "literals": "Non-rune characters do not enter the sequence and do not update the previous plaintext."
+  },
+  "algorithm_version": "H025-v1: page-reset plaintext-feedback recurrence, exact rune output, training-only bigram score, no key search or language completion.",
+  "scoring": {
+    "score": "Mean log-smoothed adjacent-pair weight over every decoded transition P[i-1],P[i]; weights are log((count+1)/(N_pairs+841)) from data/synthetic/training.txt only.",
+    "units": "55 page-reset LP2 units; one score per applicable page.",
+    "gate_threshold": -5.9,
+    "maxT": "Standardize observed and 999 control score vectors together; compare each observed unit against the maximum control z across all 55 units with plus-one p and tie tolerance 1e-12.",
+    "lead": "Complete controls, passed independent second-stage validation and maxT-adjusted p<=0.01; a lead is structural only.",
+    "negative": "Complete controls, passed independent validation and no lead; scoped only to this exact recurrence, bigram weights and within-page ciphertext-permutation null."
+  },
+  "power_gate": {
+    "positive_count": 20,
+    "negative_count": 99,
+    "negative_classes": {"uniform_ciphertext": 33, "wrong_h017_cumulative_feedback": 33, "shuffled_plaintext": 33},
+    "lengths": [262, 266, 201, 217, 261, 263, 196, 208, 255, 268, 263, 273, 261, 272, 137, 159, 267, 273, 260, 271],
+    "positive_source": "Fixed windows of data/synthetic/heldout.txt at start=i*37, length from the pinned list; every positive has P[0]=0 and positive index 2 also has P[1]=0 to exercise a zero boundary.",
+    "negative_design": "Uniform random ciphertext; natural verifier-only windows encrypted by H017 cumulative C[i]=C[i-1]+P[i] mod29; and the same natural windows shuffled in rune order then encrypted by H025.",
+    "threshold": -5.9,
+    "acceptance": "At least 18/20 positive exact decodes score >= -5.9 and 0/99 negatives score >= -5.9; classes are reported separately. This is a measurement gate, not an LP2 result.",
+    "failure_action": "Retain gate artifacts, mark inconclusive and do not dispatch LP2."
+  },
+  "controls": {
+    "random_replicates": 999,
+    "random_null": "For every applicable page, uniformly shuffle its complete ciphertext multiset within the page; preserve page length, rune multiset, page order and boundaries. Each replicate supplies one joint 55-unit score vector.",
+    "dispatch": "Gate-only public jobs are sent first; LP2 public jobs are constructed and dispatched only after gate status passed.",
+    "independent": "The worker decodes with its own recurrence; the orchestrator independently subtracts the previous decoded plaintext, recomputes every bigram score and encrypts verifier-only positives from the recovered plaintext.",
+    "mutation": "Changing a decoded rune, page identity, page order, score input or positive answer must fail independent verification.",
+    "multiple_testing": "One preregistered bigram-score statistic family with maxT across 55 valid pages; H017 unigram and H021-H023 structural statistics are not added."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "gate_positive_seed": 33012501,
+    "gate_negative_seed": 33012502,
+    "control_seed": 33012503,
+    "role": "The gate negative generator and page-permutation controls only; seeds and expected plaintext never enter the worker."
+  },
+  "frozen_before_candidates": "The runner writes this specification, all source/data hashes, gate-only public ciphertext jobs, verifier-only plaintext expectations, page order, code snapshot, bigram weights, threshold and seeds before worker execution; LP2 public jobs are written only after gate success.",
+  "independent_validation_path": "A guarded worker receives only schema-valid public ciphertext. The verifier implements the recurrence directly, reconstructs C from positive P, recomputes bigram scores and checks exact job/page/rune coverage and output mutations.",
+  "timeout_policy": "One 120-second monotonic deadline covers gate, optional LP2 worker, observations, controls, statistics and finalization. Each completed control row is appended to partial JSONL; an atomic checkpoint records count, partial hash, frozen hash, public hash, seed and RNG-state digest. Timeout is never negative.",
+  "total_budget": {
+    "power_gate_positive_jobs": 20,
+    "power_gate_negative_jobs": 99,
+    "lp2_pages": 55,
+    "lp2_runes": 12956,
+    "control_replicates": 999,
+    "wall_seconds": 120,
+    "candidate_parameters": 1
+  },
+  "uncovered_parameters": [
+    "Other previous-plaintext initial values, feedback orders, mixed page/row reset policies and any key stream",
+    "H017 ciphertext difference, H016 external key/F exception, H026 word-block masks and H027 cross-page reuse",
+    "Multiplicative/PGL transforms, geometry, physical pixel layout and literal grid participation",
+    "Independent LP2 plaintext and image-level glyph audit"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a structural lead appears, freeze an independent page prediction before interpretation; if no lead appears, do not tune the recurrence, threshold or reset policy and choose a new non-geometric method family.",
+  "note": "A high bigram score is a measurement lead, not a plaintext/key solution; reverse encryption consistency is necessary but not sufficient."
+}

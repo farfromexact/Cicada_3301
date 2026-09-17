@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-13T14:08:50.098576+00:00",
+  "checks": {
+    "original_feed_byte_equal": true,
+    "review_hash_equal": true,
+    "archive_crc_passed": true,
+    "source_bundle_byte_equal": true
+  },
+  "regression": "runs/20260913T140805.723786Z/record.json",
+  "commands": [
+    {
+      "name": "tests",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "reproduce",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/reproduce.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\reproduce"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "research",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/research.py",
+        "validate"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "clues",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/check_clues.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\clues"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "math",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/check_math.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\math"
+      ],
+      "exit_code": 0
+    },
+    {
+      "name": "synthetic",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/synthetic_benchmark.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\synthetic"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "source_files_verified": 106,
+  "failed_regression": "runs/20260913T140657.442900Z/record.json",
+  "index_correction": "reviews/feed011-index-correction.json",
+  "unsolved_page_candidates_added": 0
+}

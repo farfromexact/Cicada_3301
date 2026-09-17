@@ -1,0 +1,21 @@
+{
+  "id": "FEED-004",
+  "received_date": "2026-09-13",
+  "source": "sources/attempt1/user-request.txt",
+  "type": "execution_authorization",
+  "claim_ids": [],
+  "method_ids": [
+    "M001",
+    "M002",
+    "M004",
+    "M005",
+    "M006",
+    "M007"
+  ],
+  "related_feeds": [
+    "FEED-003"
+  ],
+  "summary": "User requests the first actual bounded cracking attempt and a record regardless of outcome. New authorization, not a new cryptanalytic claim.",
+  "new_cryptanalytic_experiment": "H006-v1",
+  "execution_authorized_by_this_feed": "Start a bounded local attempt under existing discipline. No infinite search, scheduler, paid resource, or publication requested."
+}

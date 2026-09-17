@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "completed": 999,
+  "last_replicate": 999,
+  "requested": 999,
+  "unit_count": 55,
+  "seed": 33011701,
+  "partial_path": "control-scores.partial.jsonl",
+  "partial_sha256": "1de23a5c91c55cd236d67e767f2b500ff2b3ca7f44ef1c9ea37431764a42ca0b",
+  "frozen_sha256": "7fc621d076df9a9bd3b2c624eea4fd3dd3c4707268b6ba7849c25f0905944eb3",
+  "code_version_digest": "9e9a1d3f8669eba4b041ebe76d9273bc2b3d1c1414b334e73d3f076ed93032b5",
+  "public_sha256": "a98e12309600e590bfe9f7a1ad986fae7a6c2b011d48f7878ea508aaf31e3a19",
+  "rng_state_sha256": "f3a6151319bd7d16e54060e66a93542f8754afe9113606f57721f423d7d0c766",
+  "replay_rule": "restart from seed and consume exactly one full-page permutation per applicable page per replicate"
+}

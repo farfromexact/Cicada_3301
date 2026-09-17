@@ -1,0 +1,80 @@
+{
+  "id": "FEED-011",
+  "received_date": "2026-09-13",
+  "source": "sources/feed011/user-proposal.txt",
+  "type": "composite_mechanism_proposal_review",
+  "claim_ids": [
+    "C006",
+    "C012",
+    "C014",
+    "C015",
+    "C017",
+    "C020",
+    "C021",
+    "C022",
+    "C023"
+  ],
+  "method_ids": [
+    "M001",
+    "M002",
+    "M003",
+    "M004",
+    "M007",
+    "M008"
+  ],
+  "related_feeds": [
+    "FEED-005",
+    "FEED-009",
+    "FEED-010"
+  ],
+  "classification": "新BM观测/DSL提案，既有PGL极点问题的分隔符细化；组合、聚类、crib和图像提案待操作化，覆盖前提需限定",
+  "review": "reviews/feed011-composite-mechanisms.md",
+  "summary": "优先校准BM能否观察指定线性递推；不能由密文复杂度推断所有隐藏状态。DSL须类型化和规范化；PGL须明确分隔符是否可变为符文。",
+  "proposals": [
+    {
+      "id": "FEED011-P1",
+      "status": "conjecture",
+      "topic": "BM prefix fit / untouched suffix prediction; observability calibration before LP2"
+    },
+    {
+      "id": "FEED011-P2",
+      "status": "conjecture",
+      "topic": "Typed DSL with stateful clock policies, proven rewrite rules and bounded parameter sources"
+    },
+    {
+      "id": "FEED011-P3",
+      "status": "conjecture",
+      "topic": "30-symbol PGL separator contract; fixed infinity reduces to affine"
+    },
+    {
+      "id": "FEED011-P4",
+      "status": "conjecture",
+      "topic": "Two matrices as key material; rank ties and 25-period assumption unresolved"
+    },
+    {
+      "id": "FEED011-P5",
+      "status": "conjecture",
+      "topic": "Length-controlled stable clustering is descriptive, not cipher-family identification"
+    },
+    {
+      "id": "FEED011-P6",
+      "status": "conjecture",
+      "topic": "Crib-derived key constraints with independent predictive positions and F clock handling"
+    },
+    {
+      "id": "FEED011-P7",
+      "status": "conjecture",
+      "topic": "Image layout measurement with original resolution, origin and annotation uncertainty"
+    }
+  ],
+  "new_cryptanalytic_experiments": [],
+  "unsolved_page_candidates": 0,
+  "source_limit": "Attachment refers to a screenshot not supplied in this intake. Its final suggested task prompt is archived as research data, not direct user authorization.",
+  "execution_authorized_by_this_feed": "Intake, source verification, comparison to existing runs and required offline regression only. No new DSL/BM/PGL corpus batch or budget adopted.",
+  "derivation": {
+    "version": "feed011-review-v1",
+    "created_at_utc": "2026-09-13T14:06:56.763451+00:00",
+    "input_sha256": "9203e4e2dbbbe1ef5ce57ba82036d08d3a3cbb18905753f06b4db1cc54fc0ad5",
+    "review_sha256": "1cc27992c7f8172f4a02fe1ea75920b49b33a692be4863e2c1f10c157234a1ce"
+  }
+}

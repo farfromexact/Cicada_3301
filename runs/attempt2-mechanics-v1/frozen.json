@@ -1,0 +1,459 @@
+{
+  "frozen_at_utc": "2026-09-13T10:26:17.779490+00:00",
+  "specifications": [
+    {
+      "schema": 1,
+      "id": "H001-v1",
+      "attempt": 2,
+      "title": "Discriminate documented F exceptions, clock consumption, direction and page continuity",
+      "registered_at_utc": "2026-09-13T10:18:06.8286342Z",
+      "status_at_registration": "preregistered before real source candidate execution",
+      "run_directory": "runs/attempt2-mechanics-v1",
+      "rationale": "Attempt1 produced no frequency-alignment leads for its registered no-skip prime clock branches. Known LP1 DIVINITY and LP2/56 offer exact reference tests of exception semantics before extending any unknown-page hypothesis.",
+      "preexecution_correction": "Before any real source candidate execution, the Attempt1 rationale wording was corrected to describe absence of frequency leads rather than exact exclusion; all H001 criteria, parameters and budget are unchanged.",
+      "scope": "Known-page mechanism discrimination only; no new unsolved-page candidates, no dictionary or skip-mask search.",
+      "sources": [
+        {
+          "path": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+          "sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+          "upstream_version": "0e3789ad2949c62ea7fb9e3e00ded93df3b3ce07",
+          "role": "Ciphertext preserving source separators; literal percent sections 2 and 3 are LP1/03 and LP1/04."
+        },
+        {
+          "path": "sources/clues-v1/ibot/liber_primus/markdown/03.md",
+          "sha256": "1329632ce461ea80d647f420e0a77c27ea65520f8f4545c1f9864b4ca92a572d",
+          "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+          "role": "Independent expected rune construction from source Plaintext and input word rune counts; source key and skips."
+        },
+        {
+          "path": "sources/attempt2/ibot/liber_primus/markdown/04.md",
+          "sha256": "ce6868867e524ee40c6084a35aa11335fb8775f620256414817ec3c0cce5f222",
+          "upstream_version": "63503b91b659179df18112b6d366b34dc61cbcb7",
+          "role": "Independent expected rune construction, complete combined source tool input and continuation instruction."
+        },
+        {
+          "path": "sources/ibot/liber_primus/markdown/73.md",
+          "sha256": "09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9",
+          "role": "LP2/56 independent Plaintext and fixed prime-minus-one source."
+        },
+        {
+          "path": "sources/context/known-keys.txt",
+          "sha256": "3a5a21569a1e2893a7ac2ce892211f7d0f28dd7c8842f4c881118ce6cab1a07a",
+          "role": "Independent source-reported DIVINITY key indices and plaintext F exception wording."
+        },
+        {
+          "path": "data/pages/lp2_56.json",
+          "sha256": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+          "role": "Existing derived LP2/56 raw ciphertext and provenance."
+        },
+        {
+          "path": "sources/attempt2/iddqd/LP1-03.jpg",
+          "sha256": "b8b142f9b7854ec4f240e076cad03a98a2e3e9cf7c20f1da4fcde1ed25e3be3f",
+          "role": "Pinned original image; acquisition and verified Git blob in attempt2-known-manifest."
+        },
+        {
+          "path": "sources/attempt2/iddqd/LP1-04.jpg",
+          "sha256": "745c6a46f67de1e5a2a9ac76175c323af82c2432e3b7483a8dc6244f8de9478f",
+          "role": "Pinned original image; acquisition and verified Git blob in attempt2-known-manifest."
+        }
+      ],
+      "arithmetic": {
+        "alphabet": "ᚠᚢᚦᚩᚱᚳᚷᚹᚻᚾᛁᛄᛇᛈᛉᛋᛏᛒᛖᛗᛚᛝᛟᛞᚪᚫᚣᛡᛠ",
+        "domain": "rune ordinal indices 0..28, not GP prime values or Latin letters",
+        "vigenere_key_indices": [
+          23,
+          10,
+          1,
+          10,
+          9,
+          10,
+          16,
+          26
+        ],
+        "vigenere_key_glyphs": "ᛞᛁᚢᛁᚾᛁᛏᚣ",
+        "key_source_wording": "reverse Vigenere cipher; key divinity; continuous chunk adding to end of page 3",
+        "direction_interpretation": "Primary interpretation is P=(C-K[t mod8]) mod29; source phrase does not alone establish algebraic direction, so P=(C+K[t mod8]) mod29 is a fixed comparison.",
+        "prime_delta": "prime[t]-1 with zero-based t, prime[0]=2; offset=0 and shift=1",
+        "literals": "Every non-rune codepoint is preserved and consumes no clock in H001.",
+        "page_reset": "Reset only key clock to zero before each page; skip coordinates remain global rune ordinals.",
+        "step_clock": "clock_index is the clock before handling the rune; delta is zero at every selected skip; consumed records actual advancement."
+      },
+      "coordinate_mapping": {
+        "LP1_combined": {
+          "input": "Exact sentence in source04 Tool block; 638 codepoints and 515 runes; source03 singleline plus one ASCII space plus source04 singleline.",
+          "reported_indexes": [
+            59,
+            95,
+            108,
+            170,
+            204,
+            205,
+            312,
+            523,
+            551,
+            578,
+            638
+          ],
+          "coordinate_system": "One-based Unicode codepoints, including ASCII spaces; all selected glyphs must be F before running.",
+          "global_rune_ordinals": [
+            48,
+            74,
+            84,
+            132,
+            159,
+            160,
+            250,
+            421,
+            443,
+            465,
+            514
+          ],
+          "LP1_03_runes": 251,
+          "LP1_04_runes": 264,
+          "LP1_03_local_skip": [
+            48,
+            74,
+            84,
+            132,
+            159,
+            160,
+            250
+          ],
+          "LP1_04_local_skip": [
+            170,
+            192,
+            214,
+            263
+          ],
+          "LP1_03_all_cipher_F": [
+            5,
+            14,
+            47,
+            48,
+            74,
+            84,
+            132,
+            144,
+            152,
+            159,
+            160,
+            165,
+            219,
+            250
+          ],
+          "LP1_04_all_cipher_F": [
+            66,
+            80,
+            147,
+            170,
+            172,
+            192,
+            214,
+            219,
+            248,
+            254,
+            263
+          ]
+        },
+        "LP2_56": {
+          "reported_index": 202,
+          "coordinate_system": "Zero-based Unicode codepoint in stripped source73 singleline, including hash and spaces; distinct from source03/04 convention.",
+          "global_rune_ordinals": [
+            56
+          ],
+          "runes": 85,
+          "all_cipher_F": [
+            35,
+            47,
+            51,
+            56,
+            74
+          ]
+        }
+      },
+      "policies": {
+        "none": "Transform every rune and advance clock once per rune.",
+        "specified_free": "Keep source-selected exceptions unchanged and do not advance clock there.",
+        "specified_consume": "Keep source-selected exceptions unchanged but advance clock there.",
+        "all_cipher_f_free": "Keep every input ciphertext index0 unchanged and do not advance clock there."
+      },
+      "batches": [
+        {
+          "id": "DIVINITY",
+          "pages": [
+            "LP1/03",
+            "LP1/04"
+          ],
+          "rune_count": 515,
+          "mode": "vigenere",
+          "directions": [
+            "subtract",
+            "add"
+          ],
+          "policies": [
+            "none",
+            "specified_free",
+            "specified_consume",
+            "all_cipher_f_free"
+          ],
+          "continuities": [
+            "continuous",
+            "page_reset"
+          ],
+          "configuration_count": 16
+        },
+        {
+          "id": "prime56",
+          "pages": [
+            "LP2/56"
+          ],
+          "rune_count": 85,
+          "mode": "prime",
+          "directions": [
+            "subtract"
+          ],
+          "policies": [
+            "none",
+            "specified_free",
+            "specified_consume",
+            "all_cipher_f_free"
+          ],
+          "continuities": [
+            "continuous"
+          ],
+          "configuration_count": 4
+        }
+      ],
+      "acceptance": {
+        "primary": "Subtract + specified_free + continuous must equal independently constructed expected sequence on every rune of each applicable page.",
+        "all_configurations": "Record exact equality, count and first mismatch, all step arithmetic, preserved literal layout, and independent forward reconstruction using each frozen delta/mask. Do not reconstruct inverse by reselecting F from decrypted output.",
+        "comparisons": "No comparison is prelabelled negative; equivalent transformations may coincide and must be reported as such.",
+        "expected_source": "Use Plaintext sections with bracket alternatives and unique segmentation by cipher word rune counts. Never cleaned plaintext, LLM reconstruction, spelling correction or transform output.",
+        "diagnostic_if_primary_exact": "Compare independently expected plaintext index0 positions with prescribed skip set and independently encrypt expected runes using plaintext-F-driven free skips. Report mask equality and exact ciphertext reconstruction per source/page; do not generalize to all unknown pages.",
+        "statistics": "Exact reference comparison only; no language scoring or statistical significance selected from these configurations.",
+        "outcomes": "passed, negative, error, timeout and inconclusive remain distinct. Failure excludes only the tested parameters, source and criterion."
+      },
+      "budget": {
+        "maximum_configurations": 20,
+        "maximum_candidate_rune_steps": 8580,
+        "maximum_wall_seconds": 30,
+        "unknown_page_candidates": 0
+      },
+      "limits": [
+        "Independent computation path is not independent historical provenance; source repositories may share ancestry.",
+        "Original image viewing confirms layout, not an independent person-by-person glyph audit.",
+        "A recovered known page is a regression result, not a new Liber Primus solution.",
+        "No learned exception-mask selector for unknown ciphertext is established by this test."
+      ]
+    },
+    {
+      "id": "H002-v1",
+      "registered_utc": "2026-09-13T10:16:28.651864+00:00",
+      "registration_phase": "Before new real-source candidate computation; existing H000 known-answer baseline already public",
+      "hypothesis": "On the known LP2/56 page, the prime-minus-one clock spans line, title/body and literal hash boundaries while consuming only non-exception runes.",
+      "basis": [
+        "hypotheses/NEXT.md",
+        "research/METHOD.md",
+        "data/pages/lp2_56.json",
+        "sources/ibot/liber_primus/markdown/73.md"
+      ],
+      "inputs": [
+        {
+          "path": "data/pages/lp2_56.json",
+          "sha256": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6"
+        },
+        {
+          "path": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+          "sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c"
+        },
+        {
+          "path": "sources/ibot/liber_primus/markdown/73.md",
+          "sha256": "09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9"
+        },
+        {
+          "path": "sources/iddqd/liber-primus__images--unsolved/56.jpg",
+          "sha256": "a4c1c9ae1246c3197fc1d7bd0155cbc97f60d4bba84a104d45f180feab1814dc"
+        }
+      ],
+      "raw_sha256": "9161675f3bf7cef86272e2feb7946e1e6c39b9044faecab89533e655d9afd24f",
+      "parameters": {
+        "formula": "P=(C-(prime[t]-1)) mod29; first prime at t=0 is 2",
+        "offset": 0,
+        "shift": 1,
+        "skip_ordinal": 56,
+        "skip_semantics": "Copy rune ordinal 56 unchanged and do not advance clock; fixed during inverse encryption too",
+        "skip_source_coordinates": {
+          "ibot_flattened_codepoint": 202,
+          "master_source_offset": 222
+        },
+        "title_boundary": 8,
+        "title_basis": "Five red title runes at ordinals 0..4; first master clause marker at source_offset 7; image and source Red Text agree. Reset before source_offset 8 / rune ordinal 5, not after a whole visual line.",
+        "hash_spans_half_open": [
+          [
+            67,
+            93
+          ],
+          [
+            95,
+            120
+          ],
+          [
+            122,
+            147
+          ],
+          [
+            149,
+            176
+          ],
+          [
+            178,
+            203
+          ]
+        ],
+        "hash_literal_count": 128,
+        "hash_literal_alphabet": "0123456789abcdef",
+        "punctuation_set": "-.,/&$§%;",
+        "punctuation_present_counts": {
+          "-": 21,
+          ".": 3,
+          "/": 10,
+          "&": 3,
+          "$": 1,
+          ";": 1
+        },
+        "semicolon_interpretation": "Included explicitly in delimiter-consume branch as a tested convention; its source delimiter meaning remains unresolved",
+        "formatting_semantics": "All whitespace ignored by clock; every non-rune preserved byte-for-byte in UTF-8 output",
+        "branches": [
+          {
+            "id": "continuous",
+            "rule": "Initialize t=0 once; only non-skipped runes advance"
+          },
+          {
+            "id": "line_reset",
+            "rule": "Reset t=0 after each raw slash; effective next-rune reset ordinals 20,39,45,67; keep repeated hash-line events"
+          },
+          {
+            "id": "paragraph_reset",
+            "rule": "Reset t=0 after each raw ampersand; offsets65 and205 both precede the next rune45, so boundary events are observationally redundant"
+          },
+          {
+            "id": "title_reset",
+            "rule": "Reset t=0 once, immediately before source_offset8"
+          },
+          {
+            "id": "hash_advance",
+            "rule": "Continuous plus one extra advance for each ASCII hex character within the five fixed hash spans; preserve those characters"
+          },
+          {
+            "id": "delimiter_advance",
+            "rule": "Continuous plus one extra advance for each raw character in the fixed punctuation set; ignore hash literals and whitespace"
+          }
+        ],
+        "cross_page_continuity": "Not tested; one known page only",
+        "new_unsolved_page_candidates": 0
+      },
+      "scorer": "None; exact reference rune comparison only",
+      "success": "Per branch: all85 reference runes agree, non-runes remain unchanged, independent arithmetic trace agrees, and inverse encryption with the same frozen skip/clock convention returns the exact original raw text",
+      "failure": "A completed branch with reference mismatches is negative only for this input and fixed convention; save total mismatches and first mismatch ordinal/source offset. Exceptions are error, timeouts are timeout, insufficient verification is inconclusive.",
+      "expectation_source": "Existing reference_indices built from the source Plaintext Latin alternatives and ciphertext word rune counts, never Cleaned up Plaintext; reference construction must remain outside the candidate transform module",
+      "independence_limits": "Key recipe, skip and known plaintext share ibot73.md. Arithmetic and reference algorithms can be independent; neither cross-repository rune equality nor this audit proves historical source independence.",
+      "aliases": [
+        "continuous aliases H001 documented skip/no-consume and existing H000 baseline; do not count as independent discovery",
+        "Repeated resets without an intervening consuming event have the same next-rune effect; retain event trace without double-counting evidence"
+      ],
+      "coverage": {
+        "eligible": [
+          "LP2/56"
+        ],
+        "runes": 85,
+        "all_unsolved_pages": "Not eligible for known-answer exact audit; no claimed new coverage",
+        "other_known_pages": "Excluded because this hypothesis is specific to the LP2/56 prime stream and its hash/title boundaries"
+      },
+      "budget": {
+        "configurations": 6,
+        "timeout_seconds": 30,
+        "adaptive_expansion": false
+      },
+      "controls": [
+        "Existing continuous known-answer positive baseline",
+        "Five predeclared alternative clock conventions",
+        "Hand-computed tiny-input unit tests before real-source execution",
+        "Independent exact-rune/reference and arithmetic checks after execution"
+      ],
+      "statistical_claims": "No language scoring, p-values, multiple-testing significance or generalization to unsolved pages",
+      "artifact_directory": "runs/attempt2-mechanics-v1"
+    }
+  ],
+  "source_hashes": {
+    "hypotheses/H001-skip-clock-v1.json": "858565d0364cd1378670069439d249d386d4a4e9b9a4675a8a0892f6d2957641",
+    "hypotheses/H002-boundary-clock-v1.json": "c9c2cbec9c7ec4c78440d8d8cbe4833f144c1426afc9317d4e367bff6b365c66",
+    "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "sources/clues-v1/ibot/liber_primus/markdown/03.md": "1329632ce461ea80d647f420e0a77c27ea65520f8f4545c1f9864b4ca92a572d",
+    "sources/attempt2/ibot/liber_primus/markdown/04.md": "ce6868867e524ee40c6084a35aa11335fb8775f620256414817ec3c0cce5f222",
+    "sources/ibot/liber_primus/markdown/73.md": "09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9",
+    "data/pages/lp2_56.json": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+    "sources/attempt1-manifest.json": "cb23f409e14fb9d07e96b86536407007c276660e7faa670cd168f44d18b8c9f5",
+    "sources/attempt1-request-manifest.json": "0e6a4be40af01be440b2778924bf897636f18a170b84b73b0c6738fd896a3854",
+    "sources/attempt2-known-manifest.json": "6fb377cec909a1b5a6df57f67277b91fed7f7ead409d40d47e5fe797ab7afb13",
+    "sources/attempt2-request-manifest.json": "6e6a71d7b321ede746e1a17477715bd7d9311b657f08e4a4781f7284f291ee19",
+    "sources/clues-v1-manifest.json": "817b079a9a442b7cd053dff7f4793058fdf996338405841be5b1c0a378807d30",
+    "sources/context-manifest.json": "96e30f2a5367bee37a011eba55794a9607bec47d2d8136a23c730a79affc6ee3",
+    "sources/feed002-manifest.json": "6328139776ae384da64964a8f34956b92d95401bfe54735a45393cadbb39054c",
+    "sources/feed003-manifest.json": "a68f4f707b74d1ea1b3e2d31da67f31a372abbbcadd2f855a72e0b53da6fdd36",
+    "sources/feed005-manifest.json": "522d495798f1121d3486f82202ba85248aae520b57591a03017d3899a53236fb",
+    "sources/manifest.json": "d0d2fb9b061a8661fcddef668229c8af1fa9a2abf135518bc4158a2a7268f039"
+  },
+  "code_version": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "b25208d03bd102ccc082cf5ab8b5d76ab0ffce5a6a2dde217fd422d02bf9a262",
+    "files": {
+      "pyproject.toml": "5195cc024297b7c9ddae7ca0465fbe564169b88e45f422d77d8a4c97cdfaf82c",
+      "scripts/acquire_clue_sources.py": "f1704510b14ad4b2b7a4132c2ea33bff097f22de1b0b017073ea81af4814ad36",
+      "scripts/acquire_math_sources.py": "b49e3ad3eb3e5c4d6f49528bb9b329275fa6b4a462c3812e3f5fc4a77c0e336b",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/attempt1.py": "e61a05d384bb2ad7e17dcb3b23e5ba0b157fe47f785f129f950de53704f4c435",
+      "scripts/attempt1_worker.py": "1d29b77e2b98854017cc56e2afe2af93b6df70f01abc9aafc4cd0616d28a9eaa",
+      "scripts/attempt2.py": "a501b1d05508b0ea4833bd7785ec171879be729650869068c4d906cb7cb768d2",
+      "scripts/attempt2_worker.py": "62bf0a789a4f52239bc43645f6a382ef2288e852d011df80e21e0af5fde8b269",
+      "scripts/check_clues.py": "a547f9498e199bf89e9cdb406d47e8bbd4f7430f71021fd2d7ca4268b50bff6b",
+      "scripts/check_math.py": "5c8fe24e0ffb023ad731a69c814d862cdd7b75d78704a1c4c84970674118a9a6",
+      "scripts/prepare_attempt1.py": "4e9a8a8e510ece5adb047f57bc7b1753f28e72e444924274375aa8c2dc4a0de5",
+      "scripts/prepare_attempt2_sources.py": "5cfd5bca26c47c7c2ba0325994a67931de9800e0d89a323f2dabc614a1af88c3",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/research.py": "e32b7176f39cfeb3b8528a1150462dc1f76120f6e1a6d58e011e5411915617a8",
+      "scripts/run_round.py": "c2d8697851d1e72498e92b1a4957ed6c46115ea5671c31fa01e97e755375dde0",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/snapshot_context.py": "5c28dcfff9dbff6719552d0e52dc1be9d6781b64f1486f6dce4f35b1491b8edf",
+      "scripts/synthetic_benchmark.py": "a7f54559049290960296a50259754e916537cced9737dcbd259f6b80c22fa542",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/attempt1_stats.py": "6b933ec1133f8110819194146eef7d702949cc24f3493bf96e416ed207a1f7a8",
+      "src/lp_lab/boundary_clock.py": "ab34345a550f803d5d847201af404c04408b72336cb920d6d5c4f713ba6a9dc5",
+      "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+      "src/lp_lab/clues.py": "0dee6564916eaa28c7cb91d43bf3bb0a413da5f4974af82d08cd0f53fd95b794",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/math_audit.py": "48bcc73f0d68457301a8ba73cd7ff5d0105e0a5324e378baaaeabdc27f437b0e",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+      "src/lp_lab/reference.py": "eebc50bfb69c8e59d4f6e5a1e9f78102a1eb7a36666e31bc0f7b4396a4ac69b6",
+      "src/lp_lab/research.py": "88e646aa44e57bb0657ebcf79696c8b1fe5e0fb5649dbfe2c5b910f80219b314",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/skip_mechanics.py": "975863a4f0b54fc2412751dc9f6976dcd75e0c2e8bef8d5e8df27855e2583b0c",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_attempt1_stats.py": "4143f38ceac1f09857169a4bc4051accfe59eb5e84a730b237f4a579ee047e1d",
+      "tests/test_attempt1_worker.py": "e56d1ca0acbca79e016323cffaaf0b252104009bb7668ba609247388c755c8c7",
+      "tests/test_attempt2_worker.py": "281b133fb26dc4523f05e686221cc5c90ec36737a52fbb4308e8eddbdf0ed9a5",
+      "tests/test_boundary_clock.py": "f57ea56832726f3b0b17b0f91eecb9602a0a4f7ec0133ae0bf84ff5a5aaf744b",
+      "tests/test_clues.py": "04a36a1babf9ddbc8726d7b0cef0214cf00ac29d2ec2aef4bcbe137b3551661f",
+      "tests/test_lab.py": "d072dc0afe83447631e464b249705ab0f662946b4db691bed2638a77792cf507",
+      "tests/test_math_audit.py": "b333895f67927a6739a118ce64ba56f68a62fd1fac038e98c70c609b5d9ca9f3",
+      "tests/test_methods.py": "d9e08d592dc4bec903606257e51b7a27680d106dfc41ed02da0a0b455c4c4248",
+      "tests/test_skip_mechanics.py": "c3f55b5a9760d5678a6dff6571a2ab534d82ef2e23d86516bb9a62bff40b8c48"
+    }
+  },
+  "inputs_sha256": "0416041aaf8155a09f6b1df7adacc8fe0c191e5fa3b2252a66329e91955586fe",
+  "public_sha256": "c774c32f7d680c860009e83a346f5d7eebc38161a578ac877a51a6db2281fe74",
+  "expected_sha256": "4fadc58765e9d35540444bccd8a10820ca2adaaba14ede709bf00a171ece50ee",
+  "configuration_count": 26,
+  "maximum_worker_seconds": 30
+}

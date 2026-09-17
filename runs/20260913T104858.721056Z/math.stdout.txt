@@ -1,0 +1,1 @@
+{"status": "passed", "field_pairs": 841, "centrosymmetric": true, "equal_symmetries": ["identity", "rotate180"], "gp_mod29_unique_values": 24, "position_stream_primes": 84, "rune_value_alternative_mismatches": 80, "unsolved_page_candidates": 0}

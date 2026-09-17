@@ -1,0 +1,191 @@
+{
+  "frozen_at_utc": "2026-09-13T10:42:24.312669+00:00",
+  "specification": {
+    "schema": 1,
+    "id": "H007-finite-state-v1",
+    "attempt": "attempt 3",
+    "status": "preregistered",
+    "authorization": "User explicitly requested attempt 3 and authorized a bounded local experiment.",
+    "method_policy_ids": [
+      "M001",
+      "M002",
+      "M004",
+      "M005",
+      "M006",
+      "M007"
+    ],
+    "hypothesis": "The rune-bearing LP2/0..55 material is compatible with the prime-minus-one subtractive stream when plaintext F (rune index 0) is copied without consuming the stream. Unknown F positions can therefore be represented by a finite set of reachable consumed-clock states rather than by enumerating complete skip subsets.",
+    "mechanistic_basis": [
+      "C017: LP1/03-04 and LP2/56 have exact known-page evidence for plaintext F copied without advancing the stream.",
+      "C018: LP2/56 has exact evidence for a continuous prime-minus-one page clock with the documented exception.",
+      "H006-v1: the same no-skip prime family had no frequency lead on LP2/0..55; H007 tests a distinct, mechanism-motivated exception model rather than repeating that family."
+    ],
+    "falsifiable_predictions": [
+      "The documented LP2/56 plaintext path, including its single F exception at rune ordinal 56, is reachable from clock 0 under the continuous branch and ends at clock 84.",
+      "Three pre-generated synthetic H007 positives, including one with random nonzero and F plaintext values, have their exact private paths reachable under both registered continuity branches.",
+      "The one-rune incompatible control ciphertext [1] has no reachable state because C=1 at t=0 would decode to forbidden plaintext F.",
+      "For LP2/0..55, every page is evaluated under both continuous corpus flow and page-reset flow. A page with no terminal state is negative only for that fixed branch; any surviving state is compatibility evidence, not a decipherment."
+    ],
+    "data_versions": [
+      "data/attempt1-corpus-v1.json sha256=adbc565d01546ddb24efc6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+      "data/pages/lp2_56.json sha256=4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+      "sources/ibot/liber_primus/markdown/73.md sha256=09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9",
+      "data/synthetic/heldout.txt sha256=8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+      "all sources/*manifest.json entries verified before dispatch"
+    ],
+    "page_universe": "LP2 numeric pages 0..55 in pinned master order",
+    "default_scope": "all applicable unsolved pages",
+    "applicable_objects": "All 55 LP2 pages containing registered rune tokens, including rune portions of mixed literal pages 49 and 51.",
+    "excluded_objects": [
+      {
+        "page": "LP2/50",
+        "reason": "Pinned source has no registered rune tokens; literal grid is outside this rune-domain state model. It is unexecuted, not negative."
+      }
+    ],
+    "exclusion_reason_required": true,
+    "algorithm_version": "H007-v1: d[t]=(prime[t]-1) mod29, offset=0, shift=1, subtractive inverse. For C!=0, P=(C-d[t]) mod29 and the transition is retained only when P!=0, consuming t. For C=0, retain P=0 with t unchanged and also retain P=(-d[t]) mod29 when nonzero, consuming t. Merge states with identical processed position and t; cap path multiplicity at 2 only for ambiguity diagnostics.",
+    "parameter_derivation_policy": "No keyword, offset, shift, direction, affine family, dictionary, language score, or output-selected skip set. Only the fixed prime-minus-one stream and the two preregistered continuity branches are evaluated.",
+    "page_and_section_continuity_hypothesis": "Evaluate the complete LP2/0..55 numeric order as one continuous batch, and independently evaluate the same pages with t reset to 0 at each page. Literals and separators are not in the public rune sequence and do not consume the stream.",
+    "reset_branches": {
+      "continuous": "Carry every reachable t from LP2/n to LP2/(n+1), starting LP2/0 at t=0.",
+      "page_reset": "Start each page at t=0; do not carry states across pages."
+    },
+    "literals_and_ambiguity": "The worker receives only registered rune indices 0..28. Original raw text, separators, line/paragraph boundaries, glyph ambiguity, and source hashes remain in orchestrator-side provenance; no silent normalization is performed.",
+    "scorer_and_acceptance_version": {
+      "score": "None. H003 short-text scorer calibration is not part of this attempt.",
+      "algorithmic_control_pass": "Independent set-based recurrence must match the worker state counts, terminal clocks, capped path counts, edge counts, first-dead position, and state digest for every public batch and branch; private known/synthetic paths must satisfy the registered transition relation; the incompatible control must be rejected.",
+      "unsolved_page_negative": "A fixed branch with zero terminal states after complete coverage is negative only for H007-v1 on that page/continuity and its exact pinned ciphertext.",
+      "unsolved_page_inconclusive": "A fixed branch with one or more terminal states is inconclusive: reachability alone does not choose a plaintext, prove uniqueness of the mechanism, or count as a decrypted page.",
+      "decipherment": "No LP2/0..55 page is accepted as decrypted in this attempt. A readable-looking witness, a unique endpoint, or reverse arithmetic alone is insufficient without an independent structural/key prediction."
+    },
+    "frozen_before_candidates": "The runner records this specification, all source/data hashes, public ciphertext hash, verifier-only control answers, code snapshot, and UTC timestamp before invoking the guarded worker.",
+    "total_budget": {
+      "corpus_pages": 55,
+      "continuity_branches": 2,
+      "control_jobs": 8,
+      "state_transitions": "At most 2 transitions per reachable state per rune; no complete F-subset enumeration.",
+      "wall_seconds": 120,
+      "origin": "Bounded local budget selected for this explicit attempt 3; no side-chat budget inherited."
+    },
+    "controls": [
+      "Known LP2/56 private reference plaintext from a separate markdown block; expected H007 path has one F exception and final clock 84.",
+      "Three deterministic synthetic positives: two heldout-text slices and one seeded random plaintext, encrypted by the registered H007 rule; seeds and plaintext remain verifier-only.",
+      "One incompatible one-rune control [1] with no legal H007 path.",
+      "Three deterministic uniform random ciphertext controls, observed but not scored or treated as proof of either solvability or failure.",
+      "Independent set recurrence, prime generation, exact transition replay, and worker read-isolation/field-whitelist checks."
+    ],
+    "correlated_transform_deduplication": "Not applicable: H007 is a single state transition model. The continuous and page-reset branches are reported separately and are not deduplicated by coincident summaries.",
+    "multiple_testing_policy": "No language ranking or significance test is performed. Page/branch rows are descriptive compatibility results only; no maximum-score claim is made.",
+    "randomness": {
+      "generator": "Python random.Random MT19937",
+      "seeds": [
+        33010703,
+        33010711,
+        33010712,
+        33010713
+      ],
+      "role": "Verifier-only synthetic/random-control generation; no seed is passed to the worker."
+    },
+    "discovery_path": "Guarded -I -S worker receives only fixed public ciphertext rune indices and job ids. It cannot read files, reference answers, plaintext, seeds, network, or subprocesses.",
+    "independent_validation_path": "The orchestrator separately generates the prime stream and recomputes the recurrence with Python sets; it checks every public result summary and replays private expected paths without importing the worker transition function.",
+    "uncovered_parameters": [
+      "unknown keywords or semantic keys",
+      "nonzero offsets or shifts",
+      "additive/reversed direction",
+      "other cipher layers or affine transforms",
+      "literal/grid consumption",
+      "line/paragraph/hash/delimiter resets",
+      "chapter/page order alternatives",
+      "alternate transcriptions or unverified glyph corrections",
+      "language scoring and dictionary-based path selection"
+    ],
+    "result_statuses": [
+      "passed",
+      "negative",
+      "error",
+      "timeout",
+      "inconclusive"
+    ],
+    "next_step": "If controls pass, inspect the per-page state-width pattern. Do not call surviving paths plaintext; choose H003 scorer calibration or a separately preregistered mechanism only after reviewing this coverage.",
+    "note": "This specification freezes a reachability experiment, not a claim that any unknown page is solved."
+  },
+  "source_hashes": {
+    "data/attempt1-corpus-v1.json": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+    "data/pages/lp2_56.json": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+    "sources/ibot/liber_primus/markdown/73.md": "09df571403e36a566d6407d5c310ce656ceb1459592b1a934364249c84e936f9",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "hypotheses/H007-finite-state-v1.json": "73bdd66f9badd55fb5c5dbef2df86d90ef2a4e80b7858725afd69541294604f0",
+    "sources/attempt1-manifest.json": "cb23f409e14fb9d07e96b86536407007c276660e7faa670cd168f44d18b8c9f5",
+    "sources/attempt1-request-manifest.json": "0e6a4be40af01be440b2778924bf897636f18a170b84b73b0c6738fd896a3854",
+    "sources/attempt2-known-manifest.json": "6fb377cec909a1b5a6df57f67277b91fed7f7ead409d40d47e5fe797ab7afb13",
+    "sources/attempt2-request-manifest.json": "6e6a71d7b321ede746e1a17477715bd7d9311b657f08e4a4781f7284f291ee19",
+    "sources/clues-v1-manifest.json": "817b079a9a442b7cd053dff7f4793058fdf996338405841be5b1c0a378807d30",
+    "sources/context-manifest.json": "96e30f2a5367bee37a011eba55794a9607bec47d2d8136a23c730a79affc6ee3",
+    "sources/feed002-manifest.json": "6328139776ae384da64964a8f34956b92d95401bfe54735a45393cadbb39054c",
+    "sources/feed003-manifest.json": "a68f4f707b74d1ea1b3e2d31da67f31a372abbbcadd2f855a72e0b53da6fdd36",
+    "sources/feed005-manifest.json": "522d495798f1121d3486f82202ba85248aae520b57591a03017d3899a53236fb",
+    "sources/manifest.json": "d0d2fb9b061a8661fcddef668229c8af1fa9a2abf135518bc4158a2a7268f039"
+  },
+  "code_version": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "47faa99d5f01fbaec0dbd0b4d467b3ffa949eed8432cfec10a59409da4edde5a",
+    "files": {
+      "pyproject.toml": "5195cc024297b7c9ddae7ca0465fbe564169b88e45f422d77d8a4c97cdfaf82c",
+      "scripts/acquire_clue_sources.py": "f1704510b14ad4b2b7a4132c2ea33bff097f22de1b0b017073ea81af4814ad36",
+      "scripts/acquire_math_sources.py": "b49e3ad3eb3e5c4d6f49528bb9b329275fa6b4a462c3812e3f5fc4a77c0e336b",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/attempt1.py": "e61a05d384bb2ad7e17dcb3b23e5ba0b157fe47f785f129f950de53704f4c435",
+      "scripts/attempt1_worker.py": "1d29b77e2b98854017cc56e2afe2af93b6df70f01abc9aafc4cd0616d28a9eaa",
+      "scripts/attempt2.py": "a501b1d05508b0ea4833bd7785ec171879be729650869068c4d906cb7cb768d2",
+      "scripts/attempt2_worker.py": "62bf0a789a4f52239bc43645f6a382ef2288e852d011df80e21e0af5fde8b269",
+      "scripts/attempt3.py": "51f9ec6e07bb7933906e44f08d6e9cb51ac1ec576fd303a084f9e984c9fcc0bd",
+      "scripts/attempt3_worker.py": "556a22c88914d58309c7ee3579e49ebe5b5bc7896481af892791f42920e778ff",
+      "scripts/check_clues.py": "a547f9498e199bf89e9cdb406d47e8bbd4f7430f71021fd2d7ca4268b50bff6b",
+      "scripts/check_math.py": "5c8fe24e0ffb023ad731a69c814d862cdd7b75d78704a1c4c84970674118a9a6",
+      "scripts/prepare_attempt1.py": "4e9a8a8e510ece5adb047f57bc7b1753f28e72e444924274375aa8c2dc4a0de5",
+      "scripts/prepare_attempt2_sources.py": "5cfd5bca26c47c7c2ba0325994a67931de9800e0d89a323f2dabc614a1af88c3",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/research.py": "e32b7176f39cfeb3b8528a1150462dc1f76120f6e1a6d58e011e5411915617a8",
+      "scripts/run_round.py": "c2d8697851d1e72498e92b1a4957ed6c46115ea5671c31fa01e97e755375dde0",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/snapshot_context.py": "5c28dcfff9dbff6719552d0e52dc1be9d6781b64f1486f6dce4f35b1491b8edf",
+      "scripts/synthetic_benchmark.py": "a7f54559049290960296a50259754e916537cced9737dcbd259f6b80c22fa542",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/attempt1_stats.py": "6b933ec1133f8110819194146eef7d702949cc24f3493bf96e416ed207a1f7a8",
+      "src/lp_lab/boundary_clock.py": "ab34345a550f803d5d847201af404c04408b72336cb920d6d5c4f713ba6a9dc5",
+      "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+      "src/lp_lab/clues.py": "0dee6564916eaa28c7cb91d43bf3bb0a413da5f4974af82d08cd0f53fd95b794",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/math_audit.py": "48bcc73f0d68457301a8ba73cd7ff5d0105e0a5324e378baaaeabdc27f437b0e",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+      "src/lp_lab/reachability.py": "c67c69a86d5d80772c3285593f22bd6f4fe68f463792743afb75e301cad9e7a9",
+      "src/lp_lab/reference.py": "eebc50bfb69c8e59d4f6e5a1e9f78102a1eb7a36666e31bc0f7b4396a4ac69b6",
+      "src/lp_lab/research.py": "88e646aa44e57bb0657ebcf79696c8b1fe5e0fb5649dbfe2c5b910f80219b314",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/skip_mechanics.py": "975863a4f0b54fc2412751dc9f6976dcd75e0c2e8bef8d5e8df27855e2583b0c",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_attempt1_stats.py": "4143f38ceac1f09857169a4bc4051accfe59eb5e84a730b237f4a579ee047e1d",
+      "tests/test_attempt1_worker.py": "e56d1ca0acbca79e016323cffaaf0b252104009bb7668ba609247388c755c8c7",
+      "tests/test_attempt2_worker.py": "281b133fb26dc4523f05e686221cc5c90ec36737a52fbb4308e8eddbdf0ed9a5",
+      "tests/test_boundary_clock.py": "f57ea56832726f3b0b17b0f91eecb9602a0a4f7ec0133ae0bf84ff5a5aaf744b",
+      "tests/test_clues.py": "04a36a1babf9ddbc8726d7b0cef0214cf00ac29d2ec2aef4bcbe137b3551661f",
+      "tests/test_lab.py": "d072dc0afe83447631e464b249705ab0f662946b4db691bed2638a77792cf507",
+      "tests/test_math_audit.py": "b333895f67927a6739a118ce64ba56f68a62fd1fac038e98c70c609b5d9ca9f3",
+      "tests/test_methods.py": "d9e08d592dc4bec903606257e51b7a27680d106dfc41ed02da0a0b455c4c4248",
+      "tests/test_reachability.py": "ed2ecfbbbcfcbbe6c8c59766e7aefafd80b448ea22bcf0d40f6f89b912ffd5c6",
+      "tests/test_skip_mechanics.py": "c3f55b5a9760d5678a6dff6571a2ab534d82ef2e23d86516bb9a62bff40b8c48"
+    }
+  },
+  "inputs_sha256": "139f6a8b8f3b3b94036dca6c9c1fa70df541ad616243a229f4210e83b7f06561",
+  "public_sha256": "739aac649d024266dbbbe456003e9fbdc7a6cbcd417eaaa1bdc74e5ef58e58e7",
+  "expected_sha256": "c241b5669ad83bd18a68e987b7196dffbaefebf80d11ae0e7e0507c89e3670a2",
+  "jobs": 9,
+  "continuity_branches": [
+    "continuous",
+    "page_reset"
+  ],
+  "maximum_worker_seconds": 120,
+  "no_language_scorer": true
+}

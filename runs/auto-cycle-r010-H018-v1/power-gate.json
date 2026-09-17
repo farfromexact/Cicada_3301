@@ -1,0 +1,213 @@
+{
+  "status": "passed",
+  "positive_requested": 20,
+  "positive_exact": 20,
+  "positive_score_passes": 20,
+  "negative_requested": 20,
+  "negative_false_accepts": 0,
+  "threshold": 0.75,
+  "positive_scores": [
+    {
+      "job": "gate-positive-01",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-02",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-03",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-04",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-05",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-06",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-07",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-08",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-09",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-10",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-11",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-12",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-13",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-14",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-15",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-16",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-17",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-18",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-19",
+      "score": 0.8818897637795275,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-20",
+      "score": 0.8818897637795275,
+      "exact": true
+    }
+  ],
+  "negative_scores": [
+    {
+      "job": "gate-negative-01",
+      "score": 0.05511811023622047,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-02",
+      "score": 0.13385826771653545,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-03",
+      "score": 0.14960629921259844,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-04",
+      "score": 0.08661417322834646,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-05",
+      "score": 0.07086614173228346,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-06",
+      "score": 0.11811023622047244,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-07",
+      "score": 0.14173228346456693,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-08",
+      "score": 0.047244094488188976,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-09",
+      "score": 0.14173228346456693,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-10",
+      "score": 0.09448818897637795,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-11",
+      "score": 0.14960629921259844,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-12",
+      "score": 0.15748031496062992,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-13",
+      "score": 0.14173228346456693,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-14",
+      "score": 0.09448818897637795,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-15",
+      "score": 0.14173228346456693,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-16",
+      "score": 0.10236220472440945,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-17",
+      "score": 0.10236220472440945,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-18",
+      "score": 0.06299212598425197,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-19",
+      "score": 0.11023622047244094,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-20",
+      "score": 0.16535433070866143,
+      "false_accept": false
+    }
+  ]
+}

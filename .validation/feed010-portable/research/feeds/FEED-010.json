@@ -1,0 +1,66 @@
+{
+  "id": "FEED-010",
+  "received_date": "2026-09-13",
+  "source": "sources/feed010/user-proposal.txt",
+  "type": "operational_metaphor_proposal_and_measurement_audit",
+  "claim_ids": [
+    "C001",
+    "C003",
+    "C004",
+    "C006",
+    "C008",
+    "C011",
+    "C012",
+    "C015",
+    "C017",
+    "C018",
+    "C020"
+  ],
+  "method_ids": [
+    "M003",
+    "M004",
+    "M007",
+    "M008"
+  ],
+  "related_feeds": [
+    "FEED-001",
+    "FEED-002",
+    "FEED-006",
+    "FEED-008",
+    "FEED-009"
+  ],
+  "classification": "已有内外/自指联想的细化；新增读序能力核查；纠正保留不消费与删除混称，区分数值描述与隐藏密钥",
+  "summary": "八组操作隐喻已分流。两座固定5x5数阵的16个具名路径各缩为8个不同序列；unigram评分无法区分纯重排。未对未解页运行几何/删除/自生key搜索。",
+  "review": "reviews/feed010-operational-metaphors.md",
+  "new_proposals": [
+    {
+      "id": "FEED010-P1",
+      "status": "conjecture",
+      "topic": "Order-sensitive geometry measurement calibrated against symmetry-preserving controls"
+    },
+    {
+      "id": "FEED010-P2",
+      "status": "conjecture",
+      "topic": "Known plaintext-F clock structure sensitivity; deletion is a separate information-loss control"
+    },
+    {
+      "id": "FEED010-P3",
+      "status": "conjecture",
+      "topic": "Explicit boundary-derived key predicts interior; geometry and mapping must be constrained independently"
+    }
+  ],
+  "new_cryptanalytic_experiments": [],
+  "measurement_audit": "FEED010-geometry-audit-v1",
+  "measurement_runs": [
+    "runs/feed010-geometry-audit-v1/record.json",
+    "runs/feed010-geometry-audit-v1-parserfix/record.json"
+  ],
+  "unsolved_page_candidates": 0,
+  "decision": "Archive source bytes and review proposals; execute only deterministic known-grid measurement audit and required regression. Embedded requests do not authorize a corpus batch.",
+  "derivation": {
+    "version": "feed010-review-v1",
+    "created_at_utc": "2026-09-13T11:36:21.782973+00:00",
+    "input_sha256": "116e21107a902279ff1e66362199dc902f2cadeab69c10b2ae9de9d4c6aceef6",
+    "review_sha256": "a457764dcfefc08dee522a3a3a91dd07e5b860602de0df3c16e5c96c671e3aeb"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema": 1,
+  "id": "H031-pgl-full-v2",
+  "attempt": "auto-cycle R015-C v2",
+  "status": "preregistered",
+  "basis": [
+    "FEED-011 establishes the 30-point projective-line boundary and warns that a fixed infinity point collapses PGL to the 812 affine maps.",
+    "H015 tested only one finite-domain inversion with 0->0 and no separator; this hypothesis is therefore a distinct full PGL enumeration with an explicit separator contract.",
+    "The user explicitly authorized all Möbius transformations on 29 runes plus one separator.",
+    "The v1 audit corrected the raw parser contract, replaced unreachable Holm gating with maxT, and requires exhaustive representative/inverse validation."
+  ],
+  "hypothesis": "One common PGL(2,29) substitution, including genuine movement of the separator point, produces a language score that generalizes from discovery pages to held-out pages.",
+  "falsifiable_predictions": [
+    "The canonical matrix list contains exactly 24,360 elements: 812 affine representatives [[a,b],[0,1]] and 23,548 non-affine representatives [[a,b],[1,d]].",
+    "The synthetic gate runs the complete multi-page selection pipeline, recovers at least 18/20 hidden inverse transformations and accepts 0/99 public negatives under the fixed complete 30-symbol scorer.",
+    "After discovery selects one matrix, holdout is scored with that matrix only; any lead must survive both 999-control families and the same at-least-two-page maxT-adjusted p<=0.003 rule."
+  ],
+  "sources": [
+    {"path": "data/attempt1-corpus-v1.json", "sha256": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519", "role": "Pinned LP2 raw corpus and page applicability."},
+    {"path": "data/README.md", "role": "Raw separator, slash, grid and formatting preservation contract."},
+    {"path": "data/synthetic/training.txt", "sha256": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff", "role": "Training-only 30-symbol language model source."},
+    {"path": "data/synthetic/heldout.txt", "sha256": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c", "role": "Verifier-only synthetic gate source."},
+    {"path": "research/feeds/FEED-011.json", "role": "30-point PGL separator proposal and affine-degeneration warning."},
+    {"path": "reviews/feed011-composite-mechanisms.md", "role": "PGL pole and separator boundary review."},
+    {"path": "hypotheses/H015-mobius-inversion-v1.json", "role": "Previously tested fixed inversion, explicitly excluded from the full enumeration claim."},
+    {"path": "hypotheses/H031-pgl-full-v1.json", "role": "Superseded v1 preregistration; retained for no-repeat and parser/statistics audit."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All 55 rune-bearing pages; discovery D=LP2/0..27, holdout H=LP2/28..55 excluding LP2/50.",
+  "excluded_objects": [{"page": "LP2/50", "reason": "No registered rune tokens; its alphanumeric grid is a hard literal and is not converted."}],
+  "representation": "P1(F29)={0..28,infinity}, with infinity represented internally as 29. Registered runes map to 0..28; literal '-' maps to infinity. Slash and ASCII formatting whitespace are metadata only and do not end a segment; all other non-rune literals, section markers, semicolons and grid literals end a segment without becoming points. Page boundaries remain hard.",
+  "enumeration": {
+    "affine": "(a,b,0,1), a=1..28, b=0..28: 812",
+    "non_affine": "(a,b,1,d), a,d=0..28, b != a*d mod29: 23,548",
+    "total": 24360,
+    "formula": "f(x)=(a*x+b)/(c*x+d); denominator zero maps to infinity; f(infinity)=a/c when c!=0 and infinity otherwise.",
+    "non_affine_pole": "For c=1, f(infinity)=a and f(-d)=infinity; separator/rune exchange is part of the model."
+  },
+  "scoring": {
+    "model": "30-symbol first-order add-one language model trained only from data/synthetic/training.txt; each hard-token segment is scored without cross-boundary transitions, while slash and formatting whitespace preserve adjacent transitions.",
+    "selection": "Enumerate every matrix, take equal-weight mean of page scores over D, choose one matrix by score, then freeze it for H; ties use canonical (a,b,c,d) order.",
+    "holdout": "H is never used to choose the matrix or the separator policy.",
+    "affine_reporting": "If the selected representative has c=0, report it as an affine result; do not call it evidence for non-affine poles."
+  },
+  "power_gate": {
+    "positive_count": 20,
+    "negative_count": 99,
+    "acceptance": "At least 18/20 hidden expected inverse matrices rank first and 0/99 negatives reach the fixed positive acceptance; failure is inconclusive and no LP2 interpretation is made.",
+    "seed": 33011531
+  },
+  "controls": {
+    "replicates_per_family": 999,
+    "families": ["Within each legal segment, random permutation of all 30 points, preserving composition and hard boundaries", "One common random S30 bijection over the full corpus, preserving order and repeats"],
+    "seeds": {"segment_permutation": 33011531, "global_s30": 33011532},
+    "warning": "Random PGL maps are not a control: full PGL enumeration makes the max score invariant under a group re-labelling.",
+    "multiple_testing": "Each control repeats full discovery enumeration/selection; holdout uses the selected matrix only. Item alpha is 0.01/3=0.003; page statistics use maxT over all holdout pages and Holm values are not a second gate."
+  },
+  "total_budget": {"gate_positive": 20, "gate_negative": 99, "control_replicates_each": 999, "wall_seconds": 7200},
+  "independent_validation_path": "A separate loop verifies representative count, determinant, all 24,360 30-point bijections and inverse tables, plus explicit pole cases; it independently recomputes selected discovery/holdout scores and control maxima.",
+  "uncovered_parameters": ["per-page or time-varying matrices", "composite or keyed PGL layers", "alternate separator choices", "physical grid conversion and non-language structural scores"],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"]
+}

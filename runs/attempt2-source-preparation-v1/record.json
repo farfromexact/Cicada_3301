@@ -1,0 +1,57 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "exit_code": 0,
+  "started_at_utc": "2026-09-13T10:16:01.781268+00:00",
+  "finished_at_utc": "2026-09-13T10:16:02.956205+00:00",
+  "scope": "Two pinned original LP1 images and one pinned source markdown; no candidate decryption",
+  "script_sha256": "5cfd5bca26c47c7c2ba0325994a67931de9800e0d89a323f2dabc614a1af88c3",
+  "operations": [
+    {
+      "operation": "local Git blob validation and copy",
+      "command": [
+        "git",
+        "-C",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\github\\iddqd",
+        "ls-tree",
+        "0e3789ad2949c62ea7fb9e3e00ded93df3b3ce07",
+        "--",
+        "liber-primus__images--full/03.jpg"
+      ],
+      "stdout": "100755 blob fb390cedd9e26547f0b39563a1ce8998f0def030\tliber-primus__images--full/03.jpg\n",
+      "stderr": "",
+      "exit_code": 0,
+      "output": "sources/attempt2/iddqd/LP1-03.jpg",
+      "sha256": "b8b142f9b7854ec4f240e076cad03a98a2e3e9cf7c20f1da4fcde1ed25e3be3f"
+    },
+    {
+      "operation": "local Git blob validation and copy",
+      "command": [
+        "git",
+        "-C",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\github\\iddqd",
+        "ls-tree",
+        "0e3789ad2949c62ea7fb9e3e00ded93df3b3ce07",
+        "--",
+        "liber-primus__images--full/04.jpg"
+      ],
+      "stdout": "100755 blob e6a27cd5b25948d27d3af5ba029e4ba44fbff46f\tliber-primus__images--full/04.jpg\n",
+      "stderr": "",
+      "exit_code": 0,
+      "output": "sources/attempt2/iddqd/LP1-04.jpg",
+      "sha256": "745c6a46f67de1e5a2a9ac76175c323af82c2432e3b7483a8dc6244f8de9478f"
+    },
+    {
+      "operation": "fixed URL acquisition",
+      "requested_at_utc": "2026-09-13T10:16:01.863566+00:00",
+      "url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/04.md",
+      "final_url": "https://raw.githubusercontent.com/iBotPeaches/cicada_3301/63503b91b659179df18112b6d366b34dc61cbcb7/liber_primus/markdown/04.md",
+      "http_status": 200,
+      "output": "sources/attempt2/ibot/liber_primus/markdown/04.md",
+      "sha256": "ce6868867e524ee40c6084a35aa11335fb8775f620256414817ec3c0cce5f222",
+      "bytes": 5906,
+      "status": "passed"
+    }
+  ],
+  "manifest": "sources/attempt2-known-manifest.json"
+}

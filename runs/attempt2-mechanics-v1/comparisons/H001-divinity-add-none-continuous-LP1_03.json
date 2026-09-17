@@ -1,0 +1,2267 @@
+{
+  "page": "LP1/03",
+  "steps": [
+    {
+      "rune_ordinal": 0,
+      "source_offset": 2,
+      "expected": 7,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 0,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 1,
+      "source_offset": 3,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 1,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 2,
+      "source_offset": 4,
+      "expected": 20,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 2,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 3,
+      "source_offset": 5,
+      "expected": 5,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 3,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 4,
+      "source_offset": 6,
+      "expected": 3,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 4,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 5,
+      "source_offset": 7,
+      "expected": 19,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 5,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 6,
+      "source_offset": 8,
+      "expected": 18,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 6,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 7,
+      "source_offset": 10,
+      "expected": 7,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 7,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 8,
+      "source_offset": 11,
+      "expected": 18,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 8,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 9,
+      "source_offset": 12,
+      "expected": 20,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 9,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 10,
+      "source_offset": 13,
+      "expected": 5,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 10,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 11,
+      "source_offset": 14,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 11,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 12,
+      "source_offset": 15,
+      "expected": 19,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 12,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 13,
+      "source_offset": 16,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 13,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 14,
+      "source_offset": 19,
+      "expected": 13,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 14,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 15,
+      "source_offset": 20,
+      "expected": 10,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 15,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 16,
+      "source_offset": 21,
+      "expected": 20,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 16,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 17,
+      "source_offset": 25,
+      "expected": 6,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 17,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 18,
+      "source_offset": 26,
+      "expected": 4,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 18,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 19,
+      "source_offset": 27,
+      "expected": 10,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 19,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 20,
+      "source_offset": 28,
+      "expected": 19,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 20,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 21,
+      "source_offset": 31,
+      "expected": 16,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 21,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 22,
+      "source_offset": 32,
+      "expected": 3,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 22,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 23,
+      "source_offset": 34,
+      "expected": 2,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 23,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 24,
+      "source_offset": 35,
+      "expected": 18,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 24,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 25,
+      "source_offset": 37,
+      "expected": 6,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 25,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 26,
+      "source_offset": 38,
+      "expected": 4,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 26,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 27,
+      "source_offset": 39,
+      "expected": 28,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 27,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 28,
+      "source_offset": 40,
+      "expected": 16,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 28,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 29,
+      "source_offset": 42,
+      "expected": 11,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 29,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 30,
+      "source_offset": 43,
+      "expected": 3,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 30,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 31,
+      "source_offset": 44,
+      "expected": 1,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 31,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 32,
+      "source_offset": 48,
+      "expected": 4,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 32,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 33,
+      "source_offset": 49,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 33,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 34,
+      "source_offset": 50,
+      "expected": 18,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 34,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 35,
+      "source_offset": 51,
+      "expected": 26,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 35,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 36,
+      "source_offset": 53,
+      "expected": 16,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 36,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 37,
+      "source_offset": 54,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 37,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 38,
+      "source_offset": 55,
+      "expected": 7,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 38,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 39,
+      "source_offset": 56,
+      "expected": 24,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 39,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 40,
+      "source_offset": 57,
+      "expected": 4,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 40,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 41,
+      "source_offset": 58,
+      "expected": 23,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 41,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 42,
+      "source_offset": 60,
+      "expected": 2,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 42,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 43,
+      "source_offset": 61,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 43,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 44,
+      "source_offset": 63,
+      "expected": 18,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 44,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 45,
+      "source_offset": 64,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 45,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 46,
+      "source_offset": 65,
+      "expected": 23,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 46,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 47,
+      "source_offset": 67,
+      "expected": 3,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 47,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 48,
+      "source_offset": 68,
+      "expected": 0,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 48,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 49,
+      "source_offset": 73,
+      "expected": 24,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 49,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 50,
+      "source_offset": 74,
+      "expected": 20,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 50,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 51,
+      "source_offset": 75,
+      "expected": 20,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 51,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 52,
+      "source_offset": 77,
+      "expected": 2,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 52,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 53,
+      "source_offset": 78,
+      "expected": 21,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 53,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 54,
+      "source_offset": 79,
+      "expected": 15,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 54,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 55,
+      "source_offset": 81,
+      "expected": 10,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 55,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 56,
+      "source_offset": 82,
+      "expected": 16,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 56,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 57,
+      "source_offset": 84,
+      "expected": 10,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 57,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 58,
+      "source_offset": 85,
+      "expected": 15,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 58,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 59,
+      "source_offset": 87,
+      "expected": 9,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 59,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 60,
+      "source_offset": 88,
+      "expected": 3,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 60,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 61,
+      "source_offset": 89,
+      "expected": 16,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 61,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 62,
+      "source_offset": 91,
+      "expected": 24,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 62,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 63,
+      "source_offset": 92,
+      "expected": 9,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 63,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 64,
+      "source_offset": 94,
+      "expected": 28,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 64,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 65,
+      "source_offset": 95,
+      "expected": 15,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 65,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 66,
+      "source_offset": 96,
+      "expected": 26,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 66,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 67,
+      "source_offset": 98,
+      "expected": 16,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 67,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 68,
+      "source_offset": 99,
+      "expected": 4,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 68,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 69,
+      "source_offset": 100,
+      "expected": 10,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 69,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 70,
+      "source_offset": 101,
+      "expected": 13,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 70,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 71,
+      "source_offset": 106,
+      "expected": 17,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 71,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 72,
+      "source_offset": 107,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 72,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 73,
+      "source_offset": 108,
+      "expected": 16,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 73,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 74,
+      "source_offset": 110,
+      "expected": 0,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 74,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 75,
+      "source_offset": 111,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 75,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 76,
+      "source_offset": 112,
+      "expected": 4,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 76,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 77,
+      "source_offset": 114,
+      "expected": 2,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 77,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 78,
+      "source_offset": 115,
+      "expected": 3,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 78,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 79,
+      "source_offset": 116,
+      "expected": 15,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 79,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 80,
+      "source_offset": 117,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 80,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 81,
+      "source_offset": 119,
+      "expected": 7,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 81,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 82,
+      "source_offset": 120,
+      "expected": 8,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 82,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 83,
+      "source_offset": 121,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 83,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 84,
+      "source_offset": 123,
+      "expected": 0,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 84,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 85,
+      "source_offset": 124,
+      "expected": 10,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 85,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 86,
+      "source_offset": 125,
+      "expected": 9,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 86,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 87,
+      "source_offset": 126,
+      "expected": 23,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 87,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 88,
+      "source_offset": 128,
+      "expected": 2,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 88,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 89,
+      "source_offset": 129,
+      "expected": 18,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 89,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 90,
+      "source_offset": 130,
+      "expected": 10,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 90,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 91,
+      "source_offset": 131,
+      "expected": 4,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 91,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 92,
+      "source_offset": 133,
+      "expected": 7,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 92,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 93,
+      "source_offset": 134,
+      "expected": 24,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 93,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 94,
+      "source_offset": 135,
+      "expected": 26,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 94,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 95,
+      "source_offset": 140,
+      "expected": 8,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 95,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 96,
+      "source_offset": 141,
+      "expected": 18,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 96,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 97,
+      "source_offset": 142,
+      "expected": 4,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 97,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 98,
+      "source_offset": 143,
+      "expected": 18,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 98,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 99,
+      "source_offset": 145,
+      "expected": 10,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 99,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 100,
+      "source_offset": 146,
+      "expected": 16,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 100,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 101,
+      "source_offset": 148,
+      "expected": 10,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 101,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 102,
+      "source_offset": 149,
+      "expected": 15,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 102,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 103,
+      "source_offset": 151,
+      "expected": 24,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 103,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 104,
+      "source_offset": 153,
+      "expected": 9,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 104,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 105,
+      "source_offset": 154,
+      "expected": 18,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 105,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 106,
+      "source_offset": 155,
+      "expected": 5,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 106,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 107,
+      "source_offset": 156,
+      "expected": 18,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 107,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 108,
+      "source_offset": 157,
+      "expected": 15,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 108,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 109,
+      "source_offset": 158,
+      "expected": 15,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 109,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 110,
+      "source_offset": 159,
+      "expected": 24,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 110,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 111,
+      "source_offset": 160,
+      "expected": 4,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 111,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 112,
+      "source_offset": 161,
+      "expected": 26,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 112,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 113,
+      "source_offset": 163,
+      "expected": 3,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 113,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 114,
+      "source_offset": 164,
+      "expected": 9,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 114,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 115,
+      "source_offset": 165,
+      "expected": 18,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 115,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 116,
+      "source_offset": 167,
+      "expected": 24,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 116,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 117,
+      "source_offset": 171,
+      "expected": 20,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 117,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 118,
+      "source_offset": 172,
+      "expected": 3,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 118,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 119,
+      "source_offset": 173,
+      "expected": 21,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 119,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 120,
+      "source_offset": 175,
+      "expected": 2,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 120,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 121,
+      "source_offset": 176,
+      "expected": 18,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 121,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 122,
+      "source_offset": 178,
+      "expected": 7,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 122,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 123,
+      "source_offset": 179,
+      "expected": 24,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 123,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 124,
+      "source_offset": 180,
+      "expected": 26,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 124,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 125,
+      "source_offset": 182,
+      "expected": 26,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 125,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 126,
+      "source_offset": 183,
+      "expected": 3,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 126,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 127,
+      "source_offset": 184,
+      "expected": 1,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 127,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 128,
+      "source_offset": 186,
+      "expected": 7,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 128,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 129,
+      "source_offset": 187,
+      "expected": 10,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 129,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 130,
+      "source_offset": 188,
+      "expected": 20,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 130,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 131,
+      "source_offset": 189,
+      "expected": 20,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 131,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 132,
+      "source_offset": 191,
+      "expected": 0,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 132,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 133,
+      "source_offset": 192,
+      "expected": 10,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 133,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 134,
+      "source_offset": 193,
+      "expected": 9,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 134,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 135,
+      "source_offset": 194,
+      "expected": 23,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 135,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 136,
+      "source_offset": 196,
+      "expected": 24,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 136,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 137,
+      "source_offset": 197,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 137,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 138,
+      "source_offset": 199,
+      "expected": 18,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 138,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 139,
+      "source_offset": 200,
+      "expected": 9,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 139,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 140,
+      "source_offset": 204,
+      "expected": 23,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 140,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 141,
+      "source_offset": 206,
+      "expected": 16,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 141,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 142,
+      "source_offset": 207,
+      "expected": 3,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 142,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 143,
+      "source_offset": 209,
+      "expected": 24,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 143,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 144,
+      "source_offset": 210,
+      "expected": 20,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 144,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 145,
+      "source_offset": 211,
+      "expected": 20,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 145,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 146,
+      "source_offset": 213,
+      "expected": 15,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 146,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 147,
+      "source_offset": 214,
+      "expected": 16,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 147,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 148,
+      "source_offset": 215,
+      "expected": 4,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 148,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 149,
+      "source_offset": 216,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 149,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 150,
+      "source_offset": 217,
+      "expected": 6,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 150,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 151,
+      "source_offset": 218,
+      "expected": 6,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 151,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 152,
+      "source_offset": 219,
+      "expected": 20,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 152,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 153,
+      "source_offset": 220,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 153,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 154,
+      "source_offset": 222,
+      "expected": 24,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 154,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 155,
+      "source_offset": 223,
+      "expected": 9,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 155,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 156,
+      "source_offset": 224,
+      "expected": 23,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 156,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 157,
+      "source_offset": 226,
+      "expected": 15,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 157,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 158,
+      "source_offset": 227,
+      "expected": 1,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 158,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 159,
+      "source_offset": 228,
+      "expected": 0,
+      "actual": 26,
+      "equal": false,
+      "independent_clock": 159,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 160,
+      "source_offset": 229,
+      "expected": 0,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 160,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 161,
+      "source_offset": 230,
+      "expected": 18,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 161,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 162,
+      "source_offset": 234,
+      "expected": 4,
+      "actual": 14,
+      "equal": false,
+      "independent_clock": 162,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 163,
+      "source_offset": 235,
+      "expected": 21,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 163,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 164,
+      "source_offset": 238,
+      "expected": 26,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 164,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 165,
+      "source_offset": 239,
+      "expected": 3,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 165,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 166,
+      "source_offset": 240,
+      "expected": 1,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 166,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 167,
+      "source_offset": 241,
+      "expected": 4,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 167,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 168,
+      "source_offset": 243,
+      "expected": 10,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 168,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 169,
+      "source_offset": 244,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 169,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 170,
+      "source_offset": 245,
+      "expected": 9,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 170,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 171,
+      "source_offset": 246,
+      "expected": 3,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 171,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 172,
+      "source_offset": 247,
+      "expected": 5,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 172,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 173,
+      "source_offset": 248,
+      "expected": 18,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 173,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 174,
+      "source_offset": 249,
+      "expected": 9,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 174,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 175,
+      "source_offset": 250,
+      "expected": 5,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 175,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 176,
+      "source_offset": 251,
+      "expected": 18,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 176,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 177,
+      "source_offset": 254,
+      "expected": 26,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 177,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 178,
+      "source_offset": 255,
+      "expected": 3,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 178,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 179,
+      "source_offset": 256,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 179,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 180,
+      "source_offset": 257,
+      "expected": 4,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 180,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 181,
+      "source_offset": 259,
+      "expected": 10,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 181,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 182,
+      "source_offset": 260,
+      "expected": 20,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 182,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 183,
+      "source_offset": 261,
+      "expected": 20,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 183,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 184,
+      "source_offset": 262,
+      "expected": 1,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 184,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 185,
+      "source_offset": 266,
+      "expected": 15,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 185,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 186,
+      "source_offset": 267,
+      "expected": 27,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 186,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 187,
+      "source_offset": 268,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 187,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 188,
+      "source_offset": 269,
+      "expected": 15,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 188,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 189,
+      "source_offset": 271,
+      "expected": 26,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 189,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 190,
+      "source_offset": 272,
+      "expected": 3,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 190,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 191,
+      "source_offset": 273,
+      "expected": 1,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 191,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 192,
+      "source_offset": 274,
+      "expected": 4,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 192,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 193,
+      "source_offset": 276,
+      "expected": 5,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 193,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 194,
+      "source_offset": 277,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 194,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 195,
+      "source_offset": 278,
+      "expected": 4,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 195,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 196,
+      "source_offset": 279,
+      "expected": 16,
+      "actual": 12,
+      "equal": false,
+      "independent_clock": 196,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 197,
+      "source_offset": 280,
+      "expected": 24,
+      "actual": 2,
+      "equal": false,
+      "independent_clock": 197,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 198,
+      "source_offset": 281,
+      "expected": 10,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 198,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 199,
+      "source_offset": 282,
+      "expected": 9,
+      "actual": 16,
+      "equal": false,
+      "independent_clock": 199,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 200,
+      "source_offset": 283,
+      "expected": 16,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 200,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 201,
+      "source_offset": 284,
+      "expected": 26,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 201,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 202,
+      "source_offset": 287,
+      "expected": 24,
+      "actual": 5,
+      "equal": false,
+      "independent_clock": 202,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 203,
+      "source_offset": 288,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 203,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 204,
+      "source_offset": 289,
+      "expected": 23,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 204,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 205,
+      "source_offset": 291,
+      "expected": 26,
+      "actual": 4,
+      "equal": false,
+      "independent_clock": 205,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 206,
+      "source_offset": 292,
+      "expected": 3,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 206,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 207,
+      "source_offset": 293,
+      "expected": 1,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 207,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 208,
+      "source_offset": 297,
+      "expected": 4,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 208,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 209,
+      "source_offset": 299,
+      "expected": 4,
+      "actual": 24,
+      "equal": false,
+      "independent_clock": 209,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 210,
+      "source_offset": 300,
+      "expected": 28,
+      "actual": 9,
+      "equal": false,
+      "independent_clock": 210,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 211,
+      "source_offset": 301,
+      "expected": 20,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 211,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 212,
+      "source_offset": 302,
+      "expected": 10,
+      "actual": 6,
+      "equal": false,
+      "independent_clock": 212,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 213,
+      "source_offset": 303,
+      "expected": 16,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 213,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 214,
+      "source_offset": 304,
+      "expected": 26,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 214,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 215,
+      "source_offset": 306,
+      "expected": 1,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 215,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 216,
+      "source_offset": 307,
+      "expected": 20,
+      "actual": 15,
+      "equal": false,
+      "independent_clock": 216,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 217,
+      "source_offset": 308,
+      "expected": 16,
+      "actual": 7,
+      "equal": false,
+      "independent_clock": 217,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 218,
+      "source_offset": 309,
+      "expected": 10,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 218,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 219,
+      "source_offset": 310,
+      "expected": 19,
+      "actual": 10,
+      "equal": false,
+      "independent_clock": 219,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 220,
+      "source_offset": 311,
+      "expected": 24,
+      "actual": 20,
+      "equal": false,
+      "independent_clock": 220,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 221,
+      "source_offset": 312,
+      "expected": 16,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 221,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 222,
+      "source_offset": 313,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 222,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 223,
+      "source_offset": 314,
+      "expected": 20,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 223,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 224,
+      "source_offset": 315,
+      "expected": 26,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 224,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 225,
+      "source_offset": 318,
+      "expected": 26,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 225,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 226,
+      "source_offset": 319,
+      "expected": 3,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 226,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 227,
+      "source_offset": 320,
+      "expected": 1,
+      "actual": 21,
+      "equal": false,
+      "independent_clock": 227,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 228,
+      "source_offset": 322,
+      "expected": 7,
+      "actual": 3,
+      "equal": false,
+      "independent_clock": 228,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 229,
+      "source_offset": 326,
+      "expected": 10,
+      "actual": 17,
+      "equal": false,
+      "independent_clock": 229,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 230,
+      "source_offset": 327,
+      "expected": 20,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 230,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 231,
+      "source_offset": 328,
+      "expected": 20,
+      "actual": 27,
+      "equal": false,
+      "independent_clock": 231,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 232,
+      "source_offset": 330,
+      "expected": 23,
+      "actual": 18,
+      "equal": false,
+      "independent_clock": 232,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 233,
+      "source_offset": 331,
+      "expected": 10,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 233,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 234,
+      "source_offset": 332,
+      "expected": 15,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 234,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 235,
+      "source_offset": 333,
+      "expected": 5,
+      "actual": 25,
+      "equal": false,
+      "independent_clock": 235,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 236,
+      "source_offset": 334,
+      "expected": 3,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 236,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 237,
+      "source_offset": 335,
+      "expected": 1,
+      "actual": 8,
+      "equal": false,
+      "independent_clock": 237,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 238,
+      "source_offset": 336,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 238,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 239,
+      "source_offset": 337,
+      "expected": 4,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 239,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 240,
+      "source_offset": 339,
+      "expected": 24,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 240,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 241,
+      "source_offset": 340,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 241,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 242,
+      "source_offset": 342,
+      "expected": 18,
+      "actual": 28,
+      "equal": false,
+      "independent_clock": 242,
+      "signed_delta": 1
+    },
+    {
+      "rune_ordinal": 243,
+      "source_offset": 343,
+      "expected": 9,
+      "actual": 0,
+      "equal": false,
+      "independent_clock": 243,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 244,
+      "source_offset": 344,
+      "expected": 23,
+      "actual": 19,
+      "equal": false,
+      "independent_clock": 244,
+      "signed_delta": 9
+    },
+    {
+      "rune_ordinal": 245,
+      "source_offset": 346,
+      "expected": 16,
+      "actual": 23,
+      "equal": false,
+      "independent_clock": 245,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 246,
+      "source_offset": 347,
+      "expected": 3,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 246,
+      "signed_delta": 16
+    },
+    {
+      "rune_ordinal": 247,
+      "source_offset": 349,
+      "expected": 15,
+      "actual": 22,
+      "equal": false,
+      "independent_clock": 247,
+      "signed_delta": 26
+    },
+    {
+      "rune_ordinal": 248,
+      "source_offset": 350,
+      "expected": 18,
+      "actual": 13,
+      "equal": false,
+      "independent_clock": 248,
+      "signed_delta": 23
+    },
+    {
+      "rune_ordinal": 249,
+      "source_offset": 351,
+      "expected": 20,
+      "actual": 11,
+      "equal": false,
+      "independent_clock": 249,
+      "signed_delta": 10
+    },
+    {
+      "rune_ordinal": 250,
+      "source_offset": 352,
+      "expected": 0,
+      "actual": 1,
+      "equal": false,
+      "independent_clock": 250,
+      "signed_delta": 1
+    }
+  ],
+  "roundtrip_exact": true,
+  "non_runes_exact": true,
+  "arithmetic_exact": true
+}

@@ -1,0 +1,4763 @@
+{
+  "synthetic-positive-1-continuous": {
+    "kind": "positive",
+    "branch": "continuous",
+    "page_ids": [
+      "synthetic-positive-1-p1",
+      "synthetic-positive-1-p2"
+    ],
+    "plaintext_pages": [
+      [
+        0,
+        1,
+        19,
+        1,
+        9,
+        4,
+        10,
+        15,
+        18,
+        24,
+        0,
+        18,
+        4,
+        4,
+        26,
+        20,
+        18,
+        24,
+        1,
+        18,
+        15,
+        2,
+        18,
+        9,
+        3,
+        4,
+        2,
+        18,
+        4,
+        9,
+        15,
+        8,
+        3,
+        4,
+        18,
+        5,
+        24,
+        4,
+        4,
+        26,
+        10,
+        9,
+        6,
+        7,
+        3,
+        4,
+        5,
+        18,
+        4,
+        15,
+        24,
+        9,
+        23,
+        2,
+        18,
+        10,
+        4,
+        16,
+        3,
+        3,
+        20,
+        15,
+        2,
+        18
+      ],
+      [
+        5,
+        4,
+        3,
+        15,
+        15,
+        10,
+        9,
+        6,
+        16,
+        24,
+        5,
+        18,
+        15,
+        20,
+        18,
+        15,
+        15,
+        2,
+        24,
+        9,
+        24,
+        9,
+        8,
+        3,
+        1,
+        4,
+        7,
+        8,
+        18,
+        9,
+        2,
+        18,
+        7,
+        24,
+        16,
+        18,
+        4,
+        10,
+        15,
+        5,
+        24,
+        20,
+        19,
+        3,
+        9,
+        7,
+        10,
+        9,
+        23,
+        26,
+        19,
+        3,
+        4,
+        9,
+        10,
+        9,
+        6,
+        15,
+        2,
+        18,
+        5,
+        24,
+        13,
+        16
+      ]
+    ],
+    "expected_page_phases": [
+      10,
+      9
+    ],
+    "expected_terminal_phase": 9,
+    "traces": [
+      [
+        {
+          "position": 0,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 0,
+          "phase_after": 0,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 1,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 2,
+          "plaintext": 19,
+          "ciphertext": 0,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 3,
+          "plaintext": 1,
+          "ciphertext": 5,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 4,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 5,
+          "plaintext": 4,
+          "ciphertext": 5,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 6,
+          "plaintext": 10,
+          "ciphertext": 0,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 7,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 8,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 9,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 10,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 9,
+          "phase_after": 9,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 11,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 12,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 13,
+          "plaintext": 4,
+          "ciphertext": 4,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 14,
+          "plaintext": 26,
+          "ciphertext": 15,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 15,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 16,
+          "plaintext": 18,
+          "ciphertext": 28,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 17,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 18,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 19,
+          "plaintext": 18,
+          "ciphertext": 19,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 20,
+          "plaintext": 15,
+          "ciphertext": 5,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 21,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 22,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 23,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 24,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 25,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 26,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 27,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 28,
+          "plaintext": 4,
+          "ciphertext": 4,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 29,
+          "plaintext": 9,
+          "ciphertext": 19,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 30,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 31,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 32,
+          "plaintext": 3,
+          "ciphertext": 4,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 33,
+          "plaintext": 4,
+          "ciphertext": 23,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 34,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 35,
+          "plaintext": 5,
+          "ciphertext": 23,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 36,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 37,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 38,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 39,
+          "plaintext": 26,
+          "ciphertext": 26,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 40,
+          "plaintext": 10,
+          "ciphertext": 28,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 41,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 42,
+          "plaintext": 6,
+          "ciphertext": 16,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 43,
+          "plaintext": 7,
+          "ciphertext": 11,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 44,
+          "plaintext": 3,
+          "ciphertext": 3,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 45,
+          "plaintext": 4,
+          "ciphertext": 5,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 46,
+          "plaintext": 5,
+          "ciphertext": 24,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 47,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 48,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 49,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 50,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 51,
+          "plaintext": 9,
+          "ciphertext": 18,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 52,
+          "plaintext": 23,
+          "ciphertext": 23,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 53,
+          "plaintext": 2,
+          "ciphertext": 20,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 54,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 55,
+          "plaintext": 10,
+          "ciphertext": 20,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 56,
+          "plaintext": 4,
+          "ciphertext": 8,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 57,
+          "plaintext": 16,
+          "ciphertext": 16,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 58,
+          "plaintext": 3,
+          "ciphertext": 4,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 59,
+          "plaintext": 3,
+          "ciphertext": 22,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 60,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 61,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 62,
+          "plaintext": 2,
+          "ciphertext": 6,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 63,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        }
+      ],
+      [
+        {
+          "position": 64,
+          "plaintext": 5,
+          "ciphertext": 14,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 65,
+          "plaintext": 4,
+          "ciphertext": 4,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 66,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 67,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 68,
+          "plaintext": 15,
+          "ciphertext": 25,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 69,
+          "plaintext": 10,
+          "ciphertext": 14,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 70,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 71,
+          "plaintext": 6,
+          "ciphertext": 7,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 72,
+          "plaintext": 16,
+          "ciphertext": 6,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 73,
+          "plaintext": 24,
+          "ciphertext": 24,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 74,
+          "plaintext": 5,
+          "ciphertext": 23,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 75,
+          "plaintext": 18,
+          "ciphertext": 22,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 76,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 77,
+          "plaintext": 20,
+          "ciphertext": 0,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 78,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 79,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 80,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 81,
+          "plaintext": 2,
+          "ciphertext": 12,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 82,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 83,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 84,
+          "plaintext": 24,
+          "ciphertext": 25,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 85,
+          "plaintext": 9,
+          "ciphertext": 28,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 86,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 87,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 88,
+          "plaintext": 1,
+          "ciphertext": 5,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 89,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 90,
+          "plaintext": 7,
+          "ciphertext": 16,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 91,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 92,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 93,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 94,
+          "plaintext": 2,
+          "ciphertext": 12,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 95,
+          "plaintext": 18,
+          "ciphertext": 22,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 96,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 97,
+          "plaintext": 24,
+          "ciphertext": 25,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 98,
+          "plaintext": 16,
+          "ciphertext": 6,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 99,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 100,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 101,
+          "plaintext": 10,
+          "ciphertext": 14,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 102,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 103,
+          "plaintext": 5,
+          "ciphertext": 14,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 104,
+          "plaintext": 24,
+          "ciphertext": 24,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 105,
+          "plaintext": 20,
+          "ciphertext": 9,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 106,
+          "plaintext": 19,
+          "ciphertext": 19,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 107,
+          "plaintext": 3,
+          "ciphertext": 13,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 108,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 109,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 110,
+          "plaintext": 10,
+          "ciphertext": 11,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 111,
+          "plaintext": 9,
+          "ciphertext": 28,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 112,
+          "plaintext": 23,
+          "ciphertext": 23,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 113,
+          "plaintext": 26,
+          "ciphertext": 15,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 114,
+          "plaintext": 19,
+          "ciphertext": 23,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 115,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 116,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 117,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 118,
+          "plaintext": 10,
+          "ciphertext": 28,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 119,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 120,
+          "plaintext": 6,
+          "ciphertext": 16,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 121,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 122,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 123,
+          "plaintext": 18,
+          "ciphertext": 19,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 124,
+          "plaintext": 5,
+          "ciphertext": 24,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 125,
+          "plaintext": 24,
+          "ciphertext": 24,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 126,
+          "plaintext": 13,
+          "ciphertext": 2,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 127,
+          "plaintext": 16,
+          "ciphertext": 20,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        }
+      ]
+    ],
+    "split_index": 64,
+    "exception_positions": [
+      0,
+      10
+    ],
+    "ordinary_ciphertext_f_positions": [
+      2,
+      6,
+      77
+    ]
+  },
+  "synthetic-positive-1-page_reset": {
+    "kind": "positive",
+    "branch": "page_reset",
+    "page_ids": [
+      "synthetic-positive-1-p1",
+      "synthetic-positive-1-p2"
+    ],
+    "plaintext_pages": [
+      [
+        0,
+        1,
+        19,
+        1,
+        9,
+        4,
+        10,
+        15,
+        18,
+        24,
+        0,
+        18,
+        4,
+        4,
+        26,
+        20,
+        18,
+        24,
+        1,
+        18,
+        15,
+        2,
+        18,
+        9,
+        3,
+        4,
+        2,
+        18,
+        4,
+        9,
+        15,
+        8,
+        3,
+        4,
+        18,
+        5,
+        24,
+        4,
+        4,
+        26,
+        10,
+        9,
+        6,
+        7,
+        3,
+        4,
+        5,
+        18,
+        4,
+        15,
+        24,
+        9,
+        23,
+        2,
+        18,
+        10,
+        4,
+        16,
+        3,
+        3,
+        20,
+        15,
+        2,
+        18
+      ],
+      [
+        5,
+        4,
+        3,
+        15,
+        15,
+        10,
+        9,
+        6,
+        16,
+        24,
+        5,
+        18,
+        15,
+        20,
+        18,
+        15,
+        15,
+        2,
+        24,
+        9,
+        24,
+        9,
+        8,
+        3,
+        1,
+        4,
+        7,
+        8,
+        18,
+        9,
+        2,
+        18,
+        7,
+        24,
+        16,
+        18,
+        4,
+        10,
+        15,
+        5,
+        24,
+        20,
+        19,
+        3,
+        9,
+        7,
+        10,
+        9,
+        23,
+        26,
+        19,
+        3,
+        4,
+        9,
+        10,
+        9,
+        6,
+        15,
+        2,
+        18,
+        5,
+        24,
+        13,
+        16
+      ]
+    ],
+    "expected_page_phases": [
+      10,
+      12
+    ],
+    "expected_terminal_phase": 12,
+    "traces": [
+      [
+        {
+          "position": 0,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 0,
+          "phase_after": 0,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 1,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 2,
+          "plaintext": 19,
+          "ciphertext": 0,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 3,
+          "plaintext": 1,
+          "ciphertext": 5,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 4,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 5,
+          "plaintext": 4,
+          "ciphertext": 5,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 6,
+          "plaintext": 10,
+          "ciphertext": 0,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 7,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 8,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 9,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 10,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 9,
+          "phase_after": 9,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 11,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 12,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 13,
+          "plaintext": 4,
+          "ciphertext": 4,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 14,
+          "plaintext": 26,
+          "ciphertext": 15,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 15,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 16,
+          "plaintext": 18,
+          "ciphertext": 28,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 17,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 18,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 19,
+          "plaintext": 18,
+          "ciphertext": 19,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 20,
+          "plaintext": 15,
+          "ciphertext": 5,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 21,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 22,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 23,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 24,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 25,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 26,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 27,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 28,
+          "plaintext": 4,
+          "ciphertext": 4,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 29,
+          "plaintext": 9,
+          "ciphertext": 19,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 30,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 31,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 32,
+          "plaintext": 3,
+          "ciphertext": 4,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 33,
+          "plaintext": 4,
+          "ciphertext": 23,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 34,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 35,
+          "plaintext": 5,
+          "ciphertext": 23,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 36,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 37,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 38,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 39,
+          "plaintext": 26,
+          "ciphertext": 26,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 40,
+          "plaintext": 10,
+          "ciphertext": 28,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 41,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 42,
+          "plaintext": 6,
+          "ciphertext": 16,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 43,
+          "plaintext": 7,
+          "ciphertext": 11,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 44,
+          "plaintext": 3,
+          "ciphertext": 3,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 45,
+          "plaintext": 4,
+          "ciphertext": 5,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 46,
+          "plaintext": 5,
+          "ciphertext": 24,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 47,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 48,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 49,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 50,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 51,
+          "plaintext": 9,
+          "ciphertext": 18,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 52,
+          "plaintext": 23,
+          "ciphertext": 23,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 53,
+          "plaintext": 2,
+          "ciphertext": 20,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 54,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 55,
+          "plaintext": 10,
+          "ciphertext": 20,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 56,
+          "plaintext": 4,
+          "ciphertext": 8,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 57,
+          "plaintext": 16,
+          "ciphertext": 16,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 58,
+          "plaintext": 3,
+          "ciphertext": 4,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 59,
+          "plaintext": 3,
+          "ciphertext": 22,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 60,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 61,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 62,
+          "plaintext": 2,
+          "ciphertext": 6,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 63,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        }
+      ],
+      [
+        {
+          "position": 0,
+          "plaintext": 5,
+          "ciphertext": 5,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 1,
+          "plaintext": 4,
+          "ciphertext": 14,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 2,
+          "plaintext": 3,
+          "ciphertext": 7,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 3,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 4,
+          "plaintext": 15,
+          "ciphertext": 16,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 5,
+          "plaintext": 10,
+          "ciphertext": 0,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 6,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 7,
+          "plaintext": 6,
+          "ciphertext": 24,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 8,
+          "plaintext": 16,
+          "ciphertext": 20,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 9,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 10,
+          "plaintext": 5,
+          "ciphertext": 14,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 11,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 12,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 13,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 14,
+          "plaintext": 18,
+          "ciphertext": 28,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 15,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 16,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 17,
+          "plaintext": 2,
+          "ciphertext": 3,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 18,
+          "plaintext": 24,
+          "ciphertext": 14,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 19,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 20,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 21,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 22,
+          "plaintext": 8,
+          "ciphertext": 26,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 23,
+          "plaintext": 3,
+          "ciphertext": 12,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 24,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 25,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 26,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 27,
+          "plaintext": 8,
+          "ciphertext": 18,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 28,
+          "plaintext": 18,
+          "ciphertext": 22,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 29,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 30,
+          "plaintext": 2,
+          "ciphertext": 3,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 31,
+          "plaintext": 18,
+          "ciphertext": 8,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 32,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 33,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 34,
+          "plaintext": 16,
+          "ciphertext": 20,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 35,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 36,
+          "plaintext": 4,
+          "ciphertext": 13,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 37,
+          "plaintext": 10,
+          "ciphertext": 10,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 38,
+          "plaintext": 15,
+          "ciphertext": 4,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 39,
+          "plaintext": 5,
+          "ciphertext": 5,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 40,
+          "plaintext": 24,
+          "ciphertext": 5,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 41,
+          "plaintext": 20,
+          "ciphertext": 24,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 42,
+          "plaintext": 19,
+          "ciphertext": 19,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 43,
+          "plaintext": 3,
+          "ciphertext": 4,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 44,
+          "plaintext": 9,
+          "ciphertext": 28,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 45,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 46,
+          "plaintext": 10,
+          "ciphertext": 28,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 47,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 48,
+          "plaintext": 23,
+          "ciphertext": 12,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 49,
+          "plaintext": 26,
+          "ciphertext": 6,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 50,
+          "plaintext": 19,
+          "ciphertext": 19,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 51,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 52,
+          "plaintext": 4,
+          "ciphertext": 4,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 53,
+          "plaintext": 9,
+          "ciphertext": 19,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 54,
+          "plaintext": 10,
+          "ciphertext": 14,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 55,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 56,
+          "plaintext": 6,
+          "ciphertext": 7,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 57,
+          "plaintext": 15,
+          "ciphertext": 5,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 58,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 59,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 60,
+          "plaintext": 5,
+          "ciphertext": 9,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 61,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 62,
+          "plaintext": 13,
+          "ciphertext": 22,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 63,
+          "plaintext": 16,
+          "ciphertext": 16,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        }
+      ]
+    ],
+    "split_index": 64,
+    "exception_positions": [
+      0,
+      10
+    ],
+    "ordinary_ciphertext_f_positions": [
+      2,
+      6,
+      5
+    ]
+  },
+  "synthetic-positive-2-continuous": {
+    "kind": "positive",
+    "branch": "continuous",
+    "page_ids": [
+      "synthetic-positive-2-p1",
+      "synthetic-positive-2-p2"
+    ],
+    "plaintext_pages": [
+      [
+        0,
+        1,
+        19,
+        1,
+        8,
+        17,
+        7,
+        20,
+        22,
+        20,
+        25,
+        17,
+        10,
+        28,
+        9,
+        3,
+        26,
+        0,
+        15,
+        16,
+        15,
+        6,
+        19,
+        7,
+        7,
+        6,
+        18,
+        18,
+        17,
+        27,
+        15,
+        10,
+        6,
+        24,
+        6,
+        27,
+        24,
+        7,
+        9,
+        1,
+        24,
+        1,
+        19,
+        24,
+        0,
+        24,
+        26,
+        4,
+        0,
+        7,
+        27,
+        7,
+        22,
+        6,
+        13,
+        5,
+        27,
+        2,
+        6,
+        21,
+        27,
+        19,
+        25,
+        18
+      ],
+      [
+        0,
+        9,
+        3,
+        18,
+        21,
+        14,
+        5,
+        1,
+        14,
+        11,
+        17,
+        21,
+        8,
+        18,
+        9,
+        22,
+        27,
+        0,
+        15,
+        0,
+        4,
+        12,
+        8,
+        4,
+        15,
+        9,
+        17,
+        8,
+        20,
+        19,
+        7,
+        20,
+        16,
+        1,
+        26,
+        23,
+        2,
+        12,
+        14,
+        25,
+        7,
+        28,
+        3,
+        26,
+        23,
+        7,
+        28,
+        28,
+        22,
+        10,
+        2,
+        6,
+        11,
+        6,
+        25,
+        27,
+        2,
+        15,
+        7,
+        7,
+        6,
+        23,
+        9,
+        18
+      ]
+    ],
+    "expected_page_phases": [
+      8,
+      4
+    ],
+    "expected_terminal_phase": 4,
+    "traces": [
+      [
+        {
+          "position": 0,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 0,
+          "phase_after": 0,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 1,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 2,
+          "plaintext": 19,
+          "ciphertext": 0,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 3,
+          "plaintext": 1,
+          "ciphertext": 5,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 4,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 5,
+          "plaintext": 17,
+          "ciphertext": 18,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 6,
+          "plaintext": 7,
+          "ciphertext": 26,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 7,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 8,
+          "plaintext": 22,
+          "ciphertext": 11,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 9,
+          "plaintext": 20,
+          "ciphertext": 24,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 10,
+          "plaintext": 25,
+          "ciphertext": 14,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 11,
+          "plaintext": 17,
+          "ciphertext": 26,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 12,
+          "plaintext": 10,
+          "ciphertext": 10,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 13,
+          "plaintext": 28,
+          "ciphertext": 17,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 14,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 15,
+          "plaintext": 3,
+          "ciphertext": 13,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 16,
+          "plaintext": 26,
+          "ciphertext": 1,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 17,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 3,
+          "phase_after": 3,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 18,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 19,
+          "plaintext": 16,
+          "ciphertext": 17,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 20,
+          "plaintext": 15,
+          "ciphertext": 5,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 21,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 22,
+          "plaintext": 19,
+          "ciphertext": 8,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 23,
+          "plaintext": 7,
+          "ciphertext": 11,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 24,
+          "plaintext": 7,
+          "ciphertext": 25,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 25,
+          "plaintext": 6,
+          "ciphertext": 15,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 26,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 27,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 28,
+          "plaintext": 17,
+          "ciphertext": 17,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 29,
+          "plaintext": 27,
+          "ciphertext": 8,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 30,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 31,
+          "plaintext": 10,
+          "ciphertext": 10,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 32,
+          "plaintext": 6,
+          "ciphertext": 7,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 33,
+          "plaintext": 24,
+          "ciphertext": 14,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 34,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 35,
+          "plaintext": 27,
+          "ciphertext": 16,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 36,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 37,
+          "plaintext": 7,
+          "ciphertext": 25,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 38,
+          "plaintext": 9,
+          "ciphertext": 18,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 39,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 40,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 41,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 42,
+          "plaintext": 19,
+          "ciphertext": 0,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 43,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 44,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 3,
+          "phase_after": 3,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 45,
+          "plaintext": 24,
+          "ciphertext": 24,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 46,
+          "plaintext": 26,
+          "ciphertext": 27,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 47,
+          "plaintext": 4,
+          "ciphertext": 23,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 48,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 6,
+          "phase_after": 6,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 49,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 50,
+          "plaintext": 27,
+          "ciphertext": 16,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 51,
+          "plaintext": 7,
+          "ciphertext": 11,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 52,
+          "plaintext": 22,
+          "ciphertext": 11,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 53,
+          "plaintext": 6,
+          "ciphertext": 15,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 54,
+          "plaintext": 13,
+          "ciphertext": 13,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 55,
+          "plaintext": 5,
+          "ciphertext": 23,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 56,
+          "plaintext": 27,
+          "ciphertext": 27,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 57,
+          "plaintext": 2,
+          "ciphertext": 12,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 58,
+          "plaintext": 6,
+          "ciphertext": 10,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 59,
+          "plaintext": 21,
+          "ciphertext": 21,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 60,
+          "plaintext": 27,
+          "ciphertext": 28,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 61,
+          "plaintext": 19,
+          "ciphertext": 9,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 62,
+          "plaintext": 25,
+          "ciphertext": 25,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 63,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        }
+      ],
+      [
+        {
+          "position": 64,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 8,
+          "phase_after": 8,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 65,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 66,
+          "plaintext": 3,
+          "ciphertext": 21,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 67,
+          "plaintext": 18,
+          "ciphertext": 27,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 68,
+          "plaintext": 21,
+          "ciphertext": 21,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 69,
+          "plaintext": 14,
+          "ciphertext": 3,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 70,
+          "plaintext": 5,
+          "ciphertext": 5,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 71,
+          "plaintext": 1,
+          "ciphertext": 11,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 72,
+          "plaintext": 14,
+          "ciphertext": 18,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 73,
+          "plaintext": 11,
+          "ciphertext": 11,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 74,
+          "plaintext": 17,
+          "ciphertext": 18,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 75,
+          "plaintext": 21,
+          "ciphertext": 11,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 76,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 77,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 78,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 79,
+          "plaintext": 22,
+          "ciphertext": 11,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 80,
+          "plaintext": 27,
+          "ciphertext": 7,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 81,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 11,
+          "phase_after": 11,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 82,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 83,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 12,
+          "phase_after": 12,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 84,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 85,
+          "plaintext": 12,
+          "ciphertext": 12,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 86,
+          "plaintext": 8,
+          "ciphertext": 18,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 87,
+          "plaintext": 4,
+          "ciphertext": 8,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 88,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 89,
+          "plaintext": 9,
+          "ciphertext": 10,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 90,
+          "plaintext": 17,
+          "ciphertext": 7,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 91,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 92,
+          "plaintext": 20,
+          "ciphertext": 9,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 93,
+          "plaintext": 19,
+          "ciphertext": 23,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 94,
+          "plaintext": 7,
+          "ciphertext": 25,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 95,
+          "plaintext": 20,
+          "ciphertext": 0,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 96,
+          "plaintext": 16,
+          "ciphertext": 16,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 97,
+          "plaintext": 1,
+          "ciphertext": 19,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 98,
+          "plaintext": 26,
+          "ciphertext": 26,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 99,
+          "plaintext": 23,
+          "ciphertext": 4,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 100,
+          "plaintext": 2,
+          "ciphertext": 6,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 101,
+          "plaintext": 12,
+          "ciphertext": 12,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 102,
+          "plaintext": 14,
+          "ciphertext": 15,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 103,
+          "plaintext": 25,
+          "ciphertext": 15,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 104,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 105,
+          "plaintext": 28,
+          "ciphertext": 17,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 106,
+          "plaintext": 3,
+          "ciphertext": 7,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 107,
+          "plaintext": 26,
+          "ciphertext": 15,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 108,
+          "plaintext": 23,
+          "ciphertext": 3,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 109,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 110,
+          "plaintext": 28,
+          "ciphertext": 17,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 111,
+          "plaintext": 28,
+          "ciphertext": 28,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 112,
+          "plaintext": 22,
+          "ciphertext": 3,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 113,
+          "plaintext": 10,
+          "ciphertext": 14,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 114,
+          "plaintext": 2,
+          "ciphertext": 2,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 115,
+          "plaintext": 6,
+          "ciphertext": 7,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 116,
+          "plaintext": 11,
+          "ciphertext": 1,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 117,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 118,
+          "plaintext": 25,
+          "ciphertext": 14,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 119,
+          "plaintext": 27,
+          "ciphertext": 2,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 120,
+          "plaintext": 2,
+          "ciphertext": 20,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 121,
+          "plaintext": 15,
+          "ciphertext": 24,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 122,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 123,
+          "plaintext": 7,
+          "ciphertext": 25,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 124,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 125,
+          "plaintext": 23,
+          "ciphertext": 4,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 126,
+          "plaintext": 9,
+          "ciphertext": 13,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 127,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        }
+      ]
+    ],
+    "split_index": 64,
+    "exception_positions": [
+      0,
+      17,
+      44,
+      48,
+      64,
+      81,
+      83
+    ],
+    "ordinary_ciphertext_f_positions": [
+      2,
+      42,
+      95
+    ]
+  },
+  "synthetic-positive-2-page_reset": {
+    "kind": "positive",
+    "branch": "page_reset",
+    "page_ids": [
+      "synthetic-positive-2-p1",
+      "synthetic-positive-2-p2"
+    ],
+    "plaintext_pages": [
+      [
+        0,
+        1,
+        19,
+        1,
+        8,
+        17,
+        7,
+        20,
+        22,
+        20,
+        25,
+        17,
+        10,
+        28,
+        9,
+        3,
+        26,
+        0,
+        15,
+        16,
+        15,
+        6,
+        19,
+        7,
+        7,
+        6,
+        18,
+        18,
+        17,
+        27,
+        15,
+        10,
+        6,
+        24,
+        6,
+        27,
+        24,
+        7,
+        9,
+        1,
+        24,
+        1,
+        19,
+        24,
+        0,
+        24,
+        26,
+        4,
+        0,
+        7,
+        27,
+        7,
+        22,
+        6,
+        13,
+        5,
+        27,
+        2,
+        6,
+        21,
+        27,
+        19,
+        25,
+        18
+      ],
+      [
+        0,
+        9,
+        3,
+        18,
+        21,
+        14,
+        5,
+        1,
+        14,
+        11,
+        17,
+        21,
+        8,
+        18,
+        9,
+        22,
+        27,
+        0,
+        15,
+        0,
+        4,
+        12,
+        8,
+        4,
+        15,
+        9,
+        17,
+        8,
+        20,
+        19,
+        7,
+        20,
+        16,
+        1,
+        26,
+        23,
+        2,
+        12,
+        14,
+        25,
+        7,
+        28,
+        3,
+        26,
+        23,
+        7,
+        28,
+        28,
+        22,
+        10,
+        2,
+        6,
+        11,
+        6,
+        25,
+        27,
+        2,
+        15,
+        7,
+        7,
+        6,
+        23,
+        9,
+        18
+      ]
+    ],
+    "expected_page_phases": [
+      8,
+      9
+    ],
+    "expected_terminal_phase": 9,
+    "traces": [
+      [
+        {
+          "position": 0,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 0,
+          "phase_after": 0,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 1,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 2,
+          "plaintext": 19,
+          "ciphertext": 0,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 3,
+          "plaintext": 1,
+          "ciphertext": 5,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 4,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 5,
+          "plaintext": 17,
+          "ciphertext": 18,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 6,
+          "plaintext": 7,
+          "ciphertext": 26,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 7,
+          "plaintext": 20,
+          "ciphertext": 20,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 8,
+          "plaintext": 22,
+          "ciphertext": 11,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 9,
+          "plaintext": 20,
+          "ciphertext": 24,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 10,
+          "plaintext": 25,
+          "ciphertext": 14,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 11,
+          "plaintext": 17,
+          "ciphertext": 26,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 12,
+          "plaintext": 10,
+          "ciphertext": 10,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 13,
+          "plaintext": 28,
+          "ciphertext": 17,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 14,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 15,
+          "plaintext": 3,
+          "ciphertext": 13,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 16,
+          "plaintext": 26,
+          "ciphertext": 1,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 17,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 3,
+          "phase_after": 3,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 18,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 19,
+          "plaintext": 16,
+          "ciphertext": 17,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 20,
+          "plaintext": 15,
+          "ciphertext": 5,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 21,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 22,
+          "plaintext": 19,
+          "ciphertext": 8,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 23,
+          "plaintext": 7,
+          "ciphertext": 11,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 24,
+          "plaintext": 7,
+          "ciphertext": 25,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 25,
+          "plaintext": 6,
+          "ciphertext": 15,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 26,
+          "plaintext": 18,
+          "ciphertext": 18,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 27,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 28,
+          "plaintext": 17,
+          "ciphertext": 17,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 29,
+          "plaintext": 27,
+          "ciphertext": 8,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 30,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 31,
+          "plaintext": 10,
+          "ciphertext": 10,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 32,
+          "plaintext": 6,
+          "ciphertext": 7,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 33,
+          "plaintext": 24,
+          "ciphertext": 14,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 34,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 35,
+          "plaintext": 27,
+          "ciphertext": 16,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 36,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 37,
+          "plaintext": 7,
+          "ciphertext": 25,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 38,
+          "plaintext": 9,
+          "ciphertext": 18,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 39,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 40,
+          "plaintext": 24,
+          "ciphertext": 13,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 41,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 42,
+          "plaintext": 19,
+          "ciphertext": 0,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 43,
+          "plaintext": 24,
+          "ciphertext": 28,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 44,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 3,
+          "phase_after": 3,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 45,
+          "plaintext": 24,
+          "ciphertext": 24,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 46,
+          "plaintext": 26,
+          "ciphertext": 27,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 47,
+          "plaintext": 4,
+          "ciphertext": 23,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 48,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 6,
+          "phase_after": 6,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 49,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 50,
+          "plaintext": 27,
+          "ciphertext": 16,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 51,
+          "plaintext": 7,
+          "ciphertext": 11,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 52,
+          "plaintext": 22,
+          "ciphertext": 11,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 53,
+          "plaintext": 6,
+          "ciphertext": 15,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 54,
+          "plaintext": 13,
+          "ciphertext": 13,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 55,
+          "plaintext": 5,
+          "ciphertext": 23,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 56,
+          "plaintext": 27,
+          "ciphertext": 27,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 57,
+          "plaintext": 2,
+          "ciphertext": 12,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 58,
+          "plaintext": 6,
+          "ciphertext": 10,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 59,
+          "plaintext": 21,
+          "ciphertext": 21,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 60,
+          "plaintext": 27,
+          "ciphertext": 28,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 61,
+          "plaintext": 19,
+          "ciphertext": 9,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 62,
+          "plaintext": 25,
+          "ciphertext": 25,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 63,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        }
+      ],
+      [
+        {
+          "position": 0,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 0,
+          "phase_after": 0,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 1,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 2,
+          "plaintext": 3,
+          "ciphertext": 13,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 3,
+          "plaintext": 18,
+          "ciphertext": 22,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 4,
+          "plaintext": 21,
+          "ciphertext": 21,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 5,
+          "plaintext": 14,
+          "ciphertext": 15,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 6,
+          "plaintext": 5,
+          "ciphertext": 24,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 7,
+          "plaintext": 1,
+          "ciphertext": 1,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 8,
+          "plaintext": 14,
+          "ciphertext": 3,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 9,
+          "plaintext": 11,
+          "ciphertext": 15,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 10,
+          "plaintext": 17,
+          "ciphertext": 6,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 11,
+          "plaintext": 21,
+          "ciphertext": 1,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 12,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 13,
+          "plaintext": 18,
+          "ciphertext": 7,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 14,
+          "plaintext": 9,
+          "ciphertext": 9,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 15,
+          "plaintext": 22,
+          "ciphertext": 3,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 16,
+          "plaintext": 27,
+          "ciphertext": 2,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 17,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 3,
+          "phase_after": 3,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 18,
+          "plaintext": 15,
+          "ciphertext": 15,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 19,
+          "plaintext": 0,
+          "ciphertext": 0,
+          "phase_before": 4,
+          "phase_after": 4,
+          "kind": "plaintext_f_exception"
+        },
+        {
+          "position": 20,
+          "plaintext": 4,
+          "ciphertext": 5,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 21,
+          "plaintext": 12,
+          "ciphertext": 2,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 22,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 23,
+          "plaintext": 4,
+          "ciphertext": 22,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 24,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 25,
+          "plaintext": 9,
+          "ciphertext": 27,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 26,
+          "plaintext": 17,
+          "ciphertext": 26,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 27,
+          "plaintext": 8,
+          "ciphertext": 8,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 28,
+          "plaintext": 20,
+          "ciphertext": 9,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 29,
+          "plaintext": 19,
+          "ciphertext": 19,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 30,
+          "plaintext": 7,
+          "ciphertext": 17,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 31,
+          "plaintext": 20,
+          "ciphertext": 24,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 32,
+          "plaintext": 16,
+          "ciphertext": 16,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 33,
+          "plaintext": 1,
+          "ciphertext": 2,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 34,
+          "plaintext": 26,
+          "ciphertext": 16,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 35,
+          "plaintext": 23,
+          "ciphertext": 23,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 36,
+          "plaintext": 2,
+          "ciphertext": 20,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 37,
+          "plaintext": 12,
+          "ciphertext": 16,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 38,
+          "plaintext": 14,
+          "ciphertext": 3,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 39,
+          "plaintext": 25,
+          "ciphertext": 5,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 40,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 41,
+          "plaintext": 28,
+          "ciphertext": 17,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 42,
+          "plaintext": 3,
+          "ciphertext": 3,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 43,
+          "plaintext": 26,
+          "ciphertext": 7,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 44,
+          "plaintext": 23,
+          "ciphertext": 27,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 45,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 46,
+          "plaintext": 28,
+          "ciphertext": 0,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary_ciphertext_f"
+        },
+        {
+          "position": 47,
+          "plaintext": 28,
+          "ciphertext": 18,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 48,
+          "plaintext": 22,
+          "ciphertext": 22,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 49,
+          "plaintext": 10,
+          "ciphertext": 28,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 50,
+          "plaintext": 2,
+          "ciphertext": 6,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        },
+        {
+          "position": 51,
+          "plaintext": 6,
+          "ciphertext": 24,
+          "phase_before": 9,
+          "phase_after": 10,
+          "kind": "ordinary"
+        },
+        {
+          "position": 52,
+          "plaintext": 11,
+          "ciphertext": 20,
+          "phase_before": 10,
+          "phase_after": 11,
+          "kind": "ordinary"
+        },
+        {
+          "position": 53,
+          "plaintext": 6,
+          "ciphertext": 6,
+          "phase_before": 11,
+          "phase_after": 12,
+          "kind": "ordinary"
+        },
+        {
+          "position": 54,
+          "plaintext": 25,
+          "ciphertext": 14,
+          "phase_before": 12,
+          "phase_after": 0,
+          "kind": "ordinary"
+        },
+        {
+          "position": 55,
+          "plaintext": 27,
+          "ciphertext": 27,
+          "phase_before": 0,
+          "phase_after": 1,
+          "kind": "ordinary"
+        },
+        {
+          "position": 56,
+          "plaintext": 2,
+          "ciphertext": 12,
+          "phase_before": 1,
+          "phase_after": 2,
+          "kind": "ordinary"
+        },
+        {
+          "position": 57,
+          "plaintext": 15,
+          "ciphertext": 19,
+          "phase_before": 2,
+          "phase_after": 3,
+          "kind": "ordinary"
+        },
+        {
+          "position": 58,
+          "plaintext": 7,
+          "ciphertext": 7,
+          "phase_before": 3,
+          "phase_after": 4,
+          "kind": "ordinary"
+        },
+        {
+          "position": 59,
+          "plaintext": 7,
+          "ciphertext": 8,
+          "phase_before": 4,
+          "phase_after": 5,
+          "kind": "ordinary"
+        },
+        {
+          "position": 60,
+          "plaintext": 6,
+          "ciphertext": 25,
+          "phase_before": 5,
+          "phase_after": 6,
+          "kind": "ordinary"
+        },
+        {
+          "position": 61,
+          "plaintext": 23,
+          "ciphertext": 23,
+          "phase_before": 6,
+          "phase_after": 7,
+          "kind": "ordinary"
+        },
+        {
+          "position": 62,
+          "plaintext": 9,
+          "ciphertext": 27,
+          "phase_before": 7,
+          "phase_after": 8,
+          "kind": "ordinary"
+        },
+        {
+          "position": 63,
+          "plaintext": 18,
+          "ciphertext": 22,
+          "phase_before": 8,
+          "phase_after": 9,
+          "kind": "ordinary"
+        }
+      ]
+    ],
+    "split_index": 64,
+    "exception_positions": [
+      0,
+      17,
+      44,
+      48,
+      0,
+      17,
+      19
+    ],
+    "ordinary_ciphertext_f_positions": [
+      2,
+      42,
+      46
+    ]
+  },
+  "incompatible-control-v3": {
+    "kind": "incompatible"
+  }
+}

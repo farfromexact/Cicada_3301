@@ -1,0 +1,712 @@
+{
+  "status": "failed",
+  "positive_requested": 20,
+  "positive_exact": 20,
+  "positive_score_passes": 20,
+  "negative_requested": 99,
+  "negative_false_accepts": 2,
+  "negative_class_false_accepts": {
+    "negative_all_forward": 0,
+    "negative_random_direction": 2,
+    "negative_uniform_random": 0
+  },
+  "threshold": 0.05,
+  "positive_scores": [
+    {
+      "job": "gate-positive-01",
+      "delta": 0.09191665822100605,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-02",
+      "delta": 0.09577885882233708,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-03",
+      "delta": 0.08476909563866086,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-04",
+      "delta": 0.08720735785953178,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-05",
+      "delta": 0.08707307185568056,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-06",
+      "delta": 0.09658204114725855,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-07",
+      "delta": 0.08698692611736089,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-08",
+      "delta": 0.08673777912908348,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-09",
+      "delta": 0.08771240836458227,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-10",
+      "delta": 0.11019222323570149,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-11",
+      "delta": 0.10115283267457181,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-12",
+      "delta": 0.10094000202695855,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-13",
+      "delta": 0.10260295260295262,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-14",
+      "delta": 0.08516519712171886,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-15",
+      "delta": 0.09375274483970136,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-16",
+      "delta": 0.08823181649268606,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-17",
+      "delta": 0.08566518023039763,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-18",
+      "delta": 0.08960339177730482,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-19",
+      "delta": 0.09032042836390662,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-20",
+      "delta": 0.09405341035775817,
+      "exact": true
+    }
+  ],
+  "negative_scores": [
+    {
+      "job": "gate-negative-001",
+      "class_name": "negative_random_direction",
+      "delta": 0.017486740312827265,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-002",
+      "class_name": "negative_random_direction",
+      "delta": -0.02030083443126921,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-003",
+      "class_name": "negative_random_direction",
+      "delta": 0.05833840072970509,
+      "false_accept": true
+    },
+    {
+      "job": "gate-negative-004",
+      "class_name": "negative_random_direction",
+      "delta": -0.031002331002331004,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-005",
+      "class_name": "negative_random_direction",
+      "delta": -0.017719840545927505,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-006",
+      "class_name": "negative_random_direction",
+      "delta": -0.00848535522448566,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-007",
+      "class_name": "negative_random_direction",
+      "delta": 0.03740245261984392,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-008",
+      "class_name": "negative_random_direction",
+      "delta": 0.022196885240363506,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-009",
+      "class_name": "negative_random_direction",
+      "delta": -0.007384041079693253,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-010",
+      "class_name": "negative_random_direction",
+      "delta": 0.010988649032127297,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-011",
+      "class_name": "negative_random_direction",
+      "delta": 0.000882571534745441,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-012",
+      "class_name": "negative_random_direction",
+      "delta": 0.0037540961454004956,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-013",
+      "class_name": "negative_random_direction",
+      "delta": 0.022651261781696568,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-014",
+      "class_name": "negative_random_direction",
+      "delta": 0.04160247964595792,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-015",
+      "class_name": "negative_random_direction",
+      "delta": -0.003422181683051251,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-016",
+      "class_name": "negative_random_direction",
+      "delta": 0.010012330664504576,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-017",
+      "class_name": "negative_random_direction",
+      "delta": -0.0017583865409952354,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-018",
+      "class_name": "negative_random_direction",
+      "delta": 0.023206986250464502,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-019",
+      "class_name": "negative_random_direction",
+      "delta": 0.013741934394108299,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-020",
+      "class_name": "negative_random_direction",
+      "delta": -0.010801999932434705,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-021",
+      "class_name": "negative_random_direction",
+      "delta": -0.0035412654977872438,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-022",
+      "class_name": "negative_random_direction",
+      "delta": -0.00019425019425019924,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-023",
+      "class_name": "negative_random_direction",
+      "delta": -0.01514644775514342,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-024",
+      "class_name": "negative_random_direction",
+      "delta": 0.02654386676125807,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-025",
+      "class_name": "negative_random_direction",
+      "delta": 0.014786662612749572,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-026",
+      "class_name": "negative_random_direction",
+      "delta": 0.02256680517550084,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-027",
+      "class_name": "negative_random_direction",
+      "delta": -0.031400121617512926,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-028",
+      "class_name": "negative_random_direction",
+      "delta": -0.006194047498395326,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-029",
+      "class_name": "negative_random_direction",
+      "delta": -0.02905053883314753,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-030",
+      "class_name": "negative_random_direction",
+      "delta": -0.0234172831998919,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-031",
+      "class_name": "negative_random_direction",
+      "delta": 0.05853518462214115,
+      "false_accept": true
+    },
+    {
+      "job": "gate-negative-032",
+      "class_name": "negative_random_direction",
+      "delta": -0.003939900679031119,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-033",
+      "class_name": "negative_random_direction",
+      "delta": -0.005444072835377185,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-034",
+      "class_name": "negative_all_forward",
+      "delta": -0.09359396642005338,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-035",
+      "class_name": "negative_all_forward",
+      "delta": -0.08436877132529305,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-036",
+      "class_name": "negative_all_forward",
+      "delta": -0.0951800614844093,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-037",
+      "class_name": "negative_all_forward",
+      "delta": -0.09488024053241444,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-038",
+      "class_name": "negative_all_forward",
+      "delta": -0.09314719097327794,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-039",
+      "class_name": "negative_all_forward",
+      "delta": -0.08990574642748556,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-040",
+      "class_name": "negative_all_forward",
+      "delta": -0.08922164791730008,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-041",
+      "class_name": "negative_all_forward",
+      "delta": -0.09607867977433195,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-042",
+      "class_name": "negative_all_forward",
+      "delta": -0.0875637647376778,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-043",
+      "class_name": "negative_all_forward",
+      "delta": -0.0861254687341644,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-044",
+      "class_name": "negative_all_forward",
+      "delta": -0.0923355629877369,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-045",
+      "class_name": "negative_all_forward",
+      "delta": -0.09188287557852774,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-046",
+      "class_name": "negative_all_forward",
+      "delta": -0.08466605857910207,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-047",
+      "class_name": "negative_all_forward",
+      "delta": -0.0811332387419344,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-048",
+      "class_name": "negative_all_forward",
+      "delta": -0.08229705077531166,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-049",
+      "class_name": "negative_all_forward",
+      "delta": -0.07740447957839262,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-050",
+      "class_name": "negative_all_forward",
+      "delta": -0.09332370528022703,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-051",
+      "class_name": "negative_all_forward",
+      "delta": -0.0931319887841627,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-052",
+      "class_name": "negative_all_forward",
+      "delta": -0.08352167156514984,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-053",
+      "class_name": "negative_all_forward",
+      "delta": -0.09697391980000677,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-054",
+      "class_name": "negative_all_forward",
+      "delta": -0.08539998648694301,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-055",
+      "class_name": "negative_all_forward",
+      "delta": -0.09422485726833552,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-056",
+      "class_name": "negative_all_forward",
+      "delta": -0.08811611094219791,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-057",
+      "class_name": "negative_all_forward",
+      "delta": -0.09157207526772745,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-058",
+      "class_name": "negative_all_forward",
+      "delta": -0.09339380426336949,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-059",
+      "class_name": "negative_all_forward",
+      "delta": -0.0845604878213574,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-060",
+      "class_name": "negative_all_forward",
+      "delta": -0.09724418093983311,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-061",
+      "class_name": "negative_all_forward",
+      "delta": -0.09108982804634978,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-062",
+      "class_name": "negative_all_forward",
+      "delta": -0.08834245464680249,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-063",
+      "class_name": "negative_all_forward",
+      "delta": -0.09033225228877403,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-064",
+      "class_name": "negative_all_forward",
+      "delta": -0.0950179048005135,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-065",
+      "class_name": "negative_all_forward",
+      "delta": -0.08034188034188035,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-066",
+      "class_name": "negative_all_forward",
+      "delta": -0.08674453565757914,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-067",
+      "class_name": "negative_uniform_random",
+      "delta": -0.0003293807641633721,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-068",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0010472619168271358,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-069",
+      "class_name": "negative_uniform_random",
+      "delta": 0.00108611195567717,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-070",
+      "class_name": "negative_uniform_random",
+      "delta": -0.009058815580554713,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-071",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0005852842809364531,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-072",
+      "class_name": "negative_uniform_random",
+      "delta": -0.00035387317996013815,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-073",
+      "class_name": "negative_uniform_random",
+      "delta": 0.005292895510286812,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-074",
+      "class_name": "negative_uniform_random",
+      "delta": -0.005969392925914661,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-075",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0009898314246140315,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-076",
+      "class_name": "negative_uniform_random",
+      "delta": -0.002303131650957739,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-077",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0005346103172190093,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-078",
+      "class_name": "negative_uniform_random",
+      "delta": 0.000888483497179151,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-079",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0024788013918448683,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-080",
+      "class_name": "negative_uniform_random",
+      "delta": -0.0012305327522718797,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-081",
+      "class_name": "negative_uniform_random",
+      "delta": -0.0011823924867403121,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-082",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0003673862369514558,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-083",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0016012972534711692,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-084",
+      "class_name": "negative_uniform_random",
+      "delta": -0.0048342961386439644,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-085",
+      "class_name": "negative_uniform_random",
+      "delta": 0.004077564947130165,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-086",
+      "class_name": "negative_uniform_random",
+      "delta": -0.0013749535488665927,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-087",
+      "class_name": "negative_uniform_random",
+      "delta": -0.004841897233201577,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-088",
+      "class_name": "negative_uniform_random",
+      "delta": -0.005258268301746565,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-089",
+      "class_name": "negative_uniform_random",
+      "delta": -0.00231326644370123,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-090",
+      "class_name": "negative_uniform_random",
+      "delta": -0.001414648153778588,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-091",
+      "class_name": "negative_uniform_random",
+      "delta": -0.00019171649606432306,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-092",
+      "class_name": "negative_uniform_random",
+      "delta": -0.002776088645653863,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-093",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0006131549609810459,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-094",
+      "class_name": "negative_uniform_random",
+      "delta": 0.00030742204655248226,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-095",
+      "class_name": "negative_uniform_random",
+      "delta": 0.006275125840343232,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-096",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0010928684841728306,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-097",
+      "class_name": "negative_uniform_random",
+      "delta": 0.0021299956082564755,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-098",
+      "class_name": "negative_uniform_random",
+      "delta": -0.005803013411709065,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-099",
+      "class_name": "negative_uniform_random",
+      "delta": -0.004326711935407585,
+      "false_accept": false
+    }
+  ]
+}

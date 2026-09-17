@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-09-13T10:06:45.648400+00:00",
+  "archive_sha256": "a8703c93df17676ccf12db3e2705b4fc9918a5485d2b752fb635ded86cdacd38",
+  "members": 542,
+  "crc_bad_member": null,
+  "initial_byte_check_before_postrun_docs": "all 542 members equal, observed in execution tool output",
+  "later_intended_document_changes": [
+    "hypotheses/NEXT.md",
+    "README.md",
+    "research/knowledge.json"
+  ],
+  "unexpected_mismatches": [],
+  "portable_input_presence": true,
+  "scope": "Archive structural and exact byte verification; no repeated unsolved search"
+}

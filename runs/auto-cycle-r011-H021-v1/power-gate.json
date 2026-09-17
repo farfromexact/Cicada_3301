@@ -1,0 +1,709 @@
+{
+  "status": "passed",
+  "positive_requested": 20,
+  "positive_exact": 20,
+  "positive_score_passes": 20,
+  "negative_requested": 99,
+  "negative_false_accepts": 0,
+  "hard_negative_requested": 33,
+  "hard_negative_false_accepts": 0,
+  "threshold": 0.25,
+  "positive_scores": [
+    {
+      "job": "gate-positive-01",
+      "score": 0.5113636363636364,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-02",
+      "score": 0.4772727272727273,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-03",
+      "score": 0.4659090909090909,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-04",
+      "score": 0.4772727272727273,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-05",
+      "score": 0.5227272727272727,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-06",
+      "score": 0.5227272727272727,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-07",
+      "score": 0.5227272727272727,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-08",
+      "score": 0.5340909090909091,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-09",
+      "score": 0.5568181818181818,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-10",
+      "score": 0.4431818181818182,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-11",
+      "score": 0.5681818181818182,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-12",
+      "score": 0.6818181818181818,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-13",
+      "score": 0.5568181818181818,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-14",
+      "score": 0.4772727272727273,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-15",
+      "score": 0.48863636363636365,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-16",
+      "score": 0.5795454545454546,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-17",
+      "score": 0.5454545454545454,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-18",
+      "score": 0.5681818181818182,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-19",
+      "score": 0.5113636363636364,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-20",
+      "score": 0.48863636363636365,
+      "exact": true
+    }
+  ],
+  "negative_scores": [
+    {
+      "job": "gate-negative-001",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-002",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-003",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-004",
+      "class_name": "negative",
+      "score": 0.07954545454545454,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-005",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-006",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-007",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-008",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-009",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-010",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-011",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-012",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-013",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-014",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-015",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-016",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-017",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-018",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-019",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-020",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-021",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-022",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-023",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-024",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-025",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-026",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-027",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-028",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-029",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-030",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-031",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-032",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-033",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-034",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-035",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-036",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-037",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-038",
+      "class_name": "negative",
+      "score": 0.07954545454545454,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-039",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-040",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-041",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-042",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-043",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-044",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-045",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-046",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-047",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-048",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-049",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-050",
+      "class_name": "negative",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-051",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-052",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-053",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-054",
+      "class_name": "negative",
+      "score": 0.06818181818181818,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-055",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-056",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-057",
+      "class_name": "negative",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-058",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-059",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-060",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-061",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-062",
+      "class_name": "negative",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-063",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-064",
+      "class_name": "negative",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-065",
+      "class_name": "negative",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-066",
+      "class_name": "negative",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-067",
+      "class_name": "negative_hard",
+      "score": 0.11363636363636363,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-068",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-069",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-070",
+      "class_name": "negative_hard",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-071",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-072",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-073",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-074",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-075",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-076",
+      "class_name": "negative_hard",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-077",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-078",
+      "class_name": "negative_hard",
+      "score": 0.06818181818181818,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-079",
+      "class_name": "negative_hard",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-080",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-081",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-082",
+      "class_name": "negative_hard",
+      "score": 0.045454545454545456,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-083",
+      "class_name": "negative_hard",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-084",
+      "class_name": "negative_hard",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-085",
+      "class_name": "negative_hard",
+      "score": 0.056818181818181816,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-086",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-087",
+      "class_name": "negative_hard",
+      "score": 0.09090909090909091,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-088",
+      "class_name": "negative_hard",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-089",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-090",
+      "class_name": "negative_hard",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-091",
+      "class_name": "negative_hard",
+      "score": 0.06818181818181818,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-092",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-093",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-094",
+      "class_name": "negative_hard",
+      "score": 0.011363636363636364,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-095",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-096",
+      "class_name": "negative_hard",
+      "score": 0.07954545454545454,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-097",
+      "class_name": "negative_hard",
+      "score": 0.022727272727272728,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-098",
+      "class_name": "negative_hard",
+      "score": 0.0,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-099",
+      "class_name": "negative_hard",
+      "score": 0.03409090909090909,
+      "false_accept": false
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "schema": 1,
+  "derived_at_utc": "2026-09-14T00:25:19.933949+00:00",
+  "corpus_version": "attempt1-corpus-v1",
+  "pages": [
+    {
+      "page": "LP2/0",
+      "page_number": 0,
+      "rune_count": 262,
+      "raw_sha256": "f11867b2d043609c2704d7aaf54cba51b1e06151528fee8c16d6e79e7a6b2ec9",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/0.jpg",
+      "image_sha256": "197e1e153958b9a2736b09c10eea7d8bb00e0632fd22a8d9606840becc79942e",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/1",
+      "page_number": 1,
+      "rune_count": 266,
+      "raw_sha256": "71ab9e3c88c343237f307be17c861f43d50ff4e8d27207beb89007e2ab6ba38c",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/1.jpg",
+      "image_sha256": "f804fae06a68315eb6206158a2b34f55fe157c7d663fa961639fbe8dfc52a39f",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/2",
+      "page_number": 2,
+      "rune_count": 201,
+      "raw_sha256": "55ce716ff6b414de5bc7abcc1f360dd7076753c612caaf90a4688f4b457709c7",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/2.jpg",
+      "image_sha256": "74e955ebe248e6d7442e2d2cd3029951f258017987d5762f48e7897cf6611e34",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/3",
+      "page_number": 3,
+      "rune_count": 217,
+      "raw_sha256": "dd89a9e52baff73bda64a92f7130aa1013eb4d8318d746e98ea32b29a1a53fc2",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/3.jpg",
+      "image_sha256": "1453ef27ea607c6ea378d6472c908e77c2881caba33c72d1893caddee8dc1117",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/4",
+      "page_number": 4,
+      "rune_count": 261,
+      "raw_sha256": "4832769d83d1b3e28a38d3af0b54ba749b4be9a5a8941121125862522bb4bff1",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/4.jpg",
+      "image_sha256": "72bea2bfcd4f1b8e2095f882811d0f294e329d4b1bfe68f8ed5ec726d0a1e9d6",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/5",
+      "page_number": 5,
+      "rune_count": 263,
+      "raw_sha256": "e09a4d4fff192320658f5ad59e3efcd0d140a0df0fff53401782b8c36b92b646",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/5.jpg",
+      "image_sha256": "bcef0a3b80532b25a013052ec4394ab47ab69ce675b5b3db59cbad044e7adabd",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/6",
+      "page_number": 6,
+      "rune_count": 196,
+      "raw_sha256": "e18bb920417b1bf38f80e07def01411e9970654558f4e3a729542ad070f9bd31",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/6.jpg",
+      "image_sha256": "4c7dce370242c67a7b785828d75547c042717b221d9d565d7dd097834c7b25d7",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/7",
+      "page_number": 7,
+      "rune_count": 208,
+      "raw_sha256": "be507c4e39ff8311baa7eaa14ee290c21c7579d26348de661183437bc4c2129c",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/7.jpg",
+      "image_sha256": "91a726a7dd59c6caa4d736b9ce72ceba0a2fa827d6b69a2d4057562b9303636c",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/8",
+      "page_number": 8,
+      "rune_count": 255,
+      "raw_sha256": "c2f0e23c020ebbdb8a913eaec55b9e6606295d6bf21dad634db11d9e91ece3d9",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/8.jpg",
+      "image_sha256": "6b1026dfdfb447a5a76819883fe576254e8a47fdf1e97ecf1825166833bc6f00",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/9",
+      "page_number": 9,
+      "rune_count": 268,
+      "raw_sha256": "7f3dd425ace5cff869b769d357c881f2ce0737b81040e3fff2687fd9fa94ec02",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/9.jpg",
+      "image_sha256": "b8b7ee73d51de45833b36d864cb1c9067432cb4efadcf6c319eaef94d52c929d",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/10",
+      "page_number": 10,
+      "rune_count": 263,
+      "raw_sha256": "a9883f1c2d750895f1c85d90617297c0ae6651331d16054eee32c167fcb8cb1c",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/10.jpg",
+      "image_sha256": "1716e282c1d5e8a9ff911c01621e9b195d4728c7fa55ac857176a473eaba3239",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/11",
+      "page_number": 11,
+      "rune_count": 273,
+      "raw_sha256": "c2b438f6983b7ec784ec25dcd4d723b653d84d974d4192dbbdb4471f3c003572",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/11.jpg",
+      "image_sha256": "26f0cb307a23dcb2adf03a70fb9c6da89746258a90fd9be5383b2757ab4aad30",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/12",
+      "page_number": 12,
+      "rune_count": 261,
+      "raw_sha256": "eeddff3bc9af33bb58a86230f777e6e2076dec09c54455d1522a5e86cdb4d745",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/12.jpg",
+      "image_sha256": "6961f3f8eedba5b802fee9b40ad91fa604cd4e4394f9ba72853141ad71b19b21",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/13",
+      "page_number": 13,
+      "rune_count": 272,
+      "raw_sha256": "3f01c2b4e265fee21fcea36b0742002472031ae088c69442a094ca4c6bb48348",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/13.jpg",
+      "image_sha256": "3481daeed3ab2bea6effbe36eec22f74955bce87ca4b4ae8674be1d3f84ea08d",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/14",
+      "page_number": 14,
+      "rune_count": 137,
+      "raw_sha256": "763022b20ee6ad4e54a1574427322ab3d43a79f34772df1dae335e7b415e3985",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/14.jpg",
+      "image_sha256": "861037ea304b4d3b347cce18d97f25146f6f318cb748e59e6140d9eeaef6abd4",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/15",
+      "page_number": 15,
+      "rune_count": 159,
+      "raw_sha256": "eacf6c5bcc127882fd59fdfb25c6f83b25ce78e116267cdf733cf2394b1f40e1",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/15.jpg",
+      "image_sha256": "5543cfce96493b86eece3195b3f5ea6e779ff41551676600b0c2479fc18c0ec5",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/16",
+      "page_number": 16,
+      "rune_count": 267,
+      "raw_sha256": "7ba44121f61303838ff0b6961710810904fa41f1057dd2016fd4a58ecc59902d",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/16.jpg",
+      "image_sha256": "39780578c48d318310c3bccb0bc30e96adcb5b2de6e4a965000c55465375861d",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/17",
+      "page_number": 17,
+      "rune_count": 273,
+      "raw_sha256": "ea601d0797ff1bee1eedfc151a89283c622fdf9609eaf92ab055acc0d07812ce",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/17.jpg",
+      "image_sha256": "f123b66eefa1b4409750c5ea3879bfe64728c6aa1e1398cb8fbd0fa8b1cf1f50",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/18",
+      "page_number": 18,
+      "rune_count": 260,
+      "raw_sha256": "cbe805e2fa35b1996a5e4d97a4bd1f6531926fb7585e0604081a5185bb9aa600",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/18.jpg",
+      "image_sha256": "90fa414c464e86435bdb22f051f9670e886e3dd1c0b6d8954be94b86188da94b",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/19",
+      "page_number": 19,
+      "rune_count": 271,
+      "raw_sha256": "1fdd17d6de0277af7ead2f671af4cede5fff78712b4e9ec219044f90fba52f19",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/19.jpg",
+      "image_sha256": "b57ec6b12cb9a505eec6a77c64ddf63bf30a1bfb44dd5cdca35d900feed1b651",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/20",
+      "page_number": 20,
+      "rune_count": 269,
+      "raw_sha256": "ea2c892765997a835b00df6edcd868ac97931885f1a9200e87d98b73ca9f3037",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/20.jpg",
+      "image_sha256": "1ceef52570621785a021febff39003538f810179e5767ef5279a59c0c05c9985",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/21",
+      "page_number": 21,
+      "rune_count": 273,
+      "raw_sha256": "5fbae8c280fc3135826af3088cf2632a9d944f95c53a4025febda4d43f6bca97",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/21.jpg",
+      "image_sha256": "c453ad16212b335a065069e9f755791b909225ed250b579eab205655e7a80c10",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/22",
+      "page_number": 22,
+      "rune_count": 131,
+      "raw_sha256": "0b2b679a32aeead596282bac6bb4fdb1ba7f5bb40478d312ec06b38e57c537c6",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/22.jpg",
+      "image_sha256": "e232eb4649f89125d0edeab7022cbe189185d46ccbf0823fd964b6e71e9bafe7",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/23",
+      "page_number": 23,
+      "rune_count": 213,
+      "raw_sha256": "9eb45645b291f239b8b9e0bfc58ed69b9c637ff8dc10b9f96789f68194be7e1f",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/23.jpg",
+      "image_sha256": "d31a23cb3a2e50b505e1c468ffbb0106f5353f469bb5958b87ab929fc88decee",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/24",
+      "page_number": 24,
+      "rune_count": 270,
+      "raw_sha256": "ca61202fd6c726b1ff6f38f8044bcc8679c810161cc3c83788059f011abb865c",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/24.jpg",
+      "image_sha256": "62148ef272d17bcedf5df30f6cc9e52df127113c18c1cf57ea92c75feedfce80",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/25",
+      "page_number": 25,
+      "rune_count": 273,
+      "raw_sha256": "6139d361577fa593bb748bab77241c0952f0977cb02c652bce9c50d81c33a743",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/25.jpg",
+      "image_sha256": "a7d6e597debff4f7c5b3516e1b02ca2e4fa5b37d972f567264ed2ec845013cff",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/26",
+      "page_number": 26,
+      "rune_count": 265,
+      "raw_sha256": "8a8afd78496787aa02e7558b4e4f994e9c408e4587769edef293d1200fbfc1ad",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/26.jpg",
+      "image_sha256": "ed88f5fcdca3d1f846538caa8be979aa28cde969eb99c9464d60daa26c1f9af7",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/27",
+      "page_number": 27,
+      "rune_count": 234,
+      "raw_sha256": "7e8b375c7fd29cfe914fce972f47a7538665f48545d0f956078c63645d90954c",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/27.jpg",
+      "image_sha256": "c92c972f41dd038e136d8589aa7b113e268c36f2860c279cce712cd037cb3a8e",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/28",
+      "page_number": 28,
+      "rune_count": 269,
+      "raw_sha256": "430e4a5f5cb85b26ff872216c7f672118bfec1b8f647586eb750e0cd3660cad0",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/28.jpg",
+      "image_sha256": "318bb587f4dcab11b4db7ba3b8bb13b7913ca79bb409e1c987595503a22e0522",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/29",
+      "page_number": 29,
+      "rune_count": 277,
+      "raw_sha256": "6e76c9308f555e412868b6d4cb96ee41ca22bc1c1ef1220c931105424d181ec8",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/29.jpg",
+      "image_sha256": "6f769f266865ddb30b0cb34e82c664a87ba409f674dc52ad3af7c85be443fb5c",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/30",
+      "page_number": 30,
+      "rune_count": 263,
+      "raw_sha256": "9a1284186be0a91db51305d48de40dd005964e7bb91ede1969e209f2cba41672",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/30.jpg",
+      "image_sha256": "701b66d1fe98f730dadc5d7d8e1bc3b9a8e20547c1ffb423011f436037dba8b0",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/31",
+      "page_number": 31,
+      "rune_count": 269,
+      "raw_sha256": "1adeb2bb97fafa074b42b6aff207876c6e58d5da6b55b5e965553ac7e558fd6d",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/31.jpg",
+      "image_sha256": "0cb60ca12b1bf5f9fc03026314018a0d5ee73f813ac86ca4197629c60f2cb80a",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/32",
+      "page_number": 32,
+      "rune_count": 121,
+      "raw_sha256": "9dc3c9eac1a4c45fad93b57aba85a587fca355dcfc9d2e74f3d59d59a60cb9e2",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/32.jpg",
+      "image_sha256": "c0f778187a8e9ddbfc667a65929ac567430a2e38278a2022377984ac084e5f72",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/33",
+      "page_number": 33,
+      "rune_count": 214,
+      "raw_sha256": "bcc67de5ea94c327088710974e2dc5014d68960a4dcdb7ef80d4968d0d519adb",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/33.jpg",
+      "image_sha256": "13ff4c8d8ab934032a001b8c1fda16433aa44a38dd7272b3ff0dd7ac8300c62d",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/34",
+      "page_number": 34,
+      "rune_count": 261,
+      "raw_sha256": "a171cc426dfa1fc2c25082a570dbc038db4cec3f330baa25143e1fcbcc62ae23",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/34.jpg",
+      "image_sha256": "6f1b4c04b64ee54c689478bd3986bb6ab8a3b81f48780562094e9f248e4e87f8",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/35",
+      "page_number": 35,
+      "rune_count": 271,
+      "raw_sha256": "10c1c79317ec1c54ced9f7480a40c4fb8f47669e594058655f273216f3d102cc",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/35.jpg",
+      "image_sha256": "d713dd913d9b835ac61f298e8c0855f5093599e348edaedef964710db8664afa",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/36",
+      "page_number": 36,
+      "rune_count": 238,
+      "raw_sha256": "17b04e084356ef1492b5ded945388b89d2aa811a7c6c9035ae2b7485043419aa",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/36.jpg",
+      "image_sha256": "3b54a31a9e796e2c01b4e80d46e1092dee2e1142a7c61873e282078e2c776cb9",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/37",
+      "page_number": 37,
+      "rune_count": 228,
+      "raw_sha256": "584e1384e114e40beed993dc9786e8938eb69d07be9857e303a19ab37e61ce0b",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/37.jpg",
+      "image_sha256": "cee96d7e71b7de4d4e57237faacefad791229c153202e8224e4bedda45fb8f43",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/38",
+      "page_number": 38,
+      "rune_count": 228,
+      "raw_sha256": "736de4b56077253acf232de3d3eaf3c3f156e52bf5bea62f5785f8b9d0d272d3",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/38.jpg",
+      "image_sha256": "aec1898f599f57265d6422f3082a481db94a27f62230affbadee595d05077f8c",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/39",
+      "page_number": 39,
+      "rune_count": 240,
+      "raw_sha256": "bf8d98035cf595ba6a381f701e72a8c5b99870ffb3ce063e46779b43aed976fd",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/39.jpg",
+      "image_sha256": "d1b7ea5a6ffb79709753e3565d1d46e05edbe3d82ca70c3ed6065d46b131bd00",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/40",
+      "page_number": 40,
+      "rune_count": 231,
+      "raw_sha256": "3d0391c7ad7440823468a34464c8c03143d8796a09b40d0d82d1e040dfac6801",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/40.jpg",
+      "image_sha256": "3f5af995b39f94f268d4aa94825a10f2429f4a3affa1921a7f627e6d1bfcfb69",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/41",
+      "page_number": 41,
+      "rune_count": 273,
+      "raw_sha256": "efda97dc963bd08efef2233196197d7a1259519b6003119ad80311dc1f1120d2",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/41.jpg",
+      "image_sha256": "134052dd794a7d11185cc6d942de3f9839bd2b767e0845b0f059f711b269bee2",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/42",
+      "page_number": 42,
+      "rune_count": 272,
+      "raw_sha256": "51e280aaf221ccf634f31098e179b46690e447a661749d8b532a7d9083f1affc",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/42.jpg",
+      "image_sha256": "e523427112ec6259e97d1711f0420469d961324dedb7dc4eac67ecd9543729f6",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/43",
+      "page_number": 43,
+      "rune_count": 274,
+      "raw_sha256": "f31d3e97852ae1323558028b0034019980e26a1013401c7e9a0c67fe92c3ad63",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/43.jpg",
+      "image_sha256": "dc4cf22565ccabb2b3d366eb8bd6b74520e3169133a7bd725373aad2f49ac415",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/44",
+      "page_number": 44,
+      "rune_count": 273,
+      "raw_sha256": "d8dbce83999f6595b23f8e9981cbfc5d063d957cefa05cf566f3b60c17d851c6",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/44.jpg",
+      "image_sha256": "463cf95229ccb6ae179cdd0fce2338df9f616da0db38813573a9fb1706846208",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/45",
+      "page_number": 45,
+      "rune_count": 270,
+      "raw_sha256": "d119125e130fcd4e4f40a6e58c77b1cedf2aa1451426202a19d315d36117dece",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/45.jpg",
+      "image_sha256": "898b614af5473937a9abfcdc618160ba80ea44b07d4a479da4526be6e33f28d9",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/46",
+      "page_number": 46,
+      "rune_count": 270,
+      "raw_sha256": "70df7393c26f92117ffe76b98f41445a855137854a7fe60b7c3345015dbecb06",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/46.jpg",
+      "image_sha256": "05538b8ebf9ed2a5716d94284a753dd26582a0227f139cc4a27dc3f07b15d301",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/47",
+      "page_number": 47,
+      "rune_count": 274,
+      "raw_sha256": "f9cca96710c9fd5c428419e5233b2125e5e3347a954556c706faeaa500a49e36",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/47.jpg",
+      "image_sha256": "08ed86be5561c09ce5c773d8001b290cc505436db89637d66ea0f5a15818d1c8",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/48",
+      "page_number": 48,
+      "rune_count": 271,
+      "raw_sha256": "8ae7595edc9947f039b2be4892886cc49e2b0c09ce89fd60a0638e8ea0917b38",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/48.jpg",
+      "image_sha256": "341da69e9d579528dd17b7659e23de210720429111dc76c512843eb1983100ea",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/49",
+      "page_number": 49,
+      "rune_count": 66,
+      "raw_sha256": "d87197bac8974b65b347c651b19ebfac729df7e559881f8af9854b4ae9a1ab38",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/49.jpg",
+      "image_sha256": "aa3f89156756edf8b796a470a14a3db96516ad2fedf1ed98ccabc1a1cddc0335",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/50",
+      "page_number": 50,
+      "rune_count": 0,
+      "raw_sha256": "89a53ad09149e59a4fe8fbac6f6ac0af0c50ecd51b1792a0efc55e2da90a2a79",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/50.jpg",
+      "image_sha256": "bd6d4a3678fa37197bd43c58861273dc59604b5b68dfa20de1ec13f0704be776",
+      "applicability": {
+        "rune_sequence_analysis": false,
+        "exclusion_reason": "LP2/50 has 0 GP rune tokens and an alphanumeric grid; rune-domain hypotheses do not apply."
+      }
+    },
+    {
+      "page": "LP2/51",
+      "page_number": 51,
+      "rune_count": 92,
+      "raw_sha256": "e54acf1c23a3b98acece2156e3f3f38dc3fbfad268d7b1fb49b8b12fca4cfc6e",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/51.jpg",
+      "image_sha256": "2b9d60f62b2bc65d040f7ae1bc0960d5a44ca251d2730d049a618074a83e208b",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/52",
+      "page_number": 52,
+      "rune_count": 263,
+      "raw_sha256": "56e3bd9944c96331f3e6e5888bf7d63b7674ede9aee542fd1df138c1255e3e57",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/52.jpg",
+      "image_sha256": "d34a38f51759284f68fb916122ed6774c3b498dddb5537929355ac674453a0f3",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/53",
+      "page_number": 53,
+      "rune_count": 179,
+      "raw_sha256": "f919c09f47d6be2e285461af4662371fb2520b5334f7425f11139f5faf3a4608",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/53.jpg",
+      "image_sha256": "4ec7293ba72bd52384787646d204c8a68fefaf2d22673c40d27f23812d424548",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/54",
+      "page_number": 54,
+      "rune_count": 232,
+      "raw_sha256": "b079f51671ef94ffc22fb82d1197d5837c0c31456c34343061da27ed74a77632",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/54.jpg",
+      "image_sha256": "dbc2cfca46a150689e60ea83015dcd54ace81245711fefe114d6076b96412ec4",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    },
+    {
+      "page": "LP2/55",
+      "page_number": 55,
+      "rune_count": 76,
+      "raw_sha256": "6d2bb43839224098b71ef5df900e0a217d5f1e45e4ca67ee320cca25e099a243",
+      "source": "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt",
+      "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+      "image_path": "sources/attempt1/images/55.jpg",
+      "image_sha256": "a80191592add93a86ed3868f9e4e6ba3944ec20c9ffccc7d3e221b461344beba",
+      "applicability": {
+        "rune_sequence_analysis": true,
+        "exclusion_reason": null
+      }
+    }
+  ],
+  "public_job_ids": [
+    "unsolved-continuous",
+    "unsolved-page_reset",
+    "synthetic-positive-1-continuous",
+    "synthetic-positive-1-page_reset",
+    "synthetic-positive-2-continuous",
+    "synthetic-positive-2-page_reset",
+    "incompatible-control-v3"
+  ],
+  "public_sha256": "621e73ec66750960ee820149c79e3f6e87810c30bb5f09720c3c4216d0fe2492"
+}

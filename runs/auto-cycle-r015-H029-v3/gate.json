@@ -1,0 +1,1336 @@
+{
+  "status": "passed",
+  "threshold": -3.0251508412622075,
+  "positive_passes": 19,
+  "positive_count": 20,
+  "negative_false_accepts": 0,
+  "negative_count": 99,
+  "positives": [
+    {
+      "id": "positive-00",
+      "expected": [
+        "PRIME_MINUS_ONE"
+      ],
+      "selected": [
+        "PRIME_MINUS_ONE"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.6932515068510057,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-01",
+      "expected": [
+        "PRIME_MINUS_ONE",
+        "A"
+      ],
+      "selected": [
+        "PRIME_MINUS_ONE",
+        "A"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.696717356267271,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-02",
+      "expected": [
+        "A",
+        "DIVINITY",
+        "S3"
+      ],
+      "selected": [
+        "A",
+        "DIVINITY",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.711791648866102,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-03",
+      "expected": [
+        "DIVINITY",
+        "A",
+        "S3"
+      ],
+      "selected": [
+        "DIVINITY",
+        "A",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.700021252855362,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-04",
+      "expected": [
+        "S3",
+        "A",
+        "PRIME_MINUS_ONE"
+      ],
+      "selected": [
+        "S3",
+        "A",
+        "PRIME_MINUS_ONE"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.707832541192302,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-05",
+      "expected": [
+        "S3",
+        "S3",
+        "PRIME_MINUS_ONE"
+      ],
+      "selected": [
+        "S3",
+        "S3",
+        "PRIME_MINUS_ONE"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7739184527363125,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-06",
+      "expected": [
+        "A",
+        "DIVINITY"
+      ],
+      "selected": [
+        "A",
+        "DIVINITY"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7442973077055006,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-07",
+      "expected": [
+        "S3",
+        "A"
+      ],
+      "selected": [
+        "S3",
+        "A"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.736356044645745,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-08",
+      "expected": [
+        "A",
+        "PRIME_MINUS_ONE",
+        "S3"
+      ],
+      "selected": [
+        "A",
+        "PRIME_MINUS_ONE",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.730921243052768,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-09",
+      "expected": [
+        "DIVINITY",
+        "S3",
+        "S3"
+      ],
+      "selected": [
+        "DIVINITY",
+        "S3",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7009557776694693,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-10",
+      "expected": [
+        "S3",
+        "DIVINITY",
+        "S3"
+      ],
+      "selected": [
+        "S3",
+        "DIVINITY",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7031301015365328,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-11",
+      "expected": [],
+      "selected": [],
+      "exact_program": true,
+      "holdout_score": -2.7294281582638464,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-12",
+      "expected": [
+        "A",
+        "S3"
+      ],
+      "selected": [
+        "A",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7612384963182883,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-13",
+      "expected": [
+        "S3",
+        "PRIME_MINUS_ONE"
+      ],
+      "selected": [
+        "S3",
+        "PRIME_MINUS_ONE"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7728599222796264,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-14",
+      "expected": [
+        "A",
+        "S3",
+        "DIVINITY"
+      ],
+      "selected": [
+        "A",
+        "S3",
+        "DIVINITY"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7344073794527057,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-15",
+      "expected": [
+        "PRIME_MINUS_ONE",
+        "S3",
+        "A"
+      ],
+      "selected": [
+        "S3",
+        "PRIME_MINUS_ONE",
+        "A"
+      ],
+      "exact_program": false,
+      "holdout_score": -2.7586531899426587,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "negative"
+    },
+    {
+      "id": "positive-16",
+      "expected": [
+        "S3",
+        "PRIME_MINUS_ONE",
+        "S3"
+      ],
+      "selected": [
+        "S3",
+        "PRIME_MINUS_ONE",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.6827657049195555,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-17",
+      "expected": [
+        "DIVINITY"
+      ],
+      "selected": [
+        "DIVINITY"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.703181243308464,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-18",
+      "expected": [
+        "DIVINITY",
+        "S3"
+      ],
+      "selected": [
+        "DIVINITY",
+        "S3"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.7245176835240903,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    },
+    {
+      "id": "positive-19",
+      "expected": [
+        "A",
+        "DIVINITY",
+        "A"
+      ],
+      "selected": [
+        "A",
+        "DIVINITY",
+        "A"
+      ],
+      "exact_program": true,
+      "holdout_score": -2.6936706076287837,
+      "score_ok": true,
+      "roundtrip": true,
+      "status": "passed"
+    }
+  ],
+  "negatives": [
+    {
+      "id": "negative-00",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.669828912690263,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-01",
+      "kind": "uniform",
+      "selected": [
+        "S3"
+      ],
+      "holdout_score": -3.658577961808967,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-02",
+      "kind": "uniform",
+      "selected": [
+        "A"
+      ],
+      "holdout_score": -3.6939793996870702,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-03",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.6219782816935284,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-04",
+      "kind": "uniform",
+      "selected": [
+        "A"
+      ],
+      "holdout_score": -3.68387485866329,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-05",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.6316905827398522,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-06",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.658059243868539,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-07",
+      "kind": "uniform",
+      "selected": [
+        "A"
+      ],
+      "holdout_score": -3.641225168145985,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-08",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "PRIME_MINUS_ONE",
+        "A"
+      ],
+      "holdout_score": null,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-09",
+      "kind": "uniform",
+      "selected": [],
+      "holdout_score": -3.639799480312271,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-10",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.6506156280288544,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-11",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.602326570331468,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-12",
+      "kind": "uniform",
+      "selected": [],
+      "holdout_score": -3.6036846672491585,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-13",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3"
+      ],
+      "holdout_score": -3.58975619308284,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-14",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3"
+      ],
+      "holdout_score": -3.6992082301120384,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-15",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.6523106682936795,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-16",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.6113591274633525,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-17",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.6079546756636445,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-18",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.653492212214041,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-19",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.6294119759650507,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-20",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.6209561000576813,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-21",
+      "kind": "uniform",
+      "selected": [
+        "S3"
+      ],
+      "holdout_score": -3.5819111334265363,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-22",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.6465409358974297,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-23",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.6639259116529037,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-24",
+      "kind": "uniform",
+      "selected": [
+        "A"
+      ],
+      "holdout_score": -3.6440865452635194,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-25",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.592486351460181,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-26",
+      "kind": "uniform",
+      "selected": [
+        "S3"
+      ],
+      "holdout_score": -3.647010937848215,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-27",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "DIVINITY"
+      ],
+      "holdout_score": null,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-28",
+      "kind": "uniform",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.62032921939214,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-29",
+      "kind": "uniform",
+      "selected": [],
+      "holdout_score": -3.5965700237773452,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-30",
+      "kind": "uniform",
+      "selected": [],
+      "holdout_score": -3.679052630287264,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-31",
+      "kind": "uniform",
+      "selected": [
+        "A"
+      ],
+      "holdout_score": -3.6419650195986417,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-32",
+      "kind": "uniform",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.706527399903148,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-33",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.308453229868176,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-34",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3031844323196444,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-35",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3078519301967284,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-36",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2151182021475906,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-37",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3775071475233567,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-38",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3091009002921936,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-39",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2634349396632096,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-40",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.258660370703485,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-41",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3060299980458785,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-42",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.432738272563149,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-43",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.243471653666427,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-44",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.387597688037948,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-45",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3843773418959318,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-46",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2989368158301255,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-47",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2403362990123954,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-48",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.414327888653369,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-49",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.364531036301986,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-50",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3278208636892392,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-51",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2600000792678028,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-52",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2514951920621353,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-53",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.331531666135211,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-54",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3360440534220297,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-55",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2959335992712373,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-56",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3839799938669364,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-57",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.374878176174109,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-58",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.2890443889013126,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-59",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.268380614164165,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-60",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.368712142882174,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-61",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3873920765804133,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-62",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3279397170863483,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-63",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.329202464462772,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-64",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3034657082546595,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-65",
+      "kind": "within_permutation",
+      "selected": [],
+      "holdout_score": -3.3113105620850005,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-66",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "DIVINITY"
+      ],
+      "holdout_score": -3.515839818926417,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-67",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.616594052179307,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-68",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.4372443975646316,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-69",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.5228044784180366,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-70",
+      "kind": "global_s29",
+      "selected": [
+        "S3"
+      ],
+      "holdout_score": -3.617521261035873,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-71",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.635825659761256,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-72",
+      "kind": "global_s29",
+      "selected": [
+        "S3"
+      ],
+      "holdout_score": -3.5910246973164406,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-73",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "PRIME_MINUS_ONE",
+        "S3"
+      ],
+      "holdout_score": -3.4636299639662393,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-74",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "A",
+        "DIVINITY"
+      ],
+      "holdout_score": -3.618932394002569,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-75",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "DIVINITY"
+      ],
+      "holdout_score": -3.4744381689395816,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-76",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3",
+        "DIVINITY"
+      ],
+      "holdout_score": -3.468473153413655,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-77",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.6107694706460975,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-78",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.5467033994451116,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-79",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "PRIME_MINUS_ONE",
+        "S3"
+      ],
+      "holdout_score": -3.408910687792341,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-80",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.5470558795497658,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-81",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.625585381546874,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-82",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.5854707970200064,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-83",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "DIVINITY",
+        "S3"
+      ],
+      "holdout_score": null,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-84",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.459820538544049,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-85",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.566922148815286,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-86",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.5089288719049376,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-87",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.6026425021610082,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-88",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.593299189630203,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-89",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.5945361363128647,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-90",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.410233153904237,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-91",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.510574234375075,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-92",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "A"
+      ],
+      "holdout_score": -3.4578581078632857,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-93",
+      "kind": "global_s29",
+      "selected": [],
+      "holdout_score": -3.6760859008379425,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-94",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.499415493775115,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-95",
+      "kind": "global_s29",
+      "selected": [],
+      "holdout_score": -3.573972018123315,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-96",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3",
+        "DIVINITY"
+      ],
+      "holdout_score": null,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-97",
+      "kind": "global_s29",
+      "selected": [
+        "A",
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.520589234887498,
+      "false_accept": false,
+      "status": "negative"
+    },
+    {
+      "id": "negative-98",
+      "kind": "global_s29",
+      "selected": [
+        "S3",
+        "S3"
+      ],
+      "holdout_score": -3.5996138705679406,
+      "false_accept": false,
+      "status": "negative"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "length": 256,
+  "first_plaintext_value": 0,
+  "later_positions": 255,
+  "later_projection_equal": true,
+  "first_position_zero_preserved": true,
+  "plaintext_sha256": "c08fab286818fdaf13b19eceb3e23102b120db193f213388e38bc37acfbafcdc",
+  "cipher_projection_sha256": "e2410b9ae242a6b87ee31d813e2b807ca0368cc666d5b00e5c5fba1f5719e6f3"
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2_worker.py", line 70, in <module>
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2_worker.py", line 58, in main
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2_worker.py", line 30, in validate_public
+ValueError: invalid R015-B job count

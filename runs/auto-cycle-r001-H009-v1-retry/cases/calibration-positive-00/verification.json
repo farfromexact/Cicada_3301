@@ -1,0 +1,22 @@
+{
+  "id": "calibration-positive-00",
+  "phase": "calibration",
+  "kind": "positive",
+  "start": 269,
+  "seed": 111806049356687619285016648043299714493,
+  "status": "passed",
+  "exact_key": true,
+  "exact_plaintext": true,
+  "roundtrip": true,
+  "selected": {
+    "offset": 6,
+    "shift": 20,
+    "score": -733.5412594115692
+  },
+  "score": -733.5412594115692,
+  "score_gap": 179.42390713921554,
+  "covered": 928,
+  "read_guard_probe_passed": true,
+  "accepted": null,
+  "case_status": "calibration_only"
+}

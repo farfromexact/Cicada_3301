@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "audit": "attempt2 H002 saved-trace verification",
+  "status": "passed",
+  "audited_at_utc": "2026-09-13T10:29:13.360604+00:00",
+  "run": "runs/attempt2-mechanics-v1",
+  "method": "No transform engine or candidate runner imported or invoked. Checked saved values via source-codepoint positions, sorted consuming positions, bisect counts between registered reset boundaries, integer-divisor primality, and the modular equation output+delta=input. Exact dictionary equality checked every step and event field, plus saved comparison and raw-output files.",
+  "candidate_executions": 0,
+  "artifact_hashes": {
+    "runs/attempt2-mechanics-v1/public.json": "c774c32f7d680c860009e83a346f5d7eebc38161a578ac877a51a6db2281fe74",
+    "runs/attempt2-mechanics-v1/stdout.json": "4f70e9ea6d48a69e45f5fb7bc2c61f2ce3b840dc857c6baa85ab7ec1aee575cb",
+    "runs/attempt2-mechanics-v1/summary.json": "8c777562d567ef3efd35e7c789eb47fda3ecb11dffb2d358177e39a24e927d36",
+    "runs/attempt2-mechanics-v1/frozen.json": "19d28d1c77e995dbe6f82aaaf0ecd33b177eaf0f594b2d1eb7452d70ccccdb84",
+    "runs/attempt2-mechanics-v1/inputs.json": "0416041aaf8155a09f6b1df7adacc8fe0c191e5fa3b2252a66329e91955586fe",
+    "runs/attempt2-mechanics-v1/verifier-only/answers.json": "4fadc58765e9d35540444bccd8a10820ca2adaaba14ede709bf00a171ece50ee",
+    "runs/attempt2-mechanics-v1/record.json": "31e72ae46e7c3949b7ca6cf48f6902be7bd9d52698efb6af119b502ad5676816",
+    "runs/attempt2-mechanics-v1/execution.json": "e1cccb745e2fbaeeae5d6ff3b240f744a7689c1b63af34b5fff6ebc14c232849",
+    "runs/attempt2-mechanics-v1/comparisons/H002-continuous-LP2_56.json": "08f6d78fea800a85c20c5b45d9f9d193524cb249ee1e25e48b4a89f6e392e346",
+    "runs/attempt2-mechanics-v1/comparisons/H002-continuous-LP2_56.txt": "179b3d06c525ee7de0eca114b98f1becc22ae9f511c6a9d33339ef18f653692b",
+    "runs/attempt2-mechanics-v1/comparisons/H002-line_reset-LP2_56.json": "86d38a463597ec559e5c94fe28946448ae54da25485f19677a56830f9de949dd",
+    "runs/attempt2-mechanics-v1/comparisons/H002-line_reset-LP2_56.txt": "2bd99df0227be1fa93c1e26322a6de27305122ca48650e04499a47584b7279ce",
+    "runs/attempt2-mechanics-v1/comparisons/H002-paragraph_reset-LP2_56.json": "576c605a14be92c3d3d4db07b2e412d7660fb5c506212bf56c8e221a5c0ecc44",
+    "runs/attempt2-mechanics-v1/comparisons/H002-paragraph_reset-LP2_56.txt": "d3910a903c341f41be9cfad927c6e8155a34cd3deab79fb933089b3081d9f77d",
+    "runs/attempt2-mechanics-v1/comparisons/H002-title_reset-LP2_56.json": "e68219f54e5ad65f2b5f0fbe1b7f03d7fe88221ae0604bd93ead655f9befadff",
+    "runs/attempt2-mechanics-v1/comparisons/H002-title_reset-LP2_56.txt": "2009de1e94244c75e8e8f1caafdc0cd8ca698723a0f271091d7addc27b291074",
+    "runs/attempt2-mechanics-v1/comparisons/H002-hash_advance-LP2_56.json": "f953c54c029ee1fffbf164b2401c0f923996cd2879668c1bbb74d71c915ab540",
+    "runs/attempt2-mechanics-v1/comparisons/H002-hash_advance-LP2_56.txt": "5b75f6c7adad198d461eece949eaba0188f2f4d594f7d8fdc64982b85cd27012",
+    "runs/attempt2-mechanics-v1/comparisons/H002-delimiter_advance-LP2_56.json": "c9dc680f3b232b305a98e931324fbb308cf6c14cc239024f6eab2d053fb3cc40",
+    "runs/attempt2-mechanics-v1/comparisons/H002-delimiter_advance-LP2_56.txt": "e6e96a4970dafb7ecd227a6440a81915715b8909671abe230977ee77de5911ea"
+  },
+  "checks": {
+    "configurations": 6,
+    "rune_steps": 510,
+    "step_metadata_fields": 6120,
+    "clock_events": 181,
+    "event_metadata_fields": 1601,
+    "frozen_inputs_hashes_exact": true,
+    "frozen_spec_source_hashes_exact": true,
+    "all_raw_literals_preserved": true,
+    "all_local_inverse_equations_exact": true,
+    "all_reference_mismatch_reports_exact": true
+  },
+  "rows": [
+    {
+      "id": "H002-continuous",
+      "status": "passed",
+      "runes_checked": 85,
+      "step_fields_per_rune": 12,
+      "all_reported_step_metadata_exact": true,
+      "events_checked": 0,
+      "all_event_metadata_exact": true,
+      "final_clock": 84,
+      "saved_candidate_status": "passed",
+      "reference_mismatches": 0,
+      "first_mismatch_ordinal": null,
+      "first_mismatch_source_offset": null,
+      "raw_output_file_exact": true,
+      "comparison_trace_exact": true,
+      "zero_effect_reset_offsets": [],
+      "trailing_event_offsets": [],
+      "delta_signature_sha256": "8de8e0f481021101861e8abb5ef485112f9a6d7b521b365112ec4b01c62b9ae4"
+    },
+    {
+      "id": "H002-line_reset",
+      "status": "passed",
+      "runes_checked": 85,
+      "step_fields_per_rune": 12,
+      "all_reported_step_metadata_exact": true,
+      "events_checked": 10,
+      "all_event_metadata_exact": true,
+      "final_clock": 0,
+      "saved_candidate_status": "negative",
+      "reference_mismatches": 62,
+      "first_mismatch_ordinal": 20,
+      "first_mismatch_source_offset": 29,
+      "raw_output_file_exact": true,
+      "comparison_trace_exact": true,
+      "zero_effect_reset_offsets": [
+        93,
+        120,
+        147,
+        176,
+        203
+      ],
+      "trailing_event_offsets": [
+        261
+      ],
+      "delta_signature_sha256": "a6047485a569e2b0933dd2618a97b47df1b25e9dd72e2a7c29c3b7183cd0f670"
+    },
+    {
+      "id": "H002-paragraph_reset",
+      "status": "passed",
+      "runes_checked": 85,
+      "step_fields_per_rune": 12,
+      "all_reported_step_metadata_exact": true,
+      "events_checked": 3,
+      "all_event_metadata_exact": true,
+      "final_clock": 0,
+      "saved_candidate_status": "negative",
+      "reference_mismatches": 37,
+      "first_mismatch_ordinal": 45,
+      "first_mismatch_source_offset": 207,
+      "raw_output_file_exact": true,
+      "comparison_trace_exact": true,
+      "zero_effect_reset_offsets": [
+        205
+      ],
+      "trailing_event_offsets": [
+        263
+      ],
+      "delta_signature_sha256": "a6ec0661c3e8ac84d5352f09e265082cc45dce657ca3defd879f6560b9f53858"
+    },
+    {
+      "id": "H002-title_reset",
+      "status": "passed",
+      "runes_checked": 85,
+      "step_fields_per_rune": 12,
+      "all_reported_step_metadata_exact": true,
+      "events_checked": 1,
+      "all_event_metadata_exact": true,
+      "final_clock": 79,
+      "saved_candidate_status": "negative",
+      "reference_mismatches": 79,
+      "first_mismatch_ordinal": 5,
+      "first_mismatch_source_offset": 8,
+      "raw_output_file_exact": true,
+      "comparison_trace_exact": true,
+      "zero_effect_reset_offsets": [],
+      "trailing_event_offsets": [],
+      "delta_signature_sha256": "826f4cf2856910cd28b19af88bce2c112d4c74539699c7b68e660fe2d47ecc28"
+    },
+    {
+      "id": "H002-hash_advance",
+      "status": "passed",
+      "runes_checked": 85,
+      "step_fields_per_rune": 12,
+      "all_reported_step_metadata_exact": true,
+      "events_checked": 128,
+      "all_event_metadata_exact": true,
+      "final_clock": 212,
+      "saved_candidate_status": "negative",
+      "reference_mismatches": 36,
+      "first_mismatch_ordinal": 45,
+      "first_mismatch_source_offset": 207,
+      "raw_output_file_exact": true,
+      "comparison_trace_exact": true,
+      "zero_effect_reset_offsets": [],
+      "trailing_event_offsets": [],
+      "delta_signature_sha256": "e7b6022c75bfdebf1799991d301676760b372c592a4d01462c3011eaf6bda336"
+    },
+    {
+      "id": "H002-delimiter_advance",
+      "status": "passed",
+      "runes_checked": 85,
+      "step_fields_per_rune": 12,
+      "all_reported_step_metadata_exact": true,
+      "events_checked": 39,
+      "all_event_metadata_exact": true,
+      "final_clock": 123,
+      "saved_candidate_status": "negative",
+      "reference_mismatches": 81,
+      "first_mismatch_ordinal": 2,
+      "first_mismatch_source_offset": 4,
+      "raw_output_file_exact": true,
+      "comparison_trace_exact": true,
+      "zero_effect_reset_offsets": [],
+      "trailing_event_offsets": [
+        260,
+        261,
+        263,
+        265
+      ],
+      "delta_signature_sha256": "c3c9530d8ce22928c1f0c6f20d7649caedf07148e5cd5866067d260541b959bc"
+    }
+  ],
+  "observational_aliases": [
+    {
+      "cases": [
+        "H001-prime-specified_free",
+        "H002-continuous"
+      ],
+      "scope": "Identical recorded delta mod29 stream and all85 output runes; existing H000 baseline already covers this convention"
+    },
+    {
+      "branch": "paragraph_reset",
+      "source_offsets": [
+        65,
+        205
+      ],
+      "scope": "No consuming event intervenes; both boundaries precede rune45, so their separate inclusion is not distinguishable here"
+    },
+    {
+      "branch": "line_reset",
+      "source_offsets": [
+        63,
+        93,
+        120,
+        147,
+        176,
+        203
+      ],
+      "scope": "No consuming event between these slash markers; they share the next-rune reset at ordinal45"
+    }
+  ],
+  "limits": [
+    "Six H002 effective delta streams are distinct; isolated equal runes under different streams are coincidences, not branch aliases.",
+    "Trailing delimiter consumption and trailing resets cannot be inferred from plaintext equality because no later rune observes the final clock; metadata only verifies implementation of the registered convention.",
+    "This verifies saved known-page evidence; it does not establish universal boundary semantics, historical source independence, or any new unknown-page solution."
+  ],
+  "blockers": []
+}

@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "completed": 999,
+  "last_replicate": 999,
+  "requested": 999,
+  "unit_count": 55,
+  "seed": 33012103,
+  "partial_path": "control-scores.partial.jsonl",
+  "partial_sha256": "65057872398c19901e788866f7dba4e498819639e3d3a7208d7e31c5f9b61023",
+  "frozen_sha256": "986cbd73bd088413229fd690fa1fc8e76e23d4e99e03ad04e7118bca533b1e87",
+  "code_version_digest": "39a9537871c3c94f930503b9eeeed732bb3e387aa0c05617e3e0c647825b2d8e",
+  "public_sha256": "f77eff46677d726cec0542c6f43a3be00d57a6bf61afd1acd2d0fbc5883c432b",
+  "rng_state_sha256": "02fdedf7b537521e3f56fca475789806c10ea45a2d6e00eb2c75051bc031cd01",
+  "replay_rule": "restart from seed and consume one independent circular row rotation per retained row per replicate"
+}

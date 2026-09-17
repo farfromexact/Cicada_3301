@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-I",
+    "-S",
+    "-X",
+    "utf8",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt21_bm_v2_worker.py"
+  ],
+  "status": "error",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt21_bm_v2_worker.py\", line 70, in <module>\n  File \"C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt21_bm_v2_worker.py\", line 58, in main\n  File \"C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt21_bm_v2_worker.py\", line 46, in validate_public\nValueError: R015-B rune budget exceeded\n",
+  "elapsed_seconds": 0.062000000005355105,
+  "timeout_seconds": 600
+}

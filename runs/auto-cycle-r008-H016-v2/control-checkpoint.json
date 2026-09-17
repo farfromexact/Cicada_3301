@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "status": "complete",
+  "completed": 999,
+  "last_replicate": 999,
+  "requested": 999,
+  "unit_count": 56,
+  "seed": 33011601,
+  "partial_path": "control-metrics.partial.jsonl",
+  "partial_sha256": "b67d05ba214e4c53dca12266c510f6ec50d6cda046a64a66b1fe7f93e96ab10e",
+  "frozen_sha256": "90f60f434d39078d97c3ffa4e71013c378d9d8f4d33564a82e96e28d1eb06b08",
+  "code_version_digest": "fa8f073d32a7cc5efc01b66d9783914e2d9f56fc1eac77fce89b5c009a62c93c",
+  "public_sha256": "c4b6799d8772768dc603f65f39b1ef4a86541b2a86cc802b48230f23cc2c3d20",
+  "rng_state_sha256": "f5309e650b4743fae61dc2673682a7def7600da916223bc91d13d1eb9d905f8d",
+  "replay_rule": "restart from seed and consume exactly one page-preserving shuffle per applicable page per replicate"
+}

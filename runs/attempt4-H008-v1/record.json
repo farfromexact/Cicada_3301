@@ -1,0 +1,85 @@
+{
+  "schema": 1,
+  "hypothesis": "H008-structure-v1",
+  "attempt": 4,
+  "status": "negative",
+  "started_at_utc": "2026-09-13T10:51:03.039448+00:00",
+  "environment": {
+    "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "executable": "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe"
+  },
+  "command": [
+    "scripts/attempt4.py"
+  ],
+  "code_version": {
+    "scripts/attempt4.py": "1779a17436e5ebae0a36cdbd37c79cd36c368c2f7fef160e9e0363b8e8d66efa",
+    "src/lp_lab/structure_inputs.py": "22e5caa8bd831ddd7640089e7f9428079b2dd0fa3a70c87a489694b30ac47ea0",
+    "src/lp_lab/structure_stats.py": "5483e27f06727218d7fa64c1ad70daf7ca19a57dffbe46fe7b97c1c74148f8d5",
+    "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+    "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+    "tests/test_structure_inputs.py": "929d0c2d51e7f0c3920bd4612949f7e7b2550d15dff639807839f7b1e9e524c0",
+    "tests/test_structure_stats.py": "3e16e271599c28cf352862c5937fdc4dc35940b754abbe7b23972b61a878542b"
+  },
+  "spec_sha256": "1be41bc0b2e5ac162badfb6af43005e8e11a86468c1cb035f01198327930d536",
+  "corpus_sha256": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+  "new_keys_tested": 0,
+  "new_plaintexts_claimed": 0,
+  "source_files_verified": 98,
+  "input_bundle_sha256": "ebbca2ca2da7e7c8012ac1f73b138e3697b9f4f483612388460470bcaef96ada",
+  "input_bundle_members": 68,
+  "scan_started_at_utc": "2026-09-13T10:51:05.167176+00:00",
+  "controls_completed": 999,
+  "formal_lead_families": {
+    "A": false,
+    "B": false,
+    "C": false
+  },
+  "complete": true,
+  "scan_elapsed_seconds": 10.171999999998661,
+  "coverage": {
+    "pages": 55,
+    "runes": 12956,
+    "A_columns": 1595,
+    "B_columns": 55,
+    "C_corpus_statistics": 1
+  },
+  "unexecuted": [
+    "lags >29",
+    "cross-page clock continuity",
+    "GP numerical structure",
+    "geometric/image traversals",
+    "non-rune grids",
+    "ciphertext ambiguity variants",
+    "key recovery",
+    "word ngrams in plaintext",
+    "independent unseen-data replication"
+  ],
+  "strongest": {
+    "A": {
+      "page": "LP2/16",
+      "lag": 5,
+      "count": 20,
+      "column": 468,
+      "z": 4.001413561776174,
+      "p_adjusted": 0.397,
+      "formal_lead": false
+    },
+    "B": {
+      "page": "LP2/35",
+      "column": 35,
+      "g": 49.071661705084814,
+      "z": 2.1465987444459182,
+      "p_adjusted": 0.761,
+      "formal_lead": false
+    },
+    "C": {
+      "count": 121,
+      "p_adjusted": 0.214,
+      "formal_lead": false,
+      "distinct_crosspage_motifs": 119
+    }
+  },
+  "finished_at_utc": "2026-09-13T10:51:16.313009+00:00",
+  "elapsed_seconds": 13.281000000002678
+}

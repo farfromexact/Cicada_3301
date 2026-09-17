@@ -1,0 +1,6 @@
+{
+  "path": "attempt1-bundle.zip",
+  "sha256": "a8703c93df17676ccf12db3e2705b4fc9918a5485d2b752fb635ded86cdacd38",
+  "bytes": 35018052,
+  "note": "Sidecar not inside bundle; record.json is the immutable completed experiment record."
+}

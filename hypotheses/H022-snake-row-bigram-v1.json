@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "id": "H022-snake-row-bigram-v1",
+  "attempt": "auto-cycle R012",
+  "status": "preregistered",
+  "basis": [
+    "FEED-010 motivates order-sensitive geometry while warning that guessed LP2 grids and arbitrary inner/outer keys are unsupported.",
+    "H008 tested flattened within-group lag equality, and H021 tested adjacent-row left-ordinal equality; neither tests a fixed alternating row direction using within-row directed pairs.",
+    "R011/H021 found no left-ordinal row signal; R012 therefore tests the next fixed geometry direction rather than tuning H021's alignment or null."
+  ],
+  "hypothesis": "If consecutive image rows are written in an alternating snake direction, reversing exactly rows 1,3,5,... within each legal row block will increase the consistency of their directed within-row bigram distributions.",
+  "falsifiable_predictions": [
+    "On a fixed unequal-length synthetic layout, at least 18/20 alternating-snake positives have snake-minus-original score delta>=0.05, while 0/99 negatives (33 random-direction, 33 all-forward and 33 uniform independent-row cases) reach 0.05.",
+    "The worker and independent verifier agree on every row, hard/empty barrier, directed-bigram vector, original score, snake score and delta; a mutated row or metric is rejected.",
+    "After the gate passes, the fixed delta is computed on every LP2 page with at least one legal adjacent pair and compared with 999 independent per-row random-reversal controls using maxT; p<=0.01 is a structural lead only, never a plaintext or key."
+  ],
+  "sources": [
+    {"path": "reviews/auto-cycle-007.md", "role": "R012 three-direction ranking and H022 design boundary."},
+    {"path": "reviews/auto-cycle-006.md", "role": "H021 slash-row parser and LP2/50/mixed-page limitations."},
+    {"path": "reviews/feed010-operational-metaphors.md", "role": "Geometry proposal and prohibition on guessed LP2 grids."},
+    {"path": "hypotheses/H021-row-alignment-geometry-v1.json", "role": "Prior row boundary definition; H022 changes only the statistic and orientation transform."},
+    {"path": "data/README.md", "role": "Pinned definition of slash as original image row boundary."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus, token boundaries and applicability."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All LP2 pages containing registered rune tokens; a page contributes a delta score only if it has at least one adjacent nonempty row pair with both rows length>=2 and the same hard segment.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; its literal alphanumeric grid is not converted to a rune row sequence and is not negative."},
+    {"rule": "Empty rows, hard-segment changes, rows shorter than two runes, page boundaries and literal/grid barriers", "reason": "They terminate a legal row block; no cross-barrier pair or alternating parity is created."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; slash, hard literals, empty rows and row parity remain structural metadata. No Latin option, GP prime value, physical pixel coordinate, language completion or key search.",
+  "row_definition": {
+    "delimiter": "Original raw '/' token only; CR/LF and other whitespace do not create image rows.",
+    "ordinal": "Within each row, the first retained rune is ordinal 0; no right alignment, padding, horizontal shift, circular join or row sorting.",
+    "hard_segment": "Non-whitespace characters outside -.,/ and the registered rune alphabet begin a new hard segment at the next rune; a row containing multiple hard segments is a barrier.",
+    "mixed_pages": "LP2/49 and LP2/51 retain rune rows but never pair across literal/grid barriers; source raw text is not cleaned or rewritten."
+  },
+  "algorithm_version": "H022-v1: fixed alternating row reversal and normalized directed-bigram vector dot product; score is snake-minus-original delta; no parity, shift, alignment, lag or orientation search.",
+  "orientation": {
+    "rule": "Within each consecutive legal row block, row parity starts at 0: row 0 stays original, row 1 is reversed, then alternates. A page, empty row, hard barrier or short row resets parity.",
+    "bigram": "For a row [x0,...,xn-1] with n>=2, count directed pairs (xi,xi+1) for i=0..n-2 into a 29x29 vector and divide by n-1; no circular closing pair.",
+    "pair_score": "Dot product of the two normalized directed-bigram vectors for each adjacent legal row pair; page score is the arithmetic mean across legal pairs.",
+    "observed_statistic": "delta = score(after fixed alternating reversal) - score(original row order)."
+  },
+  "power_gate": {
+    "layout": "One fixed unequal-length 24-row layout, all rows length>=2 and one hard segment, is used for every synthetic case.",
+    "positive_design": "20 cases generate each base row from the same fixed non-reversible 7-state Markov rule (next state is current+1 mod7 with probability 0.8, otherwise uniform over 0..6), then store odd-indexed rows reversed.",
+    "negative_design": "99 cases are split into 33 same-chain rows with independent random row directions, 33 same-chain rows all stored forward, and 33 independent uniform rows with independent row directions. The negative classes test random orientation, unconditional snake preference and non-directional repetition separately.",
+    "score": "Fixed alternating-reversal delta defined above; threshold 0.05.",
+    "acceptance": "At least 18/20 positives have delta>=0.05 and 0/99 negatives reach delta>=0.05; class-level counts are reported separately. This is a measurement gate, not an LP2 result.",
+    "failure_action": "Write gate and verification artifacts, mark the run inconclusive, skip LP2 scoring and controls, and leave unsolved_page_candidates empty."
+  },
+  "statistics": {
+    "metric": "Per-page delta between fixed alternating row reversal and original row order, averaged over adjacent legal row-pair bigram-vector dot products.",
+    "units": "One page-reset structural delta per page with at least one legal pair; other pages are explicitly inapplicable.",
+    "null": "For every page and control replicate, independently reverse each retained row with probability 0.5, preserving row content, row length, hard/empty barriers and within-row undirected adjacency; compare the resulting score to the original score.",
+    "maxT": "Standardize observed and 999 control delta vectors on the same valid-unit set; compare each observed unit with the maximum control z across valid units using plus-one p and tie tolerance 1e-12.",
+    "lead": "A passed power gate, complete valid-unit controls, independent verification and maxT-adjusted p<=0.01; a lead is directional structure only.",
+    "negative": "A passed power gate, complete controls, passed independent validation and no lead; scoped only to the fixed alternating rule, directed-bigram dot score and random row-reversal null."
+  },
+  "controls": {
+    "synthetic_positive_count": 20,
+    "synthetic_negative_count": 99,
+    "synthetic_negative_classes": {"random_direction": 33, "all_forward": 33, "uniform_random": 33},
+    "random_replicates": 999,
+    "random_null": "Independent Bernoulli(0.5) reversal per retained row; no output-selected parity or row ordering.",
+    "independent": "Worker parses public raw rows and computes directed bigrams with a guarded path; verifier parses independently, recomputes vectors and all scores, checks positives and rejects mutated output.",
+    "multiple_testing": "One preregistered delta statistic family with maxT across valid pages; H021 equality, H023 edge G and H024 center mirror are not added to this batch."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "gate_positive_seed": 33012201,
+    "gate_negative_seed": 33012202,
+    "control_seed": 33012203,
+    "role": "Synthetic Markov/negative generation and LP2 row reversal only; seeds and expected labels never enter the worker."
+  },
+  "frozen_before_candidates": "The runner writes this specification, source/data/review hashes, public raw-row jobs, verifier-only synthetic expectations, code snapshot, page order and all seeds before worker execution or LP2 scoring.",
+  "independent_validation_path": "The worker and verifier use separate raw-row parsers and separate bigram/score calculations; verification is exact at row, barrier, vector, score, delta and positive-expected levels.",
+  "timeout_policy": "One 120-second monotonic deadline covers gate, worker, observations, controls, statistics and finalization. Each completed control row is appended to partial JSONL and an atomic checkpoint records completed count, partial hash, frozen hash and RNG-state digest. Timeout never becomes negative.",
+  "total_budget": {
+    "power_gate_positive_pages": 20,
+    "power_gate_negative_pages": 99,
+    "power_gate_layout_rows": 24,
+    "lp2_page_universe": 56,
+    "lp2_runes": 12956,
+    "control_replicates": 999,
+    "wall_seconds": 120
+  },
+  "uncovered_parameters": [
+    "Physical pixel columns because current image bounding boxes are unlocated",
+    "The opposite parity, right alignment, horizontal shifts, row sorting, non-adjacent rows and arbitrary grid completion",
+    "H023 edge/interior G, H024 center mirror, H021 left-ordinal equality, feedback, projections, keys and independent LP2 plaintext"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If the gate fails, retain the failed gate and do not interpret LP2. If it passes and no LP2 lead appears, keep the structural result scoped and choose a new fixed direction without changing the snake rule.",
+  "note": "This is a directional layout diagnostic, not a decryption algorithm; a positive can arise from transcription or row formatting and requires independent mechanism evidence before any cipher claim."
+}

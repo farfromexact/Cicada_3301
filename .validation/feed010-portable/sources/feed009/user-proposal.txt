@@ -1,0 +1,918 @@
+如果你是从 **Liber Primus / 为什么偏偏选 29** 这个角度问，我会把和 29 相关的数学分成两层：一层是“任何素数 \(p\) 都天然拥有的结构”，另一层是 **29 本身特别有意思的性质**。
+
+最重要的一句话是：
+
+$$
+\boxed{29\text{ 的真正价值不只是它是素数，而是 }29-1=28=2^2\times7}
+$$
+
+这让 \(\mathbb F_{29}\) 同时拥有很漂亮的 **2、4、7、14、28 阶周期结构**。对密码设计来说，这比单纯“29 是素数”有意思得多。
+
+## 一、最基础：有限域 \(\mathbb F_{29}\)
+
+因为 29 是素数，
+
+$$
+\mathbb Z/29\mathbb Z
+$$
+
+是一个**有限域**：
+
+$$
+\mathbb F_{29}.
+$$
+
+也就是说：
+
+$$
+0,1,2,\ldots,28
+$$
+
+可以进行加减乘除——除了不能除以 0。
+
+这比普通模 \(n\) 算术强很多。
+
+例如模 29 下：
+
+$$
+5^{-1}=6
+$$
+
+因为
+
+$$
+5\times6=30\equiv1\pmod{29}.
+$$
+
+所以除了 LP1 已经出现的：
+
+$$
+x+k,\quad x-k,\quad -x
+$$
+
+其实还可以合法地做：
+
+$$
+ax+b\pmod{29},
+$$
+
+甚至：
+
+$$
+\frac{ax+b}{cx+d}\pmod{29}.
+$$
+
+后者就是有限域上的 **Möbius / fractional linear transformation**：
+
+$$
+x\mapsto\frac{ax+b}{cx+d}.
+$$
+
+这个我会特别记一笔，因为 LP1 中确实出现了 **MOBIUS** 这个词。它不能证明出题人用了 Möbius transformation，但数学上：
+
+> **29 元有限域 + MOBIUS**
+
+确实组成了一个值得检验的自然假设。
+
+---
+
+# 二、Fermat 小定理
+
+任何
+
+$$
+a\not\equiv0\pmod{29}
+$$
+
+都有：
+
+$$
+\boxed{a^{28}\equiv1\pmod{29}}.
+$$
+
+这是 Fermat's Little Theorem：
+
+$$
+a^{p-1}\equiv1\pmod p.
+$$
+
+所以 29 自然产生一个 **28 周期**。
+
+更准确地说，所有非零元素：
+
+$$
+\mathbb F_{29}^{\times}
+=
+\{1,2,\ldots,28\}
+$$
+
+构成一个 28 阶乘法群。
+
+而且它是**循环群**：
+
+$$
+\boxed{\mathbb F_{29}^{\times}\cong C_{28}}.
+$$
+
+这个性质对 Cicada 很值得注意。
+
+因为现在不是只有：
+
+$$
+0,1,2,\dots,28
+$$
+
+这样一个线性字符表。
+
+还天然存在一个：
+
+$$
+1,g,g^2,g^3,\ldots,g^{27}
+$$
+
+的循环排列。
+
+---
+
+# 三、29 的 primitive root：可以生成全部非零元素
+
+例如 **2 是模 29 的 primitive root**。
+
+也就是说：
+
+$$
+2^0,2^1,\ldots,2^{27}\pmod{29}
+$$
+
+恰好会走遍：
+
+$$
+1,2,\ldots,28.
+$$
+
+例如：
+
+$$
+2^1=2
+$$
+
+$$
+2^2=4
+$$
+
+$$
+2^3=8
+$$
+
+$$
+2^4=16
+$$
+
+$$
+2^5=32\equiv3
+$$
+
+……
+
+最漂亮的是：
+
+$$
+2^{14}\equiv-1\equiv28\pmod{29},
+$$
+
+所以：
+
+$$
+2^{28}\equiv1.
+$$
+
+因此我们得到另外一种 Rune 排序：
+
+$$
+r_{2^0},r_{2^1},r_{2^2},\dots
+$$
+
+而不是传统：
+
+$$
+r_0,r_1,r_2,\dots
+$$
+
+这对于密码来说非常自然：
+
+> **指数空间 ↔ rune 空间。**
+
+如果 LP2 使用 exponentiation / discrete-log permutation，这就是直接利用了 29 为素数的结构。
+
+---
+
+# 四、最值得注意的特殊性：\(29-1=28=4\times7\)
+
+我觉得这是 **29 最大的结构性特点之一**。
+
+由于：
+
+$$
+|\mathbb F_{29}^{\times}|=28,
+$$
+
+根据群论，它拥有阶数为：
+
+$$
+1,2,4,7,14,28
+$$
+
+的子群。
+
+所以模 29 中天然存在：
+
+### 2-cycle
+
+$$
+x\rightarrow-x
+$$
+
+### 4-cycle
+
+存在 \(x\) 满足：
+
+$$
+x^4=1.
+$$
+
+例如：
+
+$$
+12^2=144\equiv-1\pmod{29},
+$$
+
+因此：
+
+$$
+12^4\equiv1.
+$$
+
+所以：
+
+$$
+1\rightarrow12\rightarrow28\rightarrow17\rightarrow1.
+$$
+
+### 7-cycle
+
+因为：
+
+$$
+7\mid28,
+$$
+
+模 29 中也存在真正的七阶单位根：
+
+$$
+x^7=1.
+$$
+
+这很有意思。
+
+如果 LP 中反复出现：
+
+* 7
+* 14
+* 28
+* 4
+* 周期性排列
+
+那么这不需要凭空神秘化：
+
+**这些都是 \(\mathbb F_{29}^{\times}\) 自带的周期。**
+
+---
+
+# 五、quadratic residues：平方剩余
+
+这是素数模算术的另一大核心。
+
+问：
+
+$$
+x^2\equiv a\pmod{29}
+$$
+
+是否有解？
+
+模 29 的非零数里正好一半——14 个——是 quadratic residues。
+
+平方剩余为：
+
+$$
+\boxed{
+1,4,9,16,25,
+7,20,6,23,13,5,28,24,22
+}
+$$
+
+整理：
+
+$$
+\boxed{
+1,4,5,6,7,9,13,16,20,22,23,24,25,28
+}.
+$$
+
+剩下 14 个是 quadratic non-residues。
+
+于是可以给每个 rune 一个二元属性：
+
+$$
+\chi(x)=
+\begin{cases}
++1 & x\text{ 是平方剩余}\\
+-1 & x\text{ 是非平方剩余}
+\end{cases}
+$$
+
+这就是 **Legendre symbol**：
+
+$$
+\left(\frac{x}{29}\right).
+$$
+
+这种映射可以把 29 元字符序列转成：
+
+$$
++,-,+,+,-,-,\ldots
+$$
+
+一个 binary pattern。
+
+如果 Cicada 想在 Rune 上嵌一层隐藏的二进制信息，这是极其自然的办法。
+
+---
+
+# 六、Euler criterion
+
+判定是不是平方剩余，可以直接算：
+
+$$
+\boxed{
+a^{14}\equiv
+\left(\frac a{29}\right)
+\pmod{29}
+}
+$$
+
+因此：
+
+$$
+a^{14}\equiv1
+$$
+
+表示 quadratic residue；
+
+$$
+a^{14}\equiv-1\equiv28
+$$
+
+表示 non-residue。
+
+注意这个 **14** 又来自：
+
+$$
+\frac{29-1}{2}=14.
+$$
+
+于是 29 很自然地产生：
+
+$$
+7,\quad14,\quad28.
+$$
+
+---
+
+# 七、二次互反律 Quadratic Reciprocity
+
+一旦出现 Legendre symbol，自然就进入数论中的核心定理之一：
+
+$$
+\left(\frac pq\right)
+\left(\frac qp\right)
+=
+(-1)^{\frac{(p-1)(q-1)}4}.
+$$
+
+而因为：
+
+$$
+29\equiv1\pmod4,
+$$
+
+所以对奇素数 \(q\)：
+
+$$
+\boxed{
+\left(\frac{29}{q}\right)
+=
+\left(\frac q{29}\right)
+}
+$$
+
+没有负号。
+
+29 属于最“干净”的那一类 prime。
+
+如果 LP 使用 prime-to-prime relationships，这个性质就有可能重要。
+
+---
+
+# 八、29 ≡ 1 mod 4：所以它是两个平方和
+
+Fermat 两平方和定理告诉我们：
+
+如果
+
+$$
+p\equiv1\pmod4,
+$$
+
+那么它能唯一地写成两个平方之和：
+
+$$
+\boxed{29=5^2+2^2}.
+$$
+
+也就是：
+
+$$
+29=25+4.
+$$
+
+因此在 Gaussian integers：
+
+$$
+\mathbb Z[i]
+$$
+
+中，29 **不是 prime**，而是分裂：
+
+$$
+\boxed{
+29=(5+2i)(5-2i).
+}
+$$
+
+这是一个挺漂亮的结构。
+
+如果页面出现：
+
+* square；
+* complex / rotation；
+* geometry；
+* \(5,2\)；
+* 直角坐标；
+
+这可能提供一个数学方向。
+
+但目前这应该属于第二梯队假设，不如 mod-29、prime、totient 直接。
+
+---
+
+# 九、29 在三次单位根世界里反而是不分裂的
+
+29：
+
+$$
+29\equiv2\pmod3.
+$$
+
+所以在 Eisenstein integers
+
+$$
+\mathbb Z[\omega]
+$$
+
+中，它保持 inert。
+
+简单理解：
+
+* 在四重对称 / \(i\) 的世界中，29 很友好；
+* 在三重对称 / cube roots 的世界中，29 没有同样的分裂。
+
+这也是一种很漂亮的“29 的个性”。
+
+---
+
+# 十、29 本身还是 Sophie Germain prime
+
+因为：
+
+$$
+2\times29+1=59
+$$
+
+而 59 也是素数。
+
+所以：
+
+$$
+\boxed{29\text{ 是 Sophie Germain prime}}
+$$
+
+对应的 59 是 safe prime。
+
+这会产生：
+
+$$
+29\leftrightarrow59
+$$
+
+这样一对自然联系。
+
+我暂时不会把它当 LP 的重要 clue，因为目前没有材料说明 59 有特殊地位。
+
+但如果将来我们在 LP2 里突然频繁看到：
+
+$$
+29,\;59
+$$
+
+那么这个关联马上就值得重视。
+
+---
+
+# 十一、29 是第 10 个素数
+
+素数序列：
+
+$$
+2,3,5,7,11,13,17,19,23,\boxed{29}.
+$$
+
+所以：
+
+$$
+\pi(29)=10.
+$$
+
+这也是 Cicada 特别需要注意的一点，因为他们经常把：
+
+> value
+
+和：
+
+> index
+
+混着玩。
+
+因此 29 可以同时表示：
+
+$$
+29
+$$
+
+以及：
+
+$$
+p_{10}.
+$$
+
+而：
+
+$$
+10
+$$
+
+又可能进一步被解释。
+
+这种 **prime value ↔ prime index** 转换，是我会让 Codex 系统扫描的东西。
+
+---
+
+# 十二、Wilson 定理
+
+任何素数 \(p\)：
+
+$$
+(p-1)!\equiv-1\pmod p.
+$$
+
+所以：
+
+$$
+\boxed{28!\equiv-1\equiv28\pmod{29}}.
+$$
+
+因此：
+
+$$
+28!+1
+$$
+
+一定被 29 整除。
+
+Wilson 通常不适合作为实际计算方法，但作为 puzzle clue 非常合适：
+
+$$
+28!\rightarrow28.
+$$
+
+再次产生 self-reference。
+
+---
+
+# 十三、Euler φ 在 29 上尤其简单
+
+你刚才问到 totient。
+
+因为 29 是素数：
+
+$$
+\boxed{\phi(29)=28}.
+$$
+
+而：
+
+$$
+28=29-1.
+$$
+
+所以如果 Cicada 同时强调：
+
+> PRIME
+
+和：
+
+> TOTIENT
+
+那么最自然的链就是：
+
+$$
+29
+\xrightarrow{\phi}
+28.
+$$
+
+同理，对第 \(n\) 个素数：
+
+$$
+p_n
+\xrightarrow{\phi}
+p_n-1.
+$$
+
+这正是 Liber Primus 已知解法中出现过的思想。
+
+---
+
+# 十四、cyclotomic / 29th roots of unity
+
+考虑：
+
+$$
+x^{29}-1.
+$$
+
+它分解为：
+
+$$
+(x-1)\Phi_{29}(x),
+$$
+
+其中：
+
+$$
+\Phi_{29}(x)
+=
+1+x+x^2+\cdots+x^{28}.
+$$
+
+因为 29 是素数，所以第 29 个 cyclotomic polynomial 特别简单。
+
+它的次数是：
+
+$$
+\phi(29)=28.
+$$
+
+这里再次出现：
+
+$$
+29\leftrightarrow28\leftrightarrow\phi(29).
+$$
+
+这和圆、周期、rotation、circumference 的概念天然有联系。
+
+如果我要从 LP1 的语言里找一个很诱人的数学组合，就是：
+
+$$
+\boxed{
+\text{CIRCUMFERENCE}
++
+29
++
+\phi(29)=28
++
+\text{roots of unity}
+}
+$$
+
+我不会说这就是答案，但它是非常自然的研究方向。
+
+---
+
+# 十五、有限 Fourier / NTT 结构
+
+因为：
+
+$$
+28=4\times7,
+$$
+
+\(\mathbb F_{29}\) 内存在 4 阶和 7 阶单位根。
+
+所以可以进行长度：
+
+$$
+2,\;4,\;7,\;14,\;28
+$$
+
+相关的有限域 Fourier-type transforms / Number Theoretic Transform。
+
+尤其：
+
+$$
+7\mid28.
+$$
+
+因此如果某个页面：
+
+* 7 行；
+* 7 列；
+* 每 7 个 rune 一个 pattern；
+* 28 个字符一组；
+
+我会认真检查有限域周期。
+
+---
+
+# 十六、projective line：30 个点
+
+有限域 \(\mathbb F_{29}\) 加上一个无穷远点：
+
+$$
+\mathbb P^1(\mathbb F_{29})
+=
+\mathbb F_{29}\cup\{\infty\}
+$$
+
+共有：
+
+$$
+\boxed{30}
+$$
+
+个点。
+
+Möbius transformation：
+
+$$
+x\mapsto\frac{ax+b}{cx+d}
+$$
+
+正是在这个 30 点集合上自然作用。
+
+对应的群是：
+
+$$
+PGL(2,29).
+$$
+
+这已经比 LP1 已知数学复杂不少，但如果 **MOBIUS** 真的是数学 clue，那么这一套反而是最自然的正式框架。
+
+---
+
+# 十七、椭圆曲线 over \(\mathbb F_{29}\)
+
+再往上走，可以考虑：
+
+$$
+E:\quad y^2=x^3+ax+b\pmod{29}.
+$$
+
+这产生有限 Abelian group：
+
+$$
+E(\mathbb F_{29}).
+$$
+
+Hasse bound：
+
+$$
+|\,\#E(\mathbb F_{29})-(29+1)\,|
+\le2\sqrt{29}.
+$$
+
+所以：
+
+$$
+20\lesssim\#E(\mathbb F_{29})\lesssim40.
+$$
+
+理论上当然能构造 ECC、point addition、discrete logarithm 等。
+
+但就 Cicada 来说，我会把这个优先级排得很低：
+
+> **数学上有关，但目前 LP1 没有明显 evidence 指向 elliptic curves。**
+
+---
+
+# 如果目标是攻击 Liber Primus，我会怎么排序
+
+我不会平铺所有“和 29 有关的数学”。
+
+我会按这个优先级：
+
+### Tier 1：强烈应该搜索
+
+$$
+\boxed{
+\begin{aligned}
+&\mathbb F_{29}\text{ arithmetic}\\
+&x\mapsto ax+b\\
+&\text{powers / primitive roots}\\
+&28\text{-cycle}\\
+&7,\;14,\;28\text{ subcycles}\\
+&\phi(p)=p-1\\
+&\text{prime value / prime index}
+\end{aligned}}
+$$
+
+这些和 LP 已知数学语言非常一致。
+
+### Tier 2：很值得查
+
+$$
+\boxed{
+\begin{aligned}
+&\text{quadratic residues}\\
+&\text{Legendre symbols}\\
+&x^{14}=\pm1\\
+&\text{roots of unity}\\
+&\text{finite Fourier / cyclic structure}\\
+&\text{Möbius transformations}
+\end{aligned}}
+$$
+
+特别是如果版式或文本中出现对应 clue。
+
+### Tier 3：不要一开始过拟合
+
+$$
+\begin{aligned}
+&\text{Gaussian integers}\\
+&\text{Sophie Germain prime }29\leftrightarrow59\\
+&\text{elliptic curves}\\
+&\text{higher algebraic number theory}
+\end{aligned}
+$$
+
+数学上都是真的，但暂时缺少 LP evidence。
+
+---
+
+## 我现在最感兴趣的其实是一个组合
+
+如果让我从“出题人为什么选择 29”反推，我首先会研究：
+
+$$
+\boxed{
+29
+\rightarrow
+28
+\rightarrow
+4\times7
+}
+$$
+
+因为它同时意味着：
+
+$$
+\phi(29)=28,
+$$
+
+$$
+|\mathbb F_{29}^{\times}|=28,
+$$
+
+并且：
+
+$$
+28=2^2\times7.
+$$
+
+于是同一个选择自动给了你：
+
+**29 个 rune + 28 阶循环群 + 7 周期 + 14 半周期 + 4 周期 + Euler totient。**
+
+这就不是“29 刚好是 rune 数量”那么简单了。
+
+如果 Cicada 是有意识选的 29，我认为 **\(29-1=28\) 的群结构** 是我们下一步最值得让 Codex 系统挖的东西之一。

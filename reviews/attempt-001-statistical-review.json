@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-09-13T10:07:47.240940+00:00",
+  "method": "Read-only recomputation of every saved control Z from saved LL and exact moments, all maxima and all adjusted p; full-page coverage check. No new candidates/permutations.",
+  "control_z_checked": 168831,
+  "control_maxima_checked": 999,
+  "candidate_p_checked": 169,
+  "largest_control_z_error": 0,
+  "lead_count": 0,
+  "best": {
+    "page": "LP2/40",
+    "methods": [
+      "corpus"
+    ],
+    "log_likelihood": -940.0388148324968,
+    "z": 1.9161947898605804,
+    "null_mean": -991.6675820929624,
+    "null_variance": 725.9458069059431,
+    "exceedances": 991,
+    "p_adjusted": 0.992,
+    "status": "negative"
+  },
+  "control_artifact_sha256": "d0e575adac5cf2899b63c8574ffd3f660ef0b6399761ea2dd26f57f2d387b766",
+  "parallel_agent_review": "Independent source/boundary review and statistical source audit agreed; two synthetic slices are repeated across four clocks, not a power estimate."
+}

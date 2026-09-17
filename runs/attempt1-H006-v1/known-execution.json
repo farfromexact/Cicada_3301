@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "scripts/reproduce.py",
+    "--out",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\attempt1-H006-v1\\known"
+  ],
+  "status": "completed",
+  "exit_code": 0,
+  "stdout": "[{\"page\": 56, \"rune_count\": 85, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 84, \"negative_mismatches\": 29}, {\"page\": 57, \"rune_count\": 95, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 0, \"negative_mismatches\": null}]\n",
+  "stderr": "",
+  "elapsed_seconds": 0.10899999999674037,
+  "timeout_seconds": 30
+}

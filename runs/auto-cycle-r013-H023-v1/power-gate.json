@@ -1,0 +1,712 @@
+{
+  "status": "passed",
+  "positive_requested": 20,
+  "positive_exact": 20,
+  "positive_score_passes": 20,
+  "negative_requested": 99,
+  "negative_false_accepts": 0,
+  "negative_class_false_accepts": {
+    "negative_fixed_seven": 0,
+    "negative_row_heterogeneous": 0,
+    "negative_uniform": 0
+  },
+  "threshold": 80.0,
+  "positive_scores": [
+    {
+      "job": "gate-positive-01",
+      "g_stat": 180.3001879447151,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-02",
+      "g_stat": 200.60343744854404,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-03",
+      "g_stat": 168.13160850225344,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-04",
+      "g_stat": 181.20664673686633,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-05",
+      "g_stat": 210.0761375544912,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-06",
+      "g_stat": 238.3445415487099,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-07",
+      "g_stat": 169.15323041766896,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-08",
+      "g_stat": 158.85603760665137,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-09",
+      "g_stat": 189.38500515837413,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-10",
+      "g_stat": 194.00514129557789,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-11",
+      "g_stat": 183.99065053531746,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-12",
+      "g_stat": 189.07096673761723,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-13",
+      "g_stat": 201.73917506069571,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-14",
+      "g_stat": 205.88446575063068,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-15",
+      "g_stat": 200.94797919685428,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-16",
+      "g_stat": 188.37024148507106,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-17",
+      "g_stat": 175.34109856782294,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-18",
+      "g_stat": 188.01481616944437,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-19",
+      "g_stat": 177.45233299716827,
+      "exact": true
+    },
+    {
+      "job": "gate-positive-20",
+      "g_stat": 182.92632693117255,
+      "exact": true
+    }
+  ],
+  "negative_scores": [
+    {
+      "job": "gate-negative-001",
+      "class_name": "negative_uniform",
+      "g_stat": 36.86759373363567,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-002",
+      "class_name": "negative_uniform",
+      "g_stat": 25.798804098138465,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-003",
+      "class_name": "negative_uniform",
+      "g_stat": 22.644213770284637,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-004",
+      "class_name": "negative_uniform",
+      "g_stat": 39.79514434704288,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-005",
+      "class_name": "negative_uniform",
+      "g_stat": 22.048249439652302,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-006",
+      "class_name": "negative_uniform",
+      "g_stat": 17.077548395906142,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-007",
+      "class_name": "negative_uniform",
+      "g_stat": 27.67279158649889,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-008",
+      "class_name": "negative_uniform",
+      "g_stat": 12.429087922561562,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-009",
+      "class_name": "negative_uniform",
+      "g_stat": 29.25519887989971,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-010",
+      "class_name": "negative_uniform",
+      "g_stat": 33.77404365547413,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-011",
+      "class_name": "negative_uniform",
+      "g_stat": 24.11957882938298,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-012",
+      "class_name": "negative_uniform",
+      "g_stat": 27.33748643910203,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-013",
+      "class_name": "negative_uniform",
+      "g_stat": 24.749165222137858,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-014",
+      "class_name": "negative_uniform",
+      "g_stat": 34.35010785552574,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-015",
+      "class_name": "negative_uniform",
+      "g_stat": 16.05683415600184,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-016",
+      "class_name": "negative_uniform",
+      "g_stat": 23.69471246767091,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-017",
+      "class_name": "negative_uniform",
+      "g_stat": 26.697288610916715,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-018",
+      "class_name": "negative_uniform",
+      "g_stat": 34.68987160009264,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-019",
+      "class_name": "negative_uniform",
+      "g_stat": 34.31707409104716,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-020",
+      "class_name": "negative_uniform",
+      "g_stat": 28.71861645391582,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-021",
+      "class_name": "negative_uniform",
+      "g_stat": 34.099120331345866,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-022",
+      "class_name": "negative_uniform",
+      "g_stat": 29.454105264194368,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-023",
+      "class_name": "negative_uniform",
+      "g_stat": 32.6137435312971,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-024",
+      "class_name": "negative_uniform",
+      "g_stat": 27.545490500308176,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-025",
+      "class_name": "negative_uniform",
+      "g_stat": 38.10482959488469,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-026",
+      "class_name": "negative_uniform",
+      "g_stat": 22.398312386826337,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-027",
+      "class_name": "negative_uniform",
+      "g_stat": 18.19847587016242,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-028",
+      "class_name": "negative_uniform",
+      "g_stat": 21.773700063574296,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-029",
+      "class_name": "negative_uniform",
+      "g_stat": 16.35756569944334,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-030",
+      "class_name": "negative_uniform",
+      "g_stat": 22.290768871641838,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-031",
+      "class_name": "negative_uniform",
+      "g_stat": 36.63797350424459,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-032",
+      "class_name": "negative_uniform",
+      "g_stat": 32.41268450823529,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-033",
+      "class_name": "negative_uniform",
+      "g_stat": 24.710169190747557,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-034",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 33.298158503145075,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-035",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 46.00406907928308,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-036",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 44.84326268351531,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-037",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 21.879984764493894,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-038",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 15.508664997747875,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-039",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 26.576040073201508,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-040",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 23.450763657972125,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-041",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 16.43308792907701,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-042",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 29.370995276113433,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-043",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 33.74276891689729,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-044",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 17.432747154882573,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-045",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 28.264944560667796,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-046",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 35.3478323998281,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-047",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 27.103832118282888,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-048",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 35.68908301577838,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-049",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 34.14908662049022,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-050",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 28.364572718990924,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-051",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 20.087815648762014,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-052",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 23.357242682395537,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-053",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 35.89383258196961,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-054",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 30.520129136979527,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-055",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 32.32832737802934,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-056",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 47.64659017731416,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-057",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 28.714807053193038,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-058",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 45.98819275202366,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-059",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 19.071991933358984,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-060",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 32.40990867596423,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-061",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 32.14236432988729,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-062",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 37.3915255071985,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-063",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 24.4834981555896,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-064",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 24.100672562634315,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-065",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 20.510694236437136,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-066",
+      "class_name": "negative_row_heterogeneous",
+      "g_stat": 20.802533126791765,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-067",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 14.262695041338377,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-068",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 1.3911543036833085,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-069",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.076669319501388,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-070",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 13.596829455917948,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-071",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 7.391289083973639,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-072",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 7.0262418009800784,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-073",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.206863107171019,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-074",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 15.003532628758204,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-075",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.42604973446843,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-076",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.418386415511868,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-077",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.322074274226134,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-078",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 9.748479338144877,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-079",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 1.9327345754921,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-080",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 5.708870110884321,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-081",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 6.8080006912586875,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-082",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 2.6392852198707244,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-083",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 6.414895494344539,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-084",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 3.0224973974036127,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-085",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 2.657184729408941,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-086",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 10.243735842646737,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-087",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.183614464435561,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-088",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 2.259565140964121,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-089",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 2.650361922619714,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-090",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 10.602104953439651,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-091",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 4.652367755924693,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-092",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 2.903907212981278,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-093",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 3.55331367061862,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-094",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 10.62230490610639,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-095",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 14.524659630013636,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-096",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 3.2463278167383844,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-097",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 1.6707726945477928,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-098",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 7.762296157608389,
+      "false_accept": false
+    },
+    {
+      "job": "gate-negative-099",
+      "class_name": "negative_fixed_seven",
+      "g_stat": 3.7644779934329,
+      "false_accept": false
+    }
+  ]
+}

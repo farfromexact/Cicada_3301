@@ -1,0 +1,427 @@
+{
+  "schema": 1,
+  "hypothesis": {
+    "id": "H000-v1",
+    "hypothesis": "LP2/57 identity and LP2/56 prime-minus-one with the documented skip reproduce the pinned references; a blind bounded search recovers synthetic prime-stream keys.",
+    "basis": [
+      "sources/quickstart.html",
+      "sources/ibot/liber_primus/markdown/73.md",
+      "sources/ibot/liber_primus/markdown/74.md"
+    ],
+    "registered_before_first_synthetic_run": true,
+    "synthetic_family": "C[i]=(P[i]+prime[i+offset]-shift) mod 29; no skip",
+    "parameters": {
+      "offset": [
+        0,
+        31
+      ],
+      "shift": [
+        0,
+        28
+      ],
+      "trials": 3,
+      "timeout_seconds_per_worker": 30
+    },
+    "scorer": "v1 sum log((training_count[rune]+1)/(training_total+29)); no candidate-specific changes",
+    "success": "Both LP references exact at every rune, lossless inverse, and all 3 synthetic trials recover full rune sequence plus key; read guard probe passes; each search covers 928 candidates",
+    "failure": "Completed exhaustive synthetic search selects a wrong answer or key: negative for this benchmark only; LP mismatch: regression failure",
+    "error_timeout_policy": "Runtime exception is error; subprocess deadline is timeout; neither is a cryptanalytic negative",
+    "coverage_limit": "Only two known pages and a no-skip synthetic subfamily; no unsolved page search and no proof of general language scoring reliability"
+  },
+  "started_at_utc": "2026-09-13T14:08:05.723786+00:00",
+  "additional_hypotheses": [
+    {
+      "id": "H004-v1",
+      "hypothesis": "LP1 offers documented mechanisms and text associations that can be represented as evidence-typed links; A WARNING reproduces with 28-index and the LP1/05 matrix values follow GP sums of the actual runes.",
+      "basis": [
+        "sources/clues-v1/user-proposal.txt",
+        "sources/clues-v1/ibot/liber_primus/markdown/01.md",
+        "sources/clues-v1/ibot/liber_primus/markdown/05.md"
+      ],
+      "parameters": {
+        "warning_transforms": [
+          "28-index",
+          "identity negative control"
+        ],
+        "matrix_transform": "sum GP prime values of raw rune cell; preserve decimal cells",
+        "new_unsolved_page_candidates": 0
+      },
+      "scorer": "none; exact rune references and exact integer table only",
+      "success": "A WARNING source rune sequences agree, exact independent expected sequence and inverse pass; all 25 matrix cells equal the pinned reference; graph evidence locators resolve and speculative links are not promoted to verified mechanism.",
+      "failure": "Completed comparison mismatch is negative for the specified source/transform, not for all LP1 theories; graph invalidity is an error.",
+      "limits": "No author-intent identification, no Vigenere solve in this round, no large key search, no assertion that an English word uniquely determines runes, no statistical prime-sum significance claim.",
+      "timeout_seconds": 30,
+      "random_seed": null,
+      "next_step": "Turn selected graph edges into preregistered, discriminating experiments; prioritize F-skip semantics and exact CIRCUMFERENCE key representation."
+    },
+    {
+      "id": "H005-v1",
+      "hypothesis": "FEED-002 representation claims can be separated into exact algebraic facts, source-specific structure and untested cryptographic interpretations.",
+      "basis": [
+        "sources/feed002/user-proposal.txt",
+        "sources/clues-v1/ibot/liber_primus/markdown/05.md",
+        "sources/ibot/liber_primus/markdown/73.md"
+      ],
+      "parameters": {
+        "field": "all 29 residues; enumerate y=0..28 for each x=0..28",
+        "matrix": "LP1/05 only, all eight square symmetries, compare all 25 positions",
+        "representation_views": [
+          "integer cell sum",
+          "cell sum modulo 29",
+          "phi(cell sum)"
+        ],
+        "prime_mapping": "all 29 GP entries, compare full values versus residues modulo 29",
+        "lp2_control": "LP2/56 only; original offset=0 shift=1 skip=56 held fixed; compare position-stream phi(prime) with phi(GP[cipher_index])",
+        "new_unsolved_page_candidates": 0
+      },
+      "scorer": "none; exact finite arithmetic and rune-reference equality",
+      "success": "All nonzero field residues have one inverse and zero has none; original matrix is centrosymmetric; the existing position stream agrees with independently counted totients; rune-value-based alternative has at least one exact-reference mismatch.",
+      "failure": "A completed alternative mismatch is a negative only for the listed page/parameters. A failed expected arithmetic check is recorded as a negative audit; exceptions/timeouts are separate execution statuses.",
+      "random_seed": null,
+      "timeout_seconds": 30,
+      "limits": "Finite-field availability is not evidence of multiplication in LP; mapped symmetries are not independent observations; no p-values, no author-intent inference, no corpus scan.",
+      "next_step": "Before any unsolved-page survey, freeze page/transcription versions, symmetry/statistic definitions, transformation deduplication, null controls and multiple-testing criteria."
+    }
+  ],
+  "environment": {
+    "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+    "executable": "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0"
+  },
+  "code_version": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "b4adcf1a0659f972e514add44c170d062e7b46f4ddb60c11cfceea5d44d8d467",
+    "files": {
+      "pyproject.toml": "cc345e98c021c5051ded63a60d9c22c86c6cdd6518b531c5ebac400b8f8c4b24",
+      "scripts/acquire_clue_sources.py": "f1704510b14ad4b2b7a4132c2ea33bff097f22de1b0b017073ea81af4814ad36",
+      "scripts/acquire_math_sources.py": "b49e3ad3eb3e5c4d6f49528bb9b329275fa6b4a462c3812e3f5fc4a77c0e336b",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/attempt1.py": "e61a05d384bb2ad7e17dcb3b23e5ba0b157fe47f785f129f950de53704f4c435",
+      "scripts/attempt10_circumference_transfer.py": "a7333f83d2e943e7095e66664e65ce6081bb3fde64022cd3a7cf5a4a66193a0f",
+      "scripts/attempt11_mobius_inversion.py": "4433b566d1145da3e8cec04ac723eef797d473913b413b11e4a526741b1939f2",
+      "scripts/attempt12_periodic_f_state.py": "c1f300fa219a6dc18af2eb76186fae85968d460d089065c5710407fb19ab1dc8",
+      "scripts/attempt12_worker.py": "3165f4d2da4482637f3e09917dacc7a537a81ec8dddf8659983f9c2742df21f9",
+      "scripts/attempt13_periodic_f_state_v2.py": "db1aa4ab959f4a8c95859096f13c72448bedf67140f8faafe0bdd2642a70635a",
+      "scripts/attempt13_worker_v2.py": "e5921672127480be8d3882e7db856b77888d0fa366f9864aa0c41636dcc6ced2",
+      "scripts/attempt14_feedback_v1.py": "8c6ed3c828c39a369b1f8d91aed9ec52bcbd8e14094085833c1f307e9aa8077a",
+      "scripts/attempt14_feedback_worker_v1.py": "66edeb7fbd832bbf56cd0fbab7ad7b5e70f484b7d4535ffdb87bf649b477f14a",
+      "scripts/attempt15_projection_v1.py": "19eaf7f41b1690451e5a8299477f26eeb69aa889ad1e2d057ad79bd0d5075bc0",
+      "scripts/attempt15_projection_v2.py": "ac57aab63b20ab7da3e1c18e8e37591baab58b6b1a3fe2b59e2fd2a6b2da064c",
+      "scripts/attempt15_projection_worker_v1.py": "cd5d28bd9126c5fab593e9d3c1990363a1c254f4b1b4aa38cbeef192e5937744",
+      "scripts/attempt15_projection_worker_v2.py": "cbd756b16e752f6ffb6a593256ce1e52177d06e8c9fda38a4761bad1740000a4",
+      "scripts/attempt16_row_geometry_v1.py": "7e6b0bbe5949fa9563466809699064ebcfbc22961ce5b24234d4de0d45e672d4",
+      "scripts/attempt16_row_geometry_worker_v1.py": "0eb3f98cd47f57f3ec9e6d459c57a6c1512711fa2de5b40400fabd63c19f67bc",
+      "scripts/attempt17_snake_row_v1.py": "265f29114173d27ae70d2aca204fabe61ea767bcdafefb6a1ee8c30dc2680eed",
+      "scripts/attempt17_snake_row_worker_v1.py": "746084e5d6404c6e931bf33eac5c51bda4b396d7ac2f442a810146f055e44220",
+      "scripts/attempt18_row_edge_v1.py": "d3dcead256c41a63ae877a6bcb162e8a4b975b74386f766d8945de64ec15ca3b",
+      "scripts/attempt18_row_edge_worker_v1.py": "f5610f2624fbfe09c805e38aa0ece75c419860f4961e8dc63137f5d896a8f971",
+      "scripts/attempt19_plaintext_feedback_worker_v1.py": "5648ed5c55269c09aa02ff0897c0a798dde7a8292c6e0145bd12e9c428773afd",
+      "scripts/attempt1_worker.py": "1d29b77e2b98854017cc56e2afe2af93b6df70f01abc9aafc4cd0616d28a9eaa",
+      "scripts/attempt2.py": "a501b1d05508b0ea4833bd7785ec171879be729650869068c4d906cb7cb768d2",
+      "scripts/attempt2_worker.py": "62bf0a789a4f52239bc43645f6a382ef2288e852d011df80e21e0af5fde8b269",
+      "scripts/attempt3.py": "c4cea4cb96a0f2dd7a9aca973a5bf4237dba7b9c0e467ddcb873c39bd3e77cdb",
+      "scripts/attempt3_worker.py": "556a22c88914d58309c7ee3579e49ebe5b5bc7896481af892791f42920e778ff",
+      "scripts/attempt4.py": "1779a17436e5ebae0a36cdbd37c79cd36c368c2f7fef160e9e0363b8e8d66efa",
+      "scripts/attempt5_scorer_calibration.py": "b0e21c49b7edcb9cfd73204a67108e22b0ea42488482d987a91f1425e5fbf05b",
+      "scripts/attempt6_multiplicative.py": "40a2b77316d9f4dcd558ecde8a76eef7a93610c935bca8ab289fabfcb2573146",
+      "scripts/attempt7_legendre.py": "1c987b6632e1a5756b906a346626230299715d06cc5f8efdb13a06bb48525c17",
+      "scripts/attempt8_koan.py": "65a13e1992be13b1681dfa2f07746f3998136853ad211c2fdc78c47b34b5cb67",
+      "scripts/attempt9_affine_generalization.py": "7dbaa3c3e1956131902c36ca8fbee74c84b7f6c72cfb0845e22658f2f9cffe0d",
+      "scripts/audit_attempt4.py": "31f281cf6bd841117f9854fd3c97b50c56c7685f6250c62362e454fd95556115",
+      "scripts/check_clues.py": "a547f9498e199bf89e9cdb406d47e8bbd4f7430f71021fd2d7ca4268b50bff6b",
+      "scripts/check_geometry.py": "1d7f5ab83596a871e2cb687b278546f2768b1748b978b46f8339fd63ff7ad4b5",
+      "scripts/check_math.py": "5c8fe24e0ffb023ad731a69c814d862cdd7b75d78704a1c4c84970674118a9a6",
+      "scripts/ingest_feed010.py": "33bcc6286ab6b3497dad68cf70604ea6915eb4cbb3ff979ef237f9a00c656e38",
+      "scripts/prepare_attempt1.py": "4e9a8a8e510ece5adb047f57bc7b1753f28e72e444924274375aa8c2dc4a0de5",
+      "scripts/prepare_attempt2_sources.py": "5cfd5bca26c47c7c2ba0325994a67931de9800e0d89a323f2dabc614a1af88c3",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/register_attempt4.py": "48ff89a3f420180ac001c0f1406f46618b5c53e377127c6ab3d0bb8e7bf88fd5",
+      "scripts/register_feed010.py": "a85002e467824abeac3a714d1d5009cd629cb4b2b638ece11a64405b16c926af",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/research.py": "e32b7176f39cfeb3b8528a1150462dc1f76120f6e1a6d58e011e5411915617a8",
+      "scripts/run_round.py": "c2d8697851d1e72498e92b1a4957ed6c46115ea5671c31fa01e97e755375dde0",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/snapshot_context.py": "5c28dcfff9dbff6719552d0e52dc1be9d6781b64f1486f6dce4f35b1491b8edf",
+      "scripts/synthetic_benchmark.py": "a7f54559049290960296a50259754e916537cced9737dcbd259f6b80c22fa542",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/attempt1_stats.py": "6b933ec1133f8110819194146eef7d702949cc24f3493bf96e416ed207a1f7a8",
+      "src/lp_lab/boundary_clock.py": "ab34345a550f803d5d847201af404c04408b72336cb920d6d5c4f713ba6a9dc5",
+      "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+      "src/lp_lab/clues.py": "0dee6564916eaa28c7cb91d43bf3bb0a413da5f4974af82d08cd0f53fd95b794",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/feedback.py": "473375540baa00aedfdc7c65d88308763a7cf8888bfb35933e29b893c3c13df1",
+      "src/lp_lab/geometry_audit.py": "9c5aec5f654a18cb19f6be55e37001b0e48337917129b3e528cde82cab7941ec",
+      "src/lp_lab/math_audit.py": "48bcc73f0d68457301a8ba73cd7ff5d0105e0a5324e378baaaeabdc27f437b0e",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/periodic_f_state.py": "170d9ecfbeb548229c7a627f4b747145cf534f201d4494e55b55bb0d6d2720a4",
+      "src/lp_lab/periodic_f_state_v2.py": "8b645fb062faee238c0d5c24816828257ae9308d1f19a307e773f86e6987238f",
+      "src/lp_lab/projection.py": "fdf63f84d8dc603f0e016a57ed3a7182cc1ed0ff55dd4374b5d42a67cd1c816b",
+      "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+      "src/lp_lab/reachability.py": "fb543f4c3c439af862a0337ba3888ebf3f72f6b5919b7355b65939e5c2ddcde2",
+      "src/lp_lab/reference.py": "eebc50bfb69c8e59d4f6e5a1e9f78102a1eb7a36666e31bc0f7b4396a4ac69b6",
+      "src/lp_lab/research.py": "88e646aa44e57bb0657ebcf79696c8b1fe5e0fb5649dbfe2c5b910f80219b314",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/skip_mechanics.py": "975863a4f0b54fc2412751dc9f6976dcd75e0c2e8bef8d5e8df27855e2583b0c",
+      "src/lp_lab/structure_inputs.py": "22e5caa8bd831ddd7640089e7f9428079b2dd0fa3a70c87a489694b30ac47ea0",
+      "src/lp_lab/structure_stats.py": "5483e27f06727218d7fa64c1ad70daf7ca19a57dffbe46fe7b97c1c74148f8d5",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_affine_generalization.py": "4240f1c191cd32dc730f22c0500afd558379c965e5cad86c89d7598bbe281f26",
+      "tests/test_attempt1_stats.py": "4143f38ceac1f09857169a4bc4051accfe59eb5e84a730b237f4a579ee047e1d",
+      "tests/test_attempt1_worker.py": "e56d1ca0acbca79e016323cffaaf0b252104009bb7668ba609247388c755c8c7",
+      "tests/test_attempt2_worker.py": "281b133fb26dc4523f05e686221cc5c90ec36737a52fbb4308e8eddbdf0ed9a5",
+      "tests/test_boundary_clock.py": "f57ea56832726f3b0b17b0f91eecb9602a0a4f7ec0133ae0bf84ff5a5aaf744b",
+      "tests/test_circumference_transfer.py": "844ae41943fb8b62fb67af87da5c32b63c29d6937d4c23f880037b744c370120",
+      "tests/test_clues.py": "04a36a1babf9ddbc8726d7b0cef0214cf00ac29d2ec2aef4bcbe137b3551661f",
+      "tests/test_feedback.py": "230d9a663707dc813119f89972d2fb91bb799db6350fd88243e77c38e8549b74",
+      "tests/test_geometry_audit.py": "2fdfb0884597049bd65da244bd9a8920ea24f3d38638355d668152c6e5606bae",
+      "tests/test_koan.py": "b5ca3e658d25e8696c34dc9c1c3a3c5fc6c6316d8a7fadeda288c6fd06832e33",
+      "tests/test_lab.py": "d072dc0afe83447631e464b249705ab0f662946b4db691bed2638a77792cf507",
+      "tests/test_legendre.py": "e0e3044b11b59c81c5634cce8cf0cabf299be484124d79bb9f7d443377185c55",
+      "tests/test_math_audit.py": "b333895f67927a6739a118ce64ba56f68a62fd1fac038e98c70c609b5d9ca9f3",
+      "tests/test_methods.py": "d9e08d592dc4bec903606257e51b7a27680d106dfc41ed02da0a0b455c4c4248",
+      "tests/test_mobius_inversion.py": "d010959d3fc6a362b18c90bb5f970adfb06606921c656a437ffc63a6ee09e068",
+      "tests/test_multiplicative.py": "f40ba83b1bd8a9480b2ca7a9c45a99a7d89caae76886ec84397613e54e853f07",
+      "tests/test_periodic_f_state.py": "cc80d4c5bea24c83f0ad8a55a0be9fa7aa5380c7a5a36e3dee9d7186b081a000",
+      "tests/test_periodic_f_state_v2.py": "fc0c4acb807167a0df72bf4406d804e9ad1dd6d00f46f14a261e34d64da1724f",
+      "tests/test_projection.py": "4023c647e2729f4caf4f4affcb90211951c044113063aad7b868584d8fd6a659",
+      "tests/test_reachability.py": "ed2ecfbbbcfcbbe6c8c59766e7aefafd80b448ea22bcf0d40f6f89b912ffd5c6",
+      "tests/test_row_edge.py": "a74acd991673ab72b90c40dee41bc029f66dfd713b9e9c2334cab8f8bea8fa77",
+      "tests/test_row_geometry.py": "090fbaa0b888b2d3bdc2b34f3b28aedd70f5a6c30cbc64d7cf10079dbe3ebebc",
+      "tests/test_scorer_calibration.py": "2cb3da42455509a874abcc630cfc692e28e3eac02bf2f69fb460b575c61dc563",
+      "tests/test_skip_mechanics.py": "c3f55b5a9760d5678a6dff6571a2ab534d82ef2e23d86516bb9a62bff40b8c48",
+      "tests/test_snake_row.py": "eccd5a1622c86dd10ac28b62e6e061510260ad92af60f2f63a3a63d9c1a267b6",
+      "tests/test_structure_inputs.py": "929d0c2d51e7f0c3920bd4612949f7e7b2550d15dff639807839f7b1e9e524c0",
+      "tests/test_structure_stats.py": "3e16e271599c28cf352862c5937fdc4dc35940b754abbe7b23972b61a878542b"
+    }
+  },
+  "git_head": "a4d56137b288a005991c548cd86482751796a372",
+  "reproduction_bundle": {
+    "path": "reproduction-bundle.zip",
+    "sha256": "919c5d8f36bf898a971106646ecfba523c4e16152341945b5c44f31e29712125"
+  },
+  "data_version": {
+    "sources/attempt1-manifest.json": "cb23f409e14fb9d07e96b86536407007c276660e7faa670cd168f44d18b8c9f5",
+    "sources/attempt1-request-manifest.json": "0e6a4be40af01be440b2778924bf897636f18a170b84b73b0c6738fd896a3854",
+    "sources/attempt2-known-manifest.json": "6fb377cec909a1b5a6df57f67277b91fed7f7ead409d40d47e5fe797ab7afb13",
+    "sources/attempt2-request-manifest.json": "6e6a71d7b321ede746e1a17477715bd7d9311b657f08e4a4781f7284f291ee19",
+    "sources/clues-v1-manifest.json": "817b079a9a442b7cd053dff7f4793058fdf996338405841be5b1c0a378807d30",
+    "sources/context-manifest.json": "96e30f2a5367bee37a011eba55794a9607bec47d2d8136a23c730a79affc6ee3",
+    "sources/feed002-manifest.json": "6328139776ae384da64964a8f34956b92d95401bfe54735a45393cadbb39054c",
+    "sources/feed003-manifest.json": "a68f4f707b74d1ea1b3e2d31da67f31a372abbbcadd2f855a72e0b53da6fdd36",
+    "sources/feed005-manifest.json": "522d495798f1121d3486f82202ba85248aae520b57591a03017d3899a53236fb",
+    "sources/feed008-manifest.json": "66522312cc7fb6ec69d10349ff008f62b1e6ea62d0eed038d46f21fdee658541",
+    "sources/feed009-manifest.json": "9105f79d1673b8d0837914a68185eb3e3db5feffe10920be6aa0b7293e1ad0f3",
+    "sources/feed010-manifest.json": "9eadb778ab44175c9b072de3eb75c33be7d46133d0aac64619a837aa4b9064b0",
+    "sources/feed011-manifest.json": "24d0c48fd4361ce3469b0eac4114778026e726bf738149bb712d4dc727ded72b",
+    "sources/manifest.json": "d0d2fb9b061a8661fcddef668229c8af1fa9a2abf135518bc4158a2a7268f039",
+    "research/feeds/FEED-001.json": "f8bafb09586a435f36f8590241af96b6f1ea5da99e86f165b35a419c486d1d3a",
+    "research/feeds/FEED-002.json": "42237d3d53fdeb6c2eb1a0d27be94b52b4d72ffa940f54441d33aa233e43ef08",
+    "research/feeds/FEED-003.json": "4e24d8d89ecaf955e3a7b7e7f38e396e75d4100bec9a61ff5173e8a661258edd",
+    "research/feeds/FEED-004.json": "48244607f42c2652868f437e50f076814b88d396140fd2e48fbff05cc8f9323c",
+    "research/feeds/FEED-005.json": "94bcc18a187960170076dc7042411a197dd16297c86ea57010a95d55f74026a0",
+    "research/feeds/FEED-006.json": "977a35a3ec63acdda9b7a07a7c7e7d9a545d3b07adb5bfb56aa8c820ddd3b7e1",
+    "research/feeds/FEED-008.json": "da19ea34cf4ccc6b9176edc4a9cf7b5d8999d1ce0ec3c2b42611fe6bf169ede6",
+    "research/feeds/FEED-009.json": "4bc3564e99e794d5e632b878bc4d6c9da30a91ca06ed6390cf04998420fe1b38",
+    "research/feeds/FEED-010.json": "c9cc231d9d61a850522524536f06d3219ad6e21748a58d989e171bf919f24097",
+    "research/feeds/FEED-011.json": "98360f6fd60ca268a9e284dc8b02cd24a9ee2b5ea0abc7a28561abab54787ec1",
+    "research/knowledge.json": "433cfd911f8be53a4c529b393ee3fd85497e07b1a82bcc486ba26cdfba4e5ecf",
+    "research/methods.json": "a986e87fe7494dc14f4b983e93c9f11747753b21cf523c2ddf3b0e76ebf16621",
+    "data/attempt1-corpus-v1.json": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+    "data/pages/lp2_56.json": "4331ebae3856b17409961f816a9be51cc473eb868e6554fd4f3e6a6d62d5dcb6",
+    "data/pages/lp2_57.json": "123777733060cea7e9f64120e73d33d5e6e5616f12fd12ef4e86ca9b6a940dbc",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "data/synthetic/training.txt": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff"
+  },
+  "commands": [
+    {
+      "name": "tests",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_controls_are_unique_and_exclude_registered_map (test_affine_generalization.AffineGeneralizationTests.test_controls_are_unique_and_exclude_registered_map) ... ok\ntest_corpus_applicability_is_pinned (test_affine_generalization.AffineGeneralizationTests.test_corpus_applicability_is_pinned) ... ok\ntest_raw_transform_preserves_non_runes (test_affine_generalization.AffineGeneralizationTests.test_raw_transform_preserves_non_runes) ... ok\ntest_registered_map_is_an_involution (test_affine_generalization.AffineGeneralizationTests.test_registered_map_is_an_involution) ... ok\ntest_control_correlations_maxima_plus_one_and_replay (test_attempt1_stats.Attempt1StatisticsTests.test_control_correlations_maxima_plus_one_and_replay) ... ok\ntest_exact_moments_match_all_permutations_including_duplicates (test_attempt1_stats.Attempt1StatisticsTests.test_exact_moments_match_all_permutations_including_duplicates) ... ok\ntest_invariant_delta_is_nondiscriminating_and_cannot_be_lead (test_attempt1_stats.Attempt1StatisticsTests.test_invariant_delta_is_nondiscriminating_and_cannot_be_lead) ... ok\ntest_single_rune_and_constant_weights_have_zero_variance (test_attempt1_stats.Attempt1StatisticsTests.test_single_rune_and_constant_weights_have_zero_variance) ... ok\ntest_timeout_preserves_completed_control_replicates (test_attempt1_stats.Attempt1StatisticsTests.test_timeout_preserves_completed_control_replicates) ... ok\ntest_bad_boundaries_fail (test_attempt1_worker.FixedClockWorkerTests.test_bad_boundaries_fail) ... ok\ntest_guard_and_rejected_secret_field (test_attempt1_worker.FixedClockWorkerTests.test_guard_and_rejected_secret_field) ... ok\ntest_manual_prime_clock_and_aliases (test_attempt1_worker.FixedClockWorkerTests.test_manual_prime_clock_and_aliases) ... ok\ntest_guard_and_exact_toy (test_attempt2_worker.KnownWorkerIsolationTests.test_guard_and_exact_toy) ... ok\ntest_reference_and_seed_fields_rejected (test_attempt2_worker.KnownWorkerIsolationTests.test_reference_and_seed_fields_rejected) ... ok\ntest_continuous_and_fixed_skip_trace (test_boundary_clock.BoundaryClockTests.test_continuous_and_fixed_skip_trace) ... ok\ntest_delimiters_include_semicolon_and_exclude_hex_whitespace (test_boundary_clock.BoundaryClockTests.test_delimiters_include_semicolon_and_exclude_hex_whitespace) ... ok\ntest_hash_advances_only_registered_literal_characters (test_boundary_clock.BoundaryClockTests.test_hash_advances_only_registered_literal_characters) ... ok\ntest_invalid_inputs_fail_without_normalization (test_boundary_clock.BoundaryClockTests.test_invalid_inputs_fail_without_normalization) ... ok\ntest_line_and_paragraph_resets_ignore_newlines (test_boundary_clock.BoundaryClockTests.test_line_and_paragraph_resets_ignore_newlines) ... ok\ntest_raw_inverse_preserves_every_literal_and_skip_position (test_boundary_clock.BoundaryClockTests.test_raw_inverse_preserves_every_literal_and_skip_position) ... ok\ntest_title_reset_precedes_registered_codepoint (test_boundary_clock.BoundaryClockTests.test_title_reset_precedes_registered_codepoint) ... ok\ntest_branch_decoder_and_independent_path_agree (test_circumference_transfer.CircumferenceTransferTests.test_branch_decoder_and_independent_path_agree) ... ok\ntest_corpus_applicability_is_pinned (test_circumference_transfer.CircumferenceTransferTests.test_corpus_applicability_is_pinned) ... ok\ntest_key_roundtrip_both_f_policies (test_circumference_transfer.CircumferenceTransferTests.test_key_roundtrip_both_f_policies) ... ok\ntest_source_gate_is_exact (test_circumference_transfer.CircumferenceTransferTests.test_source_gate_is_exact) ... ok\ntest_cannot_promote_untested_interpretation (test_clues.ClueTests.test_cannot_promote_untested_interpretation) ... ok\ntest_graph_provenance_and_prior_negative (test_clues.ClueTests.test_graph_provenance_and_prior_negative) ... ok\ntest_matrix_cells_and_structure (test_clues.ClueTests.test_matrix_cells_and_structure) ... ok\ntest_rejects_missing_source_locator (test_clues.ClueTests.test_rejects_missing_source_locator) ... ok\ntest_warning_from_original_and_identity_negative (test_clues.ClueTests.test_warning_from_original_and_identity_negative) ... ok\ntest_difference_and_cumulative_are_exact_inverses (test_feedback.FeedbackTests.test_difference_and_cumulative_are_exact_inverses) ... ok\ntest_first_rune_and_adjacent_equal_ciphertext_are_retained (test_feedback.FeedbackTests.test_first_rune_and_adjacent_equal_ciphertext_are_retained) ... ok\ntest_internal_ciphertext_perturbation_is_local (test_feedback.FeedbackTests.test_internal_ciphertext_perturbation_is_local) ... ok\ntest_positive_synthetic_plaintexts_include_first_f_and_boundary_cases (test_feedback.FeedbackTests.test_positive_synthetic_plaintexts_include_first_f_and_boundary_cases) ... ok\ntest_positive_verification_is_complete_and_output_mutation_fails (test_feedback.FeedbackTests.test_positive_verification_is_complete_and_output_mutation_fails) ... ok\ntest_feed_matrix_final_row_without_latex_line_terminator (test_geometry_audit.GeometryAuditTests.test_feed_matrix_final_row_without_latex_line_terminator) ... ok\ntest_hand_labelled_spiral_and_inverse (test_geometry_audit.GeometryAuditTests.test_hand_labelled_spiral_and_inverse) ... ok\ntest_reject_invalid_geometry (test_geometry_audit.GeometryAuditTests.test_reject_invalid_geometry) ... ok\ntest_uniform_grid_deduplicates_all_paths (test_geometry_audit.GeometryAuditTests.test_uniform_grid_deduplicates_all_paths) ... ok\ntest_random_affine_controls_do_not_collide (test_koan.KoanRegressionTests.test_random_affine_controls_do_not_collide) ... ok\ntest_registered_reverse_plus_three_is_exact (test_koan.KoanRegressionTests.test_registered_reverse_plus_three_is_exact) ... ok\ntest_source_reference_length (test_koan.KoanRegressionTests.test_source_reference_length) ... ok\ntest_delimiter_ambiguity_is_preserved (test_lab.DataTests.test_delimiter_ambiguity_is_preserved) ... ok\ntest_lossless_tokens_and_locations (test_lab.DataTests.test_lossless_tokens_and_locations) ... ok\ntest_mapping_against_pinned_gp_table (test_lab.DataTests.test_mapping_against_pinned_gp_table) ... ok\ntest_pinned_source_hashes (test_lab.DataTests.test_pinned_source_hashes) ... ok\ntest_transcription_is_exact_master_slice (test_lab.DataTests.test_transcription_is_exact_master_slice) ... ok\ntest_unknown_rune_is_error (test_lab.DataTests.test_unknown_rune_is_error) ... ok\ntest_nonzero_is_error (test_lab.ProtocolTests.test_nonzero_is_error) ... ok\ntest_real_timeout (test_lab.ProtocolTests.test_real_timeout) ... ok\ntest_timeout_is_separate (test_lab.ProtocolTests.test_timeout_is_separate) ... ok\ntest_verifier_requires_full_answer_not_just_roundtrip (test_lab.ProtocolTests.test_verifier_requires_full_answer_not_just_roundtrip) ... ok\ntest_worker_rejects_seed_field (test_lab.ProtocolTests.test_worker_rejects_seed_field) ... ok\ntest_exact_rune_references_and_inverse (test_lab.RegressionTests.test_exact_rune_references_and_inverse) ... ok\ntest_identity_57 (test_lab.RegressionTests.test_identity_57) ... ok\ntest_input_mutation_cannot_pass (test_lab.RegressionTests.test_input_mutation_cannot_pass) ... ok\ntest_invalid_skip_rejected (test_lab.RegressionTests.test_invalid_skip_rejected) ... ok\ntest_no_skip_negative_and_first_divergence (test_lab.RegressionTests.test_no_skip_negative_and_first_divergence) ... ok\ntest_reference_segmentation_not_greedy (test_lab.RegressionTests.test_reference_segmentation_not_greedy) ... ok\ntest_wrong_prime_offset_cannot_pass (test_lab.RegressionTests.test_wrong_prime_offset_cannot_pass) ... ok\ntest_corpus_shape (test_legendre.LegendreTests.test_corpus_shape) ... ok\ntest_synthetic_sensitivity (test_legendre.LegendreTests.test_synthetic_sensitivity) ... ok\ntest_three_valued_character (test_legendre.LegendreTests.test_three_valued_character) ... ok\ntest_vectorized_matches_manual (test_legendre.LegendreTests.test_vectorized_matches_manual) ... ok\ntest_asymmetric_control_and_invalid_shape (test_math_audit.MathAuditTests.test_asymmetric_control_and_invalid_shape) ... ok\ntest_finite_field_and_no_zero_inverse (test_math_audit.MathAuditTests.test_finite_field_and_no_zero_inverse) ... ok\ntest_mapping_collision_is_not_reversible (test_math_audit.MathAuditTests.test_mapping_collision_is_not_reversible) ... ok\ntest_phi_composite_and_boundary_values (test_math_audit.MathAuditTests.test_phi_composite_and_boundary_values) ... ok\ntest_position_and_rune_value_controls_differ (test_math_audit.MathAuditTests.test_position_and_rune_value_controls_differ) ... ok\ntest_method_is_not_a_reproduced_cipher_claim (test_methods.MethodTests.test_method_is_not_a_reproduced_cipher_claim) ... ok\ntest_preference_retrieval_retains_attribution (test_methods.MethodTests.test_preference_retrieval_retains_attribution) ... ok\ntest_controls_are_unique_and_zero_preserving (test_mobius_inversion.MobiusInversionTests.test_controls_are_unique_and_zero_preserving) ... ok\ntest_corpus_applicability_is_pinned (test_mobius_inversion.MobiusInversionTests.test_corpus_applicability_is_pinned) ... ok\ntest_inversion_is_an_involution (test_mobius_inversion.MobiusInversionTests.test_inversion_is_an_involution) ... ok\ntest_raw_transform_preserves_non_runes (test_mobius_inversion.MobiusInversionTests.test_raw_transform_preserves_non_runes) ... ok\ntest_candidate_and_independent_decoders_agree (test_multiplicative.MultiplicativeTests.test_candidate_and_independent_decoders_agree) ... ok\ntest_corpus_applicability_is_pinned (test_multiplicative.MultiplicativeTests.test_corpus_applicability_is_pinned) ... ok\ntest_prime_implementations_agree (test_multiplicative.MultiplicativeTests.test_prime_implementations_agree) ... ok\ntest_zero_free_and_zero_consume_are_distinct (test_multiplicative.MultiplicativeTests.test_zero_free_and_zero_consume_are_distinct) ... ok\ntest_ciphertext_f_keeps_exception_and_ordinary_paths (test_periodic_f_state.PeriodicFStateTests.test_ciphertext_f_keeps_exception_and_ordinary_paths) ... ok\ntest_independent_recurrence_matches_pure_module (test_periodic_f_state.PeriodicFStateTests.test_independent_recurrence_matches_pure_module) ... ok\ntest_nonzero_cipher_that_decodes_to_f_is_dead (test_periodic_f_state.PeriodicFStateTests.test_nonzero_cipher_that_decodes_to_f_is_dead) ... ok\ntest_positive_generator_has_both_ciphertext_f_origins (test_periodic_f_state.PeriodicFStateTests.test_positive_generator_has_both_ciphertext_f_origins) ... ok\ntest_zero_preserving_shuffle_keeps_multiset_and_positions (test_periodic_f_state.PeriodicFStateTests.test_zero_preserving_shuffle_keeps_multiset_and_positions) ... ok\ntest_ciphertext_f_keeps_exception_and_ordinary_paths (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_ciphertext_f_keeps_exception_and_ordinary_paths) ... ok\ntest_cross_page_path_counts_match_concatenated_scan (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_cross_page_path_counts_match_concatenated_scan) ... ok\ntest_direct_table_covers_every_phase_cipher_cell_and_forward_edges (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_direct_table_covers_every_phase_cipher_cell_and_forward_edges) ... ok\ntest_empty_continuous_state_is_not_reached (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_empty_continuous_state_is_not_reached) ... ok\ntest_nonzero_cipher_that_decodes_to_f_is_dead (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_nonzero_cipher_that_decodes_to_f_is_dead) ... ok\ntest_positive_verification_is_complete_and_mutation_fails (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_positive_verification_is_complete_and_mutation_fails) ... ok\ntest_zero_preserving_shuffle_keeps_multiset_and_positions (test_periodic_f_state_v2.PeriodicFStateV2Tests.test_zero_preserving_shuffle_keeps_multiset_and_positions) ... ok\ntest_failed_gate_cannot_publish_lp2_statistics (test_projection.ProjectionTests.test_failed_gate_cannot_publish_lp2_statistics) ... ok\ntest_fixed_power_gate_pattern_clears_preregistered_threshold (test_projection.ProjectionTests.test_fixed_power_gate_pattern_clears_preregistered_threshold) ... ok\ntest_mutated_projection_output_is_rejected (test_projection.ProjectionTests.test_mutated_projection_output_is_rejected) ... ok\ntest_projection_matches_independent_repeated_multiplication (test_projection.ProjectionTests.test_projection_matches_independent_repeated_multiplication) ... ok\ntest_subgroup_invariance_covers_zero_and_all_runes (test_projection.ProjectionTests.test_subgroup_invariance_covers_zero_and_all_runes) ... ok\ntest_synthetic_gate_is_complete_and_passes (test_projection.ProjectionTests.test_synthetic_gate_is_complete_and_passes) ... ok\ntest_worker_projection_matches_independent_verifier (test_projection.ProjectionTests.test_worker_projection_matches_independent_verifier) ... ok\ntest_nonzero_cipher_that_decodes_to_f_is_dead (test_reachability.ReachabilityTests.test_nonzero_cipher_that_decodes_to_f_is_dead) ... ok\ntest_page_reset_and_continuity_are_distinct_inputs (test_reachability.ReachabilityTests.test_page_reset_and_continuity_are_distinct_inputs) ... ok\ntest_prime_deltas_use_prime_minus_one_mod29 (test_reachability.ReachabilityTests.test_prime_deltas_use_prime_minus_one_mod29) ... ok\ntest_worker_rejects_answer_and_seed_fields (test_reachability.ReachabilityTests.test_worker_rejects_answer_and_seed_fields) ... ok\ntest_zero_cipher_has_copy_and_ordinary_transitions (test_reachability.ReachabilityTests.test_zero_cipher_has_copy_and_ordinary_transitions) ... ok\ntest_g_statistic_detects_fixed_edge_role_but_not_position_independent_class (test_row_edge.RowEdgeTests.test_g_statistic_detects_fixed_edge_role_but_not_position_independent_class) ... ok\ntest_gate_failure_summary_forbids_second_stage (test_row_edge.RowEdgeTests.test_gate_failure_summary_forbids_second_stage) ... ok\ntest_mutated_worker_row_is_rejected (test_row_edge.RowEdgeTests.test_mutated_worker_row_is_rejected) ... ok\ntest_rotation_preserves_values_and_circular_adjacency (test_row_edge.RowEdgeTests.test_rotation_preserves_values_and_circular_adjacency) ... ok\ntest_slash_rows_ignore_crlf_and_hard_barriers (test_row_edge.RowEdgeTests.test_slash_rows_ignore_crlf_and_hard_barriers) ... ok\ntest_synthetic_gate_and_three_negative_classes_are_fixed (test_row_edge.RowEdgeTests.test_synthetic_gate_and_three_negative_classes_are_fixed) ... ok\ntest_worker_and_independent_verifier_agree (test_row_edge.RowEdgeTests.test_worker_and_independent_verifier_agree) ... ok\ntest_empty_and_hard_rows_are_barriers (test_row_geometry.RowGeometryTests.test_empty_and_hard_rows_are_barriers) ... ok\ntest_gate_has_fixed_positive_and_difficult_negative_classes (test_row_geometry.RowGeometryTests.test_gate_has_fixed_positive_and_difficult_negative_classes) ... ok\ntest_mutated_worker_row_is_rejected_by_independent_verifier (test_row_geometry.RowGeometryTests.test_mutated_worker_row_is_rejected_by_independent_verifier) ... ok\ntest_row_rotation_preserves_multiset_and_circular_adjacency (test_row_geometry.RowGeometryTests.test_row_rotation_preserves_multiset_and_circular_adjacency) ... ok\ntest_slash_rows_ignore_crlf_and_compare_common_left_ordinals (test_row_geometry.RowGeometryTests.test_slash_rows_ignore_crlf_and_compare_common_left_ordinals) ... ok\ntest_worker_and_verifier_agree_on_raw_rows (test_row_geometry.RowGeometryTests.test_worker_and_verifier_agree_on_raw_rows) ... ok\ntest_independent_sieve_and_candidate_count (test_scorer_calibration.ScorerCalibrationTests.test_independent_sieve_and_candidate_count) ... ok\ntest_plan_has_fixed_8_8_and_20_20_cases (test_scorer_calibration.ScorerCalibrationTests.test_plan_has_fixed_8_8_and_20_20_cases) ... ok\ntest_positive_private_roundtrip (test_scorer_calibration.ScorerCalibrationTests.test_positive_private_roundtrip) ... ok\ntest_all_cipher_f_is_selected_from_input_only (test_skip_mechanics.SkipMechanicsTests.test_all_cipher_f_is_selected_from_input_only) ... ok\ntest_invalid_parameters_and_answer_fields_rejected (test_skip_mechanics.SkipMechanicsTests.test_invalid_parameters_and_answer_fields_rejected) ... ok\ntest_page_reset_changes_only_clock_not_global_skip_coordinates (test_skip_mechanics.SkipMechanicsTests.test_page_reset_changes_only_clock_not_global_skip_coordinates) ... ok\ntest_plaintext_zero_requires_frozen_mask_for_inverse (test_skip_mechanics.SkipMechanicsTests.test_plaintext_zero_requires_frozen_mask_for_inverse) ... ok\ntest_prime_sequence_direction_and_literals (test_skip_mechanics.SkipMechanicsTests.test_prime_sequence_direction_and_literals) ... ok\ntest_specified_skip_consumption_distinguishes_following_letters (test_skip_mechanics.SkipMechanicsTests.test_specified_skip_consumption_distinguishes_following_letters) ... ok\ntest_unregistered_runic_unicode_is_rejected_not_treated_as_literal (test_skip_mechanics.SkipMechanicsTests.test_unregistered_runic_unicode_is_rejected_not_treated_as_literal) ... ok\ntest_directed_bigrams_are_not_circular_and_reverse_changes_direction (test_snake_row.SnakeRowTests.test_directed_bigrams_are_not_circular_and_reverse_changes_direction) ... ok\ntest_mutated_worker_row_is_rejected (test_snake_row.SnakeRowTests.test_mutated_worker_row_is_rejected) ... ok\ntest_random_row_reversal_preserves_values_and_undirected_edges (test_snake_row.SnakeRowTests.test_random_row_reversal_preserves_values_and_undirected_edges) ... ok\ntest_snake_mask_resets_at_short_rows_and_hard_segments (test_snake_row.SnakeRowTests.test_snake_mask_resets_at_short_rows_and_hard_segments) ... ok\ntest_synthetic_gate_has_three_fixed_negative_classes_and_exposes_failure (test_snake_row.SnakeRowTests.test_synthetic_gate_has_three_fixed_negative_classes_and_exposes_failure) ... ok\ntest_worker_and_verifier_agree_on_page_metrics (test_snake_row.SnakeRowTests.test_worker_and_verifier_agree_on_page_metrics) ... ok\ntest_corrupt_raw_or_rune_mapping_fails (test_structure_inputs.StructuralInputTests.test_corrupt_raw_or_rune_mapping_fails) ... ok\ntest_grid_only_page_is_inapplicable_without_empty_segments (test_structure_inputs.StructuralInputTests.test_grid_only_page_is_inapplicable_without_empty_segments) ... ok\ntest_hard_boundaries_never_bridge_rune_fragments (test_structure_inputs.StructuralInputTests.test_hard_boundaries_never_bridge_rune_fragments) ... ok\ntest_line_wrap_does_not_invent_word_start (test_structure_inputs.StructuralInputTests.test_line_wrap_does_not_invent_word_start) ... ok\ntest_preserves_raw_mapping_and_provenance (test_structure_inputs.StructuralInputTests.test_preserves_raw_mapping_and_provenance) ... ok\ntest_registered_soft_markers_do_not_split_analysis_span (test_structure_inputs.StructuralInputTests.test_registered_soft_markers_do_not_split_analysis_span) ... ok\ntest_unregistered_runic_literal_is_rejected (test_structure_inputs.StructuralInputTests.test_unregistered_runic_literal_is_rejected) ... ok\ntest_constants_are_nondiscriminating (test_structure_stats.StructureStatisticsTests.test_constants_are_nondiscriminating) ... ok\ntest_duplicate_occurrence_multiplicity_and_relabel_scope (test_structure_stats.StructureStatisticsTests.test_duplicate_occurrence_multiplicity_and_relabel_scope) ... ok\ntest_hard_groups_block_pairs_windows_and_ineligible_boundaries (test_structure_stats.StructureStatisticsTests.test_hard_groups_block_pairs_windows_and_ineligible_boundaries) ... ok\ntest_invalid_layout_rejected (test_structure_stats.StructureStatisticsTests.test_invalid_layout_rejected) ... ok\ntest_metrics_match_enumerated_small_sequences (test_structure_stats.StructureStatisticsTests.test_metrics_match_enumerated_small_sequences) ... ok\ntest_rotation_null_is_in_product_of_segment_rotations (test_structure_stats.StructureStatisticsTests.test_rotation_null_is_in_product_of_segment_rotations) ... ok\ntest_shared_a_c_permutations_belongs_to_enumerated_joint_support (test_structure_stats.StructureStatisticsTests.test_shared_a_c_permutations_belongs_to_enumerated_joint_support) ... ok\ntest_symmetric_standardization_max_t_plus_one_and_replay (test_structure_stats.StructureStatisticsTests.test_symmetric_standardization_max_t_plus_one_and_replay) ... ok\ntest_synthetic_positive_controls (test_structure_stats.StructureStatisticsTests.test_synthetic_positive_controls) ... ok\ntest_timeout_retains_completed_controls_but_disables_leads (test_structure_stats.StructureStatisticsTests.test_timeout_retains_completed_controls_but_disables_leads) ... ok\n\n----------------------------------------------------------------------\nRan 149 tests in 8.842s\n\nOK\n",
+      "elapsed_seconds": 9.75,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "reproduce",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/reproduce.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\reproduce"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "[{\"page\": 56, \"rune_count\": 85, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 84, \"negative_mismatches\": 29}, {\"page\": 57, \"rune_count\": 95, \"exact_runes\": true, \"roundtrip_exact\": true, \"primes_consumed\": 0, \"negative_mismatches\": null}]\n",
+      "stderr": "",
+      "elapsed_seconds": 0.25,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "research",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/research.py",
+        "validate"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\n  \"claims\": 23,\n  \"edges\": 15,\n  \"experiments\": 37,\n  \"methods\": 8,\n  \"status\": \"passed\"\n}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.4530000000013388,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "clues",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/check_clues.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\clues"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\"warning_status\": \"passed\", \"warning_runes\": 184, \"warning_identity_mismatches\": 182, \"matrix_status\": \"passed\", \"matrix_cells\": 25, \"row_sums\": [1033, 1033, 1033, 1033, 1033], \"column_sums\": [1033, 1033, 1033, 1033, 1033], \"diagonals\": [1033, 1033], \"unsolved_candidates\": 0, \"status\": \"passed\"}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.4530000000013388,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "math",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/check_math.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\math"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\"status\": \"passed\", \"field_pairs\": 841, \"centrosymmetric\": true, \"equal_symmetries\": [\"identity\", \"rotate180\"], \"gp_mod29_unique_values\": 24, \"position_stream_primes\": 84, \"rune_value_alternative_mismatches\": 80, \"unsolved_page_candidates\": 0}\n",
+      "stderr": "",
+      "elapsed_seconds": 0.4529999999940628,
+      "timeout_seconds": 30
+    },
+    {
+      "name": "synthetic",
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "scripts/synthetic_benchmark.py",
+        "--out",
+        "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260913T140805.723786Z\\synthetic"
+      ],
+      "status": "completed",
+      "exit_code": 0,
+      "stdout": "{\"trials\": [{\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}, {\"status\": \"passed\", \"exact_plaintext\": true, \"exact_key\": true, \"roundtrip\": true, \"covered\": 928, \"score_gap\": 768.5529355238505, \"read_guard_probe_passed\": true}], \"training_runes\": 1291, \"heldout_runes\": 1196, \"status\": \"passed\", \"replay_of\": null}\n",
+      "stderr": "",
+      "elapsed_seconds": 1.625,
+      "timeout_seconds": 60
+    }
+  ],
+  "status": "passed",
+  "next_step": "See STATE.md; do not infer unsolved-page exclusion",
+  "source_files_verified": 106,
+  "actual_coverage": {
+    "known_pages": [
+      56,
+      57
+    ],
+    "known_runes": 180,
+    "synthetic_trials": [
+      {
+        "status": "passed",
+        "exact_plaintext": true,
+        "exact_key": true,
+        "roundtrip": true,
+        "covered": 928,
+        "score_gap": 768.5529355238505,
+        "read_guard_probe_passed": true
+      },
+      {
+        "status": "passed",
+        "exact_plaintext": true,
+        "exact_key": true,
+        "roundtrip": true,
+        "covered": 928,
+        "score_gap": 768.5529355238505,
+        "read_guard_probe_passed": true
+      },
+      {
+        "status": "passed",
+        "exact_plaintext": true,
+        "exact_key": true,
+        "roundtrip": true,
+        "covered": 928,
+        "score_gap": 768.5529355238505,
+        "read_guard_probe_passed": true
+      }
+    ],
+    "unsolved_page_candidates": 0,
+    "additional_checks": {
+      "warning_status": "passed",
+      "warning_runes": 184,
+      "warning_identity_mismatches": 182,
+      "matrix_status": "passed",
+      "matrix_cells": 25,
+      "row_sums": [
+        1033,
+        1033,
+        1033,
+        1033,
+        1033
+      ],
+      "column_sums": [
+        1033,
+        1033,
+        1033,
+        1033,
+        1033
+      ],
+      "diagonals": [
+        1033,
+        1033
+      ],
+      "unsolved_candidates": 0,
+      "status": "passed"
+    },
+    "math_checks": {
+      "status": "passed",
+      "field_pairs": 841,
+      "centrosymmetric": true,
+      "equal_symmetries": [
+        "identity",
+        "rotate180"
+      ],
+      "gp_mod29_unique_values": 24,
+      "position_stream_primes": 84,
+      "rune_value_alternative_mismatches": 80,
+      "unsolved_page_candidates": 0
+    }
+  },
+  "random_seeds": [
+    201055159111910743253170614976589566526,
+    263827028437357909029777526532853333711,
+    277969521255296530878993578486434453942
+  ],
+  "finished_at_utc": "2026-09-13T14:08:22.010801+00:00"
+}

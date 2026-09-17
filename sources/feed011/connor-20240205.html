@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>The Cicada 3301 Mystery (Puzzle 3 Solve) - Part 2</title>
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="/assets/css/screen.min.css?v=c7cb2561f5">
+        <link rel="stylesheet" type="text/css" href="/assets/css/prism.min.css?v=c7cb2561f5">
+        <link rel="canonical" href="https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    
+    <meta property="og:site_name" content="Connor Tumbleson">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="The Cicada 3301 Mystery (Puzzle 3 Solve) - Part 2">
+    <meta property="og:description" content="We pick up where we left off in the January 2014 puzzle - this is Part 2.
+
+💡If you missed Puzzle 3 (Part 1) - head here.
+
+We ended Part 1 on an onion after solving a transposition cipher. At this point knowing what we know - the puzzle begins to fracture into">
+    <meta property="og:url" content="https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/">
+    <meta property="og:image" content="https://connortumbleson.com/content/images/size/w1200/2024/01/photo-1676246240904-7edbf4be89eb.jpeg">
+    <meta property="article:published_time" content="2024-02-05T03:30:40.000Z">
+    <meta property="article:modified_time" content="2025-02-04T11:42:22.000Z">
+    <meta property="article:tag" content="Cicada 3301">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="The Cicada 3301 Mystery (Puzzle 3 Solve) - Part 2">
+    <meta name="twitter:description" content="We pick up where we left off in the January 2014 puzzle - this is Part 2.
+
+💡If you missed Puzzle 3 (Part 1) - head here.
+
+We ended Part 1 on an onion after solving a transposition cipher. At this point knowing what we know - the puzzle begins to fracture into">
+    <meta name="twitter:url" content="https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/">
+    <meta name="twitter:image" content="https://connortumbleson.com/content/images/size/w1200/2024/01/photo-1676246240904-7edbf4be89eb.jpeg">
+    <meta name="twitter:label1" content="Written by">
+    <meta name="twitter:data1" content="Connor Tumbleson">
+    <meta name="twitter:label2" content="Filed under">
+    <meta name="twitter:data2" content="Cicada 3301">
+    <meta name="twitter:site" content="@iBotPeaches">
+    <meta name="twitter:creator" content="@iBotPeaches">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="756">
+    
+    <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Connor Tumbleson",
+        "url": "https://connortumbleson.com/",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://connortumbleson.com/content/images/2014/Sep/connortumbleson-logo-2.png",
+            "width": 62,
+            "height": 60
+        }
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Connor Tumbleson",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://connortumbleson.com/content/images/2021/05/test2-min.png",
+            "width": 735,
+            "height": 845
+        },
+        "url": "https://connortumbleson.com/author/connor/",
+        "sameAs": [
+            "https://x.com/iBotPeaches",
+            "https://bsky.app/profile/connortumbleson.com",
+            "https://infosec.exchange/@iBotPeaches"
+        ]
+    },
+    "headline": "The Cicada 3301 Mystery (Puzzle 3 Solve) - Part 2",
+    "url": "https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/",
+    "datePublished": "2024-02-05T03:30:40.000Z",
+    "dateModified": "2025-02-04T11:42:22.000Z",
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://connortumbleson.com/content/images/size/w1200/2024/01/photo-1676246240904-7edbf4be89eb.jpeg",
+        "width": 1200,
+        "height": 756
+    },
+    "keywords": "Cicada 3301",
+    "description": "We pick up where we left off in the January 2014 puzzle - this is Part 2.\n\n💡If you missed Puzzle 3 (Part 1) - head here.\n\nWe ended Part 1 on an onion after solving a transposition cipher. At this point knowing what we know - the puzzle begins to fracture into various different paths.\n\nWe haven't really dug into the Liber Primus yet, but as you can probably imagine from the last part or your own research. We are basically discovering pages of a book known as the Liber Primus - this post will div",
+    "mainEntityOfPage": "https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/"
+}
+    </script>
+
+    <meta name="generator" content="Ghost 6.53">
+    <link rel="alternate" type="application/rss+xml" title="Connor Tumbleson" href="https://connortumbleson.com/rss/">
+    <script defer src="https://cdn.jsdelivr.net/ghost/portal@~2.69/umd/portal.min.js" data-i18n="true" data-ghost="https://connortumbleson.com/" data-key="0e770afa8fc5e1114ae2aa53ff" data-api="https://connortumbleson.com/ghost/api/content/" data-locale="en" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
+.gh-post-upgrade-cta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 100%;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.gh-post-upgrade-cta-content {
+    border-radius: 8px;
+    padding: 40px 4vw;
+}
+
+.gh-post-upgrade-cta h2 {
+    color: #ffffff;
+    font-size: 28px;
+    letter-spacing: -0.2px;
+    margin: 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta p {
+    margin: 20px 0 0;
+    padding: 0;
+}
+
+.gh-post-upgrade-cta small {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+}
+
+.gh-post-upgrade-cta a {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: 500;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a:hover {
+    color: #ffffff;
+    opacity: 0.8;
+    box-shadow: none;
+    text-decoration: underline;
+}
+
+.gh-post-upgrade-cta a.gh-btn {
+    display: block;
+    background: #ffffff;
+    text-decoration: none;
+    margin: 28px 0 0;
+    padding: 8px 18px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.gh-post-upgrade-cta a.gh-btn:hover {
+    opacity: 0.92;
+}</style>
+    <script defer src="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/sodo-search.min.js" data-key="0e770afa8fc5e1114ae2aa53ff" data-styles="https://cdn.jsdelivr.net/ghost/sodo-search@~1.8/umd/main.css" data-sodo-search="https://connortumbleson.com/" data-locale="en" crossorigin="anonymous"></script>
+    
+    <link href="https://connortumbleson.com/webmentions/receive/" rel="webmention">
+    <script defer src="/public/cards.min.js?v=c7cb2561f5"></script>
+    <link rel="stylesheet" type="text/css" href="/public/cards.min.css?v=c7cb2561f5">
+    <script defer src="/public/comment-counts.min.js?v=c7cb2561f5" data-ghost-comments-counts-api="https://connortumbleson.com/members/api/comments/counts/"></script>
+    <script defer src="/public/member-attribution.min.js?v=c7cb2561f5"></script><style>:root {--ghost-accent-color: #ff4d00;}</style>
+	</head>
+	<body class="post-template tag-cicada-3301">
+		<div class="global-wrap">
+			<div class="section-content-wrap">
+				<div class="section-header wrap">
+	<header class="header-wrap flex">
+		<div class="header-logo">
+			<div class="is-logo"><a href="https://connortumbleson.com"><img height="50" width="50" class="ct-logo" src="https://connortumbleson.com/content/images/2014/Sep/connortumbleson-logo-2.png" alt="Connor Tumbleson"></a></div>
+
+		</div>
+		<div class="header-nav">
+			<nav class="nav-wrap">
+				<label for="toggle" class="nav-label hamburger hamburger-minus">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</label>
+				<input type="checkbox" id="toggle" class="nav-toggle">
+				<ul class="nav-list">
+					
+<li class="nav-list-item">
+	<a href="https://connortumbleson.com/" class="nav-link">Home</a>
+	<span class="nav-dot"></span>
+</li>
+<li class="nav-list-item">
+	<a href="https://connortumbleson.com/tags/" class="nav-link">Tags</a>
+	<span class="nav-dot"></span>
+</li>
+<li class="nav-list-item">
+	<a href="https://connortumbleson.com/about/" class="nav-link">About</a>
+	<span class="nav-dot"></span>
+</li>
+<li class="nav-list-item">
+	<a href="https://connortumbleson.com/slides/" class="nav-link">Slides</a>
+	<span class="nav-dot"></span>
+</li>
+<li class="nav-list-item theme-switch"><span>Dark</span><svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path id="Moon" d="M24.86,15.53a.5.5,0,0,0-.57,0A10.71,10.71,0,0,1,9.57.79.5.5,0,0,0,9,0,12.77,12.77,0,1,0,25,16,.5.5,0,0,0,24.86,15.53Z" /></svg></li>
+
+					<li class="nav-list-item search-open" data-ghost-search><span>Search</span><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.420346,15.5800244 L24,21.1596784 L21.1596784,24 L15.5800244,18.420346 C13.9925104,19.4717887 12.088789,20.0841064 10.0420532,20.0841064 C4.49598037,20.0841064 0,15.5881261 0,10.0420532 C0,4.49598037 4.49598037,0 10.0420532,0 C15.5881261,0 20.0841064,4.49598037 20.0841064,10.0420532 C20.0841064,12.088789 19.4717887,13.9925104 18.420346,15.5800244 Z M10.0420532,16.0672851 C13.3696969,16.0672851 16.0672851,13.3696969 16.0672851,10.0420532 C16.0672851,6.71440951 13.3696969,4.01682129 10.0420532,4.01682129 C6.71440951,4.01682129 4.01682129,6.71440951 4.01682129,10.0420532 C4.01682129,13.3696969 6.71440951,16.0672851 10.0420532,16.0672851 Z"/></svg></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="blog-description flex">Ramblings of a Tampa engineer</div>
+	</header>
+</div>				<article>
+	<div class="section-featured no-featured-image">
+	<div class="featured-wrap flex">
+			<div class="featured-content">
+				<div class="tags-wrap">
+					<a class="post-tag global-tag" href="/tag/cicada-3301/">Cicada 3301</a>
+				</div>
+				<h1 class="white">The Cicada 3301 Mystery (Puzzle 3 Solve) - Part 2</h1>
+				<div class="item-meta white">
+					<time datetime="2024-02-04">3 years ago</time>
+					<span class="reading-time"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> <path d="M10.1907692,24 C4.5625628,24 0,19.4374372 0,13.8092308 C0,8.18102433 4.5625628,3.61846154 10.1907692,3.61846154 C15.8189757,3.61846154 20.3815385,8.18102433 20.3815385,13.8092308 C20.3815385,19.4374372 15.8189757,24 10.1907692,24 Z M10.1907692,22 C14.7144062,22 18.3815385,18.3328677 18.3815385,13.8092308 C18.3815385,9.28559383 14.7144062,5.61846154 10.1907692,5.61846154 C5.6671323,5.61846154 2,9.28559383 2,13.8092308 C2,18.3328677 5.6671323,22 10.1907692,22 Z" id="Oval"></path><path d="M7.53230769,2.32923077 C6.98002294,2.32923077 6.53230769,1.88151552 6.53230769,1.32923077 C6.53230769,0.776946019 6.98002294,0.329230769 7.53230769,0.329230769 L12.9225711,0.329230769 C13.4748559,0.329230769 13.9225711,0.776946019 13.9225711,1.32923077 C13.9225711,1.88151552 13.4748559,2.32923077 12.9225711,2.32923077 L7.53230769,2.32923077 Z" id="Line-2"></path><path d="M13.2928932,9.29289322 C13.6834175,8.90236893 14.3165825,8.90236893 14.7071068,9.29289322 C15.0976311,9.68341751 15.0976311,10.3165825 14.7071068,10.7071068 L10.897876,14.5163376 C10.5073517,14.9068618 9.87418674,14.9068618 9.48366245,14.5163376 C9.09313816,14.1258133 9.09313816,13.4926483 9.48366245,13.102124 L13.2928932,9.29289322 Z" id="Line"></path></svg> 18 min read</span>
+				</div>
+		</div>
+	</div>
+</div>	<div class="section-post wrap">
+		<div class="post-wrap ">
+			<figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://connortumbleson.com/content/images/2024/01/photo-1676246240904-7edbf4be89eb-1.jpeg" class="kg-image" alt="a black and white photo of a fly on a wall" loading="lazy" width="2000" height="1260"><figcaption><span style="white-space: pre-wrap;">Photo by </span><a href="https://unsplash.com/@tonystoddard?ref=connortumbleson.com"><span style="white-space: pre-wrap;">Tony Stoddard</span></a><span style="white-space: pre-wrap;"> / </span><a href="https://unsplash.com/?utm_source=ghost&utm_medium=referral&utm_campaign=api-credit"><span style="white-space: pre-wrap;">Unsplash</span></a></figcaption></figure><p>We pick up where we left off in the January 2014 puzzle - this is Part 2.</p><div class="kg-card kg-callout-card kg-callout-card-blue"><div class="kg-callout-emoji">💡</div><div class="kg-callout-text">If you missed <a href="https://connortumbleson.com/2021/02/15/the-cicada-3301-mystery-puzzle-3-part1/" rel="noreferrer">Puzzle 3 (Part 1) - head here</a>.</div></div><p>We ended Part 1 on an onion after solving a transposition cipher. At this point knowing what we know - the puzzle begins to fracture into various different paths.</p><p>We haven't really dug into the Liber Primus yet, but as you can probably imagine from the last part or your own research. We are basically discovering pages of a book known as the Liber Primus - this post will dive into the discovery of more of those pages. Due to the size of this post - we may end requiring a few parts to finish this.</p><p>So as we ended the last it was off to another onion (<code>fv7lyucmeozzd5j4.onion</code>) which was a little page that seemed to grow in characters every so often. When the growing stop it resembled the string below at exactly 512 characters.</p><figure class="kg-card kg-code-card"><pre><code class="language-html">&lt;!--1033--&gt;
+87de5b7fa26ab85d2256c453e7f5bc3ac7f25ee743297817febd7741ededf07ca0c7e8b1788ea4131441a8f71c63943d8b56aea6a45159e2f59f9a194af23eaabf9de0f3123c041c882d5b7e03e17ac49be67cef29fbc7786e3bda321a176498835f6198ef22e81c30d44281cd217f7a46f58c84dd7b29b941403ecd75c0c735d20266121f875aa8dec28f32fc153b1393e143fc71616945eea3c10d6820bd631cf775cf3c1f27925b4a2da655f783f7616f3359b23cff6fb5cb69bcb745c55dff439f7eb6a4094bd302b65a84360a62f94c8b010250fcc431c190d6ed8cc8a3bfce37dddb24b93f502ad83c5fa21923189d8be7a6127c4105fcf0e5275286f2</code></pre><figcaption><p><a href="http://fv7lyucmeozzd5j4.onion/?ref=connortumbleson.com"><span style="white-space: pre-wrap;">fv7lyucmeozzd5j4.onion</span></a><span style="white-space: pre-wrap;"> - Onion 3</span></p></figcaption></figure><p>Seeing the comment of 1033 reminds of the past puzzles involving a filesystem. Those were normally hints to the files needed to XOR together. In this case though a quick method to utilize this data was not found.</p><p>However - this was quickly ignored as a more interesting discovery was found. Researchers discovered that the Apache status page was enabled and visible to anyone at <code>/server-status</code>.  This was tempting as it appeared to be accidental and leaked the Linode host in use (<code>li676-224.members.linode.com</code>). This was a different host than used in <a href="https://connortumbleson.com/2021/01/25/the-cicada-3301-mystery-puzzle-2/">Puzzle 2</a>, which was <code>li528-4</code>.</p><p>This initially looked like a regular status page showing internal details about the state of the Apache server.</p><figure class="kg-card kg-code-card"><pre><code>Apache Server Status for fv7lyucmeozzd5j4.onion
+
+Server Version: Apache/2.2.22 (Ubuntu)
+Server Built: Jul 12 2013 13:37:15
+
+Current Time: Thursday, 09-Jan-2014 03:01:25 UTC
+Restart Time: Tuesday, 07-Jan-2014 02:13:02 UTC
+Parent Server Generation: 2
+Server uptime: 2 days 48 minutes 23 seconds
+Total accesses: 548166 - Total Traffic: 6.5 GB
+CPU Usage: u64.83 s85.99 cu0 cs0 - .0858% CPU load
+3.12 requests/sec - 38.8 kB/second - 12.4 kB/request
+6 requests currently being processed, 69 idle workers
+
+_R_______________K___K___.......................................
+_____R________________W__.......................................</code></pre><figcaption><p><a href="https://connortumbleson.com/uploads/2024/01/fv7lyucmeozzd5j4.onion.status-page.txt" rel="noreferrer"><span style="white-space: pre-wrap;">full file</span></a></p></figcaption></figure><p>The more this discovery was passed around it became apparent that Cicada 3301 knew this was being accessed as well. An additional visit to the page led to a far more larger page size than prior. It appeared some data was packed in between the page, which had to be quite the interesting <a href="https://httpd.apache.org/docs/2.4/mod/mod_substitute.html?ref=connortumbleson.com">Substitute</a> method for the amount of data injected.</p><figure class="kg-card kg-code-card"><pre><code class="language-html">&lt;dt&gt;5.09 requests/sec - 37.6 kB/second - 7.4 kB/request&lt;/dt&gt;
+&lt;dt&gt;10 requests currently being processed, 40 idle workers&lt;/dt&gt;
+&lt;/dl&gt;&lt;pre&gt;ffd8ffe000104a46494600010101019001900000ffdb0043000302020202
+02030202020303030304060404040404080606050609080a0a090809090a</code></pre><figcaption><p><a href="https://connortumbleson.com/uploads/2024/01/fv7lyucmeozzd5j4.onion.adjusted-status-page.txt" rel="noreferrer"><span style="white-space: pre-wrap;">full file</span></a></p></figcaption></figure><p>Now at this point you should be able to spot the magic of a JPEG - you can see <code>ff d8 ff e0</code> which is the header. So we know there is an image hiding in this status page. No need for any fancy tools - this is a relatively small file, so lets isolate the payload in the middle.</p><figure class="kg-card kg-code-card"><pre><code>ffd8ffe000104a46494600010101019001900000ffdb0043000302020202
+02030202020303030304060404040404080606050609080a0a090809090a
+0c0f0c0a0b0e0b09090d110d0e0f101011100a0c12131210130f101010ff
+db00430103030304030408040408100b090b101010101010101010101010
+101010101010101010101010101010101010101010101010101010101010</code></pre><figcaption><p><a href="https://connortumbleson.com/uploads/2024/01/fv7lyucmeozzd5j4.onion.payload.txt" rel="noreferrer"><span style="white-space: pre-wrap;">full file</span></a></p></figcaption></figure><p>So one quick conversion back to binary with xxd and we detect one image with binwalk.</p><pre><code>➜  xxd -r -p payload payload.bin
+➜  binwalk payload.bin 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+----------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+</code></pre><p>However, there has to be another image because the ending of the file is <code>e0 ff d8 ff</code>, which as you can tell is the JPEG magic reversed. Thankfully in Part 1 we learned about <code>tac</code> (reverse of cat) so we can easily flip the file if we keep it in the plaintext state. However it won't be that easy this time because there appears to be some data in between the images.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://connortumbleson.com/content/images/2024/01/Screenshot-from-2024-01-24-19-52-12.png" class="kg-image" alt="" loading="lazy" width="1373" height="366"><figcaption><span style="white-space: pre-wrap;">ghex view of payload.bin</span></figcaption></figure><p>We can tell the JPEG header doesn't have the size embedded so we must have the trailer bytes of <code>ff d9</code> which help denote the end of the image. You can even tell after what appears to be a random blob of characters we have <code>d9 ff</code> which is the reversed JPEG trailer. So this binary blob appears to be structured as <code>[jpeg][characters][reversed jpeg]</code>.</p><figure class="kg-card kg-image-card"><img src="https://connortumbleson.com/content/images/2024/01/jpeg-status.jpg" class="kg-image" alt="" loading="lazy" width="2000" height="285"></figure><p>So to make this easier - we can leverage dd to extract a chunk of the file. We know from the above screenshot that the first image ends at offset: <code>0x521e1</code>, so a little quick command to extract that chunk.</p><pre><code>➜ dd if=payload.bin of=slimmed.bin bs=1 skip=$((0x521e1))
+336713+0 records in
+336713+0 records out
+336713 bytes (337 kB, 329 KiB) copied, 1.31176 s, 257 kB/s
+</code></pre><p>We keep our block size at 1 to work byte by byte and skip the full size of the initial image. Our file is now just the random characters and reversed JPEG. At this point since the file is already binary - we can't use tools like rev and tac as they work best on text. Thankfully Perl is pretty good at reversing even binary blobs.</p><pre><code>➜ perl -0777pe '$_=reverse' slimmed.bin &gt; reversed.bin
+</code></pre><ul><li>We use <code>0777</code> to read the entire file at once without splitting.</li><li>We use <code>-p</code> to loop each line.</li><li><code>-e</code> just executes the upcoming Perl code.</li><li><code>$_=reverse</code> reverses the argument (the file content) and since no output variable will reverse the argument</li></ul><p>So basically we read the entire <code>slimmed.bin</code> file, reverse its contents and write to <code>reversed.bin</code>.</p><p>So now we have 2 images and a set of 358 characters we extracted from between the images.</p><figure class="kg-card kg-code-card"><pre><code>a02373230202020202833313020202020213433302020202021333130202020202135313a06363330202020202939313020202020203331302020202020323330202020202028313a06323230202020202534323020202020202139302020202025343230202020202632323a083130202020202032333020202020203331302020202029393130202020202636333a01353130202020202133313020202020213433302020202028333130202020202237323</code></pre><figcaption><p><span style="white-space: pre-wrap;">The 358 characters</span></p></figcaption></figure><p>With the two images being:</p><figure class="kg-card kg-gallery-card kg-width-wide"><div class="kg-gallery-container"><div class="kg-gallery-row"><div class="kg-gallery-image"><img src="https://connortumbleson.com/content/images/2024/01/1st_image.jpeg" width="2000" height="3000" loading="lazy" alt=""></div><div class="kg-gallery-image"><img src="https://connortumbleson.com/content/images/2024/01/2nd_image.jpeg" width="2000" height="3000" loading="lazy" alt=""></div></div></div></figure><p>At first I thought I made a mistake, but after a few replications I confirmed both images are the same. We have some runes, then a little matrix of numbers/runes. Neither appear to have any outguess data embedded within.</p><p>Our goal now is to decode these runes. Crazily enough these puzzles are connecting as we had a little decoding table in <a href="https://connortumbleson.com/2021/01/25/the-cicada-3301-mystery-puzzle-2/">Puzzle 2</a> known as the Gematria Primus. So we spend a bit of time reversing runes to characters and we start to understand this page:</p><ul><li>ᛋᚩᛗᛖ (some) •ᚹᛁᛋᛞᚩᛗ (wisdom)</li><li>ᚦᛖ (the) •ᛈᚱᛁᛗᛖᛋ (primes) •ᚪᚱᛖ (are) •ᛋᚪᚳᚱᛖᛞ (sacred)</li><li>ᚦᛖ (the) •ᛏᚩᛏᛁᛖᚾᛏ (totient) •ᚠᚢᚾᚳᛏᛡᚾ (function) •ᛁᛋ (is) •ᛋᚪᚳᚱᛖᛞ (sacred)</li><li>ᚪᛚᛚ (all) •ᚦᛝᛋ (things) •ᛋᚻᚩᚢᛚᛞ (should) •ᛒᛖ (be) •ᛖᚾᚳᚱᚣᛈᛏᛖᛞ (encrypted)</li><li>ᚳᚾᚩᚹ (know) •ᚦᛁᛋ (this)</li></ul><p>Or in plain English:</p><p>"<em>Some wisdom: The primes are sacred, The totient function is sacred, All things should be encrypted.</em></p><p><em>Know this.</em>"</p><p>So now we have to make sense of this matrix of numbers. Using the Gematria Primus we can take runes to words/numbers.</p><ul><li>Shadows (ᛋᚻᚪᛞᚩᚹᛋ): 341</li><li>Aetheral (ᚫᚦᛖᚱᛠᛚ): 366</li><li>Buffers (ᛒᚢᚠᚠᛖᚱᛋ): 199</li><li>Void (ᚢᚩᛁᛞ): 130</li><li>Carnal (ᚳᚪᚱᚾᚪᛚ): 320</li><li>Obscura (ᚩᛒᛋᚳᚢᚱᚪ): 245</li><li>Form (ᚠᚩᚱᛗ): 91</li><li>Mobius (ᛗᚩᛒᛁᚢᛋ): 226</li><li>Analog (ᚪᚾᚪᛚᚩᚷ): 320</li><li>Mournful (ᛗᚩᚢᚱᚾᚠᚢᛚ): 199</li><li>Cabal (ᚳᚪᛒᚪᛚ): 341</li></ul><p>Now we replace runes with numbers and get this matrix.</p><figure class="kg-card kg-code-card"><pre><code>272     138     341     131     151
+366     199     130     320     18
+226     245     91      245     226
+18      320     130     199     366
+151     131     341     138     272</code></pre><figcaption><p><span style="white-space: pre-wrap;">5x5 Matrix</span></p></figcaption></figure><p>So it appears we have a 5x5 matrix - one quick Google search on that has "risk matrix" and "magic square". It's clearly not a risk matrix and if we add all columns, all rows and the diagonal they all oddly sum to 1033.</p><p>So this is a magic square with all values of course being 1033. At this point we might have to head back to the random set of characters discovered in between the images, because we've hit a dead end.</p><p>So knowing this random blob of data was in between two images - we aren't really sure what direction its intended to be. It appears to be hexadecimal as I don't see a single character higher than <code>f</code> and the rest is numeric. So before we do anything complex - lets just take it back to binary. Back to the power of xxd.</p><pre><code>➜ cat 358chars | xxd -p -r 
+�#s#�3C33S�cc3��3#3��c##SC#�SC#c##��#33��cc3�S3C3�3#s#%
+
+➜ cat 358chars | rev | xxd -p -r
+272     138     341     131     151
+366     199     130     320     18
+226     245     91      245     226
+18      320     130     199     366
+151     131     341     138     272</code></pre><p>It turns out it did have to be reversed to make human readable text, but sadly appears to be the same exact magic square we just decoded from the images. Maybe something has to do with the totient function we extracted from the hints in the runes? Without a discovery in a short period of time, but before additional research could continue the Apache status page updated.</p><p>It appeared that the embedded data had changed. We were now looking at a page that was just bluntly a dump of data.</p><figure class="kg-card kg-code-card"><pre><code>HTTP/1.1 200 OK
+Date: Sat, 11 Jan 2014 22:19:20 GMT
+Server: Apache
+Last-Modified: Sat, 11 Jan 2014 22:07:12 GMT
+ETag: "d3e7-41a795-4efb910854400"
+Accept-Ranges: bytes
+Content-Length: 4302741
+Vary: Accept-Encoding
+Content-Type: text/html
+
+&lt;!--3301--&gt;
+ffd8ffe000104a46494600010100000100010000ffdb0043000806060706</code></pre><figcaption><p><a href="https://raw.githubusercontent.com/iBotPeaches/cicada_3301/master/infotomb/laqs9.txt?ref=connortumbleson.com" rel="noreferrer"><span style="white-space: pre-wrap;">full file</span></a></p></figcaption></figure><p>If we take this blob of characters back to binary (<code>xxd -p -r</code>) and we find once again a JPEG then a JPEG in reverse.</p><figure class="kg-card kg-image-card"><img src="https://connortumbleson.com/content/images/2024/01/jpeg-gepg.jpg" class="kg-image" alt="" loading="lazy" width="2000" height="386"></figure><p>Updating our graphic above - it resembles this setup. So lets find the end point and rip out the images. We can probably search for <code>ff d9 d9 ff</code> and find the end points of both images squished together.</p><pre><code>➜ dd if=data.bin of=2.bin bs=1 skip=$((0xD9F57))
+1223337+0 records in
+1223337+0 records out
+1223337 bytes (1.2 MB, 1.2 MiB) copied, 4.67677 s, 262 kB/s
+➜ perl -0777pe '$_=reverse' 2.bin &gt; 2.jpg        
+➜ dd if=data.bin of=1.jpg bs=1 count=$((0xD9F57))
+892759+0 records in
+892759+0 records out
+892759 bytes (893 kB, 872 KiB) copied, 3.42165 s, 261 kB/s</code></pre><p>So what we did here is first skip the entire first image - then reversed that output to get the reversed JPEG into regular format. Once that was done we just adapted one parameter on dd to extract the first image instead.</p><figure class="kg-card kg-gallery-card kg-width-wide kg-card-hascaption"><div class="kg-gallery-container"><div class="kg-gallery-row"><div class="kg-gallery-image"><img src="https://connortumbleson.com/content/images/2024/01/1.jpg" width="2000" height="3000" loading="lazy" alt=""></div><div class="kg-gallery-image"><img src="https://connortumbleson.com/content/images/2024/01/2.jpg" width="2000" height="3000" loading="lazy" alt=""></div></div></div><figcaption><p><span style="white-space: pre-wrap;">Page 3 &amp; 4 from Liber Primus</span></p></figcaption></figure><p>It seems we are getting more and more pages of this book. With more images we always have to check if outguess can detect data - sure enough this time it did.</p><pre><code class="language-`">➜ outguess -r 1.jpg 1.txt
+Reading 1.jpg....
+Extracting usable bits:   811192 bits
+Steg retrieve: seed: 127, len: 31809
+➜ outguess -r 2.jpg 2.txt
+Reading 2.jpg....
+Extracting usable bits:   1164245 bits
+Steg retrieve: seed: 38370, len: 7524
+➜ file 1.txt
+1.txt: PGP signed message
+➜ file 2.txt 
+2.txt: data
+</code></pre><p>The 1st image appears to be another valid PGP message with some data contained within. The 2nd image is a blob of data that presently doesn't have any known magic header/footer so we will ignore that one for now.</p><p>So lets start with decrypting these runes on the above two pages. If we start with the first image we don't get anything on first glance that converts easily to English.</p><ul><li><code>ᚢᛠᛝᛋᛇᚠᚳ ᚱᛇᚢᚷᛈᛠᛠ ᚠᚹᛉ</code> -&gt; <code>UEA[NG|ING][S|Z]EOF[C|K] REOUGPEAEA FWX</code></li></ul><p>As you can tell - since Gematria Primus can decode a rune to a variety of characters for <code>NG/ING</code> , <code>S/Z</code> and <code>C/K</code> we don't know exactly what it should be. When we went strictly from runes to English it was pretty obvious what letter it was intended to me in Part 1. So at this point we are probably missing some form of transformation.</p><p>I always like to start with a rotation (ROT) for any type of string that looks vaguely already like text. At this point rotating through every possible rotation results in nothing.</p><div class="kg-card kg-toggle-card" data-kg-toggle-state="close">
+            <div class="kg-toggle-heading">
+                <h4 class="kg-toggle-heading-text"><span style="white-space: pre-wrap;">ROT 0-26 of "UEA" String</span></h4>
+                <button class="kg-toggle-card-icon" aria-label="Expand toggle to read content">
+                    <svg id="Regular" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path class="cls-1" d="M23.25,7.311,12.53,18.03a.749.749,0,0,1-1.06,0L.75,7.311"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="kg-toggle-content"><p><b><strong style="white-space: pre-wrap;">ROT-0</strong></b><span style="white-space: pre-wrap;">: UEA[NG|ING][S|Z]EOF[C|K] REOUGPEAEA FWX</span><br><b><strong style="white-space: pre-wrap;">ROT-1</strong></b><span style="white-space: pre-wrap;">: VFB[OH|JOH][T|A]FPG[D|L] SFPVHQFBFB GXY</span><br><b><strong style="white-space: pre-wrap;">ROT-2</strong></b><span style="white-space: pre-wrap;">: WGC[PI|KPI][U|B]GQH[E|M] TGQWIRGCGC HYZ</span><br><b><strong style="white-space: pre-wrap;">ROT-3</strong></b><span style="white-space: pre-wrap;">: XHD[QJ|LQJ][V|C]HRI[F|N] UHRXJSHDHD IZA</span><br><b><strong style="white-space: pre-wrap;">ROT-4</strong></b><span style="white-space: pre-wrap;">: YIE[RK|MRK][W|D]ISJ[G|O] VISYKTIEIE JAB</span><br><b><strong style="white-space: pre-wrap;">ROT-5</strong></b><span style="white-space: pre-wrap;">: ZJF[SL|NSL][X|E]JTK[H|P] WJTZLUJFJF KBC</span><br><b><strong style="white-space: pre-wrap;">ROT-6</strong></b><span style="white-space: pre-wrap;">: AKG[TM|OTM][Y|F]KUL[I|Q] XKUAMVKGKG LCD</span><br><b><strong style="white-space: pre-wrap;">ROT-7</strong></b><span style="white-space: pre-wrap;">: BLH[UN|PUN][Z|G]LVM[J|R] YLVBNWLHLH MDE</span><br><b><strong style="white-space: pre-wrap;">ROT-8</strong></b><span style="white-space: pre-wrap;">: CMI[VO|QVO][A|H]MWN[K|S] ZMWCOXMIMI NEF</span><br><b><strong style="white-space: pre-wrap;">ROT-9</strong></b><span style="white-space: pre-wrap;">: DNJ[WP|RWP][B|I]NXO[L|T] ANXDPYNJNJ OFG</span><br><b><strong style="white-space: pre-wrap;">ROT-10</strong></b><span style="white-space: pre-wrap;">: EOK[XQ|SXQ][C|J]OYP[M|U] BOYEQZOKOK PGH</span><br><b><strong style="white-space: pre-wrap;">ROT-11</strong></b><span style="white-space: pre-wrap;">: FPL[YR|TYR][D|K]PZQ[N|V] CPZFRAPLPL QHI</span><br><b><strong style="white-space: pre-wrap;">ROT-12</strong></b><span style="white-space: pre-wrap;">: GQM[ZS|UZS][E|L]QAR[O|W] DQAGSBQMQM RIJ</span><br><b><strong style="white-space: pre-wrap;">ROT-13</strong></b><span style="white-space: pre-wrap;">: HRN[AT|VAT][F|M]RBS[P|X] ERBHTCRNRN SJK</span><br><b><strong style="white-space: pre-wrap;">ROT-14</strong></b><span style="white-space: pre-wrap;">: ISO[BU|WBU][G|N]SCT[Q|Y] FSCIUDSOSO TKL</span><br><b><strong style="white-space: pre-wrap;">ROT-15</strong></b><span style="white-space: pre-wrap;">: JTP[CV|XCV][H|O]TDU[R|Z] GTDJVETPTP ULM</span><br><b><strong style="white-space: pre-wrap;">ROT-16</strong></b><span style="white-space: pre-wrap;">: KUQ[DW|YDW][I|P]UEV[S|A] HUEKWFUQUQ VMN</span><br><b><strong style="white-space: pre-wrap;">ROT-17</strong></b><span style="white-space: pre-wrap;">: LVR[EX|ZEX][J|Q]VFW[T|B] IVFLXGVRVR WNO</span><br><b><strong style="white-space: pre-wrap;">ROT-18</strong></b><span style="white-space: pre-wrap;">: MWS[FY|AFY][K|R]WGX[U|C] JWGMYHWSWS XOP</span><br><b><strong style="white-space: pre-wrap;">ROT-19</strong></b><span style="white-space: pre-wrap;">: NXT[GZ|BGZ][L|S]XHY[V|D] KXHNZIXTXT YPQ</span><br><b><strong style="white-space: pre-wrap;">ROT-20</strong></b><span style="white-space: pre-wrap;">: OYU[HA|CHA][M|T]YIZ[W|E] LYIOAJYUYU ZQR</span><br><b><strong style="white-space: pre-wrap;">ROT-21</strong></b><span style="white-space: pre-wrap;">: PZV[IB|DIB][N|U]ZJA[X|F] MZJPBKZVZV ARS</span><br><b><strong style="white-space: pre-wrap;">ROT-22</strong></b><span style="white-space: pre-wrap;">: QAW[JC|EJC][O|V]AKB[Y|G] NAKQCLAWAW BST</span><br><b><strong style="white-space: pre-wrap;">ROT-23</strong></b><span style="white-space: pre-wrap;">: RBX[KD|FKD][P|W]BLC[Z|H] OBLRDMBXBX CTU</span><br><b><strong style="white-space: pre-wrap;">ROT-24</strong></b><span style="white-space: pre-wrap;">: SCY[LE|GLE][Q|X]CMD[A|I] PCMSENCYCY DUV</span><br><b><strong style="white-space: pre-wrap;">ROT-25</strong></b><span style="white-space: pre-wrap;">: TDZ[MF|HMF][R|Y]DNE[B|J] QDNTFODZDZ EVW</span></p></div>
+        </div><p>So probably not rotation like the first ever Cicada puzzle. The next puzzles used shifting even to the point of having a different shift of each character depending on some key (like we saw in the midi solve). However, we don't really have a obvious key thus far in this puzzle. We have however had reversed/rotated images quite often.</p><p>We can reverse these strings and nothing makes sense as <a href="https://theblob.org/rot.cgi?text=XWF%20AEAEPGUOER%20]K|C[FOE]Z|S[]GNI|GN[AEU&ref=connortumbleson.com">proven</a> by another rot cipher on the reversed string, but there is a large difference of rotating a character after translation and prior.</p><p>We should try reversing the Gematria Primus and then try our rotation/shifts.</p><pre><code>➜ php cicada app:translate
+
+ Enter a sentence to translate:
+ &gt; ᚢᛠᛝᛋᛇᚠᚳ ᚱᛇᚢᚷᛈᛠᛠ ᚠᚹᛉ
+
+ Reverse the translation? (y/n) [n]:
+ &gt; y
+
+[IA|IO]FWPTEAD AT[IA|IO]OE[S|Z]FF EA[NG|ING]X</code></pre><p>However, sadly even after reversing the Gematria Primus and shifting the string in every possible way - no go. At this point we must have a key - we just don't know what it is. That would open us up to many different types of ciphers much like the Vigenère cipher used in the first puzzle.</p><p>The problem we face is our string is in runes - not text. We can't assume that our translation from runes to text is the right one. We know from the book codes that jump around to a variety of different characters - our code may not be as easy as straight forward or reverse.</p><p>We should build a script that takes a runic word and uses it to shift characters. Remember in the very first puzzle we shifted each letter increasing throughout the key wrapping around when done. The problem is we are either blind and missing the key to attempt shifting or we are meant to brute force it.</p><p>Lets collect all the words used in some recent Cicada things and start to build a word list. To start I've extracted the <a href="https://github.com/iBotPeaches/cicada_3301/blob/master/wordlists/instar_emergence.txt?ref=connortumbleson.com">Instar Emergence</a> poem from the song, then one of the books (<a href="https://github.com/iBotPeaches/cicada_3301/blob/master/wordlists/voice_of_devil.txt?ref=connortumbleson.com">Voice of Devil</a>) from a previous puzzle.</p><p>Now lets run this through all the words we extracted and attempt a translation on the first rune line (<code>ᚢᛠᛝᛋᛇᚠᚳ ᚱᛇᚢᚷᛈᛠᛠ ᚠᚹᛉ</code>) we see above.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://connortumbleson.com/content/images/2024/02/bruteforce.png" class="kg-image" alt="" loading="lazy" width="1075" height="803"><figcaption><a href="https://github.com/iBotPeaches/cicada_3301/pull/33?ref=connortumbleson.com" rel="noreferrer"><span style="white-space: pre-wrap;">app:bruteforce-vigenere</span></a><span style="white-space: pre-wrap;"> (GitHub)</span></figcaption></figure><p>In the first output of this brute-force we see something interesting - towards the bottom <code>divinity</code> looks to spell something in English. So guess we got a hit from the song used in an earlier puzzle. It reads as <code>WELCOME WELCOME PIL</code> which appears to be the start of a valid sentence. It seems we've found the key, even if brute-forcing felt a bit sour. Maybe we missed something with the magic square that resulted in "divinity".</p><p>So lets start decoding this line by line.</p><ul><li><code>ᚢᛠᛝᛋᛇᚠᚳ ᚱᛇᚢᚷᛈᛠᛠ ᚠᚹᛉ</code> -&gt; <code>WEL[C|K]OME WEL[C|K]OME PIL</code></li><li><code>ᛏᚳᛚᛠ ᚣᛗ ᛠᛇ ᛏᚳᚾᚫ ᛝᛗᛡ</code> -&gt; <code>OEAME BN EO[S|Z] OEAH[S|Z] EONJ</code></li></ul><p>We've already missed something - the 2nd line doesn't appear to be valid. However, I broke the lines based visually on the book above. Maybe we need to break to a newline on a specific rune (2 dots, 4 dots, etc).</p><pre><code>ᚢᛠᛝᛋᛇᚠᚳ ᚱᛇᚢᚷᛈᛠᛠ ᚠᚹᛉᛏᚳᛚᛠ ᚣᛗ ᛠᛇ ᛏᚳᚾᚫ ᛝᛗᛡᛡᛗᛗᚹ ᚫᛈᛞᛝᛡᚱ ᚩᛠ ᛡᛗᛁ ᚠᚠ ᛖᚢᛝ ᛇᚢᚫ
+WEL[C|K]OME WEL[C|K]OME PILGRIM TO THE GREAT JOURNEY TOWARD THE END OG HFJ OLN</code></pre><p>That looks to work much better, but we oddly fail decoding somewhere around the 62nd character. We don't have any permutations left with the spacing so time for some research on the cipher. A few Google searches and we discover that a ciphertext can contain a manual reset that occurs at seemingly random points in the string.</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://connortumbleson.com/content/images/2024/02/bugged-62.png" class="kg-image" alt="" loading="lazy" width="1319" height="497"><figcaption><span style="white-space: pre-wrap;">debugging tool</span></figcaption></figure><p>So if we set a break point on the character that looks bugged - we see something interesting. Our shifted character becomes (<code>G</code>) which is invalid, but the original character prior to shift was (<code>F</code>) which seems correct. However, if we make an exception for <code>F</code> the decryption falls apart badly.</p><ul><li><code>WEL[C|K]OFA B[S|Z]WAEEOEM FY[IA|IO]MJI[IA|IO]</code></li></ul><p>As you can see - this time since we made an exception for <code>F</code> it crashed way earlier. Now we know its the 62nd character by the time we've converted out of runes, but runes can decrypt to multiple characters. Therefore instead I think its safer for a test to use the runic index (<code>59</code>) for this test instead of the output character number.</p><ul><li><code>WEL[C|K]OME WEL[C|K]OME PILGRIM TO THE GREAT JOURNEY TOWARD THE END OF ALL TH[NG|ING][S|Z]</code></li></ul><p>Sure enough that appeared to work. We can make sense of the string in its entirety. Sadly this appears to be a time consuming task, as we paste the entire string into our decoder and we only get a bit further until the string falls apart.</p><pre><code>WEL[C|K]OME WEL[C|K]OME PILGRIM TO THE GREAT JOURNEY TOWARD THE END OF ALL TH[NG|ING][S|Z] IT I[S|Z] NOT AN EA[S|Z]Y TRIP BUT MMEA</code></pre><p>It appears we might have more than one index to skip our decoding. Each time the string looks to fall apart - we will add that runic index to our list. The 2nd time it appeared to be index (<code>95</code>). When we are done setting break points and developing a list of indexes we get all the runic indexes to skip and string of:</p><div class="kg-card kg-callout-card kg-callout-card-red"><div class="kg-callout-emoji">💡</div><div class="kg-callout-text">These indexes are based on the spacing of the runes in this <a href="https://github.com/iBotPeaches/cicada_3301/blob/master/liber_primus/markdown/03.md?ref=connortumbleson.com" rel="noreferrer">file</a>.</div></div><ul><li>59, 95, 108, 170, 204, 205, 312</li></ul><pre><code>WEL[C|K]OME WEL[C|K]OME PILGRIM TO THE GREAT JOURNEY TOWARD THE END OF ALL TH[NG|ING][S|Z] IT I[S|Z] NOT AN EA[S|Z]Y TRIP BUT FOR THO[S|Z]E WHO FIND THEIR WAY HERE IT I[S|Z] A NE[C|K]E[S|Z][S|Z]ARY ONE ALO[NG|ING] THE WAY YOU WILL FIND AN END TO ALL [S|Z]TRUGGLE AND [S|Z]UFFER[NG|ING] YOUR INNO[C|K]EN[C|K]E YOUR ILLU[S|Z][IA|IO]N[S|Z] YOUR [C|K]ERTAINTY AND YOUR REALITY ULTIMATELY YOU WILL DI[S|Z][C|K]OUER AN END TO [S|Z]ELF</code></pre><p>We don't really need to run this through our permutation code because its pretty clear what its supposed to say.</p><blockquote>Welcome<br>Welcome pilgrim to the great journey towards the end of all things.<br>It is not an easy trip, but for those who find their way here it is a necessary one.<br>Along the way you will find an end to all the struggle and suffering.<br>Your innocence, your illusions, your certainty, and your reality.<br>Ultimately you will discover an end to self.</blockquote><p>Now remember back in Part 1 it called out - <code>DO NOT EDIT OR CHANGE THIS BOOK</code>, which we did here. When I wrote the brute-force code - it crashed immediately because we had no translation for the letter V. I just treated it as the same rune as letter U. So I am seriously doubting the only way to obtain the key <code>divinity</code> was brute-force - we must be missing something.</p><p>Onward to the 2nd page above - lets hope that its the same key and cipher we just discovered. Sadly in one quick test of the first line you can see below it didn't.</p><ul><li><code>ᛗᚣ ᚣᛇ ᚫᛉᚱᛄᛋᛖ ᛖᚹᚾ ᛞᛄᚢᛋᛉᚣᛏ</code> -&gt; <code>AET AETH TRBX[NG|ING]H BYF PAR[NG|ING]RAEG</code></li></ul><p>However, the 4th page starts with the 4 dot runic symbol. It appears like a book to just be a continuation of the last page. We should try and add these runic symbols at the end of page 3 - perhaps the shift continues as-is into page 4.</p><ul><li><code>ᛗᚣ ᚣᛇ ᚫᛉᚱᛄᛋᛖ ᛖᚹᚾ ᛞᛄᚢᛋᛉᚣᛏ</code> -&gt; <code>IT I[S|Z] THROUGH THI[S|Z] PILGRIM</code></li></ul><p>This appeared to be the solution. Page 3 and 4 continue (perhaps even more pages) on the same shift of <code>divinity</code> with presumably more indexes to skip. So lets start with combining all the runes in one solid line and go back to the slog of running through this decryption and manually flagging indexes to skip when the translation appears to break.</p><pre><code>ᚢᛠᛝᛋᛇᚠᚳ ᚱᛇᚢᚷᛈᛠᛠ ᚠᚹᛉᛏᚳᛚᛠ ᚣᛗ ᛠᛇ ᛏᚳᚾᚫ ᛝᛗᛡᛡᛗᛗᚹ ᚫᛈᛞᛝᛡᚱ ᚩᛠ ᛡᛗᛁ ᚠᚠ ᛖᚢᛝ ᛇᚢᚫ ᚣᛈ ᚱᚫ ᛁᛈᚫ ᚳᚫ ᚫᚾᚹ ᛒᛉᛗᛞ ᚱᛡᛁ ᚠᛈᚳ ᛇᛇᚫᚳ ᚱᚦᛈ ᚠᛄᛗᚩ ᛇᚳᚹᛡ ᛒᚫᚹ ᛒᛠᛚᛋ ᚱᚣ ᛄᚫ ᚱ ᛗᚳᚦᛇᚫᛏᚳᛈᚹ ᛗᚷᛇ ᚳᛝᛈᚢ ᛇᚳ ᚱᛖᚹ ᛡᛈᛁ ᛒᚣᛒᛉ ᚠᛚᛁᚱ ᚱᛗ ᚳᚷᛒ ᚣᚱ ᚳᚠᚢ ᚦᛈᛡᛄᚹᛏᚠᛠ ᛄᚷᛒ ᚫᚦᚠᚠᛠᛈᚦ ᛈᚠᚪᛉ ᛄᛗᛖᛈᛝᛋᚩᛋᛗ ᚹᛇᛄᛚ ᚹᛉᚢᚦᚫᚹᛗᚦ ᛞᚣᛄᚳ ᛋᛡᛉᚩᛝᚱᛗᛒᚹ ᚱᛗᛁ ᛞᚣᛄᚳ ᛉᚻᚢᚣᛈᛚ ᛄᛝᚣᛗᚠᛄᛈᛇᚢᛡ ᚹᛇᛄ ᛞᚹᛉᚢ ᚪᛚᚪᛋᛗᛡᛇᛉ ᚫᛗ ᛡᛗᛁ ᛈᚣ ᚫᛗᚢᚠ ᛗᚣ ᚣᛇ ᚫᛉᚱᛄᛋᛖ ᛖᚹᚾ ᛞᛄᚢᛋᛉᚣᛏᛖᛏᛗ ᛇᚱᚣ ᛞᛋ ᚾᛖᚫᛞᛡ ᛈᛒᚢᚾᛠᛝᛄᛡᚫ ᛄᚷᛒ ᛈᚦᛉ ᛈᚾᚹᚹᛁᛚᛗᚫ ᛚᛈᛒᚢᚩᛠᛡ ᚱᛡᛠᚠ ᚱᚱᛇᛄᛗ ᚱᛗᛁ ᛞᚣᛄ ᚻᛚᚠᚢ ᛄᚢᛡᛚᚦᛠ ᛇᛄᚩᛇᚱᚱᛗ ᚢᛗᛋᚳ ᛠᛇ ᛚᛁᚫᚫᚳᛚ ᚹᛁ ᛚᛏ ᛈᛖᚢᛈ ᛠᛡᛈᚦᛏᛒ ᛏᛗᛖ ᚢᛚᚩᛚᛖ ᛇᛄᛈ ᚢᛠ ᛚᚳᚷ ᛠᚷᛋᛡᛏᛗ ᛒᛗᚱᚦᚠᛈ ᚹᚱᛄ ᚱᛉᚳ ᛝ ᛄᛠᛟ ᛄᛖᚣᛗ ᛞᚣᛄᚳᚫᛡᚢᚠ ᛈᚠᚪ ᚳᚳᛠ ᚱ ᚢᛄᚱ ᚪᛗᛒᛈ ᚷᛈᛒᚢᚾᛠᛝᚠ ᚾᛉᛖ ᚣᚷᛁᛠᛝᚢᛗᛏᚳᚷᛠᛠ ᛄᚫ ᛒᛈᚹᛞ ᚠᚣᛉ ᚫᚢᚠ ᛇᛄᛈ ᛉᛚᚦᛠᚪ ᛚᚦ ᚳᚣᚢᛡ ᚳᛖ ᛚᚫᛇᛁᛉᚦᛋᚫᚻᚫ ᚦᚣᚠᛚᚳᛖᚱ ᛈᚠᚪᛉ ᚱᛒᛖ ᚫᚳᛒᚠ</code></pre><p>This time we expand our indexes to skip shifting of the following:</p><ul><li>59, 95, 108, 170, 204, 205, 312, 523, 551, 578, 638</li></ul><p>Which now generates the additional block of:</p><pre><code>IT I[S|Z] THROUGH THI[S|Z] PILGRIMAGE THAT WE [S|Z]HAPE OUR[S|Z]ELUE[S|Z] AND OUR REALITIE[S|Z] JOURNEY DEEP WITHIN AND YOU WILL ARRIUE OUT[S|Z]IDE LI[C|K]E THE IN[S|Z]TAR IT I[S|Z] ONLY THROUGH GO[NG|ING] WITHIN THAT WE MAY EMERGE WID[S|Z]OM YOU ARE A BE[NG|ING] UNTO YOUR[S|Z]ELF YOU ARE A LAW UNTO YOUR[S|Z]ELF EA[C|K]H INTELLIGEN[C|K]E I[S|Z] HOLY FOR ALL THAT LIUE[S|Z] I[S|Z] HOLY AN IN[S|Z]TRU[C|K]T[IA|IO]N [C|K]OMMAND YOUR OWN [S|Z]ELF</code></pre><p>Or cleaned up into:</p><blockquote>It is through this pilgrimage that we shape ourselves and our realities<br>Journey deep within and you will arrive outside<br>Like the Instar it is only through going within that we may emerge.<br><br>Wisdom<br>You are a being onto yourself<br>You are a law onto yourself<br>Each intelligence is holy<br>For all that lives is holy<br>An instruction: Command your own self</blockquote><p>It was nice for this page to call out the Instar Emergence which helps solidify our key (<code>divinity</code>) - remember this key came from that song:</p><figure class="kg-card kg-code-card"><pre><code>The Instar Emergence
+
+Parable 1,595,277,641 
+Like the instar, tunneling to the surface
+We must shed our own circumferences;
+Find the divinity within and emerged</code></pre><figcaption><p><a href="https://connortumbleson.com/2021/01/25/the-cicada-3301-mystery-puzzle-2/" rel="noreferrer"><span style="white-space: pre-wrap;">Puzzle 2</span></a></p></figcaption></figure><p>However saying all of that - we finally understand these two pages and haven't appeared to discover anything to progress this puzzle forward. So lets jump back to the data embedded in the images themselves. The 1st page (Page 3 of Liber Primus) had a PGP message contained within the payload. </p><p>If we examine that payload - we get a message and payload.</p><figure class="kg-card kg-code-card"><pre><code>-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Let the text guide you.
+
+Good luck.
+
+3301
+
+ffd8ffe000104a46494600010101019001900000ffdb0043000302020202
+// snipped</code></pre><figcaption><p><a href="https://github.com/iBotPeaches/cicada_3301/blob/master/messages/2014/let-the-text-guide-you.asc?ref=connortumbleson.com" rel="noreferrer"><span style="white-space: pre-wrap;">full file (GitHub)</span></a></p></figcaption></figure><p>So we pull that snippet of hex out of the signed message and proceed to run our basic test - convert to binary, run binwalk.</p><pre><code>➜ xxd -r -p payload payload.bin
+➜ binwalk payload.bin 
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+----------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01</code></pre><p>Sure enough we have an image. Once extracted it becomes:</p><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://connortumbleson.com/content/images/2024/02/rune-onion.png" class="kg-image" alt="" loading="lazy" width="587" height="109"><figcaption><span style="white-space: pre-wrap;">Page 4 Liber Primus outguess data</span></figcaption></figure><p>Now we have a runic short string - lets get this into text and run it through our translation code.</p><pre><code>ᚦᛗᛞᛇᚠᛗᚪᚱ5ᚢᚫᛝᚱᛝ3 ᛠᛗᛇᚠᛡ</code></pre><p>Unfortunately in the following tests - all failed.</p><ul><li>Pure translation</li><li>Pure reversed translation</li><li>Vigenere cipher with <code>divinity</code> key.</li><li>Vigenere reversed cipher with <code>divinity</code> key.</li><li>Brute force with existing word lists.</li></ul><p>The last few pages decoded though had some very interesting Cicada 3301 words. Lets load those pages into our word lists. This is a useless endeavor as we are presumably based on the string size looking for <code>{random}.onion</code> so we can't really tell whats right or wrong unless we see "onion" at end.</p><p>However, the hint is "<em>let the text guide you</em>" - does that mean the runic text we just translated? What if the key is the entire decoded text? It couldn't possibly be that because the ciphertext isn't that long and the Vigenere cipher can't leverage a key that is larger than the decrypted text.</p><p>So lets start with just the first few words like - <code>welcomewelcomepilgrimtothegreat</code>. This fails miserably, but we duplicated <code>welcome</code> and included red words.</p><figure class="kg-card kg-image-card"><img src="https://connortumbleson.com/content/images/2024/02/Screenshot-from-2024-02-04-15-07-05.png" class="kg-image" alt="" loading="lazy" width="371" height="164"></figure><p>There is only one red word on this page, so perhaps we skip it. Lets try using <code>welcomepilgrimtothegreat</code>.</p><pre><code>➜ php cicada app:vigenere
+
+ Enter a sentence to translate:
+ &gt; ᚦᛗᛞᛇᚠᛗᚪᚱ5ᚢᚫᛝᚱᛝ3 ᛠᛗᛇᚠᛡ
+
+ Enter the key.:
+ &gt; welcomepilgrimtothegreat
+
+Translation: AUOWYFGL5L[C|K][S|Z]FJ3 NON[IA|IO]N</code></pre><p>This looks very promising, we can see <code>ONION</code> at the end of the string. We probably don't need a key that long, but it worked. Lets run our permutation code and toss out any that don't result in <code>.onion</code>.</p><pre><code>AUOWYFGL5LCSFJ3N ONION
+AUOWYFGL5LCZFJ3N ONION
+AUOWYFGL5LKSFJ3N ONION
+AUOWYFGL5LKZFJ3N ONION</code></pre><p>With only 4 chances this won't be hard. However, none of them worked. What interests me in this string though is we have both <code>U</code> and <code>F</code>, both of which have acted weirdly throughout this puzzle.</p><ul><li><code>U</code> is what we mapped <code>V</code> towards in our word list code.</li><li><code>F</code> is what normally caused the decoding to skip a shift.</li></ul><p>So lets go again and do a ton more permutations on this until the domain is valid. We will swap <code>[U/V]</code> for another set of permutations. Sure enough it was the <code>U/V</code> switch as one of those domains resolved correctly.</p><ul><li><code>ᚦᛗᛞᛇᚠᛗᚪᚱ5ᚢᚫᛝᚱᛝ3 ᛠᛗᛇᚠᛡ</code> -&gt; <code>avowyfgl5lkzfj3n.onion</code></li></ul><p>We finally had a new onion, but we will discuss the 4th onion (and more) in <a href="https://connortumbleson.com/2024/06/03/the-cicada-3301-mystery-puzzle-3-solve-part-3/">Part 3</a>.</p><hr><ul><li><a href="https://connortumbleson.com/2019/09/30/the-cicada-3301-mystery/">Puzzle 1</a> (2012)</li><li><a href="https://connortumbleson.com/2021/04/12/the-cicada-3301-mystery-puzzle-1-extra/" rel="noreferrer">Puzzle 1 - 2nd Chance</a> (2012)</li><li><a href="https://connortumbleson.com/2021/01/25/the-cicada-3301-mystery-puzzle-2/">Puzzle 2</a> (2013)</li><li><a href="https://connortumbleson.com/2021/02/15/the-cicada-3301-mystery-puzzle-3-part1/" rel="noreferrer">Puzzle 3 - Part 1</a> (2014)</li><li>Puzzle 3 - Part 2 (2014) - You are here.</li><li><a href="https://connortumbleson.com/2024/06/03/the-cicada-3301-mystery-puzzle-3-solve-part-3/">Puzzle 3 - Part 3</a> (2014)</li><li><a href="https://connortumbleson.com/2024/12/23/the-cicada-3301-mystery-puzzle-3-solve-part-4/">Puzzle 3 - Part 4</a> (2014)</li></ul>
+		</div>
+		<div class="section-post-authors post-authors flex  post-author-single first">
+	<div class="author-label">
+		<span>Read more posts by this author</span>
+	</div>
+	<div class="author-wrap flex">
+		<a href="/author/connor/" class="item-link-overlay"></a>
+		<div class="author-profile-image" style="background-image: url(/content/images/size/w320/2021/05/test2-min.png)"></div>
+		<div class="author-content">
+			<h4 class="no-bio"><a href="/author/connor/">Connor Tumbleson</a></h4>
+		</div>
+	</div>
+</div>		<div class="post-meta">
+			<div class="post-share">
+	<a class="twitter" href="https://twitter.com/intent/tweet?text=The%20Cicada%203301%20Mystery%20(Puzzle%203%20Solve)%20-%20Part%202&amp;url=https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/" target="_blank" rel="noopener"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
+	<a href="javascript:" class="copy" id="copy" data-clipboard-target="#link-value"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.33 13.04h-4.155v4.154h-2.078v-4.155H9.942v-2.077h4.155V6.806h2.078v4.156h4.154v2.077zM8.902 18.58a6.582 6.582 0 0 1 0-13.162c.068 0 .135.007.202.009a8.874 8.874 0 0 0-.001 13.144c-.067 0-.133.009-.2.009zm6.194-15.484a8.876 8.876 0 0 0-3.087.56A8.904 8.904 0 0 0 0 12a8.903 8.903 0 0 0 8.903 8.905 8.893 8.893 0 0 0 3.103-.563 8.854 8.854 0 0 0 3.09.563A8.903 8.903 0 0 0 24 12a8.904 8.904 0 0 0-8.903-8.903z"/></svg></a>
+	<span class="copy-popup">The link has been copied!</span>
+	<input type="text" value="https://connortumbleson.com/2024/02/05/the-cicada-3301-mystery-puzzle-3-solve-part-2/" id="link-value">
+</div>
+		</div>
+	</div>
+</article>
+<aside class="section-prev-next">
+    <div class="prev-next-wrap">
+        <a href="/2024/02/12/derek-cardigan-7003/" class="prev-post post tag-personal is-image">
+            <div class="prev-next-image" style="filter: blur(5px); background-image: url(/content/images/size/w600/2024/02/derek.png)"></div>
+            <section class="prev-next-title">
+                <h5>Newer Post</h5>
+                <h3>Derek Cardigan 7003</h3>
+            </section>
+        </a>
+        <a href="/2024/01/29/ai-cicada-3301/" class="next-post post tag-cicada-3301 is-image">
+            <div class="prev-next-image" style="filter: blur(5px); background-image: url(/content/images/size/w600/2024/01/83cf996e-ace5-4c2f-a602-b1610689bd4e.png)"></div>
+            <section class="prev-next-title">
+                <h5>Older Post</h5>
+                <h3>AI &amp; Cicada 3301</h3>
+            </section>
+        </a>
+    </div>
+</aside><div class="section-comments">
+	<div class="ghost-comments">
+    
+        <script defer src="https://cdn.jsdelivr.net/ghost/comments-ui@~1.5/umd/comments-ui.min.js" data-locale="en" data-ghost-comments="https://connortumbleson.com/" data-api="https://connortumbleson.com/ghost/api/content/" data-admin="https://connortumbleson.com/ghost/" data-key="0e770afa8fc5e1114ae2aa53ff" data-title="Member discussion" data-count="true" data-post-id="65ac381721d8145438774441" data-color-scheme="auto" data-avatar-saturation="60" data-accent-color="#ff4d00" data-comments-enabled="all" data-publication="Connor Tumbleson" crossorigin="anonymous"></script>
+    
+</div>
+</div>
+
+			</div>
+			<footer class="section-footer">
+	<div class="footer-wrap wrap flex">
+		<div class="footer-social-links flex">
+			<a href="https://x.com/iBotPeaches" aria-label="link Twitter"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.954 4.569c-.885.389-1.83.654-2.825.775 1.014-.611 1.794-1.574 2.163-2.723-.951.555-2.005.959-3.127 1.184-.896-.959-2.173-1.559-3.591-1.559-2.717 0-4.92 2.203-4.92 4.917 0 .39.045.765.127 1.124C7.691 8.094 4.066 6.13 1.64 3.161c-.427.722-.666 1.561-.666 2.475 0 1.71.87 3.213 2.188 4.096-.807-.026-1.566-.248-2.228-.616v.061c0 2.385 1.693 4.374 3.946 4.827-.413.111-.849.171-1.296.171-.314 0-.615-.03-.916-.086.631 1.953 2.445 3.377 4.604 3.417-1.68 1.319-3.809 2.105-6.102 2.105-.39 0-.779-.023-1.17-.067 2.189 1.394 4.768 2.209 7.557 2.209 9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63.961-.689 1.8-1.56 2.46-2.548l-.047-.02z"/></svg></a>
+			<a href="/rss"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/></svg></a>
+<a href="https://www.buymeacoffee.com/iBotPeaches" aria-label="link Buy me a coffee"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.898 0L5.682 2.799H3.877v2.523h.695L5.277 9.8H4.172l1.46 8.23.938-.01L7.512 24h8.918l.062-.4.88-5.58.888.01 1.46-8.231h-1.056l.705-4.477h.756V2.8h-1.918L16.99 0H6.898zm.528.805h9.043l.771 1.78H6.652l.774-1.78zm-2.75 2.797H19.32v.92H4.676v-.92zm.453 6.998h13.635l-1.176 6.62-5.649-.06-5.636.06-1.174-6.62z"/></svg></a>
+<a href="https://connortumbleson.com/btc.txt"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.638 14.904c-1.602 6.43-8.113 10.34-14.542 8.736C2.67 22.05-1.244 15.525.362 9.105 1.962 2.67 8.475-1.243 14.9.358c6.43 1.605 10.342 8.115 8.738 14.548v-.002zm-6.35-4.613c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525 2.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54 2.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35 1.407s.975.225.955.236c.535.136.63.486.615.766l-1.477 5.92c-.075.166-.24.406-.614.314.015.02-.96-.24-.96-.24l-.66 1.51 1.71.426.93.242-.54 2.19 1.32.327.54-2.17c.36.1.705.19 1.05.273l-.51 2.154 1.32.33.545-2.19c2.24.427 3.93.257 4.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193 1.5-.76 1.68-1.93h.01zm-3.01 4.22c-.404 1.64-3.157.75-4.05.53l.72-2.9c.896.23 3.757.67 3.33 2.37zm.41-4.24c-.37 1.49-2.662.735-3.405.55l.654-2.64c.744.18 3.137.524 2.75 2.084v.006z"/></svg></a>
+<a href="https://github.com/iBotPeaches"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg></a>
+<a href="https://www.linkedin.com/in/connortumbleson"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+<a href="https://stackoverflow.com/users/455008/connor-tumbleson"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.986 21.865v-6.404h2.134V24H1.844v-8.539h2.13v6.404h15.012zM6.111 19.731H16.85v-2.137H6.111v2.137zm.259-4.852l10.48 2.189.451-2.07-10.478-2.187-.453 2.068zm1.359-5.056l9.705 4.53.903-1.95-9.706-4.53-.902 1.936v.014zm2.715-4.785l8.217 6.855 1.359-1.62-8.216-6.853-1.35 1.617-.01.001zM15.751 0l-1.746 1.294 6.405 8.604 1.746-1.294L15.749 0h.002z"/></svg></a>
+<a rel="me" href="https://infosec.exchange/@iBotPeaches"><svg class="global-svg" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.193 7.879c0-5.206-3.411-6.732-3.411-6.732C18.062.357 15.108.025 12.041 0h-.076c-3.068.025-6.02.357-7.74 1.147 0 0-3.411 1.526-3.411 6.732 0 1.192-.023 2.618.015 4.129.124 5.092.934 10.109 5.641 11.355 2.17.574 4.034.695 5.535.612 2.722-.15 4.25-.972 4.25-.972l-.09-1.975s-1.945.613-4.129.539c-2.165-.074-4.449-.233-4.799-2.891a5.499 5.499 0 0 1-.048-.745s2.125.52 4.817.643c1.646.075 3.19-.097 4.758-.283 3.007-.359 5.625-2.212 5.954-3.905.517-2.665.475-6.507.475-6.507zm-4.024 6.709h-2.497V8.469c0-1.29-.543-1.944-1.628-1.944-1.2 0-1.802.776-1.802 2.312v3.349h-2.483v-3.35c0-1.536-.602-2.312-1.802-2.312-1.085 0-1.628.655-1.628 1.944v6.119H4.832V8.284c0-1.289.328-2.313.987-3.07.68-.758 1.569-1.146 2.674-1.146 1.278 0 2.246.491 2.886 1.474L12 6.585l.622-1.043c.64-.983 1.608-1.474 2.886-1.474 1.104 0 1.994.388 2.674 1.146.658.757.986 1.781.986 3.07v6.304z"/></svg></a>		</div>
+	</div>
+	<div class="footer-copyright">
+		&copy; 2026 <a href="https://connortumbleson.com">Connor Tumbleson</a>. All Right Reserved.
+		Published with <a href="https://ghost.org">Ghost</a>.
+	</div>
+</footer>		</div>
+		<div id="notifications" class="global-notification">
+	<div class="subscribe">You’ve successfully subscribed to Connor Tumbleson</div>
+	<div class="signin">Welcome back! You’ve successfully signed in.</div>
+	<div class="signup">Great! You’ve successfully signed up.</div>
+	<div class="update-email">Success! Your email is updated.</div>
+	<div class="expired">Your link has expired</div>
+	<div class="checkout-success">Success! Check your email for magic link to sign-in.</div>
+</div>
+		<div class="section-search flex" id="search">
+	<div class="search-close"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.4285714,12 L24,20.5714286 L20.5714286,24 L12,15.4285714 L3.42857143,24 L3.55271368e-15,20.5714286 L8.57142857,12 L5.32907052e-15,3.42857143 L3.42857143,3.55271368e-15 L12,8.57142857 L20.5714286,3.55271368e-15 L24,3.42857143 L15.4285714,12 Z"/></svg></div>
+	<div class="search-wrap">
+		<div class="search-content">
+			<form class="search-form flex" onsubmit="return false">
+				<input type="text" class="search-input" placeholder="Type your keywords..." aria-label="Type your keywords...">
+			</form>
+			<div class="search-meta">
+				<span class="search-info-wrap">Please enter at least 3 characters</span>
+				<span class="search-counter-wrap hide">
+					<span class="counter-results">0</span>
+				Results for your search</span>
+			</div>
+			<div class="search-results"></div>
+			<div class="search-suggestion flex">
+				<div class="search-suggestion-tags">
+	<h3>May we suggest a tag?</h3>
+	<a class="post-tag global-tag" href="/tag/personal/">Personal</a>
+	<a class="post-tag global-tag" href="/tag/apktool/">Apktool</a>
+	<a class="post-tag global-tag" href="/tag/travel/">Travel</a>
+	<a class="post-tag global-tag" href="/tag/technology/">Technology</a>
+	<a class="post-tag global-tag" href="/tag/random/">Random</a>
+	<a class="post-tag global-tag" href="/tag/tampa/">Tampa</a>
+	<a class="post-tag global-tag" href="/tag/food/">Food</a>
+	<a class="post-tag global-tag" href="/tag/developer/">Developer</a>
+	<a class="post-tag global-tag" href="/tag/online-security/">Security</a>
+	<a class="post-tag global-tag" href="/tag/ingress/">Ingress</a>
+	<a class="post-tag global-tag" href="/tag/health/">Health</a>
+	<a class="post-tag global-tag" href="/tag/halo/">Halo</a>
+	<a class="post-tag global-tag" href="/tag/pi-hole/">Pi-hole</a>
+	<a class="post-tag global-tag" href="/tag/sports/">Sports</a>
+	<a class="post-tag global-tag" href="/tag/coronavirus/">Coronavirus</a>
+	<a class="post-tag global-tag" href="/tag/history/">History</a>
+	<a class="post-tag global-tag" href="/tag/video-games/">Video Games</a>
+	<a class="post-tag global-tag" href="/tag/ghost-blog/">Ghost Blog</a>
+	<a class="post-tag global-tag" href="/tag/movies/">Movies</a>
+	<a class="post-tag global-tag" href="/tag/projects/">Projects</a>
+</div>
+				<div class="search-suggestion-authors">
+	<h3>May we suggest an author?</h3>
+	<a class="post-tag global-tag" href="/author/connor/">Connor Tumbleson</a>
+</div>
+			</div>
+		</div>
+		<div class="search-footer">
+			<a href="https://connortumbleson.com">Connor Tumbleson.</a>
+			<span>Ramblings of a Tampa engineer</span>
+		</div>
+	</div>
+</div>
+<script>
+var searchPublished = 'Published',
+	searchFeaturedIcon = '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.9712403,8.05987765 L16.2291373,8.05987765 L12.796794,0.459688839 C12.5516266,-0.153229613 11.4483734,-0.153229613 11.0806223,0.459688839 L7.64827899,8.05987765 L0.906176009,8.05987765 C0.538424938,8.05987765 0.170673866,8.30504503 0.0480901758,8.6727961 C-0.0744935148,9.04054717 0.0480901758,9.40829825 0.293257557,9.65346563 L5.31918887,14.3116459 L3.11268244,22.4021694 C2.99009875,22.7699205 3.11268244,23.1376716 3.48043351,23.382839 C3.72560089,23.6280063 4.21593565,23.6280063 4.46110303,23.5054227 L11.9387082,19.2149935 L19.4163133,23.5054227 C19.538897,23.6280063 19.6614807,23.6280063 19.906648,23.6280063 C20.1518154,23.6280063 20.2743991,23.5054227 20.5195665,23.382839 C20.7647339,23.1376716 20.8873176,22.7699205 20.8873176,22.4021694 L18.6808111,14.3116459 L23.7067424,9.65346563 C23.9519098,9.40829825 24.0744935,9.04054717 23.9519098,8.6727961 C23.7067424,8.30504503 23.3389914,8.05987765 22.9712403,8.05987765 Z"/></svg>',
+	searchHost = 'https://connortumbleson.com',
+	searchAPI = searchHost+'/ghost/api/content/posts/?key='+'x'+'&limit=all&fields=url,title,featured,published_at,custom_excerpt,visibility,html'
+</script>
+		<script src="/assets/js/post.min.js?v=c7cb2561f5"></script>
+        	<script src="/assets/js/prism.min.js?v=c7cb2561f5"></script>
+		<script src="/assets/js/global.min.js?v=c7cb2561f5"></script>
+        	<script src="/assets/js/custom.min.js?v=c7cb2561f5"></script>
+		<script src="/assets/js/ityped.min.js?v=c7cb2561f5"></script>
+		
+		<script>
+!function(){"use strict";const p=new URLSearchParams(window.location.search),isAction=p.has("action"),isStripe=p.has("stripe"),success=p.get("success"),action=p.get("action"),stripe=p.get("stripe"),n=document.getElementById("notifications"),a="is-subscribe",b="is-signin",c="is-signup",f="is-update-email",d="is-expired",e="is-checkout-success";p&&(isAction&&(action=="subscribe"&&success=="true"&&n.classList.add(a),action=="signup-paid"&&success=="true"&&n.classList.add(a),action=="signin"&&success=="true"&&n.classList.add(b),action=="signup"&&success=="true"&&n.classList.add(c),action=="updateEmail"&&success=="true"&&n.classList.add(f),success=="false"&&n.classList.add(d)),isStripe&&stripe=="success"&&n.classList.add(e),(isAction||isStripe)&&setTimeout(function(){window.history.replaceState(null,null,window.location.pathname),n.classList.remove(a,b,c,d,e,f)},5000))}();
+</script>
+
+		
+		
+	</body>
+</html>

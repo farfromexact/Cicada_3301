@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "checked_at_utc": "2026-09-13T10:58:28.036518+00:00",
+  "archive": "runs/attempt4-H008-v1/complete-artifacts.zip",
+  "sha256": "e49284e850cf0c9e926a219aad262e473eb795b56a200257f99902ddcf0fa5ef",
+  "bytes": 69644983,
+  "members": 99,
+  "crc_passed": true,
+  "byte_for_byte_match": true,
+  "manifest": "runs/attempt4-H008-v1/artifact-manifest.json",
+  "scope": "Archive integrity; not cryptanalytic confirmation"
+}

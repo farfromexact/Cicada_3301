@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "recorded_at_utc": "2026-09-13T10:54:54.567076+00:00",
+  "method": "Human-visible original image inspection via view_image, all three selected locations",
+  "status": "passed",
+  "runes_spot_checked": 12,
+  "rows": [
+    {
+      "page": "LP2/2",
+      "ordinal": 47,
+      "glyphs": "ᛝᛠᚠᚾ",
+      "image_lines": [
+        3,
+        3,
+        3,
+        3
+      ],
+      "source_offsets": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "image_path": "sources/attempt1/images/2.jpg",
+      "image_sha256": "74e955ebe248e6d7442e2d2cd3029951f258017987d5762f48e7897cf6611e34",
+      "observed_internal_separator": "",
+      "visual_observation": "Selected four glyphs and internal separator agree with displayed original image; line-only localization, no calibrated bounding boxes"
+    },
+    {
+      "page": "LP2/22",
+      "ordinal": 126,
+      "glyphs": "ᛝᛠᚠᚾ",
+      "image_lines": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "source_offsets": [
+        171,
+        172,
+        174,
+        175
+      ],
+      "image_path": "sources/attempt1/images/22.jpg",
+      "image_sha256": "e232eb4649f89125d0edeab7022cbe189185d46ccbf0823fd964b6e71e9bafe7",
+      "observed_internal_separator": "-",
+      "visual_observation": "Selected four glyphs and internal separator agree with displayed original image; line-only localization, no calibrated bounding boxes"
+    },
+    {
+      "page": "LP2/28",
+      "ordinal": 126,
+      "glyphs": "ᛝᛠᚠᚾ",
+      "image_lines": [
+        6,
+        6,
+        6,
+        6
+      ],
+      "source_offsets": [
+        168,
+        169,
+        170,
+        171
+      ],
+      "image_path": "sources/attempt1/images/28.jpg",
+      "image_sha256": "318bb587f4dcab11b4db7ba3b8bb13b7913ca79bb409e1c987595503a22e0522",
+      "observed_internal_separator": "",
+      "visual_observation": "Selected four glyphs and internal separator agree with displayed original image; line-only localization, no calibrated bounding boxes"
+    }
+  ],
+  "limitations": "Selected motif only; no full-page glyph audit, no independent statistical confirmation, no image edits"
+}

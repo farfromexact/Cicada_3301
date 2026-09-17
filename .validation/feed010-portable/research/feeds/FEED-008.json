@@ -1,0 +1,13 @@
+{
+  "id": "FEED-008",
+  "received_date": "2026-09-13",
+  "source": "sources/feed008/user-request.txt",
+  "type": "method_preference_and_execution_authorization",
+  "claim_ids": ["C015"],
+  "method_ids": ["M001", "M002", "M004", "M007", "M008"],
+  "related_feeds": ["FEED-003", "FEED-004", "FEED-006"],
+  "classification": "补充既有结构研究方法偏好，并明确授权继续一次实验；不是密码学结论或新外部证据",
+  "summary": "允许先用测试找到蛛丝马迹，再下钻；不要求每轮直接恢复精确key。H008用固定结构诊断覆盖全部适用页，与已有特定流/时钟实验区分。",
+  "new_cryptanalytic_experiments": ["H008-structure-v1"],
+  "execution_authorized_by_this_feed": "Bounded local Attempt 4 / H008 structure diagnostics and evidence localization; preserve concurrent Attempt 3 / H007."
+}

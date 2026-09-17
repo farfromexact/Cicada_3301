@@ -1,0 +1,559 @@
+{
+  "schema": 1,
+  "frozen_at_utc": "2026-09-13T11:42:27.883255+00:00",
+  "hypothesis_sha256": "fb10f455cbe7d3b3dcfa21bbd9cf658c5a6e77e778e1369b43de493f12784d13",
+  "data_versions": {
+    "training": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff",
+    "heldout": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c"
+  },
+  "source_files_verified": 103,
+  "code_version": {
+    "algorithm": "sha256-of-sorted-path-to-sha256-json",
+    "digest": "d3c1b191309e5b3ec0c4fa6132180804fcd5ce35ce604c731e22bfa214fe78ea",
+    "files": {
+      "pyproject.toml": "cc345e98c021c5051ded63a60d9c22c86c6cdd6518b531c5ebac400b8f8c4b24",
+      "scripts/acquire_clue_sources.py": "f1704510b14ad4b2b7a4132c2ea33bff097f22de1b0b017073ea81af4814ad36",
+      "scripts/acquire_math_sources.py": "b49e3ad3eb3e5c4d6f49528bb9b329275fa6b4a462c3812e3f5fc4a77c0e336b",
+      "scripts/acquire_sources.py": "a16226282f0009f79f1b3d32159e860449d7ed9fd7f67cb36afb9e5eedc3003b",
+      "scripts/attempt1.py": "e61a05d384bb2ad7e17dcb3b23e5ba0b157fe47f785f129f950de53704f4c435",
+      "scripts/attempt1_worker.py": "1d29b77e2b98854017cc56e2afe2af93b6df70f01abc9aafc4cd0616d28a9eaa",
+      "scripts/attempt2.py": "a501b1d05508b0ea4833bd7785ec171879be729650869068c4d906cb7cb768d2",
+      "scripts/attempt2_worker.py": "62bf0a789a4f52239bc43645f6a382ef2288e852d011df80e21e0af5fde8b269",
+      "scripts/attempt3.py": "c4cea4cb96a0f2dd7a9aca973a5bf4237dba7b9c0e467ddcb873c39bd3e77cdb",
+      "scripts/attempt3_worker.py": "556a22c88914d58309c7ee3579e49ebe5b5bc7896481af892791f42920e778ff",
+      "scripts/attempt4.py": "1779a17436e5ebae0a36cdbd37c79cd36c368c2f7fef160e9e0363b8e8d66efa",
+      "scripts/attempt5_scorer_calibration.py": "b0e21c49b7edcb9cfd73204a67108e22b0ea42488482d987a91f1425e5fbf05b",
+      "scripts/audit_attempt4.py": "31f281cf6bd841117f9854fd3c97b50c56c7685f6250c62362e454fd95556115",
+      "scripts/check_clues.py": "a547f9498e199bf89e9cdb406d47e8bbd4f7430f71021fd2d7ca4268b50bff6b",
+      "scripts/check_geometry.py": "1d7f5ab83596a871e2cb687b278546f2768b1748b978b46f8339fd63ff7ad4b5",
+      "scripts/check_math.py": "5c8fe24e0ffb023ad731a69c814d862cdd7b75d78704a1c4c84970674118a9a6",
+      "scripts/ingest_feed010.py": "33bcc6286ab6b3497dad68cf70604ea6915eb4cbb3ff979ef237f9a00c656e38",
+      "scripts/prepare_attempt1.py": "4e9a8a8e510ece5adb047f57bc7b1753f28e72e444924274375aa8c2dc4a0de5",
+      "scripts/prepare_attempt2_sources.py": "5cfd5bca26c47c7c2ba0325994a67931de9800e0d89a323f2dabc614a1af88c3",
+      "scripts/prepare_data.py": "5d4f88f82022663da006fbb73f12d26d100f5c36e4818ad603936cf4b7fb59e8",
+      "scripts/register_attempt4.py": "48ff89a3f420180ac001c0f1406f46618b5c53e377127c6ab3d0bb8e7bf88fd5",
+      "scripts/register_feed010.py": "a85002e467824abeac3a714d1d5009cd629cb4b2b638ece11a64405b16c926af",
+      "scripts/reproduce.py": "dc6b43e40816864d349b6c31897107d4fb5c5227c78d8c52eb7a7a0cb9bf6232",
+      "scripts/research.py": "e32b7176f39cfeb3b8528a1150462dc1f76120f6e1a6d58e011e5411915617a8",
+      "scripts/run_round.py": "c2d8697851d1e72498e92b1a4957ed6c46115ea5671c31fa01e97e755375dde0",
+      "scripts/search_worker.py": "fda756630bbbc5612be3108755e2449d4610e59c7c74e5209736cb5c13fa38e2",
+      "scripts/snapshot_context.py": "5c28dcfff9dbff6719552d0e52dc1be9d6781b64f1486f6dce4f35b1491b8edf",
+      "scripts/synthetic_benchmark.py": "a7f54559049290960296a50259754e916537cced9737dcbd259f6b80c22fa542",
+      "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+      "src/lp_lab/attempt1_stats.py": "6b933ec1133f8110819194146eef7d702949cc24f3493bf96e416ed207a1f7a8",
+      "src/lp_lab/boundary_clock.py": "ab34345a550f803d5d847201af404c04408b72336cb920d6d5c4f713ba6a9dc5",
+      "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+      "src/lp_lab/clues.py": "0dee6564916eaa28c7cb91d43bf3bb0a413da5f4974af82d08cd0f53fd95b794",
+      "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+      "src/lp_lab/geometry_audit.py": "9c5aec5f654a18cb19f6be55e37001b0e48337917129b3e528cde82cab7941ec",
+      "src/lp_lab/math_audit.py": "48bcc73f0d68457301a8ba73cd7ff5d0105e0a5324e378baaaeabdc27f437b0e",
+      "src/lp_lab/model.py": "c3ed05e17440232382d2a35b9956a7d7bcbefc653680e853c9801c66a1353500",
+      "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+      "src/lp_lab/reachability.py": "fb543f4c3c439af862a0337ba3888ebf3f72f6b5919b7355b65939e5c2ddcde2",
+      "src/lp_lab/reference.py": "eebc50bfb69c8e59d4f6e5a1e9f78102a1eb7a36666e31bc0f7b4396a4ac69b6",
+      "src/lp_lab/research.py": "88e646aa44e57bb0657ebcf79696c8b1fe5e0fb5649dbfe2c5b910f80219b314",
+      "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+      "src/lp_lab/skip_mechanics.py": "975863a4f0b54fc2412751dc9f6976dcd75e0c2e8bef8d5e8df27855e2583b0c",
+      "src/lp_lab/structure_inputs.py": "22e5caa8bd831ddd7640089e7f9428079b2dd0fa3a70c87a489694b30ac47ea0",
+      "src/lp_lab/structure_stats.py": "5483e27f06727218d7fa64c1ad70daf7ca19a57dffbe46fe7b97c1c74148f8d5",
+      "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+      "tests/test_attempt1_stats.py": "4143f38ceac1f09857169a4bc4051accfe59eb5e84a730b237f4a579ee047e1d",
+      "tests/test_attempt1_worker.py": "e56d1ca0acbca79e016323cffaaf0b252104009bb7668ba609247388c755c8c7",
+      "tests/test_attempt2_worker.py": "281b133fb26dc4523f05e686221cc5c90ec36737a52fbb4308e8eddbdf0ed9a5",
+      "tests/test_boundary_clock.py": "f57ea56832726f3b0b17b0f91eecb9602a0a4f7ec0133ae0bf84ff5a5aaf744b",
+      "tests/test_clues.py": "04a36a1babf9ddbc8726d7b0cef0214cf00ac29d2ec2aef4bcbe137b3551661f",
+      "tests/test_geometry_audit.py": "2fdfb0884597049bd65da244bd9a8920ea24f3d38638355d668152c6e5606bae",
+      "tests/test_lab.py": "d072dc0afe83447631e464b249705ab0f662946b4db691bed2638a77792cf507",
+      "tests/test_math_audit.py": "b333895f67927a6739a118ce64ba56f68a62fd1fac038e98c70c609b5d9ca9f3",
+      "tests/test_methods.py": "d9e08d592dc4bec903606257e51b7a27680d106dfc41ed02da0a0b455c4c4248",
+      "tests/test_reachability.py": "ed2ecfbbbcfcbbe6c8c59766e7aefafd80b448ea22bcf0d40f6f89b912ffd5c6",
+      "tests/test_scorer_calibration.py": "2cb3da42455509a874abcc630cfc692e28e3eac02bf2f69fb460b575c61dc563",
+      "tests/test_skip_mechanics.py": "c3f55b5a9760d5678a6dff6571a2ab534d82ef2e23d86516bb9a62bff40b8c48",
+      "tests/test_structure_inputs.py": "929d0c2d51e7f0c3920bd4612949f7e7b2550d15dff639807839f7b1e9e524c0",
+      "tests/test_structure_stats.py": "3e16e271599c28cf352862c5937fdc4dc35940b754abbe7b23972b61a878542b"
+    }
+  },
+  "training_rune_count": 1291,
+  "training_counts": [
+    20,
+    52,
+    41,
+    93,
+    103,
+    51,
+    26,
+    30,
+    28,
+    86,
+    78,
+    1,
+    0,
+    28,
+    1,
+    95,
+    76,
+    19,
+    185,
+    44,
+    48,
+    0,
+    0,
+    51,
+    120,
+    0,
+    15,
+    0,
+    0
+  ],
+  "scorer_weights": [
+    -4.140864577856994,
+    -3.2150951020282945,
+    -3.4477173972970485,
+    -2.6420922333104127,
+    -2.540996116439044,
+    -3.2341432969989894,
+    -3.8895501495760874,
+    -3.75139981109527,
+    -3.8180911855939423,
+    -2.719478896925833,
+    -2.815939163113395,
+    -6.492239835020471,
+    -7.1853870155804165,
+    -3.8180911855939423,
+    -6.492239835020471,
+    -2.6210388241125804,
+    -2.841581593726733,
+    -4.189654742026425,
+    -1.9596403418672153,
+    -3.378724525810097,
+    -3.29356671746979,
+    -7.1853870155804165,
+    -7.1853870155804165,
+    -3.2341432969989894,
+    -2.3895964699836756,
+    -7.1853870155804165,
+    -4.412798293340635,
+    -7.1853870155804165,
+    -7.1853870155804165
+  ],
+  "case_length": 256,
+  "worker_candidates": 928,
+  "calibration": {
+    "positives": 8,
+    "random_controls": 8
+  },
+  "evaluation": {
+    "positives": 20,
+    "random_controls": 20
+  },
+  "plans": [
+    {
+      "id": "calibration-positive-00",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 269,
+      "seed": 111806049356687619285016648043299714493
+    },
+    {
+      "id": "calibration-positive-01",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 101,
+      "seed": 190388537879372422112862950586533082086
+    },
+    {
+      "id": "calibration-positive-02",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 241,
+      "seed": 12948162502910051544515162009355678727
+    },
+    {
+      "id": "calibration-positive-03",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 244,
+      "seed": 53386271751514935556061030528025717233
+    },
+    {
+      "id": "calibration-positive-04",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 559,
+      "seed": 209511998382627043223644743994735732169
+    },
+    {
+      "id": "calibration-positive-05",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 12,
+      "seed": 98331240155055926687579246557693892417
+    },
+    {
+      "id": "calibration-positive-06",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 811,
+      "seed": 225941597211441707695808540249411925840
+    },
+    {
+      "id": "calibration-positive-07",
+      "phase": "calibration",
+      "kind": "positive",
+      "start": 536,
+      "seed": 37406961648630876954759757113818480615
+    },
+    {
+      "id": "calibration-random-00",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 289370025553730165492979916178455198910
+    },
+    {
+      "id": "calibration-random-01",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 151243703257351903462333007988158493908
+    },
+    {
+      "id": "calibration-random-02",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 72317094096922524837072181327810016415
+    },
+    {
+      "id": "calibration-random-03",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 94492742339426089313421933683636305168
+    },
+    {
+      "id": "calibration-random-04",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 288381811684136246329370994813289594902
+    },
+    {
+      "id": "calibration-random-05",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 25221348478119899907039969751775447912
+    },
+    {
+      "id": "calibration-random-06",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 311743600678222289147057475413817923978
+    },
+    {
+      "id": "calibration-random-07",
+      "phase": "calibration",
+      "kind": "random_control",
+      "start": null,
+      "seed": 98718437366623722512846468848208398301
+    },
+    {
+      "id": "evaluation-positive-00",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 335,
+      "seed": 53876572065852130372643529102576458128
+    },
+    {
+      "id": "evaluation-positive-01",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 119,
+      "seed": 310363463030348920736372133310407589805
+    },
+    {
+      "id": "evaluation-positive-02",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 477,
+      "seed": 120307480135507512586566009365531673359
+    },
+    {
+      "id": "evaluation-positive-03",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 483,
+      "seed": 155743649179592604792459464257666355180
+    },
+    {
+      "id": "evaluation-positive-04",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 202,
+      "seed": 158506693381182180973936855053206990331
+    },
+    {
+      "id": "evaluation-positive-05",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 699,
+      "seed": 170007972391369178609038821667577807005
+    },
+    {
+      "id": "evaluation-positive-06",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 110,
+      "seed": 62736879513987066668742272992757635421
+    },
+    {
+      "id": "evaluation-positive-07",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 285,
+      "seed": 317641289746000663451887532977995305717
+    },
+    {
+      "id": "evaluation-positive-08",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 636,
+      "seed": 207056440368225036436364916195988894505
+    },
+    {
+      "id": "evaluation-positive-09",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 386,
+      "seed": 335433803194080659286468356172129313840
+    },
+    {
+      "id": "evaluation-positive-10",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 638,
+      "seed": 303337150140695585363198334726971517974
+    },
+    {
+      "id": "evaluation-positive-11",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 208,
+      "seed": 83565792229309256136997011218651668212
+    },
+    {
+      "id": "evaluation-positive-12",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 506,
+      "seed": 329208580646614692727475620440467022341
+    },
+    {
+      "id": "evaluation-positive-13",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 897,
+      "seed": 298151624264744389073523879990305231031
+    },
+    {
+      "id": "evaluation-positive-14",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 867,
+      "seed": 152987289822980785407902336869723826720
+    },
+    {
+      "id": "evaluation-positive-15",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 762,
+      "seed": 81423232268203143540112122902848757557
+    },
+    {
+      "id": "evaluation-positive-16",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 798,
+      "seed": 299082404270318858114640938694845016139
+    },
+    {
+      "id": "evaluation-positive-17",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 889,
+      "seed": 159402112720030044330008375709342285709
+    },
+    {
+      "id": "evaluation-positive-18",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 171,
+      "seed": 96708956977753906197908340954247091776
+    },
+    {
+      "id": "evaluation-positive-19",
+      "phase": "evaluation",
+      "kind": "positive",
+      "start": 272,
+      "seed": 41322820034603613937931867791341609066
+    },
+    {
+      "id": "evaluation-random-00",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 69805638006512776275497349537182093072
+    },
+    {
+      "id": "evaluation-random-01",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 7354824324708065362767285612603938765
+    },
+    {
+      "id": "evaluation-random-02",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 128747686217305542941184048464775572553
+    },
+    {
+      "id": "evaluation-random-03",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 7508392294081633294459547216300500168
+    },
+    {
+      "id": "evaluation-random-04",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 2010424677429001913279924660142205656
+    },
+    {
+      "id": "evaluation-random-05",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 169933699418855082697038668479010658430
+    },
+    {
+      "id": "evaluation-random-06",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 164224869459939946372797401865585369536
+    },
+    {
+      "id": "evaluation-random-07",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 86905057074394308495029701716227083154
+    },
+    {
+      "id": "evaluation-random-08",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 287013224748938741595492730847248128506
+    },
+    {
+      "id": "evaluation-random-09",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 258979551489780841524742902114735912266
+    },
+    {
+      "id": "evaluation-random-10",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 304096532800028367110495674186655400988
+    },
+    {
+      "id": "evaluation-random-11",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 179144933065725756172420113198918045702
+    },
+    {
+      "id": "evaluation-random-12",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 181752818192250110324652269927237878216
+    },
+    {
+      "id": "evaluation-random-13",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 234359469609283000220256739317633027770
+    },
+    {
+      "id": "evaluation-random-14",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 241371979468861215294837131506246600072
+    },
+    {
+      "id": "evaluation-random-15",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 290674741449585213935454442895112579362
+    },
+    {
+      "id": "evaluation-random-16",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 89932587099007939867864928264711003383
+    },
+    {
+      "id": "evaluation-random-17",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 247475717864030749573999909896055668615
+    },
+    {
+      "id": "evaluation-random-18",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 168975831725449470329415432642462700640
+    },
+    {
+      "id": "evaluation-random-19",
+      "phase": "evaluation",
+      "kind": "random_control",
+      "start": null,
+      "seed": 2708268036475420492734224595308744998
+    }
+  ],
+  "acceptance_rule": {
+    "scorer": "Sum of frozen training-only unigram log weights log((count+1)/(N+29)); no candidate-specific retuning.",
+    "calibration": "Run 8 positive and 8 uniform-random controls first. If min positive best score exceeds max negative best score, threshold is their midpoint; otherwise threshold is min positive best score. The rule is fixed before calibration outputs are inspected.",
+    "acceptance": "A case is accepted only when its worker-selected best score is strictly greater than the frozen calibration threshold.",
+    "positive_success": "Accepted exact key and exact 256-rune plaintext, with independent re-encryption equality.",
+    "negative_control_failure": "A random-control best score strictly above threshold is a false acceptance; controls have no hidden registered key."
+  },
+  "random_seeds": {
+    "case_plan": 33010900,
+    "positive_calibration": 33010901,
+    "positive_evaluation": 33010902,
+    "negative_calibration": 33010903,
+    "negative_evaluation": 33010904
+  },
+  "heldout_sampling_note": "Distinct fixed start offsets in one heldout source; keys/controls are independent, but the 28 text windows overlap and are not 28 independent corpora.",
+  "total_wall_seconds": 120
+}

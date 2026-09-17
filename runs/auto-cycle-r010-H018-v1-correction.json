@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "id": "E020-h018-v1-audit",
+  "hypothesis": "H018-fourth-power-projection-v1",
+  "status": "inconclusive",
+  "original_record": "runs/auto-cycle-r010-H018-v1/record.json",
+  "original_record_status": "negative",
+  "formal_negative_valid": false,
+  "audit_basis": "Independent Astra read-only audit before accepting the result",
+  "findings": [
+    "The synthetic negative gate permuted the full projected sequence, so the zero mask was not preserved as required by the preregistered boundary.",
+    "The runner continued to emit LP2 statistic fields after a hypothetical gate failure instead of hard-stopping the scientific interpretation.",
+    "The original runner did not perform a final monotonic-deadline check around statistics finalization.",
+    "The original reproduction bundle did not explicitly include reviews/feed009-29-group-ideas.md as a frozen source artifact."
+  ],
+  "operational_observations": {
+    "power_gate_status": "passed",
+    "positive_score_passes": 20,
+    "negative_false_accepts": 0,
+    "controls_completed": 999,
+    "lp2_candidates": []
+  },
+  "required_action": "Do not use the original negative as cryptanalytic evidence; rerun under H018-fourth-power-projection-v2 with a new frozen specification and corrected controls.",
+  "corrected_retry": "runs/auto-cycle-r010-H018-v2/record.json"
+}

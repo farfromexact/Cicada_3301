@@ -1,0 +1,68 @@
+{
+  "schema": 1,
+  "id": "H015-mobius-inversion-v1",
+  "attempt": "auto-cycle R007",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "C014/FEED-009 retain MOBIUS as an unconfirmed finite-field transformation clue; no previous run tested a concrete Möbius operation.",
+    "The simplest finite-field special case is inversion x->1/x on nonzero elements; the required pole handling is explicitly frozen as f(0)=0 and is not inferred from output.",
+    "H013 and H014 tested fixed affine and fixed repeating-key transfers without LP2 leads; this is a new zero-preserving finite-field map family with no key or stream tuning."
+  ],
+  "hypothesis": "The LP2 rune ordinal stream contains a language-aligned signal after the fixed Z/29 inversion map f(0)=0 and f(x)=x^(-1) mod29 on nonzero ordinals.",
+  "mechanistic_basis": "Möbius inversion x->1/x is defined on the projective line; this experiment restricts to the 29 rune ordinals with the single preregistered finite-domain convention 0->0. The map is an involution and introduces no key, exponent search, page tuning or delimiter edits.",
+  "falsifiable_predictions": [
+    "The fixed inversion is a bijection and involution on 0..28, and preserves the raw page layout when applied only to rune ordinals.",
+    "At least one of the 55 applicable LP2 pages has a fixed-inversion H009 training-only unigram mean score at maxT-adjusted p<=0.01 against 256 random zero-preserving permutation controls.",
+    "Independent direct modular inversion reproduces every fixed output and exact inverse roundtrip; all controls complete before a lead is reported.",
+    "A score lead is a diagnostic candidate only and is not a solved page without an independent plaintext or structural prediction."
+  ],
+  "data_versions": [
+    "data/attempt1-corpus-v1.json",
+    "data/synthetic/training.txt"
+  ],
+  "page_universe": "LP2/0..55; all 55 rune-bearing pages are applicable, LP2/50 has no registered rune symbols and remains excluded.",
+  "scope": "All 55 applicable LP2 pages and 12956 rune positions; no LP2 literal grid, Latin completion or external data.",
+  "algorithm_version": "H015-v1: f(0)=0; f(x)=pow(x,27,29) for x in 1..28. Apply once per rune, preserve every non-rune character.",
+  "parameter_derivation_policy": "The inversion map and zero convention are fixed from the single concrete MOBIUS special case before reading output. Control maps, seed, scorer, maxT correction and acceptance are fixed before decoding.",
+  "page_and_section_continuity_hypothesis": "The map is memoryless and page-local; no cross-page clock, reset, key, separator consumption or transposition is introduced.",
+  "scorer_and_acceptance_version": {
+    "score": "Per-page mean of H009's additive-smoothed training-only unigram log weights; no candidate-specific retuning or word completion.",
+    "controls": "256 unique random permutations of nonzero ordinals 1..28 with zero fixed, excluding the registered inversion map; standardize each page and use maxT over all 55 pages.",
+    "lead": "A page is a diagnostic lead only when fixed inversion p_adjusted<=0.01 after complete controls and validation.",
+    "negative": "No lead is negative only for fixed inversion, zero convention, scorer and random zero-preserving permutation null; it does not reject other Möbius, multiplicative or composite mechanisms.",
+    "error_or_timeout": "Corpus/source integrity failure, incomplete controls or failed independent inversion is error/timeout/inconclusive, never negative."
+  },
+  "frozen_before_candidates": "The runner writes frozen.json with input hashes, fixed map table, control maps, counts and criteria before decoded outputs and statistics.",
+  "total_budget": {
+    "pages": 55,
+    "runes": 12956,
+    "random_controls": 256,
+    "score_cells": 14080,
+    "wall_seconds": 120,
+    "origin": "Bounded concrete Möbius-inversion diagnostic for auto-cycle R007; no side-chat budget inherited."
+  },
+  "controls": [
+    "256 fixed-seed random zero-preserving nonzero permutations, controls only and never candidate keys.",
+    "Pinned page order, raw hashes, rune counts and LP2/50 inapplicability checks.",
+    "Independent pow(x,27,29) inversion, involution, score replay and raw roundtrip checks.",
+    "Original raw delimiters, lines, whitespace and non-rune literals are preserved."
+  ],
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011501,
+    "role": "Random control-map generation only; no key, plaintext or answer seed."
+  },
+  "discovery_path": "One fixed finite-field inversion selected from the MOBIUS clue; no PGL enumeration, dictionary search or post-hoc pole rule.",
+  "independent_validation_path": "A separate direct loop recomputes zero handling, pow-based inverse, involution and per-page scores without calling the observed map helper.",
+  "correlated_transform_deduplication": "The inversion map is tested once. Random nonzero permutations are controls, not 256 extra hypotheses; maxT covers the 55 page cells.",
+  "uncovered_parameters": [
+    "Other Möbius/PGL maps, pole encodings and projective-line extra symbols",
+    "Power/exponent maps, affine shifts, keyed/stream/composite transforms",
+    "LP2 literal grid, alternate glyph readings and independent plaintext prediction",
+    "CIRCUMFERENCE, geometry and other untested key derivations"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a lead appears, register an independent prediction before interpreting it; otherwise the method family is scoped negative and the cycle stops at R007's cap.",
+  "note": "The 0->0 convention is an explicit finite-domain patch, not evidence that the puzzle uses this Möbius map."
+}

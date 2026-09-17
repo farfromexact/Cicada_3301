@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2.py", line 424, in main
+    gate_output = run_worker(run, "gate", gate_jobs)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\macon\Documents\cicada 3301\scripts\attempt21_bm_v2.py", line 204, in run_worker
+    raise RuntimeError(f"R015-B worker {name} failed")
+RuntimeError: R015-B worker gate failed

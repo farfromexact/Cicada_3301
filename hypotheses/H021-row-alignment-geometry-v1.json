@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "H021-row-alignment-geometry-v1",
+  "attempt": "auto-cycle R011",
+  "status": "preregistered",
+  "basis": [
+    "FEED-010 makes WITHIN/CIRCUMFERENCE a geometry question, but the prior audit only covered two explicit known 5x5 grids and did not create a guessed grid for LP2.",
+    "H008 tested within-group rune lag equality and literal-boundary association under full within-page permutation; it did not test the fixed common-column relation between consecutive slash-delimited image rows while preserving within-row order.",
+    "R008/H016-v2, R009/H017 and R010/H018-v2 produced no independently reproducible LP2 candidate, so this batch switches to a structural geometry family with a separate synthetic power gate."
+  ],
+  "hypothesis": "If the page layout reuses a position across consecutive image rows, then runes at the same left-to-right row ordinal will agree more often than under independent row rotations.",
+  "falsifiable_predictions": [
+    "On fixed unequal-length synthetic rows, the adjacent-row common-ordinal equality rate detects the preregistered positive construction: at least 18/20 positives score at least 0.25 and none of 99 fixed negative rows, including the difficult repeated-within-row negatives, reaches 0.25.",
+    "The worker and independent verifier agree on every retained slash-delimited row, hard-segment barrier, common-ordinal comparison and synthetic positive expected score; a mutated row or score is rejected.",
+    "After the gate passes, the same statistic over every LP2 page with at least one legal adjacent-row pair and 999 independent per-row circular-shift controls yields a maxT-adjusted p<=0.01 only as a structural lead, never as a plaintext or key claim."
+  ],
+  "sources": [
+    {"path": "reviews/feed010-operational-metaphors.md", "role": "Geometry proposal and explicit warning against guessed LP2 grids."},
+    {"path": "hypotheses/FEED010-geometry-audit-v1.json", "role": "Known-grid boundary and non-cryptanalytic audit scope."},
+    {"path": "reviews/attempt-004.md", "role": "H008 structural coverage; used to exclude repeated within-page lag statistics."},
+    {"path": "data/README.md", "role": "Pinned definition of slash as original image row boundary."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus, token boundaries and applicability."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All LP2 pages containing registered rune tokens; a page contributes a score only if it has at least one adjacent nonempty slash-delimited row pair in the same hard segment.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "Pinned source has no registered rune tokens; its literal alphanumeric grid is not converted to a rune row sequence and is not negative."},
+    {"rule": "Rows with an empty row, a hard-segment ambiguity, a page boundary or a literal grid barrier", "reason": "No cross-barrier pairing; the row is retained in layout metadata but excluded from that pair statistic."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; slash, hard literals and empty rows remain structural metadata. No Latin option, GP prime value, physical pixel coordinate or language completion is used.",
+  "row_definition": {
+    "delimiter": "Original raw '/' token only; CR/LF and other whitespace do not create image rows.",
+    "ordinal": "Within each row, the first retained rune is ordinal 0 and the next rune is ordinal 1; no right alignment, padding, wrap, circular join or horizontal shift.",
+    "hard_segment": "Non-whitespace characters outside -.,/ and the registered rune alphabet begin a new hard segment at the next rune; a row containing more than one hard segment is a barrier and cannot form a pair.",
+    "mixed_pages": "LP2/49 and LP2/51 retain rune rows but never pair across literal/grid barriers; source raw text is not cleaned or rewritten."
+  },
+  "algorithm_version": "H021-v1: slash-row common-ordinal equality ratio with hard/empty barriers and fixed per-row circular-shift null; no physical-column inference, row alignment search, language scoring or key search.",
+  "power_gate": {
+    "layout": "One fixed unequal-length 14-row layout, with no empty or hard-barrier rows, is used for every synthetic case.",
+    "positive_design": "20 cases generate the first row uniformly and each later row copies the previous row at each common ordinal with probability 0.5, otherwise draws a uniform rune; extra positions draw uniformly.",
+    "negative_design": "99 cases generate each row independently. A fixed subset is a difficult negative whose rows repeat a row-local motif but use independent motifs and phases, so within-row repetition cannot create a shared row ordinal relation.",
+    "score": "Total equal cells divided by total common ordinals over adjacent legal row pairs; threshold 0.25.",
+    "acceptance": "At least 18/20 positives score>=0.25 and 0/99 negatives score>=0.25; difficult-negative results are reported separately. This is a measurement gate, not an LP2 result.",
+    "failure_action": "Write gate and verification artifacts, mark the run inconclusive, skip LP2 scoring and controls, and leave unsolved_page_candidates empty."
+  },
+  "statistics": {
+    "metric": "For each page, aggregate equal common left-to-right ordinals over consecutive nonempty rows in the same hard segment; no pair is made across empty rows, hard barriers, pages or grid literals.",
+    "units": "One page-reset structural score per page with at least one legal pair; pages with no legal pair are explicitly inapplicable.",
+    "null": "For every page and every control replicate, independently circularly rotate each row by a uniform offset while preserving row values, row length, empty rows, hard barriers and within-row circular adjacency.",
+    "maxT": "Standardize the observed and 999 control score vectors on the same valid-unit set; compare each observed unit with the maximum control z across valid units using plus-one p and tie tolerance 1e-12.",
+    "lead": "A passed power gate, complete valid-unit controls, independent verification and maxT-adjusted p<=0.01; a lead is structural only.",
+    "negative": "A passed power gate, complete controls, passed independent validation and no structural lead; scoped only to this slash-row rule and circular-shift null."
+  },
+  "controls": {
+    "synthetic_positive_count": 20,
+    "synthetic_negative_count": 99,
+    "synthetic_hard_negative_count": 33,
+    "random_replicates": 999,
+    "random_null": "Independent per-row circular shifts; no row permutation, content replacement or output-selected orientation.",
+    "independent": "Worker parses public raw rows with a guarded implementation; verifier parses independently, recomputes row barriers and equality counts, checks all synthetic positives and rejects mutated output.",
+    "multiple_testing": "One preregistered page-level statistic family with maxT across valid pages; no lag/exponent/offset family is added after observation."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "gate_positive_seed": 33012101,
+    "gate_negative_seed": 33012102,
+    "control_seed": 33012103,
+    "role": "Synthetic generation and LP2 row rotations only; seeds and expected labels never enter the worker."
+  },
+  "frozen_before_candidates": "The runner writes this specification, source/data/review hashes, public raw-row jobs, verifier-only synthetic expectations, code snapshot, page order and all seeds before worker execution or LP2 scoring.",
+  "independent_validation_path": "The worker and verifier use separate raw-row parsers and separate metric calculations; verification is exact at row, barrier, count, score and positive-expected levels.",
+  "timeout_policy": "One 120-second monotonic deadline covers gate, worker, observations, controls, statistics and finalization. Each completed control row is appended to partial JSONL and an atomic checkpoint records completed count, partial hash, frozen hash and RNG-state digest. Timeout never becomes negative.",
+  "total_budget": {
+    "power_gate_positive_pages": 20,
+    "power_gate_negative_pages": 99,
+    "power_gate_layout_rows": 14,
+    "lp2_page_universe": 56,
+    "lp2_runes": 12956,
+    "control_replicates": 999,
+    "wall_seconds": 120
+  },
+  "uncovered_parameters": [
+    "Physical pixel columns because current image bounding boxes are unlocated",
+    "Right alignment, horizontal shifts, serpentine reversal, non-adjacent rows and arbitrary grid completion",
+    "H022 directed alternating reversal, H023 edge/interior role statistic, outer-to-inner keys, feedback, projections and independent LP2 plaintext"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If the gate fails, retain the failed gate and do not interpret LP2. If the gate passes and no LP2 lead appears, keep the structural result scoped and move to a new explicit direction without changing this row rule.",
+  "note": "This is a position-structure diagnostic, not a decryption algorithm; a positive can indicate layout correlation or transcription structure and requires an independent prediction before any cipher claim."
+}

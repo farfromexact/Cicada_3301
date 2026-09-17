@@ -1,0 +1,98 @@
+{
+  "schema": 1,
+  "id": "H023-row-edge-interior-g-v1",
+  "attempt": "auto-cycle R013",
+  "status": "preregistered",
+  "basis": [
+    "FEED-010 motivates geometry but forbids guessed LP2 grids, arbitrary outer-to-inner keys and image claims when coordinates are unlocated.",
+    "H008 tested literal hyphen association and flattened lag families; H021 tested adjacent-row left-ordinal equality; H022 tested a fixed directional bigram gate and failed its preregistered power gate. This hypothesis uses a distinct within-row edge/interior position mask.",
+    "The R013 review records H023 as the next information-gain direction after the H022 gate failure; no H021/H022 statistic is added to this batch."
+  ],
+  "hypothesis": "If line edges carry a different rune role from line interiors, the pooled rune distribution at the first/last positions of complete rows will differ from the distribution at interior positions.",
+  "falsifiable_predictions": [
+    "On a fixed long unequal-row synthetic layout, at least 18/20 edge-biased positives have G>=80, while 0/99 position-independent negatives, including row-frequency-heterogeneous difficult negatives, reach 80.",
+    "The first-stage worker and independent verifier agree on every raw row, hard barrier, edge/interior count, G statistic and synthetic positive expectation; mutation of a row or metric is rejected.",
+    "After the gate passes, the same fixed G statistic is computed on every LP2 page with at least one legal complete row and compared with 999 independent per-row circular-shift controls using maxT; p<=0.01 is a structural lead only."
+  ],
+  "sources": [
+    {"path": "reviews/auto-cycle-008.md", "role": "R013 three-direction selection and H023 boundary."},
+    {"path": "reviews/auto-cycle-007.md", "role": "H022 gate failure and non-duplication boundary."},
+    {"path": "reviews/auto-cycle-006.md", "role": "H021 slash-row parser and mixed-page limitations."},
+    {"path": "reviews/attempt-004.md", "role": "H008 structural statistics to exclude flattened lag repetition."},
+    {"path": "reviews/feed010-operational-metaphors.md", "role": "Geometry proposal and prohibition on guessed grids."},
+    {"path": "hypotheses/H021-row-alignment-geometry-v1.json", "role": "Pinned raw row and hard-segment definition."},
+    {"path": "data/README.md", "role": "Pinned definition of slash as original image row boundary."},
+    {"path": "data/attempt1-corpus-v1.json", "role": "Pinned LP2 raw corpus and applicability."}
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order",
+  "applicable_objects": "All LP2 pages containing registered rune tokens; a page contributes if it contains at least one nonempty row of length>=3 wholly within one hard segment.",
+  "excluded_objects": [
+    {"page": "LP2/50", "reason": "No registered rune tokens; its literal alphanumeric grid is not converted into rune rows and is not negative."},
+    {"rule": "Rows shorter than 3, rows containing multiple hard segments, empty rows and literal/grid barriers", "reason": "No unambiguous edge/interior partition; the raw row remains in layout metadata but contributes no G count."}
+  ],
+  "representation": "Original rune ordinal indices 0..28 only; slash, hard literals and row eligibility remain structural metadata. No Latin options, GP values, physical pixel coordinates, language completion or key search.",
+  "row_definition": {
+    "delimiter": "Original raw '/' token only; CR/LF and other whitespace do not create image rows.",
+    "edge": "For each eligible row [x0,...,x(n-1)], positions 0 and n-1 are the combined edge class; positions 1..n-2 are the interior class. Left and right edges are not tested separately.",
+    "hard_segment": "Non-whitespace characters outside -.,/ and the registered rune alphabet begin a new hard segment at the next rune; a row with more than one segment is excluded from the count.",
+    "mixed_pages": "LP2/49 and LP2/51 contribute only rows wholly within one rune text segment; no pair or count crosses a literal/grid barrier."
+  },
+  "algorithm_version": "H023-v1: pooled 29x2 edge/interior G statistic over eligible slash rows, with fixed per-row circular-shift null; no second edge layer, left/right split, GP remapping, language scoring or key search.",
+  "statistic": {
+    "counts": "For every eligible row, add its first and last rune to edge column and all middle runes to interior column.",
+    "formula": "G=2*sum(O*log(O/E)) over O>0, E=(row_total*column_total)/N; zero terms contribute 0.",
+    "unit": "One page-level G statistic pooling eligible rows; a page with no eligible row is explicitly inapplicable."
+  },
+  "power_gate": {
+    "layout": "One fixed unequal-length 48-row layout with row lengths repeating 48..55; all rows are eligible and one hard segment.",
+    "positive_design": "20 cases draw each interior rune uniformly from 0..28; each edge rune is drawn from fixed set {0,1,2,3,4,5,6} with probability 0.8 and uniformly from 0..28 otherwise.",
+    "negative_design": "99 cases are split into 33 fully uniform rows, 33 rows with independent row-specific 7-symbol distributions but no edge preference, and 33 independent rows from a fixed 7-symbol distribution; all positions within each row use the same class distribution.",
+    "score": "Fixed page G statistic; threshold 80.0.",
+    "acceptance": "At least 18/20 positives have G>=80.0 and 0/99 negatives reach 80.0; negative classes are reported separately. This is a measurement gate, not an LP2 result.",
+    "failure_action": "Write first-stage gate and verification artifacts, mark the run inconclusive, do not dispatch LP2 to the worker, and leave unsolved_page_candidates empty."
+  },
+  "statistics": {
+    "metric": "Pooled edge/interior G statistic over eligible rows in each LP2 page.",
+    "null": "For every page and control replicate, independently circularly rotate each eligible and ineligible row by a uniform offset; retain row contents, lengths, hard/empty barriers and circular adjacency, then recompute G.",
+    "maxT": "Standardize observed and 999 control G vectors on the same valid-unit set; compare each observed unit with the maximum control z across valid pages using plus-one p and tie tolerance 1e-12.",
+    "lead": "A passed gate, complete valid-unit controls, independent second-stage verification and maxT-adjusted p<=0.01; a lead is structural only.",
+    "negative": "A passed gate, complete controls, passed independent validation and no lead; scoped only to the fixed edge/interior mask, G formula and row-rotation null."
+  },
+  "controls": {
+    "synthetic_positive_count": 20,
+    "synthetic_negative_count": 99,
+    "synthetic_negative_classes": {"uniform": 33, "row_heterogeneous": 33, "fixed_seven_class": 33},
+    "random_replicates": 999,
+    "random_null": "Independent circular shifts of each row; no row reordering, value substitution or edge-layer selection.",
+    "dispatch": "Gate-only public jobs are sent first. LP2 public jobs are constructed and dispatched only after gate status passed.",
+    "independent": "Gate and LP2 worker output are independently parsed and recomputed by the orchestrator; positive expectations are verifier-only and mutation is rejected.",
+    "multiple_testing": "One preregistered G statistic family with maxT across valid pages; H008/H021/H022/H024 statistics are not added."
+  },
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "gate_positive_seed": 33012301,
+    "gate_negative_seed": 33012302,
+    "control_seed": 33012303,
+    "role": "Synthetic row generation and LP2 circular shifts only; seeds and expected labels never enter the worker."
+  },
+  "frozen_before_candidates": "The runner writes this specification, source/data/review hashes, gate-only public jobs, verifier-only synthetic expectations, page order, code snapshot and all seeds before worker execution; LP2 public jobs are written only after gate success.",
+  "independent_validation_path": "The worker is a guarded parser/G calculator; the verifier uses a separate raw-character parser and G calculation and validates gate and LP2 outputs independently.",
+  "timeout_policy": "One 120-second monotonic deadline covers gate, optional LP2 dispatch, observations, controls, statistics and finalization. Every completed control row is appended to partial JSONL and an atomic checkpoint records count, partial hash, frozen hash and RNG-state digest. Timeout never becomes negative.",
+  "total_budget": {
+    "power_gate_positive_pages": 20,
+    "power_gate_negative_pages": 99,
+    "power_gate_layout_rows": 48,
+    "lp2_page_universe": 56,
+    "lp2_runes": 12956,
+    "control_replicates": 999,
+    "wall_seconds": 120
+  },
+  "uncovered_parameters": [
+    "Physical pixel columns because current image bounding boxes are unlocated",
+    "Second-layer edge masks, left/right split, physical baselines, right alignment, serpentine reversal and center mirror",
+    "H022-v2 direction-randomization protocol, H021 equality, H008 flattened lag, feedback, projections, keys and independent LP2 plaintext"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If the gate fails, retain the gate failure and do not dispatch LP2. If it passes and no LP2 lead appears, keep the structural result scoped and choose a new fixed direction without changing the edge/interior mask.",
+  "note": "Edge/interior association can arise from typography or word boundaries; even a lead is not a cipher solution without an independent mechanism prediction."
+}

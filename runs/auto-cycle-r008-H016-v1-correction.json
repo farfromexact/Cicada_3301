@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "status": "inconclusive",
+  "supersedes_record": "runs/auto-cycle-r008-H016-v1/record.json",
+  "original_record_status": "negative",
+  "formal_negative_valid": false,
+  "required_positive_checks": 4,
+  "positive_checks_completed": 0,
+  "cross_page_path_counts_validated": false,
+  "model_status_classification_validated": false,
+  "reason": "Post-run audit found that all four private positive checks were skipped by the full-job-ID lookup, continuous path multiplicities were reset at page boundaries, and model reachability was conflated with statistical status.",
+  "review": "reviews/auto-cycle-003.md",
+  "preservation": "The original run directory, stdout/stderr, control metrics, record and reproduction bundle remain unchanged; this file is a correction record, not a replacement run."
+}

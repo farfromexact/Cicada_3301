@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "verification_status": "passed",
+  "observed": {
+    "a": 28,
+    "b": 2,
+    "input_runes": 209,
+    "expected_runes": 209,
+    "mismatch_count": 0,
+    "mismatch_ordinals": [],
+    "exact": true,
+    "inverse_roundtrip": true,
+    "decoded_sha256": "92e7e60bb3a700773d0307c25e3a17fff808367655a16e8d218e939b88c04ce5",
+    "expected_sha256": "92e7e60bb3a700773d0307c25e3a17fff808367655a16e8d218e939b88c04ce5",
+    "status": "passed"
+  },
+  "random_controls": {
+    "count": 32,
+    "all_negative": true,
+    "minimum_mismatches": 180
+  },
+  "coverage": {
+    "known_page": "LP1/06",
+    "rune_positions": 209,
+    "random_affine_controls": 32,
+    "unsolved_page_candidates": []
+  },
+  "interpretation": "Known-page source regression only; no LP2 page was searched or solved.",
+  "limitation": "The source-reported method and its Plaintext block share one archived document; image-level independent glyph audit remains outside this run."
+}

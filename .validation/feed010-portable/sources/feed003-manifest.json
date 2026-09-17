@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/feed003/forwarded-method-discussion.txt",
+      "url": "codex-task:01a09a22-20d7-7dd3-9ed6-5bd2758c4f09",
+      "upstream_version": null,
+      "acquired_at_utc": "2026-09-13T09:48:36.942138+00:00",
+      "acquisition": "forwarded conversation summary; original ephemeral task cannot be retrieved",
+      "sha256": "079c4305551294e0bf5e29da97261c1e529ab294758317646b8251ee9c7467e1",
+      "bytes": 3802
+    }
+  ]
+}

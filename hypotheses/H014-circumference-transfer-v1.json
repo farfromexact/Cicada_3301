@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "id": "H014-circumference-transfer-v1",
+  "attempt": "auto-cycle R006",
+  "status": "preregistered",
+  "method_policy_ids": ["M001", "M002", "M004", "M006", "M007", "M008"],
+  "basis": [
+    "C006 records the source-reported key glyph sequence FIRFUMFERENFE; H001 tested DIVINITY but did not test this distinct key family.",
+    "The source reports a continuous LP1/14-15 Vigenere run and skip rune ordinals 65,76; the known-page gate is required before any LP2 transfer.",
+    "H013 rejected the fixed affine transfer, so this batch changes mechanism family to a source-derived repeating-key stream rather than retuning affine coefficients."
+  ],
+  "hypothesis": "After passing its source-defined LP1/14-15 gate, the fixed FIRFUMFERENFE Vigenere family transfers to LP2 and at least one fixed clock/F branch produces a language-like score stronger than page-wise permutation controls.",
+  "mechanistic_basis": "Use rune ordinals for the 13-rune source key, subtract the repeating key modulo 29, and test only continuous/page-reset clocks crossed with ciphertext-F consume/free behavior. No key search, skip-mask search, spelling correction or page-specific tuning is added.",
+  "falsifiable_predictions": [
+    "The source tool-input LP1/14-15 ciphertext and independently segmented Plaintext have equal rune counts and match exactly under the source key, with source one-based codepoint coordinates 65 and 76 mapped to rune ordinals 49 and 58, subtractive direction and no clock advance at skips.",
+    "If the family transfers to LP2, at least one of four preregistered branches yields a page with maxT-adjusted p<=0.01 against 999 page-wise permutation controls.",
+    "Every LP2 branch output re-encrypts to its original rune sequence, and a separate direct arithmetic path reproduces all branch clocks and scores.",
+    "A score lead is only an exploratory candidate; absent an independent plaintext prediction it is not a solved page."
+  ],
+  "data_versions": [
+    "sources/clues-v1/ibot/liber_primus/markdown/14.md",
+    "data/attempt1-corpus-v1.json",
+    "data/synthetic/training.txt"
+  ],
+  "page_universe": "LP2/0..55 in pinned numeric order; LP2/50 has no registered rune symbols and is excluded from the rune-stream batch.",
+  "scope": "Known-page source gate plus all 55 applicable LP2 pages (12956 rune positions); LP2/50 remains explicitly inapplicable.",
+  "algorithm_version": "H014-v1: P=(C-K[t mod13]) mod29 for non-exception positions; source coordinates 65,76 are mapped losslessly to rune ordinals 49,58 before the known gate; in LP2 F ciphertext index0 maps to plaintext F and either consumes or does not consume t; continuous and page-reset branches are both fixed.",
+  "parameter_derivation_policy": "Key glyphs and source skip coordinates come from the archived source; their rune ordinals are derived from the exact tool-input line before LP2 output inspection. LP2 branches, page order, control seed, score, maxT correction and acceptance are frozen before decoding.",
+  "page_and_section_continuity_hypothesis": "The source gate is one continuous block. LP2 tests either one continuous key clock over numeric page order or a clock reset per page; literals do not consume t.",
+  "scorer_and_acceptance_version": {
+    "known_gate": "Exact 226/226 rune equality, inverse re-encryption and source skip semantics; gate failure is error/inconclusive and does not authorize interpreting LP2 scores.",
+    "score": "Per-page mean H009 training-only additive-smoothed unigram log weight; no candidate-specific retuning or language completion.",
+    "controls": "999 independent within-page permutations preserving each page's rune multiset, reused across the four branch cells; standardize each page/branch and compare to the maximum control z across all 220 cells.",
+    "lead": "Complete controls and maxT-adjusted p<=0.01 for a page/branch is an exploratory transfer lead only; no plaintext is accepted from score or visual readability.",
+    "negative": "No lead after a passing known gate, complete controls and independent replay is negative only for this exact key, direction, four clock/F branches, scorer and permutation null.",
+    "error_or_timeout": "Source parse/gate failure, integrity failure, incomplete controls or independent replay failure is error/timeout/inconclusive, never negative."
+  },
+  "frozen_before_candidates": "The runner writes frozen.json with all hashes, source key, skips, branches, page order, counts, control seed and criteria before decoding LP2 or generating control outputs.",
+  "total_budget": {
+    "known_gate_runes": 226,
+    "lp2_pages": 55,
+    "lp2_runes": 12956,
+    "branch_cells": 220,
+    "control_replicates": 999,
+    "wall_seconds": 120,
+    "origin": "Bounded source-gated all-applicable-page transfer test for auto-cycle R006; no budget inherited from previous cycle."
+  },
+  "controls": [
+    "999 fixed-seed page-wise permutations preserve each LP2 page's rune multiset and length.",
+    "Known-page exact reference segmentation is independent of the cipher implementation and uses the source Plaintext block, never cleaned output.",
+    "Independent direct decrypt/encrypt arithmetic checks every known and LP2 rune and clock branch.",
+    "All non-rune source characters and page boundaries remain outside the key clock and are preserved in derived output."
+  ],
+  "randomness": {
+    "generator": "Python random.Random MT19937",
+    "seed": 33011401,
+    "role": "Permutation controls only; never a key, plaintext, seed or skip selector."
+  },
+  "discovery_path": "Archived source key/method plus fixed LP2 branch transfer; no brute-force key search and no answer/dictionary access.",
+  "independent_validation_path": "The source gate and LP2 branches are replayed by direct loops with separate clock and encryption expressions, then checked for exact rune roundtrip and score equality.",
+  "correlated_transform_deduplication": "The four branches form one registered repeating-key family; page-wise permutations are controls, not additional keys. maxT covers all branch/page cells.",
+  "uncovered_parameters": [
+    "Other keys, key derivations, directions and skip masks",
+    "LP2 source-specific plaintext F positions not observable from ciphertext alone",
+    "Transposition, geometry, multiplicative and affine composite layers",
+    "Independent LP2 plaintext prediction and image-level glyph audit",
+    "LP2/50 literal alphanumeric grid"
+  ],
+  "result_statuses": ["passed", "negative", "error", "timeout", "inconclusive"],
+  "next_step": "If a lead survives controls, freeze its page and an independent plaintext or structural prediction; otherwise move to a new method family without adding keys or skip masks to this run.",
+  "note": "Known-page source reproduction is a gate and not a new LP2 solution. LP2 score results are diagnostics only."
+}

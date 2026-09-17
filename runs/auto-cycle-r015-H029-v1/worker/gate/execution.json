@@ -1,0 +1,16 @@
+{
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-I",
+    "-S",
+    "-X",
+    "utf8",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt20_dsl_worker.py"
+  ],
+  "status": "error",
+  "exit_code": 1,
+  "stdout": "",
+  "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt20_dsl_worker.py\", line 99, in <module>\n  File \"C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt20_dsl_worker.py\", line 74, in main\n  File \"C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\attempt20_dsl_worker.py\", line 39, in validate_public\nValueError: invalid R015-A job count\n",
+  "elapsed_seconds": 0.31300000000192085,
+  "timeout_seconds": 600
+}
