@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "H026-word-mask-collisions-v1",
+  "status": "preregistered",
+  "date": "2026-09-19",
+  "mechanism": "C_word[j]=P_word[j]+k_word mod29; a constant additive mask per word cancels from each c[j]-c[0]. Repeated plaintext words retain an ordered normalized fingerprint.",
+  "basis": ["reviews/auto-cycle-009.md H026 is proposed and untested", "data/README.md identifies slash as image line metadata and ASCII whitespace as transcription formatting"],
+  "sources": ["data/attempt1-corpus-v1.json", "data/README.md", "data/synthetic/heldout.txt", "reviews/auto-cycle-009.md"],
+  "parser": "Registered runes only 0..28; slash and ASCII space/newline/tab ignored as metadata, not a word split. Literal hyphen is a word boundary. Every other non-rune literal is a hard boundary. Page boundaries are hard. Preserve offsets of each block. Only length>=3 is scored. Unknown Unicode rune raises error. Grid literals are never mapped to runes.",
+  "statistic": "T=sum over (length, ordered tuple((x-x0) mod29)) groups of count*(count-1)/2. No word dictionary, key search, offset, length cap, alternate parser or language completion.",
+  "controls": "99 independent random permutations within every scored word, preserving length and each word multiset; p=(1+controls>=T)/100. Ties counted conservatively.",
+  "gate": {
+    "positive_count": 20,
+    "negative_count": 99,
+    "positive": "Independent uniform mod29 additive key per word on contiguous verifier-only natural windows, preserving ordered words.",
+    "negative": "First50 cases independent uniform per-rune keys; remaining49 cases independent within-word permutation followed by a uniform additive key per word.",
+    "words_per_window": [40,48,56,64,72],
+    "windows": "All original source words retained before length filter. For case i length=lengths[i%5], start=(i*7)%(source_word_count-length+1). Windows overlap and are not independent natural documents; report this limitation.",
+    "synthetic_encoding": "Existing synthetic.encode_text applied word by word; punctuation removed only in this explicitly synthetic protocol. This does not assert LP orthography.",
+    "acceptance": "At least18/20 positives have p<=0.01 and exactly0/99 negatives have p<=0.01; otherwise inconclusive and no LP2 worker dispatch.",
+    "generation_seed_verifier_only": 330119261,
+    "control_seed_public": 330119260
+  },
+  "formal_screen_if_gate_passes": "All55 rune-bearing LP2 pages; LP2/50 has no registered runes and is inapplicable. Identical word parsing. 99 whole-corpus controls preserve word and shared-page definitions. Per-page centered scaled maxT computed symmetrically from observed plus all99 controls; alpha0.01 is screening only. Also one predeclared global score=sum of within-page collisions, using same99 controls. Apply Bonferroni across two endpoints: per-page family/global alpha0.005; with99 controls minimum p0.01 means no confirmatory rejection is attainable, so any p<=0.01 is only unconfirmed exploratory lead. No significance/confirmation claim.",
+  "budgets": {"wall_seconds":300,"controls":99,"lp2_transformed_plaintext":false},
+  "independent_validation": "Independent pairwise equality with constant-difference condition checks worker collision score on all observed jobs; exact known positive normalized fingerprints compare to verifier plaintext; independent parser fixture tests slash continuation and hard barriers; control scores checked by independent pairwise statistic on first two gate jobs.",
+  "statuses": ["passed","negative","inconclusive","error","timeout"],
+  "failure_scope": "Gate failure concerns this word-collision measurement and the fixed short natural windows, not absence of a word mask in LP2. Screening failure only concerns this exact parser/statistic/controls; no exact plaintext recovered."
+}

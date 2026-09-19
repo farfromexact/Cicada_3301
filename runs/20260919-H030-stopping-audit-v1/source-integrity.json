@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "completed": 575,
+  "next_replicate": 575,
+  "input_digest_replays": 575,
+  "metric_rows_replayed": 0,
+  "scope": "All historical bytes, IDs and input digests checked; compact BM metrics not rerun."
+}

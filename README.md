@@ -1,7 +1,8 @@
 # Liber Primus Lab
 
 长期、可复现、符文级的 Cicada 3301 研究仓库。持续接收输入，积累思路、已有尝试、失败范围和未决问题。
-先读 [STATE.md](STATE.md) 看实际结果与边界；研究纪律见 [AGENTS.md](AGENTS.md)。
+日常先读精简的 [STATE.md](STATE.md)，再用 `python -X utf8 scripts/research.py find <编号或关键词>` 定位相关证据；不需要通读全仓库。研究纪律见 [AGENTS.md](AGENTS.md)。
+完整历史保存在 [STATE_HISTORY.md](STATE_HISTORY.md)，旧“下一步”不代表当前待办。默认 `rg` 已排除大体积证据和临时目录；确需检索时指定路径并用 `--no-ignore`。
 研究记忆的入口是 [research/README.md](research/README.md) 和 [主张/实验索引](research/knowledge.json)。
 
 ## 离线复跑

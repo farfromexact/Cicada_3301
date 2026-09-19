@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "jobs": 119,
+  "aligned_positions": 28727,
+  "bellman_segments": 238,
+  "algorithm": "independent backward Bellman, count-space convolution, per-rune equations and roundtrip"
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "status": "passed",
+  "created_at_utc": "2026-09-19T11:23:58.731487+00:00",
+  "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+  "numpy": "1.26.4",
+  "numba": "0.66.0",
+  "results": [
+    {
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_r015_bm*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "tests-0.stdout.txt",
+      "stderr": "tests-0.stderr.txt"
+    },
+    {
+      "command": [
+        "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-p",
+        "test_h030_stopping_audit.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "tests-1.stdout.txt",
+      "stderr": "tests-1.stderr.txt"
+    }
+  ],
+  "scope": "Targeted tests only; no full run_round invocation, no new LP2 formal controls."
+}

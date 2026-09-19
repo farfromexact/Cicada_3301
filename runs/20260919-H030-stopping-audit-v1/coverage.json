@@ -1,0 +1,4326 @@
+{
+  "cells": [
+    {
+      "page": "LP2/0",
+      "view": "raw",
+      "length": 262,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/0",
+      "view": "difference",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/0",
+      "view": "position_prime_residual",
+      "length": 262,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/0",
+      "view": "position_totient_residual",
+      "length": 262,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/1",
+      "view": "raw",
+      "length": 266,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 161,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/1",
+      "view": "difference",
+      "length": 265,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 160,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/1",
+      "view": "position_prime_residual",
+      "length": 266,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 161,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/1",
+      "view": "position_totient_residual",
+      "length": 266,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 161,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/2",
+      "view": "raw",
+      "length": 201,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 67,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 67,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 118,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/2",
+      "view": "difference",
+      "length": 200,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 67,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 67,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 117,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/2",
+      "view": "position_prime_residual",
+      "length": 201,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 67,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 67,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 118,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/2",
+      "view": "position_totient_residual",
+      "length": 201,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 67,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 67,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 118,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/3",
+      "view": "raw",
+      "length": 217,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 72,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 73,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 128,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/3",
+      "view": "difference",
+      "length": 216,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 72,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 72,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 128,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/3",
+      "view": "position_prime_residual",
+      "length": 217,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 72,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 73,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 128,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/3",
+      "view": "position_totient_residual",
+      "length": 217,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 72,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 73,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 128,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/4",
+      "view": "raw",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/4",
+      "view": "difference",
+      "length": 260,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 157,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/4",
+      "view": "position_prime_residual",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/4",
+      "view": "position_totient_residual",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/5",
+      "view": "raw",
+      "length": 263,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/5",
+      "view": "difference",
+      "length": 262,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/5",
+      "view": "position_prime_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/5",
+      "view": "position_totient_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/6",
+      "view": "raw",
+      "length": 196,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 66,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 66,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 114,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/6",
+      "view": "difference",
+      "length": 195,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 65,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 65,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 114,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/6",
+      "view": "position_prime_residual",
+      "length": 196,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 65,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 66,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 114,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/6",
+      "view": "position_totient_residual",
+      "length": 196,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 65,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 66,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 114,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/7",
+      "view": "raw",
+      "length": 208,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 69,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 70,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 122,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/7",
+      "view": "difference",
+      "length": 207,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 69,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 69,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 122,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/7",
+      "view": "position_prime_residual",
+      "length": 208,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 69,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 70,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 122,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/7",
+      "view": "position_totient_residual",
+      "length": 208,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 69,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 70,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 122,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/8",
+      "view": "raw",
+      "length": 255,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 85,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 85,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 154,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/8",
+      "view": "difference",
+      "length": 254,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 85,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 85,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 153,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/8",
+      "view": "position_prime_residual",
+      "length": 255,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 85,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 85,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 154,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/8",
+      "view": "position_totient_residual",
+      "length": 255,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 85,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 85,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 154,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/9",
+      "view": "raw",
+      "length": 268,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/9",
+      "view": "difference",
+      "length": 267,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/9",
+      "view": "position_prime_residual",
+      "length": 268,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/9",
+      "view": "position_totient_residual",
+      "length": 268,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/10",
+      "view": "raw",
+      "length": 263,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/10",
+      "view": "difference",
+      "length": 262,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/10",
+      "view": "position_prime_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/10",
+      "view": "position_totient_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/11",
+      "view": "raw",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/11",
+      "view": "difference",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/11",
+      "view": "position_prime_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/11",
+      "view": "position_totient_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/12",
+      "view": "raw",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/12",
+      "view": "difference",
+      "length": 260,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 157,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/12",
+      "view": "position_prime_residual",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/12",
+      "view": "position_totient_residual",
+      "length": 261,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/13",
+      "view": "raw",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/13",
+      "view": "difference",
+      "length": 271,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/13",
+      "view": "position_prime_residual",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/13",
+      "view": "position_totient_residual",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/14",
+      "view": "raw",
+      "length": 137,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 46,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 46,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 75,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/14",
+      "view": "difference",
+      "length": 136,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 45,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 46,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 74,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/14",
+      "view": "position_prime_residual",
+      "length": 137,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 46,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 46,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 75,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/14",
+      "view": "position_totient_residual",
+      "length": 137,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 46,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 46,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 75,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/15",
+      "view": "raw",
+      "length": 159,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 53,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 53,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 90,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/15",
+      "view": "difference",
+      "length": 158,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 53,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 53,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 89,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/15",
+      "view": "position_prime_residual",
+      "length": 159,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 53,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 53,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 90,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/15",
+      "view": "position_totient_residual",
+      "length": 159,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 53,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 53,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 90,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/16",
+      "view": "raw",
+      "length": 267,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/16",
+      "view": "difference",
+      "length": 266,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 161,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/16",
+      "view": "position_prime_residual",
+      "length": 267,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/16",
+      "view": "position_totient_residual",
+      "length": 267,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/17",
+      "view": "raw",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/17",
+      "view": "difference",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/17",
+      "view": "position_prime_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/17",
+      "view": "position_totient_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/18",
+      "view": "raw",
+      "length": 260,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 157,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/18",
+      "view": "difference",
+      "length": 259,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 86,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 156,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/18",
+      "view": "position_prime_residual",
+      "length": 260,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 157,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/18",
+      "view": "position_totient_residual",
+      "length": 260,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 157,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/19",
+      "view": "raw",
+      "length": 271,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/19",
+      "view": "difference",
+      "length": 270,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/19",
+      "view": "position_prime_residual",
+      "length": 271,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/19",
+      "view": "position_totient_residual",
+      "length": 271,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/20",
+      "view": "raw",
+      "length": 269,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/20",
+      "view": "difference",
+      "length": 268,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/20",
+      "view": "position_prime_residual",
+      "length": 269,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/20",
+      "view": "position_totient_residual",
+      "length": 269,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/21",
+      "view": "raw",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/21",
+      "view": "difference",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/21",
+      "view": "position_prime_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/21",
+      "view": "position_totient_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/22",
+      "view": "raw",
+      "length": 131,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 44,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 44,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 71,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/22",
+      "view": "difference",
+      "length": 130,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 43,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 44,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 70,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/22",
+      "view": "position_prime_residual",
+      "length": 131,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 44,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 44,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 71,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/22",
+      "view": "position_totient_residual",
+      "length": 131,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 44,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 44,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 71,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/23",
+      "view": "raw",
+      "length": 213,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 71,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/23",
+      "view": "difference",
+      "length": 212,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 71,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 125,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/23",
+      "view": "position_prime_residual",
+      "length": 213,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 71,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/23",
+      "view": "position_totient_residual",
+      "length": 213,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 71,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/24",
+      "view": "raw",
+      "length": 270,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/24",
+      "view": "difference",
+      "length": 269,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/24",
+      "view": "position_prime_residual",
+      "length": 270,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/24",
+      "view": "position_totient_residual",
+      "length": 270,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/25",
+      "view": "raw",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 92,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/25",
+      "view": "difference",
+      "length": 272,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/25",
+      "view": "position_prime_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/25",
+      "view": "position_totient_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/26",
+      "view": "raw",
+      "length": 265,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 160,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/26",
+      "view": "difference",
+      "length": 264,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 160,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/26",
+      "view": "position_prime_residual",
+      "length": 265,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 160,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/26",
+      "view": "position_totient_residual",
+      "length": 265,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 89,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 160,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/27",
+      "view": "raw",
+      "length": 234,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 78,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 140,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/27",
+      "view": "difference",
+      "length": 233,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 78,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 139,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/27",
+      "view": "position_prime_residual",
+      "length": 234,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 78,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 140,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/27",
+      "view": "position_totient_residual",
+      "length": 234,
+      "status": "eligible",
+      "partition": "discovery",
+      "order": 78,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 140,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/28",
+      "view": "raw",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/28",
+      "view": "difference",
+      "length": 268,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/28",
+      "view": "position_prime_residual",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/28",
+      "view": "position_totient_residual",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/29",
+      "view": "raw",
+      "length": 277,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 92,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 93,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 168,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/29",
+      "view": "difference",
+      "length": 276,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 92,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 168,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/29",
+      "view": "position_prime_residual",
+      "length": 277,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 92,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 93,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 168,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/29",
+      "view": "position_totient_residual",
+      "length": 277,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 92,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 93,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 168,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/30",
+      "view": "raw",
+      "length": 263,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/30",
+      "view": "difference",
+      "length": 262,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/30",
+      "view": "position_prime_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/30",
+      "view": "position_totient_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/31",
+      "view": "raw",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/31",
+      "view": "difference",
+      "length": 268,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 89,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 162,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/31",
+      "view": "position_prime_residual",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/31",
+      "view": "position_totient_residual",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/32",
+      "view": "raw",
+      "length": 121,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 40,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 41,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 64,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/32",
+      "view": "difference",
+      "length": 120,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 40,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 40,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 64,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/32",
+      "view": "position_prime_residual",
+      "length": 121,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 40,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 41,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 64,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/32",
+      "view": "position_totient_residual",
+      "length": 121,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 40,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 41,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 64,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/33",
+      "view": "raw",
+      "length": 214,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 72,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/33",
+      "view": "difference",
+      "length": 213,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 71,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/33",
+      "view": "position_prime_residual",
+      "length": 214,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 72,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/33",
+      "view": "position_totient_residual",
+      "length": 214,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 71,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 72,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 126,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/34",
+      "view": "raw",
+      "length": 261,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/34",
+      "view": "difference",
+      "length": 260,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 157,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/34",
+      "view": "position_prime_residual",
+      "length": 261,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/34",
+      "view": "position_totient_residual",
+      "length": 261,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 87,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/35",
+      "view": "raw",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/35",
+      "view": "difference",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/35",
+      "view": "position_prime_residual",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/35",
+      "view": "position_totient_residual",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/36",
+      "view": "raw",
+      "length": 238,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 80,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 142,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/36",
+      "view": "difference",
+      "length": 237,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 79,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 79,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 142,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/36",
+      "view": "position_prime_residual",
+      "length": 238,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 79,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 142,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/36",
+      "view": "position_totient_residual",
+      "length": 238,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 79,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 142,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/37",
+      "view": "raw",
+      "length": 228,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 136,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/37",
+      "view": "difference",
+      "length": 227,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 135,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/37",
+      "view": "position_prime_residual",
+      "length": 228,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 136,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/37",
+      "view": "position_totient_residual",
+      "length": 228,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 136,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/38",
+      "view": "raw",
+      "length": 228,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 136,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/38",
+      "view": "difference",
+      "length": 227,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 135,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/38",
+      "view": "position_prime_residual",
+      "length": 228,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 136,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/38",
+      "view": "position_totient_residual",
+      "length": 228,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 76,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 76,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 136,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/39",
+      "view": "raw",
+      "length": 240,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 81,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 144,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/39",
+      "view": "difference",
+      "length": 239,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 80,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 143,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/39",
+      "view": "position_prime_residual",
+      "length": 240,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 80,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 144,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/39",
+      "view": "position_totient_residual",
+      "length": 240,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 80,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 80,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 144,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/40",
+      "view": "raw",
+      "length": 231,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 77,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/40",
+      "view": "difference",
+      "length": 230,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 77,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 137,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/40",
+      "view": "position_prime_residual",
+      "length": 231,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 77,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/40",
+      "view": "position_totient_residual",
+      "length": 231,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 77,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/41",
+      "view": "raw",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 92,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/41",
+      "view": "difference",
+      "length": 272,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/41",
+      "view": "position_prime_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/41",
+      "view": "position_totient_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/42",
+      "view": "raw",
+      "length": 272,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/42",
+      "view": "difference",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/42",
+      "view": "position_prime_residual",
+      "length": 272,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/42",
+      "view": "position_totient_residual",
+      "length": 272,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/43",
+      "view": "raw",
+      "length": 274,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/43",
+      "view": "difference",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/43",
+      "view": "position_prime_residual",
+      "length": 274,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/43",
+      "view": "position_totient_residual",
+      "length": 274,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/44",
+      "view": "raw",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/44",
+      "view": "difference",
+      "length": 272,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 165,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/44",
+      "view": "position_prime_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/44",
+      "view": "position_totient_residual",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/45",
+      "view": "raw",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/45",
+      "view": "difference",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/45",
+      "view": "position_prime_residual",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/45",
+      "view": "position_totient_residual",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/46",
+      "view": "raw",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/46",
+      "view": "difference",
+      "length": 269,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 163,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/46",
+      "view": "position_prime_residual",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/46",
+      "view": "position_totient_residual",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/47",
+      "view": "raw",
+      "length": 274,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/47",
+      "view": "difference",
+      "length": 273,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/47",
+      "view": "position_prime_residual",
+      "length": 274,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/47",
+      "view": "position_totient_residual",
+      "length": 274,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 91,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 92,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 166,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/48",
+      "view": "raw",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/48",
+      "view": "difference",
+      "length": 270,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 90,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/48",
+      "view": "position_prime_residual",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/48",
+      "view": "position_totient_residual",
+      "length": 271,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 90,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 91,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 164,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/49",
+      "view": "raw",
+      "length": 66,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 33,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/49",
+      "view": "difference",
+      "length": 65,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 33,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/49",
+      "view": "position_prime_residual",
+      "length": 66,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 33,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/49",
+      "view": "position_totient_residual",
+      "length": 66,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 33,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/51",
+      "view": "raw",
+      "length": 92,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 46,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/51",
+      "view": "difference",
+      "length": 91,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 46,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/51",
+      "view": "position_prime_residual",
+      "length": 92,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 46,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/51",
+      "view": "position_totient_residual",
+      "length": 92,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 46,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/52",
+      "view": "raw",
+      "length": 263,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/52",
+      "view": "difference",
+      "length": 262,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 87,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 158,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/52",
+      "view": "position_prime_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/52",
+      "view": "position_totient_residual",
+      "length": 263,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 88,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 88,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 159,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/53",
+      "view": "raw",
+      "length": 179,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 60,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 60,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 103,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/53",
+      "view": "difference",
+      "length": 178,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 59,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 60,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 102,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/53",
+      "view": "position_prime_residual",
+      "length": 179,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 60,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 60,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 103,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/53",
+      "view": "position_totient_residual",
+      "length": 179,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 60,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 60,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 103,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/54",
+      "view": "raw",
+      "length": 232,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/54",
+      "view": "difference",
+      "length": 231,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 77,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/54",
+      "view": "position_prime_residual",
+      "length": 232,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/54",
+      "view": "position_totient_residual",
+      "length": 232,
+      "status": "eligible",
+      "partition": "holdout",
+      "order": 77,
+      "cap": 16,
+      "predicted_hits": 0,
+      "suffix_length": 78,
+      "order_within_cap": false,
+      "rank_oracle": {
+        "method": "F29 Gaussian rank consistency at fixed order cap",
+        "coefficient_rank": 16,
+        "augmented_rank": 17,
+        "consistent": false,
+        "equation_count": 138,
+        "unknowns": 16
+      }
+    },
+    {
+      "page": "LP2/55",
+      "view": "raw",
+      "length": 76,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 38,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/55",
+      "view": "difference",
+      "length": 75,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 38,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/55",
+      "view": "position_prime_residual",
+      "length": 76,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 38,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    },
+    {
+      "page": "LP2/55",
+      "view": "position_totient_residual",
+      "length": 76,
+      "status": "inconclusive_short",
+      "partition": "holdout",
+      "order": 38,
+      "cap": null,
+      "predicted_hits": null,
+      "suffix_length": null,
+      "order_within_cap": null,
+      "rank_oracle": null
+    }
+  ],
+  "excluded_pages": [
+    {
+      "page": "LP2/50",
+      "reason": "No registered rune tokens"
+    }
+  ]
+}

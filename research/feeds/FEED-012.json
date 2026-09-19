@@ -1,0 +1,34 @@
+{
+  "id": "FEED-012",
+  "received_date": "2026-09-19",
+  "source": "sources/feed012/user-request.txt",
+  "additional_sources": [
+    "sources/feed012/user-steering.txt"
+  ],
+  "type": "method_preference_and_execution_authorization",
+  "claim_ids": [],
+  "method_ids": [
+    "M001",
+    "M002",
+    "M004",
+    "M006",
+    "M007",
+    "M008",
+    "M009"
+  ],
+  "related_feeds": [
+    "FEED-003",
+    "FEED-004",
+    "FEED-008",
+    "FEED-011"
+  ],
+  "classification": "新增继续执行授权和及时切换的方法偏好；不是新密码学结论",
+  "summary": "并行推进有来源依据的有界机制；明显无苗头即停止并切换，不为完善阴性而继续大量计算。",
+  "new_cryptanalytic_experiments": [
+    "H030 checkpoint necessary-condition audit",
+    "H031-pgl-gated-screen-v4",
+    "H027-adjacent-reused-stream-v1",
+    "H026 bounded word-shift gate"
+  ],
+  "execution_authorized_by_this_feed": "Bounded local research, preserve originals and all failures; no automation, paid cloud, publication, or unbounded search."
+}

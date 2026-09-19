@@ -1,0 +1,61 @@
+{
+  "schema": 1,
+  "hypothesis": "H031-pgl-gated-screen-v4",
+  "status": "negative",
+  "started_at_utc": "2026-09-19T11:22:21.407426+00:00",
+  "unsolved_page_candidates": [],
+  "actual_coverage": {
+    "synthetic_jobs": 119,
+    "matrices_per_job": 24360,
+    "lp2_pages": 55,
+    "lp2_runes": 12956,
+    "discovery_pages": 28,
+    "holdout_pages": 27,
+    "formal_discovery_selections": 1,
+    "controls": 0
+  },
+  "source_hashes": {
+    "hypotheses/H031-pgl-gated-screen-v4.json": "b2d625a86c6189aba9d2a638818c786bdcfa857eae84ed25c2ecc5ba5333f75d",
+    "scripts/attempt22_pgl_screen_v4_worker.py": "a38e7f87ca367786e7231521cb25b10cb4031c9a54c1613b17f3f9ab803642f7",
+    "scripts/attempt22_pgl_screen_v4.py": "b5eaabba15d0034c8f99d6439ae7e8795b00b3fd104676d06f87043fdb3380ce",
+    "scripts/attempt22_pgl_v2.py": "a24fb38d0c285193648537b12e01f7530983b442fc8559df9c91bacdfd4bb309",
+    "scripts/attempt22_pgl_v2_worker.py": "001363220dfc7d11b70d4d6f48d04c59c151a31f271783a36f7d90663eec49be",
+    "src/lp_lab/r015_pgl_v2.py": "01c43df31253024e91ba6c0d46f6e4cfde8563903d6dd280aa0c01267b8d13c7",
+    "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+    "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+    "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+    "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+    "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+    "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+    "data/synthetic/training.txt": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "hypotheses/H031-pgl-full-v2.json": "c4186292e9f1304941a8834a1ed6c0e754266b1da188555e596a6464e647551f",
+    "data/attempt1-corpus-v1.json": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+    "research/feeds/FEED-011.json": "98360f6fd60ca268a9e284dc8b02cd24a9ee2b5ea0abc7a28561abab54787ec1",
+    "reviews/feed011-composite-mechanisms.md": "1cc27992c7f8172f4a02fe1ea75920b49b33a692be4863e2c1f10c157234a1ce"
+  },
+  "gate_status": "passed",
+  "positive_passes": 20,
+  "negative_false_accepts": 0,
+  "conclusion": "Frozen necessary score screen failed; stop this branch without randomization.",
+  "screen_summary": {
+    "status": "negative",
+    "threshold": -2.7672536760810083,
+    "selected_matrix": [
+      13,
+      10,
+      0,
+      1
+    ],
+    "discovery_mean": -3.5785376581635426,
+    "discovery_pass": false,
+    "holdout_pages_above_threshold": 0,
+    "necessary_condition_passed": false,
+    "controls_completed": 0,
+    "statistical_significance": "not tested",
+    "scope": "Fixed common-map, literal-hyphen infinity, training-only scorer and absolute threshold screen only",
+    "leads": []
+  },
+  "finished_at_utc": "2026-09-19T11:22:36.907364+00:00",
+  "elapsed_seconds": 15.545999999972992
+}

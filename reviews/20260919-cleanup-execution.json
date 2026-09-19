@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "completed_at_utc": "2026-09-19T11:35:08.3922390Z",
+  "inventory": "reviews/20260919-cleanup-inventory.json",
+  "deleted_targets": [
+    "C:\\Users\\macon\\Documents\\cicada 3301\\.validation\\feed010-portable",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\bundle-round001",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\feed001-portable-check",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\tmp\\pdfs\\rendered",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\__pycache__",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\src\\lp_lab\\__pycache__",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\tests\\__pycache__"
+  ],
+  "deleted_files": 609,
+  "deleted_bytes": 74774619,
+  "retained_archive_bytes": 4762379,
+  "net_bytes_before_new_validation": 70012240
+}

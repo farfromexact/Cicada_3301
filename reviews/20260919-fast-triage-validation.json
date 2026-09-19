@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-09-19T11:27:37.574957+00:00",
+  "regression_run": "runs/20260919T112603.878728Z",
+  "tests": 193,
+  "commands": [
+    {
+      "name": "tests",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "name": "reproduce",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "name": "research",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "name": "clues",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "name": "math",
+      "exit_code": 0,
+      "status": "completed"
+    },
+    {
+      "name": "synthetic",
+      "exit_code": 0,
+      "status": "completed"
+    }
+  ],
+  "code_unchanged_since_regression": true,
+  "current_source_files_verified": 108,
+  "current_research_validation": {
+    "claims": 23,
+    "edges": 15,
+    "experiments": 45,
+    "methods": 9,
+    "status": "passed"
+  },
+  "archive_checks": "reviews/20260919-archive-checks.json",
+  "post_regression_changes": "Documentation only: preserve original line endings and JSON formatting without semantic changes; write this validation summary.",
+  "new_unsolved_page_candidates": 0,
+  "active_research_processes": 0
+}

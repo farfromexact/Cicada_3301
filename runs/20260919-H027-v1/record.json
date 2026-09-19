@@ -1,0 +1,28 @@
+{
+  "schema": 1,
+  "hypothesis": "H027-adjacent-reused-stream-v1",
+  "stage": "synthetic_gate",
+  "started_at_utc": "2026-09-19T11:23:18.951885+00:00",
+  "status": "inconclusive",
+  "lp2_dispatched": false,
+  "lp2_statistic_count": 0,
+  "controls_completed": 0,
+  "leads": [],
+  "unsolved_page_candidates": [],
+  "gate_summary": {
+    "status": "inconclusive",
+    "positive_accepted": 0,
+    "positive_detected": 0,
+    "positive_recovery_passed": 0,
+    "positive_exact_plaintext": 0,
+    "positive_exact_key": 0,
+    "negative_false_accepts": 0,
+    "positive_count": 20,
+    "negative_count": 99
+  },
+  "independent_verification": "passed",
+  "applicable_pairs": 48,
+  "stop_reason": "gate_failed_no_lp2",
+  "elapsed_seconds": 8.5,
+  "finished_at_utc": "2026-09-19T11:23:27.449049+00:00"
+}

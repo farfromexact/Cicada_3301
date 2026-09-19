@@ -1,0 +1,55 @@
+{
+  "schema": 1,
+  "id": "H031-pgl-gated-screen-v4",
+  "status": "preregistered",
+  "created_date": "2026-09-19",
+  "purpose": "Non-overlapping synthetic recovery gate, then a single common-map screen on all applicable LP2 pages. Stop quickly if the frozen necessary score condition fails.",
+  "basis": [
+    "FEED-011 and H031-v2 explicitly specify all 24360 PGL maps including the separator point.",
+    "Static review found v2 gate private-data shape and one-page/three-page scoring inconsistencies; preserve v2 unchanged and test a corrected isolated gate."
+  ],
+  "sources": [
+    "hypotheses/H031-pgl-full-v2.json",
+    "research/feeds/FEED-011.json",
+    "reviews/feed011-composite-mechanisms.md",
+    "data/synthetic/training.txt",
+    "data/synthetic/heldout.txt"
+  ],
+  "representation": "0..28 rune indices; 29 represents an actual synthetic word separator. This is a test of an explicitly extended 30-point alphabet, not a reinterpretation of GP prime values.",
+  "enumeration": "24360 canonical PGL matrices exactly as H031-v2; select equal-weight mean score across first two pages; freeze mapping for page three; tie tolerance 1e-12 and lexicographic matrix order.",
+  "scorer": "H031-v2 add-one 30-symbol first-order model trained only on training.txt.",
+  "threshold": "Training-only calibration: flattened training text including separators; for lengths 96,128,160,192,224 score windows starting at 0,47,94,... while fully inside training. Threshold=min(window scores)-0.25. No heldout answer influences threshold.",
+  "gate_generation": "Within each job use three contiguous non-overlapping slices, lengths [96,128,160,192,224] cycled at i%20; start=(i%20*47+11) modulo (source length minus sum of three lengths plus 1). Same positions/lengths for positives and negatives. Positive matrices unchanged. Negative classes uniform, within-page permutation, common S30, seed 33011532. Across jobs windows overlap; do not treat 20 examples as independent natural corpora.",
+  "success": "At least 18/20 exact inverse mapping recoveries with discovery and heldout scores above the fixed threshold; 0/99 negatives pass both scores. Independent selected-map scores, full 30-point bijections, inverses and scalar score equivalence required.",
+  "failure": "Synthetic failure is inconclusive and does not dispatch LP2. If gate passes, freeze one matrix from D and compute H scores. Necessary screen requires D mean >= training-only threshold and at least two H pages >= threshold. Failure is negative only for this fixed common-map absolute-score screen, not a formal maxT/PGL family exclusion. Passing screen is an unverified lead requiring separately registered controls.",
+  "budgets": {
+    "synthetic_jobs": 119,
+    "matrices_per_job": 24360,
+    "formal_discovery_selections": 1,
+    "wall_seconds": 180
+  },
+  "independent_validation": "Separate Fermat modular inverse implementation verifies all mapping tables, determinants and 730800 point images, inverse round trips, and selected-map scores. Scalar scoring on all matrices of first public job checks optimized scorer equivalence.",
+  "uncovered": [
+    "Randomization confirmation and statistical significance",
+    "per-page or time-varying maps",
+    "other separator contracts",
+    "composite ciphers",
+    "other language scorers"
+  ],
+  "statuses": [
+    "passed",
+    "inconclusive",
+    "error",
+    "timeout"
+  ],
+  "formal_screen": {
+    "pages": "LP2/0..55; 50 excluded without runes",
+    "discovery": "LP2/0..27",
+    "holdout": "LP2/28..55 excluding 50",
+    "separator_contract": "H031-v2 exact literal-hyphen infinity contract",
+    "matrices": 24360,
+    "controls": 0,
+    "candidate_acceptance": "none; this version can only screen or propose a lead",
+    "worker": "Discovery selection receives no holdout scores; independent scalar verification for D/H and exact inverse round trip."
+  }
+}

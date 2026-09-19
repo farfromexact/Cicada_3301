@@ -1,0 +1,12 @@
+{
+  "command": [
+    "C:\\Users\\macon\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-X",
+    "utf8",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\scripts\\audit_h030_stopping_v1.py",
+    "--out",
+    "C:\\Users\\macon\\Documents\\cicada 3301\\runs\\20260919-H030-stopping-audit-v1"
+  ],
+  "exit_code": 0,
+  "elapsed_seconds": 6.937000000034459
+}

@@ -1,0 +1,15 @@
+test_constant_and_zero_sequences (test_r015_bm.R015BmTests.test_constant_and_zero_sequences) ... ok
+test_known_recurrence_predicts_suffix (test_r015_bm.R015BmTests.test_known_recurrence_predicts_suffix) ... ok
+test_short_status_is_explicit (test_r015_bm.R015BmTests.test_short_status_is_explicit) ... ok
+test_view_lengths_and_difference_boundary (test_r015_bm.R015BmTests.test_view_lengths_and_difference_boundary) ... ok
+test_canonical_resume_comparison_keeps_bool_and_integer_distinct (test_r015_bm_v3.R015BmV3ContractTests.test_canonical_resume_comparison_keeps_bool_and_integer_distinct) ... ok
+test_v3_contract_is_four_views_and_exact_resume_count (test_r015_bm_v3.R015BmV3ContractTests.test_v3_contract_is_four_views_and_exact_resume_count) ... ok
+test_worker_contract_checks_result_order_before_normalization (test_r015_bm_v3.R015BmV3ContractTests.test_worker_contract_checks_result_order_before_normalization) ... ok
+test_exhaustive_short_field_sequences (test_r015_bm_v4.BmV4EquivalenceTests.test_exhaustive_short_field_sequences) ... ok
+test_gaussian_oracle_minimal_order (test_r015_bm_v4.BmV4EquivalenceTests.test_gaussian_oracle_minimal_order) ... ok
+test_long_boundary_and_recurrence_metrics (test_r015_bm_v4.BmV4EquivalenceTests.test_long_boundary_and_recurrence_metrics) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 1.565s
+
+OK

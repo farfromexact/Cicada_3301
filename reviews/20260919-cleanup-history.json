@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-09-19T11:31:19.217091+00:00",
+  "archives": [
+    {
+      "original": "STATE.md",
+      "archive": "STATE_HISTORY.md",
+      "sha256": "b52005a6f533ca1648ed5ac0dbd060dc844ede70e031c9c7c0528e968e96f1d9",
+      "original_bytes": 37488
+    },
+    {
+      "original": "hypotheses/NEXT.md",
+      "archive": "hypotheses/NEXT_HISTORY.md",
+      "sha256": "880e07d87d43d02422b873039d28822950e396861bcc7325597ca607596e9ac7",
+      "original_bytes": 16198
+    }
+  ]
+}

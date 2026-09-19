@@ -1,0 +1,2873 @@
+{
+  "parameters": {
+    "mode": "identity",
+    "offset": 0,
+    "shift": 1,
+    "skip": []
+  },
+  "decoded": {
+    "raw": "\nᛈᚪᚱᚪᛒᛚᛖ.ᛚᛁᚳᛖ-ᚦᛖ-ᛁᚾᛋᛏᚪᚱ-ᛏ/\nᚢᚾᚾᛖᛚᛝ-ᛏᚩ-ᚦᛖ-ᛋᚢᚱᚠᚪᚳᛖ./\nᚹᛖ-ᛗᚢᛋᛏ-ᛋᚻᛖᛞ-ᚩᚢᚱ-ᚩᚹᚾ-ᚳ/\nᛁᚱᚳᚢᛗᚠᛖᚱᛖᚾᚳᛖᛋ.ᚠᛁᚾᛞ-ᚦ/\nᛖ-ᛞᛁᚢᛁᚾᛁᛏᚣ-ᚹᛁᚦᛁᚾ-ᚪᚾᛞ-ᛖᛗᛖᚱᚷᛖ./\n&\n$\n",
+    "latin": "\nPARABLE.LI[C|K]E-THE-IN[S|Z]TAR-T/\nUNNEL[NG|ING]-TO-THE-[S|Z]URFA[C|K]E./\nWE-MU[S|Z]T-[S|Z]HED-OUR-OWN-[C|K]/\nIR[C|K]UMFEREN[C|K]E[S|Z].FIND-TH/\nE-DIUINITY-WITHIN-AND-EMERGE./\n&\n$\n",
+    "steps": [
+      {
+        "token_id": "LP2/57:1",
+        "rune_ordinal": 0,
+        "input_rune": "ᛈ",
+        "input_index": 13,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 13,
+        "output_rune": "ᛈ",
+        "latin": "P",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            595,
+            900,
+            890,
+            1530
+          ],
+          "precision": "glyph_region_manual"
+        }
+      },
+      {
+        "token_id": "LP2/57:2",
+        "rune_ordinal": 1,
+        "input_rune": "ᚪ",
+        "input_index": 24,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 24,
+        "output_rune": "ᚪ",
+        "latin": "A",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:3",
+        "rune_ordinal": 2,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:4",
+        "rune_ordinal": 3,
+        "input_rune": "ᚪ",
+        "input_index": 24,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 24,
+        "output_rune": "ᚪ",
+        "latin": "A",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:5",
+        "rune_ordinal": 4,
+        "input_rune": "ᛒ",
+        "input_index": 17,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 17,
+        "output_rune": "ᛒ",
+        "latin": "B",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:6",
+        "rune_ordinal": 5,
+        "input_rune": "ᛚ",
+        "input_index": 20,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 20,
+        "output_rune": "ᛚ",
+        "latin": "L",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:7",
+        "rune_ordinal": 6,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:9",
+        "rune_ordinal": 7,
+        "input_rune": "ᛚ",
+        "input_index": 20,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 20,
+        "output_rune": "ᛚ",
+        "latin": "L",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:10",
+        "rune_ordinal": 8,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:11",
+        "rune_ordinal": 9,
+        "input_rune": "ᚳ",
+        "input_index": 5,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 5,
+        "output_rune": "ᚳ",
+        "latin": "[C|K]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:12",
+        "rune_ordinal": 10,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:14",
+        "rune_ordinal": 11,
+        "input_rune": "ᚦ",
+        "input_index": 2,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 2,
+        "output_rune": "ᚦ",
+        "latin": "TH",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:15",
+        "rune_ordinal": 12,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:17",
+        "rune_ordinal": 13,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:18",
+        "rune_ordinal": 14,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:19",
+        "rune_ordinal": 15,
+        "input_rune": "ᛋ",
+        "input_index": 15,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 15,
+        "output_rune": "ᛋ",
+        "latin": "[S|Z]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:20",
+        "rune_ordinal": 16,
+        "input_rune": "ᛏ",
+        "input_index": 16,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 16,
+        "output_rune": "ᛏ",
+        "latin": "T",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:21",
+        "rune_ordinal": 17,
+        "input_rune": "ᚪ",
+        "input_index": 24,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 24,
+        "output_rune": "ᚪ",
+        "latin": "A",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:22",
+        "rune_ordinal": 18,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:24",
+        "rune_ordinal": 19,
+        "input_rune": "ᛏ",
+        "input_index": 16,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 16,
+        "output_rune": "ᛏ",
+        "latin": "T",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            900,
+            1800,
+            1210
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:27",
+        "rune_ordinal": 20,
+        "input_rune": "ᚢ",
+        "input_index": 1,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 1,
+        "output_rune": "ᚢ",
+        "latin": "U",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:28",
+        "rune_ordinal": 21,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:29",
+        "rune_ordinal": 22,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:30",
+        "rune_ordinal": 23,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:31",
+        "rune_ordinal": 24,
+        "input_rune": "ᛚ",
+        "input_index": 20,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 20,
+        "output_rune": "ᛚ",
+        "latin": "L",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:32",
+        "rune_ordinal": 25,
+        "input_rune": "ᛝ",
+        "input_index": 21,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 21,
+        "output_rune": "ᛝ",
+        "latin": "[NG|ING]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:34",
+        "rune_ordinal": 26,
+        "input_rune": "ᛏ",
+        "input_index": 16,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 16,
+        "output_rune": "ᛏ",
+        "latin": "T",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:35",
+        "rune_ordinal": 27,
+        "input_rune": "ᚩ",
+        "input_index": 3,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 3,
+        "output_rune": "ᚩ",
+        "latin": "O",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:37",
+        "rune_ordinal": 28,
+        "input_rune": "ᚦ",
+        "input_index": 2,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 2,
+        "output_rune": "ᚦ",
+        "latin": "TH",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:38",
+        "rune_ordinal": 29,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:40",
+        "rune_ordinal": 30,
+        "input_rune": "ᛋ",
+        "input_index": 15,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 15,
+        "output_rune": "ᛋ",
+        "latin": "[S|Z]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:41",
+        "rune_ordinal": 31,
+        "input_rune": "ᚢ",
+        "input_index": 1,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 1,
+        "output_rune": "ᚢ",
+        "latin": "U",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:42",
+        "rune_ordinal": 32,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:43",
+        "rune_ordinal": 33,
+        "input_rune": "ᚠ",
+        "input_index": 0,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 0,
+        "output_rune": "ᚠ",
+        "latin": "F",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:44",
+        "rune_ordinal": 34,
+        "input_rune": "ᚪ",
+        "input_index": 24,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 24,
+        "output_rune": "ᚪ",
+        "latin": "A",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:45",
+        "rune_ordinal": 35,
+        "input_rune": "ᚳ",
+        "input_index": 5,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 5,
+        "output_rune": "ᚳ",
+        "latin": "[C|K]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:46",
+        "rune_ordinal": 36,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1090,
+            1800,
+            1240
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:50",
+        "rune_ordinal": 37,
+        "input_rune": "ᚹ",
+        "input_index": 7,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 7,
+        "output_rune": "ᚹ",
+        "latin": "W",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:51",
+        "rune_ordinal": 38,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:53",
+        "rune_ordinal": 39,
+        "input_rune": "ᛗ",
+        "input_index": 19,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 19,
+        "output_rune": "ᛗ",
+        "latin": "M",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:54",
+        "rune_ordinal": 40,
+        "input_rune": "ᚢ",
+        "input_index": 1,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 1,
+        "output_rune": "ᚢ",
+        "latin": "U",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:55",
+        "rune_ordinal": 41,
+        "input_rune": "ᛋ",
+        "input_index": 15,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 15,
+        "output_rune": "ᛋ",
+        "latin": "[S|Z]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:56",
+        "rune_ordinal": 42,
+        "input_rune": "ᛏ",
+        "input_index": 16,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 16,
+        "output_rune": "ᛏ",
+        "latin": "T",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:58",
+        "rune_ordinal": 43,
+        "input_rune": "ᛋ",
+        "input_index": 15,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 15,
+        "output_rune": "ᛋ",
+        "latin": "[S|Z]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:59",
+        "rune_ordinal": 44,
+        "input_rune": "ᚻ",
+        "input_index": 8,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 8,
+        "output_rune": "ᚻ",
+        "latin": "H",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:60",
+        "rune_ordinal": 45,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:61",
+        "rune_ordinal": 46,
+        "input_rune": "ᛞ",
+        "input_index": 23,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 23,
+        "output_rune": "ᛞ",
+        "latin": "D",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:63",
+        "rune_ordinal": 47,
+        "input_rune": "ᚩ",
+        "input_index": 3,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 3,
+        "output_rune": "ᚩ",
+        "latin": "O",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:64",
+        "rune_ordinal": 48,
+        "input_rune": "ᚢ",
+        "input_index": 1,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 1,
+        "output_rune": "ᚢ",
+        "latin": "U",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:65",
+        "rune_ordinal": 49,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:67",
+        "rune_ordinal": 50,
+        "input_rune": "ᚩ",
+        "input_index": 3,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 3,
+        "output_rune": "ᚩ",
+        "latin": "O",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:68",
+        "rune_ordinal": 51,
+        "input_rune": "ᚹ",
+        "input_index": 7,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 7,
+        "output_rune": "ᚹ",
+        "latin": "W",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:69",
+        "rune_ordinal": 52,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:71",
+        "rune_ordinal": 53,
+        "input_rune": "ᚳ",
+        "input_index": 5,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 5,
+        "output_rune": "ᚳ",
+        "latin": "[C|K]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1270,
+            1800,
+            1530
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:74",
+        "rune_ordinal": 54,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:75",
+        "rune_ordinal": 55,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:76",
+        "rune_ordinal": 56,
+        "input_rune": "ᚳ",
+        "input_index": 5,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 5,
+        "output_rune": "ᚳ",
+        "latin": "[C|K]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:77",
+        "rune_ordinal": 57,
+        "input_rune": "ᚢ",
+        "input_index": 1,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 1,
+        "output_rune": "ᚢ",
+        "latin": "U",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:78",
+        "rune_ordinal": 58,
+        "input_rune": "ᛗ",
+        "input_index": 19,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 19,
+        "output_rune": "ᛗ",
+        "latin": "M",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:79",
+        "rune_ordinal": 59,
+        "input_rune": "ᚠ",
+        "input_index": 0,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 0,
+        "output_rune": "ᚠ",
+        "latin": "F",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:80",
+        "rune_ordinal": 60,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:81",
+        "rune_ordinal": 61,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:82",
+        "rune_ordinal": 62,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:83",
+        "rune_ordinal": 63,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:84",
+        "rune_ordinal": 64,
+        "input_rune": "ᚳ",
+        "input_index": 5,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 5,
+        "output_rune": "ᚳ",
+        "latin": "[C|K]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:85",
+        "rune_ordinal": 65,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:86",
+        "rune_ordinal": 66,
+        "input_rune": "ᛋ",
+        "input_index": 15,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 15,
+        "output_rune": "ᛋ",
+        "latin": "[S|Z]",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:88",
+        "rune_ordinal": 67,
+        "input_rune": "ᚠ",
+        "input_index": 0,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 0,
+        "output_rune": "ᚠ",
+        "latin": "F",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:89",
+        "rune_ordinal": 68,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:90",
+        "rune_ordinal": 69,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:91",
+        "rune_ordinal": 70,
+        "input_rune": "ᛞ",
+        "input_index": 23,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 23,
+        "output_rune": "ᛞ",
+        "latin": "D",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:93",
+        "rune_ordinal": 71,
+        "input_rune": "ᚦ",
+        "input_index": 2,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 2,
+        "output_rune": "ᚦ",
+        "latin": "TH",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            870,
+            1520,
+            1770,
+            1670
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:96",
+        "rune_ordinal": 72,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:98",
+        "rune_ordinal": 73,
+        "input_rune": "ᛞ",
+        "input_index": 23,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 23,
+        "output_rune": "ᛞ",
+        "latin": "D",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:99",
+        "rune_ordinal": 74,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:100",
+        "rune_ordinal": 75,
+        "input_rune": "ᚢ",
+        "input_index": 1,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 1,
+        "output_rune": "ᚢ",
+        "latin": "U",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:101",
+        "rune_ordinal": 76,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:102",
+        "rune_ordinal": 77,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:103",
+        "rune_ordinal": 78,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:104",
+        "rune_ordinal": 79,
+        "input_rune": "ᛏ",
+        "input_index": 16,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 16,
+        "output_rune": "ᛏ",
+        "latin": "T",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:105",
+        "rune_ordinal": 80,
+        "input_rune": "ᚣ",
+        "input_index": 26,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 26,
+        "output_rune": "ᚣ",
+        "latin": "Y",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:107",
+        "rune_ordinal": 81,
+        "input_rune": "ᚹ",
+        "input_index": 7,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 7,
+        "output_rune": "ᚹ",
+        "latin": "W",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:108",
+        "rune_ordinal": 82,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:109",
+        "rune_ordinal": 83,
+        "input_rune": "ᚦ",
+        "input_index": 2,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 2,
+        "output_rune": "ᚦ",
+        "latin": "TH",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:110",
+        "rune_ordinal": 84,
+        "input_rune": "ᛁ",
+        "input_index": 10,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 10,
+        "output_rune": "ᛁ",
+        "latin": "I",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:111",
+        "rune_ordinal": 85,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:113",
+        "rune_ordinal": 86,
+        "input_rune": "ᚪ",
+        "input_index": 24,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 24,
+        "output_rune": "ᚪ",
+        "latin": "A",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:114",
+        "rune_ordinal": 87,
+        "input_rune": "ᚾ",
+        "input_index": 9,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 9,
+        "output_rune": "ᚾ",
+        "latin": "N",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:115",
+        "rune_ordinal": 88,
+        "input_rune": "ᛞ",
+        "input_index": 23,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 23,
+        "output_rune": "ᛞ",
+        "latin": "D",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:117",
+        "rune_ordinal": 89,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:118",
+        "rune_ordinal": 90,
+        "input_rune": "ᛗ",
+        "input_index": 19,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 19,
+        "output_rune": "ᛗ",
+        "latin": "M",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:119",
+        "rune_ordinal": 91,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:120",
+        "rune_ordinal": 92,
+        "input_rune": "ᚱ",
+        "input_index": 4,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 4,
+        "output_rune": "ᚱ",
+        "latin": "R",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:121",
+        "rune_ordinal": 93,
+        "input_rune": "ᚷ",
+        "input_index": 6,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 6,
+        "output_rune": "ᚷ",
+        "latin": "G",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      },
+      {
+        "token_id": "LP2/57:122",
+        "rune_ordinal": 94,
+        "input_rune": "ᛖ",
+        "input_index": 18,
+        "stream_index": null,
+        "prime": null,
+        "delta": 0,
+        "skipped": false,
+        "output_index": 18,
+        "output_rune": "ᛖ",
+        "latin": "E",
+        "image": {
+          "path": "sources/iddqd/liber-primus__images--unsolved/57.jpg",
+          "bbox": [
+            590,
+            1700,
+            1730,
+            1860
+          ],
+          "precision": "line_region"
+        }
+      }
+    ],
+    "primes_consumed": 0
+  },
+  "expected_indices": [
+    13,
+    24,
+    4,
+    24,
+    17,
+    20,
+    18,
+    20,
+    10,
+    5,
+    18,
+    2,
+    18,
+    10,
+    9,
+    15,
+    16,
+    24,
+    4,
+    16,
+    1,
+    9,
+    9,
+    18,
+    20,
+    21,
+    16,
+    3,
+    2,
+    18,
+    15,
+    1,
+    4,
+    0,
+    24,
+    5,
+    18,
+    7,
+    18,
+    19,
+    1,
+    15,
+    16,
+    15,
+    8,
+    18,
+    23,
+    3,
+    1,
+    4,
+    3,
+    7,
+    9,
+    5,
+    10,
+    4,
+    5,
+    1,
+    19,
+    0,
+    18,
+    4,
+    18,
+    9,
+    5,
+    18,
+    15,
+    0,
+    10,
+    9,
+    23,
+    2,
+    18,
+    23,
+    10,
+    1,
+    10,
+    9,
+    10,
+    16,
+    26,
+    7,
+    10,
+    2,
+    10,
+    9,
+    24,
+    9,
+    23,
+    18,
+    19,
+    18,
+    4,
+    6,
+    18
+  ],
+  "comparison": [
+    {
+      "ordinal": 0,
+      "expected": 13,
+      "actual": 13,
+      "equal": true
+    },
+    {
+      "ordinal": 1,
+      "expected": 24,
+      "actual": 24,
+      "equal": true
+    },
+    {
+      "ordinal": 2,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 3,
+      "expected": 24,
+      "actual": 24,
+      "equal": true
+    },
+    {
+      "ordinal": 4,
+      "expected": 17,
+      "actual": 17,
+      "equal": true
+    },
+    {
+      "ordinal": 5,
+      "expected": 20,
+      "actual": 20,
+      "equal": true
+    },
+    {
+      "ordinal": 6,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 7,
+      "expected": 20,
+      "actual": 20,
+      "equal": true
+    },
+    {
+      "ordinal": 8,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 9,
+      "expected": 5,
+      "actual": 5,
+      "equal": true
+    },
+    {
+      "ordinal": 10,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 11,
+      "expected": 2,
+      "actual": 2,
+      "equal": true
+    },
+    {
+      "ordinal": 12,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 13,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 14,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 15,
+      "expected": 15,
+      "actual": 15,
+      "equal": true
+    },
+    {
+      "ordinal": 16,
+      "expected": 16,
+      "actual": 16,
+      "equal": true
+    },
+    {
+      "ordinal": 17,
+      "expected": 24,
+      "actual": 24,
+      "equal": true
+    },
+    {
+      "ordinal": 18,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 19,
+      "expected": 16,
+      "actual": 16,
+      "equal": true
+    },
+    {
+      "ordinal": 20,
+      "expected": 1,
+      "actual": 1,
+      "equal": true
+    },
+    {
+      "ordinal": 21,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 22,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 23,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 24,
+      "expected": 20,
+      "actual": 20,
+      "equal": true
+    },
+    {
+      "ordinal": 25,
+      "expected": 21,
+      "actual": 21,
+      "equal": true
+    },
+    {
+      "ordinal": 26,
+      "expected": 16,
+      "actual": 16,
+      "equal": true
+    },
+    {
+      "ordinal": 27,
+      "expected": 3,
+      "actual": 3,
+      "equal": true
+    },
+    {
+      "ordinal": 28,
+      "expected": 2,
+      "actual": 2,
+      "equal": true
+    },
+    {
+      "ordinal": 29,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 30,
+      "expected": 15,
+      "actual": 15,
+      "equal": true
+    },
+    {
+      "ordinal": 31,
+      "expected": 1,
+      "actual": 1,
+      "equal": true
+    },
+    {
+      "ordinal": 32,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 33,
+      "expected": 0,
+      "actual": 0,
+      "equal": true
+    },
+    {
+      "ordinal": 34,
+      "expected": 24,
+      "actual": 24,
+      "equal": true
+    },
+    {
+      "ordinal": 35,
+      "expected": 5,
+      "actual": 5,
+      "equal": true
+    },
+    {
+      "ordinal": 36,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 37,
+      "expected": 7,
+      "actual": 7,
+      "equal": true
+    },
+    {
+      "ordinal": 38,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 39,
+      "expected": 19,
+      "actual": 19,
+      "equal": true
+    },
+    {
+      "ordinal": 40,
+      "expected": 1,
+      "actual": 1,
+      "equal": true
+    },
+    {
+      "ordinal": 41,
+      "expected": 15,
+      "actual": 15,
+      "equal": true
+    },
+    {
+      "ordinal": 42,
+      "expected": 16,
+      "actual": 16,
+      "equal": true
+    },
+    {
+      "ordinal": 43,
+      "expected": 15,
+      "actual": 15,
+      "equal": true
+    },
+    {
+      "ordinal": 44,
+      "expected": 8,
+      "actual": 8,
+      "equal": true
+    },
+    {
+      "ordinal": 45,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 46,
+      "expected": 23,
+      "actual": 23,
+      "equal": true
+    },
+    {
+      "ordinal": 47,
+      "expected": 3,
+      "actual": 3,
+      "equal": true
+    },
+    {
+      "ordinal": 48,
+      "expected": 1,
+      "actual": 1,
+      "equal": true
+    },
+    {
+      "ordinal": 49,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 50,
+      "expected": 3,
+      "actual": 3,
+      "equal": true
+    },
+    {
+      "ordinal": 51,
+      "expected": 7,
+      "actual": 7,
+      "equal": true
+    },
+    {
+      "ordinal": 52,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 53,
+      "expected": 5,
+      "actual": 5,
+      "equal": true
+    },
+    {
+      "ordinal": 54,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 55,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 56,
+      "expected": 5,
+      "actual": 5,
+      "equal": true
+    },
+    {
+      "ordinal": 57,
+      "expected": 1,
+      "actual": 1,
+      "equal": true
+    },
+    {
+      "ordinal": 58,
+      "expected": 19,
+      "actual": 19,
+      "equal": true
+    },
+    {
+      "ordinal": 59,
+      "expected": 0,
+      "actual": 0,
+      "equal": true
+    },
+    {
+      "ordinal": 60,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 61,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 62,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 63,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 64,
+      "expected": 5,
+      "actual": 5,
+      "equal": true
+    },
+    {
+      "ordinal": 65,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 66,
+      "expected": 15,
+      "actual": 15,
+      "equal": true
+    },
+    {
+      "ordinal": 67,
+      "expected": 0,
+      "actual": 0,
+      "equal": true
+    },
+    {
+      "ordinal": 68,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 69,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 70,
+      "expected": 23,
+      "actual": 23,
+      "equal": true
+    },
+    {
+      "ordinal": 71,
+      "expected": 2,
+      "actual": 2,
+      "equal": true
+    },
+    {
+      "ordinal": 72,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 73,
+      "expected": 23,
+      "actual": 23,
+      "equal": true
+    },
+    {
+      "ordinal": 74,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 75,
+      "expected": 1,
+      "actual": 1,
+      "equal": true
+    },
+    {
+      "ordinal": 76,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 77,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 78,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 79,
+      "expected": 16,
+      "actual": 16,
+      "equal": true
+    },
+    {
+      "ordinal": 80,
+      "expected": 26,
+      "actual": 26,
+      "equal": true
+    },
+    {
+      "ordinal": 81,
+      "expected": 7,
+      "actual": 7,
+      "equal": true
+    },
+    {
+      "ordinal": 82,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 83,
+      "expected": 2,
+      "actual": 2,
+      "equal": true
+    },
+    {
+      "ordinal": 84,
+      "expected": 10,
+      "actual": 10,
+      "equal": true
+    },
+    {
+      "ordinal": 85,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 86,
+      "expected": 24,
+      "actual": 24,
+      "equal": true
+    },
+    {
+      "ordinal": 87,
+      "expected": 9,
+      "actual": 9,
+      "equal": true
+    },
+    {
+      "ordinal": 88,
+      "expected": 23,
+      "actual": 23,
+      "equal": true
+    },
+    {
+      "ordinal": 89,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 90,
+      "expected": 19,
+      "actual": 19,
+      "equal": true
+    },
+    {
+      "ordinal": 91,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    },
+    {
+      "ordinal": 92,
+      "expected": 4,
+      "actual": 4,
+      "equal": true
+    },
+    {
+      "ordinal": 93,
+      "expected": 6,
+      "actual": 6,
+      "equal": true
+    },
+    {
+      "ordinal": 94,
+      "expected": 18,
+      "actual": 18,
+      "equal": true
+    }
+  ],
+  "exact_runes": true,
+  "roundtrip_exact": true,
+  "reencrypted_raw": "\nᛈᚪᚱᚪᛒᛚᛖ.ᛚᛁᚳᛖ-ᚦᛖ-ᛁᚾᛋᛏᚪᚱ-ᛏ/\nᚢᚾᚾᛖᛚᛝ-ᛏᚩ-ᚦᛖ-ᛋᚢᚱᚠᚪᚳᛖ./\nᚹᛖ-ᛗᚢᛋᛏ-ᛋᚻᛖᛞ-ᚩᚢᚱ-ᚩᚹᚾ-ᚳ/\nᛁᚱᚳᚢᛗᚠᛖᚱᛖᚾᚳᛖᛋ.ᚠᛁᚾᛞ-ᚦ/\nᛖ-ᛞᛁᚢᛁᚾᛁᛏᚣ-ᚹᛁᚦᛁᚾ-ᚪᚾᛞ-ᛖᛗᛖᚱᚷᛖ./\n&\n$\n",
+  "negative_control": null
+}

@@ -1,0 +1,2274 @@
+{
+  "status": "inconclusive",
+  "positive_accepted": 0,
+  "positive_detected": 0,
+  "positive_recovery_passed": 0,
+  "positive_exact_plaintext": 0,
+  "positive_exact_key": 0,
+  "negative_false_accepts": 0,
+  "positive_count": 20,
+  "negative_count": 99,
+  "rows": [
+    {
+      "id": "pair-000",
+      "kind": "same_stream",
+      "log_bf": [
+        5.779883831134673,
+        1.7406550072007803
+      ],
+      "accuracy": {
+        "a_discovery": 0.27586206896551724,
+        "a_holdout": 0.20454545454545456,
+        "b_discovery": 0.27586206896551724,
+        "b_holdout": 0.20454545454545456
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-001",
+      "kind": "same_stream",
+      "log_bf": [
+        6.075919489204179,
+        1.9790112123548913
+      ],
+      "accuracy": {
+        "a_discovery": 0.2768361581920904,
+        "a_holdout": 0.20224719101123595,
+        "b_discovery": 0.2768361581920904,
+        "b_holdout": 0.20224719101123595
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-002",
+      "kind": "same_stream",
+      "log_bf": [
+        4.293455311222308,
+        1.6197906837540517
+      ],
+      "accuracy": {
+        "a_discovery": 0.30597014925373134,
+        "a_holdout": 0.208955223880597,
+        "b_discovery": 0.30597014925373134,
+        "b_holdout": 0.208955223880597
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-003",
+      "kind": "same_stream",
+      "log_bf": [
+        5.1189268590635,
+        1.2101221912774345
+      ],
+      "accuracy": {
+        "a_discovery": 0.2708333333333333,
+        "a_holdout": 0.1917808219178082,
+        "b_discovery": 0.2708333333333333,
+        "b_holdout": 0.1917808219178082
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-004",
+      "kind": "same_stream",
+      "log_bf": [
+        4.433342104738248,
+        2.1660545732091707
+      ],
+      "accuracy": {
+        "a_discovery": 0.22988505747126436,
+        "a_holdout": 0.22988505747126436,
+        "b_discovery": 0.22988505747126436,
+        "b_holdout": 0.22988505747126436
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-005",
+      "kind": "same_stream",
+      "log_bf": [
+        3.67479740784821,
+        1.7362580211553333
+      ],
+      "accuracy": {
+        "a_discovery": 0.24,
+        "a_holdout": 0.2727272727272727,
+        "b_discovery": 0.24,
+        "b_holdout": 0.2727272727272727
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-006",
+      "kind": "same_stream",
+      "log_bf": [
+        3.419382501801073,
+        1.0597900596522303
+      ],
+      "accuracy": {
+        "a_discovery": 0.23846153846153847,
+        "a_holdout": 0.21212121212121213,
+        "b_discovery": 0.23846153846153847,
+        "b_holdout": 0.21212121212121213
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-007",
+      "kind": "same_stream",
+      "log_bf": [
+        3.2693276270013976,
+        2.0236504933525943
+      ],
+      "accuracy": {
+        "a_discovery": 0.2246376811594203,
+        "a_holdout": 0.24285714285714285,
+        "b_discovery": 0.2246376811594203,
+        "b_holdout": 0.24285714285714285
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-008",
+      "kind": "same_stream",
+      "log_bf": [
+        3.456583243085625,
+        0.8998347776374227
+      ],
+      "accuracy": {
+        "a_discovery": 0.21764705882352942,
+        "a_holdout": 0.27058823529411763,
+        "b_discovery": 0.21764705882352942,
+        "b_holdout": 0.27058823529411763
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-009",
+      "kind": "same_stream",
+      "log_bf": [
+        4.737957255586572,
+        -0.45872636157511737
+      ],
+      "accuracy": {
+        "a_discovery": 0.20224719101123595,
+        "a_holdout": 0.3111111111111111,
+        "b_discovery": 0.20224719101123595,
+        "b_holdout": 0.3111111111111111
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-010",
+      "kind": "same_stream",
+      "log_bf": [
+        4.771274260695304,
+        0.7370977281993873
+      ],
+      "accuracy": {
+        "a_discovery": 0.22857142857142856,
+        "a_holdout": 0.3181818181818182,
+        "b_discovery": 0.22857142857142856,
+        "b_holdout": 0.3181818181818182
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-011",
+      "kind": "same_stream",
+      "log_bf": [
+        4.5492035199421395,
+        1.4464521423044014
+      ],
+      "accuracy": {
+        "a_discovery": 0.23076923076923078,
+        "a_holdout": 0.3076923076923077,
+        "b_discovery": 0.23076923076923078,
+        "b_holdout": 0.3076923076923077
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-012",
+      "kind": "same_stream",
+      "log_bf": [
+        3.79999172509912,
+        1.7855303878447097
+      ],
+      "accuracy": {
+        "a_discovery": 0.21839080459770116,
+        "a_holdout": 0.2988505747126437,
+        "b_discovery": 0.21839080459770116,
+        "b_holdout": 0.2988505747126437
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-013",
+      "kind": "same_stream",
+      "log_bf": [
+        2.883435487569732,
+        1.5532132187700634
+      ],
+      "accuracy": {
+        "a_discovery": 0.2430939226519337,
+        "a_holdout": 0.32967032967032966,
+        "b_discovery": 0.2430939226519337,
+        "b_holdout": 0.32967032967032966
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-014",
+      "kind": "same_stream",
+      "log_bf": [
+        2.016855888399014,
+        0.9808378870785828
+      ],
+      "accuracy": {
+        "a_discovery": 0.1978021978021978,
+        "a_holdout": 0.2391304347826087,
+        "b_discovery": 0.1978021978021978,
+        "b_holdout": 0.2391304347826087
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-015",
+      "kind": "same_stream",
+      "log_bf": [
+        2.744048454251151,
+        -0.7604244890853185
+      ],
+      "accuracy": {
+        "a_discovery": 0.20754716981132076,
+        "a_holdout": 0.32075471698113206,
+        "b_discovery": 0.20754716981132076,
+        "b_holdout": 0.32075471698113206
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-016",
+      "kind": "same_stream",
+      "log_bf": [
+        1.9322190104763899,
+        2.093797491013558
+      ],
+      "accuracy": {
+        "a_discovery": 0.2640449438202247,
+        "a_holdout": 0.23595505617977527,
+        "b_discovery": 0.2640449438202247,
+        "b_holdout": 0.23595505617977527
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-017",
+      "kind": "same_stream",
+      "log_bf": [
+        2.4571846070613943,
+        0.4577080282340038
+      ],
+      "accuracy": {
+        "a_discovery": 0.26373626373626374,
+        "a_holdout": 0.24175824175824176,
+        "b_discovery": 0.26373626373626374,
+        "b_holdout": 0.24175824175824176
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-018",
+      "kind": "same_stream",
+      "log_bf": [
+        2.827137505194656,
+        0.24059537587849267
+      ],
+      "accuracy": {
+        "a_discovery": 0.2832369942196532,
+        "a_holdout": 0.22988505747126436,
+        "b_discovery": 0.2832369942196532,
+        "b_holdout": 0.22988505747126436
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-019",
+      "kind": "same_stream",
+      "log_bf": [
+        3.5764164869780157,
+        0.7160489009775612
+      ],
+      "accuracy": {
+        "a_discovery": 0.3055555555555556,
+        "a_holdout": 0.17582417582417584,
+        "b_discovery": 0.3055555555555556,
+        "b_holdout": 0.17582417582417584
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-020",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.09907900523189017,
+        0.6014778877479565
+      ],
+      "accuracy": {
+        "a_discovery": 0.06896551724137931,
+        "a_holdout": 0.06818181818181818,
+        "b_discovery": 0.06321839080459771,
+        "b_holdout": 0.03409090909090909
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-021",
+      "kind": "independent_stream",
+      "log_bf": [
+        2.6441310000628984,
+        0.3851762987016998
+      ],
+      "accuracy": {
+        "a_discovery": 0.07344632768361582,
+        "a_holdout": 0.14606741573033707,
+        "b_discovery": 0.04519774011299435,
+        "b_holdout": 0.056179775280898875
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-022",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.9717292621781044,
+        -0.9495218670567378
+      ],
+      "accuracy": {
+        "a_discovery": 0.07462686567164178,
+        "a_holdout": 0.11940298507462686,
+        "b_discovery": 0.1044776119402985,
+        "b_holdout": 0.014925373134328358
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-023",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.4245309065590228,
+        -0.02420761124061732
+      ],
+      "accuracy": {
+        "a_discovery": 0.05555555555555555,
+        "a_holdout": 0.0958904109589041,
+        "b_discovery": 0.08333333333333333,
+        "b_holdout": 0.0410958904109589
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-024",
+      "kind": "independent_stream",
+      "log_bf": [
+        -3.355046163401876,
+        -2.3303924324729817
+      ],
+      "accuracy": {
+        "a_discovery": 0.06321839080459771,
+        "a_holdout": 0.06896551724137931,
+        "b_discovery": 0.040229885057471264,
+        "b_holdout": 0.13793103448275862
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-025",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.9687677921589457,
+        0.41672686404632175
+      ],
+      "accuracy": {
+        "a_discovery": 0.09142857142857143,
+        "a_holdout": 0.06818181818181818,
+        "b_discovery": 0.045714285714285714,
+        "b_holdout": 0.045454545454545456
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-026",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.0764600087143514,
+        -0.13501106790575212
+      ],
+      "accuracy": {
+        "a_discovery": 0.06923076923076923,
+        "a_holdout": 0.045454545454545456,
+        "b_discovery": 0.11538461538461539,
+        "b_holdout": 0.09090909090909091
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-027",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.4077303966336916,
+        1.3783228744626657
+      ],
+      "accuracy": {
+        "a_discovery": 0.057971014492753624,
+        "a_holdout": 0.07142857142857142,
+        "b_discovery": 0.043478260869565216,
+        "b_holdout": 0.02857142857142857
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-028",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.3653989503479438,
+        -0.7883189083900422
+      ],
+      "accuracy": {
+        "a_discovery": 0.07058823529411765,
+        "a_holdout": 0.03529411764705882,
+        "b_discovery": 0.052941176470588235,
+        "b_holdout": 0.07058823529411765
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-029",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.4075220037340213,
+        -1.4871106562623302
+      ],
+      "accuracy": {
+        "a_discovery": 0.09550561797752809,
+        "a_holdout": 0.1111111111111111,
+        "b_discovery": 0.08426966292134831,
+        "b_holdout": 0.05555555555555555
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-030",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.5550364165559394,
+        -0.5985376295523817
+      ],
+      "accuracy": {
+        "a_discovery": 0.08571428571428572,
+        "a_holdout": 0.1590909090909091,
+        "b_discovery": 0.07428571428571429,
+        "b_holdout": 0.06818181818181818
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-031",
+      "kind": "independent_stream",
+      "log_bf": [
+        1.3511235307025191,
+        -0.5059927920071141
+      ],
+      "accuracy": {
+        "a_discovery": 0.06593406593406594,
+        "a_holdout": 0.06593406593406594,
+        "b_discovery": 0.09340659340659341,
+        "b_holdout": 0.04395604395604396
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-032",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8293994322382114,
+        -1.669663891145059
+      ],
+      "accuracy": {
+        "a_discovery": 0.09770114942528736,
+        "a_holdout": 0.06896551724137931,
+        "b_discovery": 0.06321839080459771,
+        "b_holdout": 0.11494252873563218
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-033",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.01745143403742455,
+        -1.3856375768794522
+      ],
+      "accuracy": {
+        "a_discovery": 0.06629834254143646,
+        "a_holdout": 0.10989010989010989,
+        "b_discovery": 0.06629834254143646,
+        "b_holdout": 0.04395604395604396
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-034",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.500755879741714,
+        -0.07700043009153212
+      ],
+      "accuracy": {
+        "a_discovery": 0.06593406593406594,
+        "a_holdout": 0.021739130434782608,
+        "b_discovery": 0.08791208791208792,
+        "b_holdout": 0.1956521739130435
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-035",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.790823492150178,
+        1.0515832170085364
+      ],
+      "accuracy": {
+        "a_discovery": 0.09433962264150944,
+        "a_holdout": 0.18867924528301888,
+        "b_discovery": 0.09433962264150944,
+        "b_holdout": 0.07547169811320754
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-036",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.3365277045616657,
+        -0.7404430010958158
+      ],
+      "accuracy": {
+        "a_discovery": 0.06179775280898876,
+        "a_holdout": 0.0449438202247191,
+        "b_discovery": 0.10112359550561797,
+        "b_holdout": 0.0449438202247191
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-037",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8967666499209241,
+        0.21643583977238734
+      ],
+      "accuracy": {
+        "a_discovery": 0.06043956043956044,
+        "a_holdout": 0.07692307692307693,
+        "b_discovery": 0.054945054945054944,
+        "b_holdout": 0.04395604395604396
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-038",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.04334110257623269,
+        0.08108555719293076
+      ],
+      "accuracy": {
+        "a_discovery": 0.07514450867052024,
+        "a_holdout": 0.10344827586206896,
+        "b_discovery": 0.10982658959537572,
+        "b_holdout": 0.05747126436781609
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-039",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.638498938352793,
+        0.7746300857015931
+      ],
+      "accuracy": {
+        "a_discovery": 0.06111111111111111,
+        "a_holdout": 0.054945054945054944,
+        "b_discovery": 0.08888888888888889,
+        "b_holdout": 0.06593406593406594
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-040",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.3063218762893243,
+        -0.4935749528553024
+      ],
+      "accuracy": {
+        "a_discovery": 0.06896551724137931,
+        "a_holdout": 0.06818181818181818,
+        "b_discovery": 0.04597701149425287,
+        "b_holdout": 0.06818181818181818
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-041",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.7033890115651515,
+        -1.9169092029781458
+      ],
+      "accuracy": {
+        "a_discovery": 0.062146892655367235,
+        "a_holdout": 0.10112359550561797,
+        "b_discovery": 0.0903954802259887,
+        "b_holdout": 0.10112359550561797
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-042",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.0357413117761958,
+        -1.6107752507664994
+      ],
+      "accuracy": {
+        "a_discovery": 0.07462686567164178,
+        "a_holdout": 0.07462686567164178,
+        "b_discovery": 0.08208955223880597,
+        "b_holdout": 0.07462686567164178
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-043",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.6818768924246115,
+        -2.003473493112329
+      ],
+      "accuracy": {
+        "a_discovery": 0.0763888888888889,
+        "a_holdout": 0.0684931506849315,
+        "b_discovery": 0.0763888888888889,
+        "b_holdout": 0.1095890410958904
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-044",
+      "kind": "independent_stream",
+      "log_bf": [
+        3.495313573304912,
+        -0.3321807640990193
+      ],
+      "accuracy": {
+        "a_discovery": 0.06896551724137931,
+        "a_holdout": 0.10344827586206896,
+        "b_discovery": 0.08045977011494253,
+        "b_holdout": 0.10344827586206896
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-045",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.3543247896388788,
+        0.7172608344366478
+      ],
+      "accuracy": {
+        "a_discovery": 0.06857142857142857,
+        "a_holdout": 0.09090909090909091,
+        "b_discovery": 0.06857142857142857,
+        "b_holdout": 0.06818181818181818
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-046",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.3886521450335878,
+        0.7992642352472155
+      ],
+      "accuracy": {
+        "a_discovery": 0.07692307692307693,
+        "a_holdout": 0.09090909090909091,
+        "b_discovery": 0.07692307692307693,
+        "b_holdout": 0.10606060606060606
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-047",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.679948423479853,
+        0.7277513435808083
+      ],
+      "accuracy": {
+        "a_discovery": 0.07971014492753623,
+        "a_holdout": 0.08571428571428572,
+        "b_discovery": 0.07246376811594203,
+        "b_holdout": 0.02857142857142857
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-048",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.2319636280859485,
+        -1.5191179374114308
+      ],
+      "accuracy": {
+        "a_discovery": 0.08823529411764706,
+        "a_holdout": 0.03529411764705882,
+        "b_discovery": 0.06470588235294118,
+        "b_holdout": 0.09411764705882353
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-049",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8786274289098892,
+        -1.3804415446551186
+      ],
+      "accuracy": {
+        "a_discovery": 0.06179775280898876,
+        "a_holdout": 0.044444444444444446,
+        "b_discovery": 0.06179775280898876,
+        "b_holdout": 0.06666666666666667
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-050",
+      "kind": "independent_stream",
+      "log_bf": [
+        -3.2729347872055583,
+        -0.5174232174798248
+      ],
+      "accuracy": {
+        "a_discovery": 0.09714285714285714,
+        "a_holdout": 0.07954545454545454,
+        "b_discovery": 0.06285714285714286,
+        "b_holdout": 0.09090909090909091
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-051",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.554894182663148,
+        -0.11724171763527114
+      ],
+      "accuracy": {
+        "a_discovery": 0.08791208791208792,
+        "a_holdout": 0.054945054945054944,
+        "b_discovery": 0.08241758241758242,
+        "b_holdout": 0.06593406593406594
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-052",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.49322217447394223,
+        -2.2238498285211667
+      ],
+      "accuracy": {
+        "a_discovery": 0.15517241379310345,
+        "a_holdout": 0.11494252873563218,
+        "b_discovery": 0.040229885057471264,
+        "b_holdout": 0.06896551724137931
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-053",
+      "kind": "independent_stream",
+      "log_bf": [
+        1.0532228607639178,
+        -0.12488509050708307
+      ],
+      "accuracy": {
+        "a_discovery": 0.0718232044198895,
+        "a_holdout": 0.0989010989010989,
+        "b_discovery": 0.0718232044198895,
+        "b_holdout": 0.08791208791208792
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-054",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.4765106817208808,
+        -0.624653811968424
+      ],
+      "accuracy": {
+        "a_discovery": 0.07692307692307693,
+        "a_holdout": 0.06521739130434782,
+        "b_discovery": 0.08791208791208792,
+        "b_holdout": 0.15217391304347827
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-055",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.749344517879484,
+        0.0995753232932417
+      ],
+      "accuracy": {
+        "a_discovery": 0.07547169811320754,
+        "a_holdout": 0.018867924528301886,
+        "b_discovery": 0.05660377358490566,
+        "b_holdout": 0.05660377358490566
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-056",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.5646576630856757,
+        -1.3956730693126436
+      ],
+      "accuracy": {
+        "a_discovery": 0.08426966292134831,
+        "a_holdout": 0.07865168539325842,
+        "b_discovery": 0.06179775280898876,
+        "b_holdout": 0.0449438202247191
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-057",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.1346264532402888,
+        -0.9296366101805638
+      ],
+      "accuracy": {
+        "a_discovery": 0.08241758241758242,
+        "a_holdout": 0.14285714285714285,
+        "b_discovery": 0.08241758241758242,
+        "b_holdout": 0.10989010989010989
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-058",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.8646234128983026,
+        -0.17384953411055548
+      ],
+      "accuracy": {
+        "a_discovery": 0.05202312138728324,
+        "a_holdout": 0.022988505747126436,
+        "b_discovery": 0.046242774566473986,
+        "b_holdout": 0.09195402298850575
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-059",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.1425999870065717,
+        -0.4955587884631161
+      ],
+      "accuracy": {
+        "a_discovery": 0.07222222222222222,
+        "a_holdout": 0.0989010989010989,
+        "b_discovery": 0.06666666666666667,
+        "b_holdout": 0.04395604395604396
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-060",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.8853389855278975,
+        0.5717485735865333
+      ],
+      "accuracy": {
+        "a_discovery": 0.08620689655172414,
+        "a_holdout": 0.09090909090909091,
+        "b_discovery": 0.10344827586206896,
+        "b_holdout": 0.045454545454545456
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-061",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.775354975634933,
+        -0.44698243117164616
+      ],
+      "accuracy": {
+        "a_discovery": 0.062146892655367235,
+        "a_holdout": 0.033707865168539325,
+        "b_discovery": 0.1016949152542373,
+        "b_holdout": 0.0449438202247191
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-062",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.3690523873573741,
+        -0.5133770639304474
+      ],
+      "accuracy": {
+        "a_discovery": 0.04477611940298507,
+        "a_holdout": 0.14925373134328357,
+        "b_discovery": 0.05970149253731343,
+        "b_holdout": 0.04477611940298507
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-063",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.738078067133756,
+        -0.9649570297938022
+      ],
+      "accuracy": {
+        "a_discovery": 0.08333333333333333,
+        "a_holdout": 0.0684931506849315,
+        "b_discovery": 0.034722222222222224,
+        "b_holdout": 0.0410958904109589
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-064",
+      "kind": "independent_stream",
+      "log_bf": [
+        -3.369350987274626,
+        -0.07553242911908953
+      ],
+      "accuracy": {
+        "a_discovery": 0.04597701149425287,
+        "a_holdout": 0.12643678160919541,
+        "b_discovery": 0.12643678160919541,
+        "b_holdout": 0.04597701149425287
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-065",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.03435058337297,
+        -0.27327225833464786
+      ],
+      "accuracy": {
+        "a_discovery": 0.08,
+        "a_holdout": 0.056818181818181816,
+        "b_discovery": 0.10285714285714286,
+        "b_holdout": 0.07954545454545454
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-066",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.5864423537595385,
+        -0.7674708439525877
+      ],
+      "accuracy": {
+        "a_discovery": 0.07692307692307693,
+        "a_holdout": 0.07575757575757576,
+        "b_discovery": 0.1,
+        "b_holdout": 0.10606060606060606
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-067",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.6013828977441462,
+        -0.9142440252792587
+      ],
+      "accuracy": {
+        "a_discovery": 0.07971014492753623,
+        "a_holdout": 0.1,
+        "b_discovery": 0.028985507246376812,
+        "b_holdout": 0.1
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-068",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.03983957256713566,
+        0.9418034862887517
+      ],
+      "accuracy": {
+        "a_discovery": 0.11176470588235295,
+        "a_holdout": 0.03529411764705882,
+        "b_discovery": 0.08235294117647059,
+        "b_holdout": 0.07058823529411765
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-069",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.1065935833940248,
+        0.6773650821683321
+      ],
+      "accuracy": {
+        "a_discovery": 0.06179775280898876,
+        "a_holdout": 0.05555555555555555,
+        "b_discovery": 0.08426966292134831,
+        "b_holdout": 0.05555555555555555
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-070",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.0352865422420212,
+        -0.5006463084148622
+      ],
+      "accuracy": {
+        "a_discovery": 0.08,
+        "a_holdout": 0.125,
+        "b_discovery": 0.07428571428571429,
+        "b_holdout": 0.056818181818181816
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-071",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.331290136696779,
+        -0.3919474289957372
+      ],
+      "accuracy": {
+        "a_discovery": 0.07692307692307693,
+        "a_holdout": 0.04395604395604396,
+        "b_discovery": 0.08791208791208792,
+        "b_holdout": 0.12087912087912088
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-072",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.7809805822861708,
+        0.3405558562022071
+      ],
+      "accuracy": {
+        "a_discovery": 0.06321839080459771,
+        "a_holdout": 0.08045977011494253,
+        "b_discovery": 0.028735632183908046,
+        "b_holdout": 0.06896551724137931
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-073",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.026400117658394,
+        -2.2177381099641265
+      ],
+      "accuracy": {
+        "a_discovery": 0.06629834254143646,
+        "a_holdout": 0.0989010989010989,
+        "b_discovery": 0.055248618784530384,
+        "b_holdout": 0.054945054945054944
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-074",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.35003418991967417,
+        -1.772824132236142
+      ],
+      "accuracy": {
+        "a_discovery": 0.04395604395604396,
+        "a_holdout": 0.021739130434782608,
+        "b_discovery": 0.06593406593406594,
+        "b_holdout": 0.21739130434782608
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-075",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.8068929611983817,
+        -0.2964274029065135
+      ],
+      "accuracy": {
+        "a_discovery": 0.04716981132075472,
+        "a_holdout": 0.07547169811320754,
+        "b_discovery": 0.08490566037735849,
+        "b_holdout": 0.07547169811320754
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-076",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.5648109270463535,
+        1.7294945992826745
+      ],
+      "accuracy": {
+        "a_discovery": 0.06741573033707865,
+        "a_holdout": 0.06741573033707865,
+        "b_discovery": 0.06179775280898876,
+        "b_holdout": 0.06741573033707865
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-077",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.3720109486408751,
+        -1.2751713404354064
+      ],
+      "accuracy": {
+        "a_discovery": 0.06593406593406594,
+        "a_holdout": 0.08791208791208792,
+        "b_discovery": 0.09340659340659341,
+        "b_holdout": 0.07692307692307693
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-078",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.6816618653245574,
+        -1.373088347323327
+      ],
+      "accuracy": {
+        "a_discovery": 0.07514450867052024,
+        "a_holdout": 0.05747126436781609,
+        "b_discovery": 0.057803468208092484,
+        "b_holdout": 0.034482758620689655
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-079",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.05009707248244233,
+        -0.8371061362394157
+      ],
+      "accuracy": {
+        "a_discovery": 0.05,
+        "a_holdout": 0.06593406593406594,
+        "b_discovery": 0.12222222222222222,
+        "b_holdout": 0.04395604395604396
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-080",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8339255864694519,
+        -2.8507456787269607
+      ],
+      "accuracy": {
+        "a_discovery": 0.05747126436781609,
+        "a_holdout": 0.045454545454545456,
+        "b_discovery": 0.06896551724137931,
+        "b_holdout": 0.022727272727272728
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-081",
+      "kind": "independent_stream",
+      "log_bf": [
+        1.5184529150519084,
+        0.08228451413042448
+      ],
+      "accuracy": {
+        "a_discovery": 0.062146892655367235,
+        "a_holdout": 0.0449438202247191,
+        "b_discovery": 0.07909604519774012,
+        "b_holdout": 0.0449438202247191
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-082",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.13241498100602467,
+        -0.7344021130811047
+      ],
+      "accuracy": {
+        "a_discovery": 0.07462686567164178,
+        "a_holdout": 0.014925373134328358,
+        "b_discovery": 0.05970149253731343,
+        "b_holdout": 0.04477611940298507
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-083",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.4074657701867674,
+        -0.8788714642373936
+      ],
+      "accuracy": {
+        "a_discovery": 0.0625,
+        "a_holdout": 0.0958904109589041,
+        "b_discovery": 0.1111111111111111,
+        "b_holdout": 0.0684931506849315
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-084",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.42363355597961005,
+        0.24713302835306106
+      ],
+      "accuracy": {
+        "a_discovery": 0.06896551724137931,
+        "a_holdout": 0.10344827586206896,
+        "b_discovery": 0.10919540229885058,
+        "b_holdout": 0.0
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-085",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.3448797048154542,
+        0.27357236808957497
+      ],
+      "accuracy": {
+        "a_discovery": 0.08571428571428572,
+        "a_holdout": 0.07954545454545454,
+        "b_discovery": 0.05714285714285714,
+        "b_holdout": 0.07954545454545454
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-086",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.243760750094971,
+        -1.3807551522668118
+      ],
+      "accuracy": {
+        "a_discovery": 0.13076923076923078,
+        "a_holdout": 0.07575757575757576,
+        "b_discovery": 0.038461538461538464,
+        "b_holdout": 0.13636363636363635
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-087",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.5795049779977139,
+        -0.13727741399519422
+      ],
+      "accuracy": {
+        "a_discovery": 0.057971014492753624,
+        "a_holdout": 0.0,
+        "b_discovery": 0.036231884057971016,
+        "b_holdout": 0.1
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-088",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.0056634760559104436,
+        -0.3294797700599128
+      ],
+      "accuracy": {
+        "a_discovery": 0.07647058823529412,
+        "a_holdout": 0.058823529411764705,
+        "b_discovery": 0.08235294117647059,
+        "b_holdout": 0.023529411764705882
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-089",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.224895266088458,
+        -1.7395942463945575
+      ],
+      "accuracy": {
+        "a_discovery": 0.06179775280898876,
+        "a_holdout": 0.0,
+        "b_discovery": 0.05056179775280899,
+        "b_holdout": 0.05555555555555555
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-090",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.0197807696028645,
+        0.4970053358267661
+      ],
+      "accuracy": {
+        "a_discovery": 0.06857142857142857,
+        "a_holdout": 0.11363636363636363,
+        "b_discovery": 0.08,
+        "b_holdout": 0.045454545454545456
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-091",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.1256992489255104,
+        -0.9193908529895767
+      ],
+      "accuracy": {
+        "a_discovery": 0.0989010989010989,
+        "a_holdout": 0.054945054945054944,
+        "b_discovery": 0.08791208791208792,
+        "b_holdout": 0.0989010989010989
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-092",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.5270809012114976,
+        -0.5640074171868124
+      ],
+      "accuracy": {
+        "a_discovery": 0.08620689655172414,
+        "a_holdout": 0.09195402298850575,
+        "b_discovery": 0.09770114942528736,
+        "b_holdout": 0.034482758620689655
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-093",
+      "kind": "independent_stream",
+      "log_bf": [
+        -3.80137650940354,
+        -0.4043855247286392
+      ],
+      "accuracy": {
+        "a_discovery": 0.0718232044198895,
+        "a_holdout": 0.04395604395604396,
+        "b_discovery": 0.11602209944751381,
+        "b_holdout": 0.0989010989010989
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-094",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.5465668634349083,
+        -0.654140360326227
+      ],
+      "accuracy": {
+        "a_discovery": 0.0989010989010989,
+        "a_holdout": 0.08695652173913043,
+        "b_discovery": 0.054945054945054944,
+        "b_holdout": 0.06521739130434782
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-095",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.1176505642471732,
+        -0.21879654778884916
+      ],
+      "accuracy": {
+        "a_discovery": 0.07547169811320754,
+        "a_holdout": 0.11320754716981132,
+        "b_discovery": 0.05660377358490566,
+        "b_holdout": 0.09433962264150944
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-096",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.8786094062760696,
+        -1.3043977632835118
+      ],
+      "accuracy": {
+        "a_discovery": 0.06179775280898876,
+        "a_holdout": 0.033707865168539325,
+        "b_discovery": 0.11797752808988764,
+        "b_holdout": 0.10112359550561797
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-097",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8072787559418595,
+        -0.6728305219344799
+      ],
+      "accuracy": {
+        "a_discovery": 0.054945054945054944,
+        "a_holdout": 0.14285714285714285,
+        "b_discovery": 0.08241758241758242,
+        "b_holdout": 0.07692307692307693
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-098",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.1963859181171106,
+        0.9413329248134952
+      ],
+      "accuracy": {
+        "a_discovery": 0.09248554913294797,
+        "a_holdout": 0.08045977011494253,
+        "b_discovery": 0.07514450867052024,
+        "b_holdout": 0.08045977011494253
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-099",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.2051014884469189,
+        -2.005576133950578
+      ],
+      "accuracy": {
+        "a_discovery": 0.03888888888888889,
+        "a_holdout": 0.054945054945054944,
+        "b_discovery": 0.08888888888888889,
+        "b_holdout": 0.0989010989010989
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-100",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.5714545294870832,
+        0.7763864534457796
+      ],
+      "accuracy": {
+        "a_discovery": 0.06896551724137931,
+        "a_holdout": 0.11363636363636363,
+        "b_discovery": 0.08045977011494253,
+        "b_holdout": 0.03409090909090909
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-101",
+      "kind": "independent_stream",
+      "log_bf": [
+        -3.6997252831115155,
+        -0.4611419459907915
+      ],
+      "accuracy": {
+        "a_discovery": 0.04519774011299435,
+        "a_holdout": 0.1348314606741573,
+        "b_discovery": 0.03954802259887006,
+        "b_holdout": 0.06741573033707865
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-102",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.3686223805834765,
+        -0.03488405542471629
+      ],
+      "accuracy": {
+        "a_discovery": 0.05223880597014925,
+        "a_holdout": 0.08955223880597014,
+        "b_discovery": 0.07462686567164178,
+        "b_holdout": 0.08955223880597014
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-103",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.3388119457181666,
+        -0.33276766364766397
+      ],
+      "accuracy": {
+        "a_discovery": 0.0625,
+        "a_holdout": 0.1095890410958904,
+        "b_discovery": 0.08333333333333333,
+        "b_holdout": 0.1095890410958904
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-104",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.511121604850381,
+        -1.2163038672513609
+      ],
+      "accuracy": {
+        "a_discovery": 0.09770114942528736,
+        "a_holdout": 0.10344827586206896,
+        "b_discovery": 0.08620689655172414,
+        "b_holdout": 0.05747126436781609
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-105",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.7383171675005475,
+        -1.2197152565697267
+      ],
+      "accuracy": {
+        "a_discovery": 0.08,
+        "a_holdout": 0.06818181818181818,
+        "b_discovery": 0.10285714285714286,
+        "b_holdout": 0.13636363636363635
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-106",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.191032126771069,
+        -0.3798055780694378
+      ],
+      "accuracy": {
+        "a_discovery": 0.07692307692307693,
+        "a_holdout": 0.06060606060606061,
+        "b_discovery": 0.08461538461538462,
+        "b_holdout": 0.030303030303030304
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-107",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.6724522868344431,
+        -2.1923362809018108
+      ],
+      "accuracy": {
+        "a_discovery": 0.09420289855072464,
+        "a_holdout": 0.05714285714285714,
+        "b_discovery": 0.08695652173913043,
+        "b_holdout": 0.07142857142857142
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-108",
+      "kind": "independent_stream",
+      "log_bf": [
+        -4.483725825182612,
+        0.6408045972695788
+      ],
+      "accuracy": {
+        "a_discovery": 0.07647058823529412,
+        "a_holdout": 0.10588235294117647,
+        "b_discovery": 0.07647058823529412,
+        "b_holdout": 0.058823529411764705
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-109",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8497265734717527,
+        -1.220790832644723
+      ],
+      "accuracy": {
+        "a_discovery": 0.06741573033707865,
+        "a_holdout": 0.07777777777777778,
+        "b_discovery": 0.056179775280898875,
+        "b_holdout": 0.1111111111111111
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-110",
+      "kind": "independent_stream",
+      "log_bf": [
+        -4.2864852854071955,
+        -0.11814759764390814
+      ],
+      "accuracy": {
+        "a_discovery": 0.05142857142857143,
+        "a_holdout": 0.07954545454545454,
+        "b_discovery": 0.06857142857142857,
+        "b_holdout": 0.07954545454545454
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-111",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.330228771208933,
+        -2.7072922401016535
+      ],
+      "accuracy": {
+        "a_discovery": 0.07692307692307693,
+        "a_holdout": 0.02197802197802198,
+        "b_discovery": 0.07142857142857142,
+        "b_holdout": 0.06593406593406594
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-112",
+      "kind": "independent_stream",
+      "log_bf": [
+        -2.867097166709741,
+        0.5804035927676066
+      ],
+      "accuracy": {
+        "a_discovery": 0.05747126436781609,
+        "a_holdout": 0.04597701149425287,
+        "b_discovery": 0.06321839080459771,
+        "b_holdout": 0.11494252873563218
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-113",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.37699212602044563,
+        -0.5924376610542685
+      ],
+      "accuracy": {
+        "a_discovery": 0.08839779005524862,
+        "a_holdout": 0.08791208791208792,
+        "b_discovery": 0.0718232044198895,
+        "b_holdout": 0.07692307692307693
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-114",
+      "kind": "independent_stream",
+      "log_bf": [
+        0.3700066021017334,
+        0.09447237346773152
+      ],
+      "accuracy": {
+        "a_discovery": 0.14285714285714285,
+        "a_holdout": 0.10869565217391304,
+        "b_discovery": 0.0989010989010989,
+        "b_holdout": 0.08695652173913043
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-115",
+      "kind": "independent_stream",
+      "log_bf": [
+        -0.8364560253170885,
+        0.42911385420714465
+      ],
+      "accuracy": {
+        "a_discovery": 0.0660377358490566,
+        "a_holdout": 0.07547169811320754,
+        "b_discovery": 0.0660377358490566,
+        "b_holdout": 0.07547169811320754
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-116",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.713700771076749,
+        -0.662093492220083
+      ],
+      "accuracy": {
+        "a_discovery": 0.0898876404494382,
+        "a_holdout": 0.14606741573033707,
+        "b_discovery": 0.08426966292134831,
+        "b_holdout": 0.02247191011235955
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-117",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.6757197603104932,
+        0.9787862345026759
+      ],
+      "accuracy": {
+        "a_discovery": 0.04945054945054945,
+        "a_holdout": 0.054945054945054944,
+        "b_discovery": 0.07142857142857142,
+        "b_holdout": 0.07692307692307693
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    },
+    {
+      "id": "pair-118",
+      "kind": "independent_stream",
+      "log_bf": [
+        -1.1360131586266138,
+        -1.2122422039191547
+      ],
+      "accuracy": {
+        "a_discovery": 0.09248554913294797,
+        "a_holdout": 0.14942528735632185,
+        "b_discovery": 0.09248554913294797,
+        "b_holdout": 0.10344827586206896
+      },
+      "detected": false,
+      "recovery_passed": false,
+      "accepted": false,
+      "exact_plaintext": false,
+      "exact_key": false
+    }
+  ]
+}

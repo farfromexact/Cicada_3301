@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "path": "sources/feed012/user-request.txt",
+      "url": null,
+      "upstream_version": "direct-user-message-20260919",
+      "acquired_at_utc": "2026-09-19T11:23:46.255095+00:00",
+      "acquisition": "Verbatim user message text encoded UTF-8; acquisition time is archival time, not message receipt time",
+      "sha256": "6d48b7552bd51b6450e4fc02f1ea92d4d13fcab7416e128087adfa8dc005a1d3",
+      "bytes": 76,
+      "http_metadata": null
+    },
+    {
+      "path": "sources/feed012/user-steering.txt",
+      "url": null,
+      "upstream_version": "direct-user-message-20260919",
+      "acquired_at_utc": "2026-09-19T11:23:46.262463+00:00",
+      "acquisition": "Verbatim user message text encoded UTF-8; acquisition time is archival time, not message receipt time",
+      "sha256": "0602b1f0c741f45c945d3f0a11007b60fbfb20652660635ab66b49c3085ff4c9",
+      "bytes": 110,
+      "http_metadata": null
+    }
+  ]
+}

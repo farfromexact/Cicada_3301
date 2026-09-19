@@ -147,7 +147,9 @@
           "anchor": "30点 Möbius"
         }
       ],
-      "experiments": [],
+      "experiments": [
+        "E031-h031-v4-quick-screen"
+      ],
       "next_step": "FEED011-P3：先明确哪类原始分隔符是∞以及是否允许与符文互换；若固定∞则退化为812个仿射。未完整枚举PGL，H015仅固定反演，不扩张阴性范围。见reviews/feed011-composite-mechanisms.md。"
     },
     {
@@ -388,7 +390,7 @@
       "id": "C022",
       "topic": "Berlekamp Massey BM F29 linear complexity hidden state observability",
       "status": "conjecture",
-      "claim": "原始或预定义派生符文序列的低阶F29线性递推及前缀拟合后缀预测是未执行的新观测提案。它不等于密钥生成器或所有隐藏状态检测；未知明文可掩盖低阶密钥流。",
+      "claim": "原始或预定义派生符文序列的低阶F29递推观测已执行H030-v3观测和575/999控制；2026-09-19独立审计208合格视图均无<=16阶前缀递推，停止无希望补控。未完成完整统计，且未知明文可以掩盖低阶密钥流；这不是密钥生成器或所有隐藏状态检测。",
       "evidence": [
         {
           "path": "sources/feed011/user-proposal.txt",
@@ -399,8 +401,12 @@
           "anchor": "未知P也可能使C高复杂度"
         }
       ],
-      "experiments": [],
-      "next_step": "FEED011-P1：先在独立合成正负例及低阶key被明文掩盖对照上校准，冻结前缀/后缀/阶数/零假设，再决定正式全适用页批次。"
+      "experiments": [
+        "E027-h030-v3-safe-pause",
+        "E028-h030-v3-observed-audit",
+        "E029-h030-observed-stop"
+      ],
+      "next_step": "无新独立锚点不扩阶数/视图补考；保留575断点但不作为默认待恢复任务。"
     },
     {
       "id": "C023",
@@ -1115,6 +1121,83 @@
       "rune_view_checks": 51769
     },
     "coverage": "H030-v3在暂停前的形式observed独立核验摘要：55个适用页、220个固定视图和51769个视图符文检查通过；这不是999组对照的统计结论。"
-  }
-]
+  },
+    {
+      "id": "E029-h030-observed-stop",
+      "hypothesis": "H030-stopping-audit-v1",
+      "outcome": "inconclusive",
+      "artifact": "runs/20260919-H030-stopping-audit-v1/record.json",
+      "assertions": {
+        "status": "inconclusive",
+        "audit_verification": "passed",
+        "new_formal_controls": 0,
+        "result.eligible_cells": 208,
+        "result.minimum_fitted_order": 40,
+        "result.maximum_admitted_order": 16,
+        "result.independent_inconsistent_cap_systems": 208
+      },
+      "coverage": "55页/220视图，其中208合格视图均由独立F29方程oracle证明没有<=16阶精确前缀递推；无低阶候选，按用户M009及时停止补控。保留旧575/999对照，无正式完整p值，不排除隐藏key的递推或其它视图。"
+    },
+    {
+      "id": "E030-h031-v3-overlap-correction",
+      "hypothesis": "H031-pgl-power-gate-v3",
+      "outcome": "inconclusive",
+      "artifact": "runs/20260919-H031-gate-v3-correction.json",
+      "assertions": {
+        "effective_status": "inconclusive",
+        "record_preserved": true,
+        "actual_result.lp2_pages": 0
+      },
+      "coverage": "v3合成精确映射20/20与负误收0/99，但第三页与发现窗口重叠，撤回未见内容预测含义。原运行保留，不做LP2解释。"
+    },
+    {
+      "id": "E031-h031-v4-quick-screen",
+      "hypothesis": "H031-pgl-gated-screen-v4",
+      "outcome": "negative",
+      "artifact": "runs/20260919-H031-screen-v4/record.json",
+      "assertions": {
+        "status": "negative",
+        "gate_status": "passed",
+        "positive_passes": 20,
+        "negative_false_accepts": 0,
+        "actual_coverage.lp2_pages": 55,
+        "actual_coverage.lp2_runes": 12956,
+        "actual_coverage.controls": 0,
+        "screen_summary.discovery_pass": false,
+        "screen_summary.holdout_pages_above_threshold": 0
+      },
+      "coverage": "不相交合成D/H门20/20、0/99后，55含符文页统一common PGL筛选：28页选一个矩阵，27页留出，选中仿射[13,10,0,1]，发现均分-3.57854低于training-only阈-2.76725，留出0/27达到。限定筛选negative，正式随机确认0，不排除全部PGL或其他评分器。"
+    },
+    {
+      "id": "E032-h027-recovery-gate",
+      "hypothesis": "H027-adjacent-reused-stream-v1",
+      "outcome": "inconclusive",
+      "artifact": "runs/20260919-H027-v1/record.json",
+      "assertions": {
+        "status": "inconclusive",
+        "lp2_dispatched": false,
+        "lp2_statistic_count": 0,
+        "controls_completed": 0,
+        "gate_summary.positive_accepted": 0,
+        "gate_summary.negative_false_accepts": 0,
+        "independent_verification": "passed"
+      },
+      "coverage": "119合成双页job恢复门：20同流正例0通过，发现/留出平均逐符文恢复约24.63%/25.22%，99独立流误收0。当前训练模型能力不足，立即停止；LP2评分/控制均0，不能解释为共用流密码学阴性。"
+    },
+    {
+      "id": "E033-h026-word-mask-gate",
+      "hypothesis": "H026-word-mask-collisions-v1",
+      "outcome": "inconclusive",
+      "artifact": "runs/20260919-H026-word-mask-v1/record.json",
+      "assertions": {
+        "status": "inconclusive",
+        "gate_status": "failed",
+        "positive_passes": 8,
+        "negative_false_accepts": 0,
+        "lp2_pages_dispatched": 0,
+        "formal_confirmation": false
+      },
+      "coverage": "逐词共享加法掩码消去后的重复指纹碰撞门：20合成正例8通过，99负例误收0，低于18/20要求即停止。每job99词内重排对照；LP2未dispatch、无正式统计、无候选，不排除逐词掩码机制。"
+    }
+  ]
 }

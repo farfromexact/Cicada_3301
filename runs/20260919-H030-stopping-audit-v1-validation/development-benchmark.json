@@ -1,0 +1,20 @@
+{
+  "status": "exploratory_timing_only",
+  "formal_controls_accepted": 0,
+  "replicates_evaluated": [
+    575,
+    576,
+    577,
+    578,
+    579
+  ],
+  "retained_metrics": false,
+  "steady_seconds_per_replicate": 0.48439999998081473,
+  "estimated_full_replay_and_continuation_seconds": 483.9155999808339,
+  "note": "Existing frozen null mapping only; outputs discarded after timing, no p-value or scientific control row accepted. JIT short/boundary equivalence tests passed; complete 575-row metric replay was not attempted.",
+  "evidence_type": "Timing outputs recorded from development tool invocations, not a new replay.",
+  "first_call_including_additional_JIT_compilation_seconds": 0.46799999999348074,
+  "steady_five_replicates_stdout": "0.48439999998081473\n",
+  "equivalence_test_exhaustive_sequences": 25260,
+  "new_formal_controls_accepted": 0
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "run": "runs/20260919-H031-gate-v3",
+    "archive_sha256": "1e1dbaa049704c833ff5f8319ba8d26fda52c1cc2d4d4042605163557894aeb6",
+    "members": 26,
+    "crc": "passed",
+    "frozen_dependencies_checked": 17
+  },
+  {
+    "run": "runs/20260919-H031-screen-v4",
+    "archive_sha256": "8fb87d03fc1d058e7654b9872d1152be5172cce74b2e1f08871005ef46bcbc30",
+    "members": 33,
+    "crc": "passed",
+    "frozen_dependencies_checked": 18
+  },
+  {
+    "run": "runs/20260919-H027-v1",
+    "archive_sha256": "2eea7575f452edf0241a78e0ca3b5cc142a707dbb9e216f1ed62f125b895a1e2",
+    "members": 28,
+    "crc": "passed",
+    "frozen_dependencies_checked": 0
+  },
+  {
+    "run": "runs/20260919-H026-word-mask-v1",
+    "archive_sha256": "2f38ea1f3a0af220c0dc85c99dd322563ba3b84f60f19d32a71bbbddaa682332",
+    "members": 22,
+    "crc": "passed",
+    "frozen_dependencies_checked": 14
+  },
+  {
+    "run": "runs/20260919-H030-stopping-audit-v1",
+    "archive_sha256": "2df5983bf7b4ae3836745139b85469536a84a4da93a190da8257221f6cf84dac",
+    "members": 44,
+    "crc": "passed",
+    "frozen_dependencies_checked": 0
+  }
+]

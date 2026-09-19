@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "run": "runs/20260919-H031-gate-v3",
+  "record_preserved": true,
+  "effective_status": "inconclusive",
+  "reason": "Independent review found that v2-inherited synthetic page windows overlap within a job. All-map recovery and scoring checks passed, but the third page is not independent unseen content. Do not use this gate to authorize LP2 confirmation.",
+  "actual_result": {"exact_mapping_positive_passes":20,"negative_false_accepts":0,"lp2_pages":0},
+  "next": "New v4 freezes non-overlapping synthetic windows and a cheap absolute-score screen before any formal randomization controls."
+}

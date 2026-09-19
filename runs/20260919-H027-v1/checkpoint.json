@@ -1,0 +1,7 @@
+{
+  "status": "complete",
+  "gate_completed": true,
+  "lp2_dispatched": false,
+  "control_completed": 0,
+  "frozen_sha256": "d0e476c2fa956ffed70b2069c46bf7ef266f14e6d116c06b7d823c92ec413140"
+}

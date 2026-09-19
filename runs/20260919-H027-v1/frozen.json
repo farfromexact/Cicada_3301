@@ -1,0 +1,110 @@
+{
+  "frozen_at_utc": "2026-09-19T11:23:19.249592+00:00",
+  "specification": {
+    "schema": 1,
+    "id": "H027-adjacent-reused-stream-v1",
+    "status": "preregistered",
+    "registered_date": "2026-09-19",
+    "basis": "reviews/auto-cycle-009.md H027: original adjacent pages, zero offset, reused additive stream; no new key family or offsets",
+    "hypothesis": "C_A[i]=P_A[i]+K[i] and C_B[i]=P_B[i]+K[i] mod29, so D[i]=P_A[i]-P_B[i] mod29",
+    "representation": "Original rune indices 0..28, F ordinary. Keep raw source and ordinal mappings. A page contributes its rune prefix before its first ASCII alphanumeric literal. Soft separators and punctuation do not consume clock. No shift, reverse, reorder, skip, or tuning.",
+    "coverage": {
+      "universe": "All 55 original consecutive pairs LP2/n,LP2/n+1 for n=0..54; all 56 pages receive a coverage row",
+      "overlap": "min(legal prefix lengths), at least 30 symbols; unpaired tails reported",
+      "grid": "Stop at first ASCII letter/digit; LP2/49 pre-grid rune prefix remains applicable, LP2/50 has none, LP2/51 begins with grid and has no legal page-origin prefix; never bridge 49 to 51",
+      "reset": "Same clock origin at first rune of each page; no inferred chapters"
+    },
+    "model": {
+      "training": "data/synthetic/training.txt only, fixed lp_lab.synthetic.encode_text; no LP plaintext or heldout in worker",
+      "plaintext": "Add-one-smoothed unigram pi and row-normalized add-one bigram transition T",
+      "difference": "Add-one-smoothed joint bigram J; Q[a,b]=sum_x,y J[x,y]*J[(x-a)%29,(y-b)%29], then normalize each Q row. Initial difference piD[a]=sum_x pi[x]*pi[(x-a)%29]. This is a fixed first-order approximation, not the exact hidden-state marginal.",
+      "score": "Log likelihood ratio of observed D under piD,Q against iid uniform29. First floor(2*n/3) is discovery; remaining suffix is heldout. The first suffix term conditions on last discovery D. No refit on either segment.",
+      "prediction_limit": "Heldout is a sequential conditional density prediction of D, not independent plaintext/key suffix prediction.",
+      "decode": "Exact 29-state Viterbi over P_A; P_B=P_A-D. First decode discovery only, then freeze its last pair and decode suffix conditional on those states. Return explicit P_A,P_B and K_A=C_A-P_A,K_B=C_B-P_B. Shared K and roundtrip do not establish correctness.",
+      "tie": "Smallest previous A state, then smallest final A state"
+    },
+    "synthetic_gate": {
+      "positive_count": 20,
+      "negative_count": 99,
+      "lengths": [
+        262,
+        266,
+        201,
+        217,
+        261,
+        263,
+        196,
+        208,
+        255,
+        268,
+        263,
+        273,
+        261,
+        272,
+        137,
+        159,
+        267,
+        273,
+        260,
+        271
+      ],
+      "plaintexts": "Verifier-only heldout encode_text: A at i*13, B at 598+i*13, length fixed. Within a case windows are disjoint; across cases windows overlap, so counts are diagnostics, not independent confidence trials.",
+      "positive": "Independent uniform29 K per positive, same K used for both natural windows",
+      "negative": "Same natural windows with independent uniform29 K_A,K_B; index modulo20; exactly99",
+      "seed": 33012701,
+      "detection": "Both discovery and holdout log likelihood ratios >= ln(100)",
+      "recovery": "Each of A and B must recover >=0.60 exact rune fraction separately in discovery and holdout; report full exact plaintext/key match independently",
+      "pass": "At least18/20 positives meet detection and recovery; 0/99 independent-stream negatives meet detection",
+      "failure": "inconclusive; do not dispatch LP2 or calculate LP2 scores; do not tune v1 after results"
+    },
+    "lp2_acceptance": {
+      "controls": 999,
+      "seed": 33012703,
+      "null": "Within each legal prefix, shuffle only even-numbered original pages; odd pages fixed. Each pair has exactly one shuffled page and each shared even page uses the same permutation for both neighbors in that replicate.",
+      "statistics": "Two score columns per applicable pair; standardize observed+999 controls together, maxT across all columns; plus-one p with1e-12 tie tolerance",
+      "lead": "Both segments logBF>=ln100 and both maxT p<=.01; only unverified candidate pair, never decryption",
+      "negative": "Complete gate, independent verification and all999 controls with no lead: scoped negative for this detector/model/alignment only"
+    },
+    "isolation": "Guarded stdlib-only worker receives ciphertext, opaque job id and training counts; no answers, plaintext, generation seed, filesystem/process/network access. Gate dispatch precedes any LP2 dispatch.",
+    "validation": "Independent scalar backward Bellman optimum, independent path objective, difference/score and roundtrip checks; short brute force oracle and mutation tests. Exact comparison to verifier-only synthetic plaintext and keys.",
+    "budget": {
+      "wall_seconds": 900,
+      "gate_jobs": 119,
+      "control_replicates": 999,
+      "offsets": 1,
+      "models": 1
+    },
+    "stage_order": "Implement and execute synthetic gate first. Only if it passes, implement the already frozen formal control specification and freeze that implementation before any LP2 score; failed gate ends v1 without implementing controls.",
+    "provenance": "Before worker execution freeze spec/source/code hashes, public gate ciphertext, private answers, model and coverage. Save worker stdout/stderr/exit code, complete or partial controls and checkpoint, reproduction ZIP and CRC/content verification.",
+    "uncovered": [
+      "Other offsets or nonadjacent pages",
+      "Alternative key streams or plaintext models",
+      "F skipping",
+      "Grid symbol consumption or post-grid reset",
+      "Image glyph ambiguity",
+      "Exact recovery of unknown LP2 plaintext without an independent anchor"
+    ]
+  },
+  "source_hashes": {
+    "AGENTS.md": "ca7d04080a256f44883fd0d9587a9e361801ae91e1700488dda428f026770439",
+    "data/attempt1-corpus-v1.json": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "data/synthetic/training.txt": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff",
+    "hypotheses/H027-adjacent-reused-stream-v1.json": "7e9ba309c4d501218046e3162b9f5b7440e1b5c4f66da98b4f09831e5322fc69",
+    "research/METHOD.md": "ca2a54600aa546142dce232b0b0fb71ca172d1bb7ab526be241cdbb40a6c1924",
+    "research/methods.json": "a986e87fe7494dc14f4b983e93c9f11747753b21cf523c2ddf3b0e76ebf16621",
+    "reviews/auto-cycle-009.md": "726228c5fa760253bb774f4890cf1b19e03233994e1c5d552c124f48c930783e",
+    "scripts/attempt23_reused_stream_v1.py": "0989940bd845d53f6522ed72f20c542343260117f0b1f3f346755f79cc899084",
+    "scripts/attempt23_reused_stream_worker_v1.py": "fd5b9e68798794887d66379a76124ebbc6336e1cf7815536f360a81e1dd5c90d",
+    "sources/iddqd/liber-primus__transcription--master/liber-primus__transcription--master.txt": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+    "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+    "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+    "tests/test_reused_stream.py": "fbd33a483681100e6d6c2d446d71a2d667129c84b0314452cfe1afa4227b1382"
+  },
+  "public_sha256": "e3e731fd855f84d2cba135359668b2db652611709618a1b89652ca079d5e9c01",
+  "private_sha256": "56490498b75065bf803269ea67d0f05f23a811b5639f151fd5d92b33f2a2b63c",
+  "coverage_sha256": "2ec9a511595a920444a8f46b6bda09cc2e3a4978ed7ce91f55bbfb2c7deab94a",
+  "python": "3.12.8 (tags/v3.12.8:2dc476b, Dec  3 2024, 19:30:04) [MSC v.1942 64 bit (AMD64)]",
+  "lp2_scores_seen": false
+}

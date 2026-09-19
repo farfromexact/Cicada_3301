@@ -1,0 +1,506 @@
+[
+  {
+    "page": "LP2/0",
+    "applicable": true,
+    "runes": 262,
+    "points": 318,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "f11867b2d043609c2704d7aaf54cba51b1e06151528fee8c16d6e79e7a6b2ec9",
+    "reason": null
+  },
+  {
+    "page": "LP2/1",
+    "applicable": true,
+    "runes": 266,
+    "points": 323,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "71ab9e3c88c343237f307be17c861f43d50ff4e8d27207beb89007e2ab6ba38c",
+    "reason": null
+  },
+  {
+    "page": "LP2/2",
+    "applicable": true,
+    "runes": 201,
+    "points": 237,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "55ce716ff6b414de5bc7abcc1f360dd7076753c612caaf90a4688f4b457709c7",
+    "reason": null
+  },
+  {
+    "page": "LP2/3",
+    "applicable": true,
+    "runes": 217,
+    "points": 257,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "dd89a9e52baff73bda64a92f7130aa1013eb4d8318d746e98ea32b29a1a53fc2",
+    "reason": null
+  },
+  {
+    "page": "LP2/4",
+    "applicable": true,
+    "runes": 261,
+    "points": 317,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "4832769d83d1b3e28a38d3af0b54ba749b4be9a5a8941121125862522bb4bff1",
+    "reason": null
+  },
+  {
+    "page": "LP2/5",
+    "applicable": true,
+    "runes": 263,
+    "points": 319,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "e09a4d4fff192320658f5ad59e3efcd0d140a0df0fff53401782b8c36b92b646",
+    "reason": null
+  },
+  {
+    "page": "LP2/6",
+    "applicable": true,
+    "runes": 196,
+    "points": 237,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "e18bb920417b1bf38f80e07def01411e9970654558f4e3a729542ad070f9bd31",
+    "reason": null
+  },
+  {
+    "page": "LP2/7",
+    "applicable": true,
+    "runes": 208,
+    "points": 253,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "be507c4e39ff8311baa7eaa14ee290c21c7579d26348de661183437bc4c2129c",
+    "reason": null
+  },
+  {
+    "page": "LP2/8",
+    "applicable": true,
+    "runes": 255,
+    "points": 302,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "c2f0e23c020ebbdb8a913eaec55b9e6606295d6bf21dad634db11d9e91ece3d9",
+    "reason": null
+  },
+  {
+    "page": "LP2/9",
+    "applicable": true,
+    "runes": 268,
+    "points": 322,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "7f3dd425ace5cff869b769d357c881f2ce0737b81040e3fff2687fd9fa94ec02",
+    "reason": null
+  },
+  {
+    "page": "LP2/10",
+    "applicable": true,
+    "runes": 263,
+    "points": 325,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "a9883f1c2d750895f1c85d90617297c0ae6651331d16054eee32c167fcb8cb1c",
+    "reason": null
+  },
+  {
+    "page": "LP2/11",
+    "applicable": true,
+    "runes": 273,
+    "points": 323,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "c2b438f6983b7ec784ec25dcd4d723b653d84d974d4192dbbdb4471f3c003572",
+    "reason": null
+  },
+  {
+    "page": "LP2/12",
+    "applicable": true,
+    "runes": 261,
+    "points": 320,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "eeddff3bc9af33bb58a86230f777e6e2076dec09c54455d1522a5e86cdb4d745",
+    "reason": null
+  },
+  {
+    "page": "LP2/13",
+    "applicable": true,
+    "runes": 272,
+    "points": 330,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "3f01c2b4e265fee21fcea36b0742002472031ae088c69442a094ca4c6bb48348",
+    "reason": null
+  },
+  {
+    "page": "LP2/14",
+    "applicable": true,
+    "runes": 137,
+    "points": 165,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "763022b20ee6ad4e54a1574427322ab3d43a79f34772df1dae335e7b415e3985",
+    "reason": null
+  },
+  {
+    "page": "LP2/15",
+    "applicable": true,
+    "runes": 159,
+    "points": 206,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "eacf6c5bcc127882fd59fdfb25c6f83b25ce78e116267cdf733cf2394b1f40e1",
+    "reason": null
+  },
+  {
+    "page": "LP2/16",
+    "applicable": true,
+    "runes": 267,
+    "points": 323,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "7ba44121f61303838ff0b6961710810904fa41f1057dd2016fd4a58ecc59902d",
+    "reason": null
+  },
+  {
+    "page": "LP2/17",
+    "applicable": true,
+    "runes": 273,
+    "points": 336,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "ea601d0797ff1bee1eedfc151a89283c622fdf9609eaf92ab055acc0d07812ce",
+    "reason": null
+  },
+  {
+    "page": "LP2/18",
+    "applicable": true,
+    "runes": 260,
+    "points": 319,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "cbe805e2fa35b1996a5e4d97a4bd1f6531926fb7585e0604081a5185bb9aa600",
+    "reason": null
+  },
+  {
+    "page": "LP2/19",
+    "applicable": true,
+    "runes": 271,
+    "points": 333,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "1fdd17d6de0277af7ead2f671af4cede5fff78712b4e9ec219044f90fba52f19",
+    "reason": null
+  },
+  {
+    "page": "LP2/20",
+    "applicable": true,
+    "runes": 269,
+    "points": 334,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "ea2c892765997a835b00df6edcd868ac97931885f1a9200e87d98b73ca9f3037",
+    "reason": null
+  },
+  {
+    "page": "LP2/21",
+    "applicable": true,
+    "runes": 273,
+    "points": 326,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "5fbae8c280fc3135826af3088cf2632a9d944f95c53a4025febda4d43f6bca97",
+    "reason": null
+  },
+  {
+    "page": "LP2/22",
+    "applicable": true,
+    "runes": 131,
+    "points": 155,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "0b2b679a32aeead596282bac6bb4fdb1ba7f5bb40478d312ec06b38e57c537c6",
+    "reason": null
+  },
+  {
+    "page": "LP2/23",
+    "applicable": true,
+    "runes": 213,
+    "points": 257,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "9eb45645b291f239b8b9e0bfc58ed69b9c637ff8dc10b9f96789f68194be7e1f",
+    "reason": null
+  },
+  {
+    "page": "LP2/24",
+    "applicable": true,
+    "runes": 270,
+    "points": 330,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "ca61202fd6c726b1ff6f38f8044bcc8679c810161cc3c83788059f011abb865c",
+    "reason": null
+  },
+  {
+    "page": "LP2/25",
+    "applicable": true,
+    "runes": 273,
+    "points": 328,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "6139d361577fa593bb748bab77241c0952f0977cb02c652bce9c50d81c33a743",
+    "reason": null
+  },
+  {
+    "page": "LP2/26",
+    "applicable": true,
+    "runes": 265,
+    "points": 321,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "8a8afd78496787aa02e7558b4e4f994e9c408e4587769edef293d1200fbfc1ad",
+    "reason": null
+  },
+  {
+    "page": "LP2/27",
+    "applicable": true,
+    "runes": 234,
+    "points": 282,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "7e8b375c7fd29cfe914fce972f47a7538665f48545d0f956078c63645d90954c",
+    "reason": null
+  },
+  {
+    "page": "LP2/28",
+    "applicable": true,
+    "runes": 269,
+    "points": 325,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "430e4a5f5cb85b26ff872216c7f672118bfec1b8f647586eb750e0cd3660cad0",
+    "reason": null
+  },
+  {
+    "page": "LP2/29",
+    "applicable": true,
+    "runes": 277,
+    "points": 343,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "6e76c9308f555e412868b6d4cb96ee41ca22bc1c1ef1220c931105424d181ec8",
+    "reason": null
+  },
+  {
+    "page": "LP2/30",
+    "applicable": true,
+    "runes": 263,
+    "points": 319,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "9a1284186be0a91db51305d48de40dd005964e7bb91ede1969e209f2cba41672",
+    "reason": null
+  },
+  {
+    "page": "LP2/31",
+    "applicable": true,
+    "runes": 269,
+    "points": 326,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "1adeb2bb97fafa074b42b6aff207876c6e58d5da6b55b5e965553ac7e558fd6d",
+    "reason": null
+  },
+  {
+    "page": "LP2/32",
+    "applicable": true,
+    "runes": 121,
+    "points": 141,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "9dc3c9eac1a4c45fad93b57aba85a587fca355dcfc9d2e74f3d59d59a60cb9e2",
+    "reason": null
+  },
+  {
+    "page": "LP2/33",
+    "applicable": true,
+    "runes": 214,
+    "points": 263,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "bcc67de5ea94c327088710974e2dc5014d68960a4dcdb7ef80d4968d0d519adb",
+    "reason": null
+  },
+  {
+    "page": "LP2/34",
+    "applicable": true,
+    "runes": 261,
+    "points": 317,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "a171cc426dfa1fc2c25082a570dbc038db4cec3f330baa25143e1fcbcc62ae23",
+    "reason": null
+  },
+  {
+    "page": "LP2/35",
+    "applicable": true,
+    "runes": 271,
+    "points": 329,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "10c1c79317ec1c54ced9f7480a40c4fb8f47669e594058655f273216f3d102cc",
+    "reason": null
+  },
+  {
+    "page": "LP2/36",
+    "applicable": true,
+    "runes": 238,
+    "points": 287,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "17b04e084356ef1492b5ded945388b89d2aa811a7c6c9035ae2b7485043419aa",
+    "reason": null
+  },
+  {
+    "page": "LP2/37",
+    "applicable": true,
+    "runes": 228,
+    "points": 282,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "584e1384e114e40beed993dc9786e8938eb69d07be9857e303a19ab37e61ce0b",
+    "reason": null
+  },
+  {
+    "page": "LP2/38",
+    "applicable": true,
+    "runes": 228,
+    "points": 273,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "736de4b56077253acf232de3d3eaf3c3f156e52bf5bea62f5785f8b9d0d272d3",
+    "reason": null
+  },
+  {
+    "page": "LP2/39",
+    "applicable": true,
+    "runes": 240,
+    "points": 291,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "bf8d98035cf595ba6a381f701e72a8c5b99870ffb3ce063e46779b43aed976fd",
+    "reason": null
+  },
+  {
+    "page": "LP2/40",
+    "applicable": true,
+    "runes": 231,
+    "points": 280,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "3d0391c7ad7440823468a34464c8c03143d8796a09b40d0d82d1e040dfac6801",
+    "reason": null
+  },
+  {
+    "page": "LP2/41",
+    "applicable": true,
+    "runes": 273,
+    "points": 331,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "efda97dc963bd08efef2233196197d7a1259519b6003119ad80311dc1f1120d2",
+    "reason": null
+  },
+  {
+    "page": "LP2/42",
+    "applicable": true,
+    "runes": 272,
+    "points": 326,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "51e280aaf221ccf634f31098e179b46690e447a661749d8b532a7d9083f1affc",
+    "reason": null
+  },
+  {
+    "page": "LP2/43",
+    "applicable": true,
+    "runes": 274,
+    "points": 327,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "f31d3e97852ae1323558028b0034019980e26a1013401c7e9a0c67fe92c3ad63",
+    "reason": null
+  },
+  {
+    "page": "LP2/44",
+    "applicable": true,
+    "runes": 273,
+    "points": 327,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "d8dbce83999f6595b23f8e9981cbfc5d063d957cefa05cf566f3b60c17d851c6",
+    "reason": null
+  },
+  {
+    "page": "LP2/45",
+    "applicable": true,
+    "runes": 270,
+    "points": 330,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "d119125e130fcd4e4f40a6e58c77b1cedf2aa1451426202a19d315d36117dece",
+    "reason": null
+  },
+  {
+    "page": "LP2/46",
+    "applicable": true,
+    "runes": 270,
+    "points": 328,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "70df7393c26f92117ffe76b98f41445a855137854a7fe60b7c3345015dbecb06",
+    "reason": null
+  },
+  {
+    "page": "LP2/47",
+    "applicable": true,
+    "runes": 274,
+    "points": 328,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "f9cca96710c9fd5c428419e5233b2125e5e3347a954556c706faeaa500a49e36",
+    "reason": null
+  },
+  {
+    "page": "LP2/48",
+    "applicable": true,
+    "runes": 271,
+    "points": 330,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "8ae7595edc9947f039b2be4892886cc49e2b0c09ce89fd60a0638e8ea0917b38",
+    "reason": null
+  },
+  {
+    "page": "LP2/49",
+    "applicable": true,
+    "runes": 66,
+    "points": 153,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "d87197bac8974b65b347c651b19ebfac729df7e559881f8af9854b4ae9a1ab38",
+    "reason": null
+  },
+  {
+    "page": "LP2/50",
+    "applicable": false,
+    "runes": 0,
+    "points": 91,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "89a53ad09149e59a4fe8fbac6f6ac0af0c50ecd51b1792a0efc55e2da90a2a79",
+    "reason": "No registered runes; alphanumeric grid excluded"
+  },
+  {
+    "page": "LP2/51",
+    "applicable": true,
+    "runes": 92,
+    "points": 174,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "e54acf1c23a3b98acece2156e3f3f38dc3fbfad268d7b1fb49b8b12fca4cfc6e",
+    "reason": null
+  },
+  {
+    "page": "LP2/52",
+    "applicable": true,
+    "runes": 263,
+    "points": 319,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "56e3bd9944c96331f3e6e5888bf7d63b7674ede9aee542fd1df138c1255e3e57",
+    "reason": null
+  },
+  {
+    "page": "LP2/53",
+    "applicable": true,
+    "runes": 179,
+    "points": 216,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "f919c09f47d6be2e285461af4662371fb2520b5334f7425f11139f5faf3a4608",
+    "reason": null
+  },
+  {
+    "page": "LP2/54",
+    "applicable": true,
+    "runes": 232,
+    "points": 280,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "b079f51671ef94ffc22fb82d1197d5837c0c31456c34343061da27ed74a77632",
+    "reason": null
+  },
+  {
+    "page": "LP2/55",
+    "applicable": true,
+    "runes": 76,
+    "points": 92,
+    "source_sha256": "105f1c68cecde03df1e66982d3021ab31d7f49ee975ca109d1a1924cbcafc99c",
+    "raw_sha256": "6d2bb43839224098b71ef5df900e0a217d5f1e45e4ca67ee320cca25e099a243",
+    "reason": null
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "status": "inconclusive",
+  "audit_verification": "passed",
+  "pages": 55,
+  "runes": 12956,
+  "view_cells": 220,
+  "eligible_cells": 208,
+  "short_cells": 12,
+  "discovery_eligible": 112,
+  "holdout_eligible": 96,
+  "minimum_fitted_order": 40,
+  "maximum_admitted_order": 16,
+  "admitted_low_order_cells": 0,
+  "independent_inconsistent_cap_systems": 208,
+  "excluded_pages": [
+    {
+      "page": "LP2/50",
+      "reason": "No registered rune tokens"
+    }
+  ],
+  "controls_completed": 575,
+  "controls_requested": 999,
+  "new_formal_controls": 0,
+  "leads": [],
+  "unsolved_page_candidates": [],
+  "stopped_reason": "Necessary low-order gate fails in every eligible observed cell; user requests immediate method switch when unpromising.",
+  "non_conclusion": "No completed maxT statistic or formal 999-control negative; no claim about hidden key recurrence, nonlinear mechanisms, alternate views or untested orders."
+}

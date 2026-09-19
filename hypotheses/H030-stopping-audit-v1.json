@@ -1,0 +1,168 @@
+{
+  "schema": 1,
+  "id": "H030-stopping-audit-v1",
+  "status": "preregistered",
+  "kind": "deterministic audit of existing observed output; no search expansion",
+  "user_stopping_policy": "User requests immediate method switch when an approach lacks a promising necessary condition; do not finish null controls for administrative completeness.",
+  "scientific_protocol": "H030-v3 remains unchanged and incomplete at 575/999. No new inferential threshold, order, view, reset, seed or maxT statistic.",
+  "question": "Does any eligible stored observed cell satisfy the frozen order<=16 necessary condition?",
+  "success": "Source/checkpoint hashes and all 575 input digests match; observed metrics reproduce; independent F29 Gaussian ranks determine consistency of a recurrence at the original cap on each untouched prefix.",
+  "failure": "Hash, ID, observed metric or rank-vs-BM contradiction is error; no claim about unfinished maxT or hidden key complexity.",
+  "scope": "55 rune-bearing pages, four views each; views with N<96 remain inconclusive_short; LP2/50 excluded.",
+  "independence": "A recurrence of order<=cap implies a consistent cap-order linear system by zero padding. Rank(A)<rank(A|b) independently excludes every admitted order without BM.",
+  "wall_seconds": 180,
+  "provenance": "Prepared after descriptive inspection found 208 eligible cells and no order-capped cell; audit is verification of that observation, not a new discovery test.",
+  "development_benchmark": {
+    "status": "exploratory_timing_only",
+    "formal_controls_accepted": 0,
+    "replicates_evaluated": [
+      575,
+      576,
+      577,
+      578,
+      579
+    ],
+    "retained_metrics": false,
+    "steady_seconds_per_replicate": 0.48439999998081473,
+    "estimated_full_replay_and_continuation_seconds": 483.9155999808339,
+    "note": "Existing frozen null mapping only; outputs discarded after timing, no p-value or scientific control row accepted. JIT short/boundary equivalence tests passed; complete 575-row metric replay was not attempted."
+  },
+  "inputs": [
+    {
+      "path": "data/attempt1-corpus-v1.json",
+      "sha256": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519"
+    },
+    {
+      "path": "hypotheses/H030-berlekamp-massey-v3.json",
+      "sha256": "abd89e9d46ed8b62e7fe1b2d6cdf46c45e0b4fbd7d16fb3f4d68b91a1b412043"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v2-retry3/control-results.partial.json",
+      "sha256": "b28bb8bed244187d545c7d09e76be843339518a31835ae29c79438b1b4ed3c78"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v2-retry3/frozen.json",
+      "sha256": "30fb05ed0b06e0a71ed5911f24165855efba47bdc28313f67d5e95615e284239"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v2-retry3/record.json",
+      "sha256": "5dbce0ba30fc7e350bdd92e9d9bbfdd28e88a17faa847e169cb208c4cde4fd20"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/control-checkpoint.json",
+      "sha256": "ab36abf66fc1f2ffe005f0566861ecc22dca68950fd65732a185fa124ff304e2"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/control-results.partial.json",
+      "sha256": "bbc78cf9edaecca272c1c6354fd283209b5e55a314b55711fe3789fd89e29656"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/frozen.json",
+      "sha256": "baecef9c9d8f0c8451d4ac489c281a43f8aaa1e8c5e6900a6ec0b192e388d880"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/gate.json",
+      "sha256": "f408dfa7753ee5d0afa175f48cb4020b56d29c73e8d10b53e4a0571f6ba47f1e"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/independent-verification.json",
+      "sha256": "b9781388de7b1af46fe3302257dceb1ddb48f911cf74039f2fe070310dd69a79"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/observed.json",
+      "sha256": "1148f359553d382fd0f5fc96eb7b54f3fc9bc4d2e14340178b7ba7acbea194be"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/record.json",
+      "sha256": "c4def19a5e2abf9ff4ef0af57ca429f56a5995c9da927bfc7fdd2cabc66ef08c"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/resume-source.json",
+      "sha256": "aa27f66496e76f404bcad6e039a4f6dc3edb06601f771b56c4b40419e6dba2c6"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/verifier-only/gate-answers.json",
+      "sha256": "9986b002dc6f1930d9cdcc2968cdde255e9058ef7cede26a15c9f889bf8b25b7"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/formal-observed/execution.json",
+      "sha256": "506a19ad5b222775a8e24210c066d3ebd90c74c7cec9141fc86cd850665da1cb"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/formal-observed/public.json",
+      "sha256": "62dbf38c22180f1502c74cf328dd7bfd211f4412740e15c42cbb5e972d8e041c"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/formal-observed/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/formal-observed/stdout.json",
+      "sha256": "3dc48defb741b0c0fefe9367959be37ceb38c6fe59b5d05f2d0146cd32e1bc42"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/gate/execution.json",
+      "sha256": "49d0dc101ed002154085127f7db84b5d89ed1db754349dbba148fc1aee0afb53"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/gate/public.json",
+      "sha256": "0dc8f50739c312e1067dcbcaa5ba7d211df150a895d7b9ba8b296226fda4ba42"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/gate/stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "runs/auto-cycle-r015-H030-v3/worker/gate/stdout.json",
+      "sha256": "b2bac2690d9ef36ea2fc0dac7a5b4bcb0e107c311aa84f75e75f8b506e4c5b3f"
+    },
+    {
+      "path": "scripts/attempt21_bm_v2.py",
+      "sha256": "53a736eecb19443f626264f5800df019a5caa0220cfa4d4179072b60bb062c30"
+    },
+    {
+      "path": "scripts/attempt21_bm_v2_worker.py",
+      "sha256": "72c4f46c4cbac2b92f137f94008a5017e145c740547f20e8a693fe6a1c4f2dd1"
+    },
+    {
+      "path": "scripts/attempt21_bm_v3.py",
+      "sha256": "3a25090dc27097fb48d7eeaaf0b2feecf0f89ef5af206569e65b8173a51eb95a"
+    },
+    {
+      "path": "scripts/attempt21_bm_v4_worker.py",
+      "sha256": "6664cdcb1b0f05f7a3fa96425a649387f4eff33b487dc97e28d5a71b36635a15"
+    },
+    {
+      "path": "scripts/audit_h030_stopping_v1.py",
+      "sha256": "10cee1cc727c9817eb6a5371e2937d405b4151b8364dc5caff7948313ec0255d"
+    },
+    {
+      "path": "src/lp_lab/execution.py",
+      "sha256": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b"
+    },
+    {
+      "path": "src/lp_lab/provenance.py",
+      "sha256": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230"
+    },
+    {
+      "path": "src/lp_lab/r015_bm_v2.py",
+      "sha256": "462baca1c3dfe8c2010b7906bc49c8638af1165aabb83d5d10ae5574ccbda80f"
+    },
+    {
+      "path": "src/lp_lab/r015_bm_v4.py",
+      "sha256": "2cdb2d03afc081ad09d48e8af6fc76a77567457bd675e831c4d81ee423898342"
+    },
+    {
+      "path": "src/lp_lab/runes.py",
+      "sha256": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315"
+    },
+    {
+      "path": "tests/test_h030_stopping_audit.py",
+      "sha256": "499c33ec0d20ab536e7ec2bf6f8b65f1c17c796cba82f50691db05cc37067f7d"
+    },
+    {
+      "path": "tests/test_r015_bm_v4.py",
+      "sha256": "942aed61ec0a20000849b1e53ab02000c36dee72e26104f95d39599b1bd04b1e"
+    }
+  ]
+}

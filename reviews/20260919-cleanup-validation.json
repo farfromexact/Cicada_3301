@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "verified_at_utc": "2026-09-19T11:37:13.755844+00:00",
+  "regression_run": "runs/20260919T113557.071312Z",
+  "tests": 193,
+  "source_files_verified": 108,
+  "commands": [
+    {
+      "name": "tests",
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "name": "reproduce",
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "name": "research",
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "name": "clues",
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "name": "math",
+      "status": "completed",
+      "exit_code": 0
+    },
+    {
+      "name": "synthetic",
+      "status": "completed",
+      "exit_code": 0
+    }
+  ],
+  "tracked_deleted_files": 227,
+  "tracked_deletion_scope": ".validation/feed010-portable only",
+  "preservation_archive": "runs/portable-replay-retained-20260919.zip",
+  "retained_unique_replay_files": 96,
+  "deleted_files_before_regression": 609,
+  "regression_cache_regeneration_expected": true,
+  "history_snapshots_byte_exact": true,
+  "current_entry_sizes": {
+    "STATE.md": 2250,
+    "hypotheses/NEXT.md": 866
+  },
+  "git_diff_check": "passed",
+  "cleanup_did_not_launch_unsolved_search": true
+}

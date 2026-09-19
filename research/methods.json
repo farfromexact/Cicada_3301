@@ -80,6 +80,16 @@
       "source": "sources/feed008/user-request.txt",
       "anchor": "找到一些蛛丝马迹，再下钻",
       "scope": "research strategy and authorized next attempt, not a cryptanalytic finding"
+    },
+    {
+      "id": "M009",
+      "kind": "user_preference",
+      "origin": "direct user steering during execution",
+      "topic": "及时止损 方法切换 无苗头 资源节约 early futility",
+      "statement": "方法没有苗头就及时换下一种，避免大量资源钻牛角尖。落实为预注册小功效门和廉价筛选，失败保留记录后停止；不能把提前终止或未执行写成正式阴性。",
+      "source": "sources/feed012/user-steering.txt",
+      "anchor": "苗头不对 就赶紧换下一种方式",
+      "scope": "Research allocation preference; not a cipher fact or permission to change acceptance after results"
     }
   ]
 }

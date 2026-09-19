@@ -1,0 +1,18 @@
+# Default code/context search stays small. Read evidence by an explicit path.
+# Example: rg --no-ignore -n "H030" runs/auto-cycle-r015-H030-v3/record.json
+/runs/
+/sources/
+/data/
+/github/
+/downloads/
+/official/
+/reference/
+/tmp/
+/.validation/
+/output/
+/notes/
+/STATE_HISTORY.md
+/hypotheses/NEXT_HISTORY.md
+**/__pycache__/
+*.zip
+*.pyc

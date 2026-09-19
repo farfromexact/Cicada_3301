@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "id": "H031-pgl-power-gate-v3",
+  "status": "preregistered",
+  "created_date": "2026-09-19",
+  "purpose": "Test whether one common PGL(2,29) map can be recovered from two discovery synthetic pages and predict a third held-out page. No LP2 search in this version.",
+  "basis": ["FEED-011 and H031-v2 explicitly specify all 24360 PGL maps including the separator point.", "Static review found v2 gate private-data shape and one-page/three-page scoring inconsistencies; preserve v2 unchanged and test a corrected isolated gate."],
+  "sources": ["hypotheses/H031-pgl-full-v2.json", "research/feeds/FEED-011.json", "reviews/feed011-composite-mechanisms.md", "data/synthetic/training.txt", "data/synthetic/heldout.txt"],
+  "representation": "0..28 rune indices; 29 represents an actual synthetic word separator. This is a test of an explicitly extended 30-point alphabet, not a reinterpretation of GP prime values.",
+  "enumeration": "24360 canonical PGL matrices exactly as H031-v2; select equal-weight mean score across first two pages; freeze mapping for page three; tie tolerance 1e-12 and lexicographic matrix order.",
+  "scorer": "H031-v2 add-one 30-symbol first-order model trained only on training.txt.",
+  "threshold": "Training-only calibration: flattened training text including separators; for lengths 96,128,160,192,224 score windows starting at 0,47,94,... while fully inside training. Threshold=min(window scores)-0.25. No heldout answer influences threshold.",
+  "gate_generation": "Use H031-v2 make_gate generation unchanged for 20 positives and 99 negatives (33 uniform,33 within-page permutations,33 common random S30 maps); discard its heldout-derived threshold. First two pages discovery, third holdout. Verifier-only plaintext, matrix and seeds never sent to worker.",
+  "success": "At least 18/20 exact inverse mapping recoveries with discovery and heldout scores above the fixed threshold; 0/99 negatives pass both scores. Independent selected-map scores, full 30-point bijections, inverses and scalar score equivalence required.",
+  "failure": "Gate failure is inconclusive about LP2; no LP2 score, transformed text or formal statistics may be generated. No post-hoc threshold changes.",
+  "budgets": {"jobs":119,"matrices_per_job":24360,"wall_seconds":900},
+  "independent_validation": "Separate Fermat modular inverse implementation verifies all mapping tables, determinants and 730800 point images, inverse round trips, and selected-map scores. Scalar scoring on all matrices of first public job checks optimized scorer equivalence.",
+  "uncovered": ["LP2 entirely unattempted", "per-page or time-varying maps", "other separator contracts", "composite ciphers", "all other language scorers"],
+  "statuses": ["passed","inconclusive","error","timeout"]
+}

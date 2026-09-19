@@ -1,0 +1,51 @@
+{
+  "schema": 1,
+  "id": "H027-adjacent-reused-stream-v1",
+  "status": "preregistered",
+  "registered_date": "2026-09-19",
+  "basis": "reviews/auto-cycle-009.md H027: original adjacent pages, zero offset, reused additive stream; no new key family or offsets",
+  "hypothesis": "C_A[i]=P_A[i]+K[i] and C_B[i]=P_B[i]+K[i] mod29, so D[i]=P_A[i]-P_B[i] mod29",
+  "representation": "Original rune indices 0..28, F ordinary. Keep raw source and ordinal mappings. A page contributes its rune prefix before its first ASCII alphanumeric literal. Soft separators and punctuation do not consume clock. No shift, reverse, reorder, skip, or tuning.",
+  "coverage": {
+    "universe": "All 55 original consecutive pairs LP2/n,LP2/n+1 for n=0..54; all 56 pages receive a coverage row",
+    "overlap": "min(legal prefix lengths), at least 30 symbols; unpaired tails reported",
+    "grid": "Stop at first ASCII letter/digit; LP2/49 pre-grid rune prefix remains applicable, LP2/50 has none, LP2/51 begins with grid and has no legal page-origin prefix; never bridge 49 to 51",
+    "reset": "Same clock origin at first rune of each page; no inferred chapters"
+  },
+  "model": {
+    "training": "data/synthetic/training.txt only, fixed lp_lab.synthetic.encode_text; no LP plaintext or heldout in worker",
+    "plaintext": "Add-one-smoothed unigram pi and row-normalized add-one bigram transition T",
+    "difference": "Add-one-smoothed joint bigram J; Q[a,b]=sum_x,y J[x,y]*J[(x-a)%29,(y-b)%29], then normalize each Q row. Initial difference piD[a]=sum_x pi[x]*pi[(x-a)%29]. This is a fixed first-order approximation, not the exact hidden-state marginal.",
+    "score": "Log likelihood ratio of observed D under piD,Q against iid uniform29. First floor(2*n/3) is discovery; remaining suffix is heldout. The first suffix term conditions on last discovery D. No refit on either segment.",
+    "prediction_limit": "Heldout is a sequential conditional density prediction of D, not independent plaintext/key suffix prediction.",
+    "decode": "Exact 29-state Viterbi over P_A; P_B=P_A-D. First decode discovery only, then freeze its last pair and decode suffix conditional on those states. Return explicit P_A,P_B and K_A=C_A-P_A,K_B=C_B-P_B. Shared K and roundtrip do not establish correctness.",
+    "tie": "Smallest previous A state, then smallest final A state"
+  },
+  "synthetic_gate": {
+    "positive_count": 20,
+    "negative_count": 99,
+    "lengths": [262,266,201,217,261,263,196,208,255,268,263,273,261,272,137,159,267,273,260,271],
+    "plaintexts": "Verifier-only heldout encode_text: A at i*13, B at 598+i*13, length fixed. Within a case windows are disjoint; across cases windows overlap, so counts are diagnostics, not independent confidence trials.",
+    "positive": "Independent uniform29 K per positive, same K used for both natural windows",
+    "negative": "Same natural windows with independent uniform29 K_A,K_B; index modulo20; exactly99",
+    "seed": 33012701,
+    "detection": "Both discovery and holdout log likelihood ratios >= ln(100)",
+    "recovery": "Each of A and B must recover >=0.60 exact rune fraction separately in discovery and holdout; report full exact plaintext/key match independently",
+    "pass": "At least18/20 positives meet detection and recovery; 0/99 independent-stream negatives meet detection",
+    "failure": "inconclusive; do not dispatch LP2 or calculate LP2 scores; do not tune v1 after results"
+  },
+  "lp2_acceptance": {
+    "controls": 999,
+    "seed": 33012703,
+    "null": "Within each legal prefix, shuffle only even-numbered original pages; odd pages fixed. Each pair has exactly one shuffled page and each shared even page uses the same permutation for both neighbors in that replicate.",
+    "statistics": "Two score columns per applicable pair; standardize observed+999 controls together, maxT across all columns; plus-one p with1e-12 tie tolerance",
+    "lead": "Both segments logBF>=ln100 and both maxT p<=.01; only unverified candidate pair, never decryption",
+    "negative": "Complete gate, independent verification and all999 controls with no lead: scoped negative for this detector/model/alignment only"
+  },
+  "isolation": "Guarded stdlib-only worker receives ciphertext, opaque job id and training counts; no answers, plaintext, generation seed, filesystem/process/network access. Gate dispatch precedes any LP2 dispatch.",
+  "validation": "Independent scalar backward Bellman optimum, independent path objective, difference/score and roundtrip checks; short brute force oracle and mutation tests. Exact comparison to verifier-only synthetic plaintext and keys.",
+  "budget": {"wall_seconds":900,"gate_jobs":119,"control_replicates":999,"offsets":1,"models":1},
+  "stage_order": "Implement and execute synthetic gate first. Only if it passes, implement the already frozen formal control specification and freeze that implementation before any LP2 score; failed gate ends v1 without implementing controls.",
+  "provenance": "Before worker execution freeze spec/source/code hashes, public gate ciphertext, private answers, model and coverage. Save worker stdout/stderr/exit code, complete or partial controls and checkpoint, reproduction ZIP and CRC/content verification.",
+  "uncovered": ["Other offsets or nonadjacent pages","Alternative key streams or plaintext models","F skipping","Grid symbol consumption or post-grid reset","Image glyph ambiguity","Exact recovery of unknown LP2 plaintext without an independent anchor"]
+}

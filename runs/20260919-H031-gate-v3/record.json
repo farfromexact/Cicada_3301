@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "hypothesis": "H031-pgl-power-gate-v3",
+  "status": "passed",
+  "started_at_utc": "2026-09-19T11:20:26.925877+00:00",
+  "unsolved_page_candidates": [],
+  "actual_coverage": {
+    "synthetic_jobs": 119,
+    "matrices_per_job": 24360,
+    "lp2_pages": 0
+  },
+  "source_hashes": {
+    "hypotheses/H031-pgl-power-gate-v3.json": "a12afcf3144163d88b80c87058dc4a3ca6c0cca0e67072541a25c3df4e035240",
+    "scripts/attempt22_pgl_gate_v3_worker.py": "e663a88640602d7ee2c0ece27a7c841c0a5fa96825f71663a44b76b3038f06b1",
+    "scripts/attempt22_pgl_gate_v3.py": "fa15dfe2c9d44cf5c6a803ccc8b4231ff092470924c3a687de511309a9bddf2a",
+    "scripts/attempt22_pgl_v2.py": "a24fb38d0c285193648537b12e01f7530983b442fc8559df9c91bacdfd4bb309",
+    "scripts/attempt22_pgl_v2_worker.py": "001363220dfc7d11b70d4d6f48d04c59c151a31f271783a36f7d90663eec49be",
+    "src/lp_lab/r015_pgl_v2.py": "01c43df31253024e91ba6c0d46f6e4cfde8563903d6dd280aa0c01267b8d13c7",
+    "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+    "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+    "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+    "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+    "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+    "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+    "data/synthetic/training.txt": "1b09158c650654f7af4b95d8c35c86501d898b1dc397a0177cbf2a4b306f42ff",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "hypotheses/H031-pgl-full-v2.json": "c4186292e9f1304941a8834a1ed6c0e754266b1da188555e596a6464e647551f",
+    "research/feeds/FEED-011.json": "98360f6fd60ca268a9e284dc8b02cd24a9ee2b5ea0abc7a28561abab54787ec1",
+    "reviews/feed011-composite-mechanisms.md": "1cc27992c7f8172f4a02fe1ea75920b49b33a692be4863e2c1f10c157234a1ce"
+  },
+  "gate_status": "passed",
+  "positive_passes": 20,
+  "negative_false_accepts": 0,
+  "conclusion": "Synthetic recovery gate only; no conclusion about LP2.",
+  "finished_at_utc": "2026-09-19T11:20:41.231244+00:00",
+  "elapsed_seconds": 14.312999999965541
+}

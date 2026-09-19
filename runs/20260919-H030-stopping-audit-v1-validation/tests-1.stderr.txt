@@ -1,0 +1,7 @@
+test_cap_accepts_lower_order_and_rejects_broken_prefix (test_h030_stopping_audit.H030StoppingAuditTests.test_cap_accepts_lower_order_and_rejects_broken_prefix) ... ok
+test_rank_is_over_f29 (test_h030_stopping_audit.H030StoppingAuditTests.test_rank_is_over_f29) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.003s
+
+OK

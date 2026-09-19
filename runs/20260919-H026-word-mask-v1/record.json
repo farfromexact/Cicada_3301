@@ -1,0 +1,31 @@
+{
+  "hypothesis": "H026-word-mask-collisions-v1",
+  "status": "inconclusive",
+  "started_at_utc": "2026-09-19T11:24:54.996864+00:00",
+  "source_hashes": {
+    "hypotheses/H026-word-mask-collisions-v1.json": "72e8e96edee5623df9993bd6dbb77018af42a799255d7acbc7917fbe0a6f5e8d",
+    "scripts/h026_wordmask_worker_v1.py": "f689efad57760100dba9f68e85d61f25816092228e973754483e002572a663a5",
+    "scripts/h026_wordmask_v1.py": "404f0eb63ea1c660a1cb88e3d6e3dc75a9616a721fa6d5feaf29ae4474f53fda",
+    "src/lp_lab/h026_wordmask.py": "0b7fa5a5db9bc71b6bee35538c68c160d7f7be4469b78833bb3a1a8a6dc515ff",
+    "src/lp_lab/runes.py": "4e06db173c8677394a47a9c1fac90b6f5b60ff4d9c97a334e5454a18f6209315",
+    "src/lp_lab/synthetic.py": "504804103436790b17999e1334b08e0ecc272b6f4ae7dc9dc05036e255ed1210",
+    "src/lp_lab/execution.py": "0434e13f40a8eab4cb81afcd6929cf490d867224c7e50ad068991cd2258a848b",
+    "src/lp_lab/provenance.py": "eea615dc1246cde2180a23999f8b2c6efa5c58314500b290243100daead35230",
+    "src/lp_lab/__init__.py": "b09c36e3d01cb07001897fcea68cccbfe89a11f4dee76691ac4e2739a5bc2907",
+    "src/lp_lab/cipher.py": "1ca522836201940c4755161afe011ad532f7ec50a985fabf642b527fb779346f",
+    "data/synthetic/heldout.txt": "8f09be1ed5598cf5c272ec426f016a4512fcfd93511191fa4b64078f71d38d1c",
+    "data/attempt1-corpus-v1.json": "adbc565d01546ddb24efc80c6c8ea6a0da3dfeafb5fa751b3bf94a7ec1bad519",
+    "data/README.md": "5707f090a78494420801ba2b18ec41a31ddda4f7e6e8217403d745fca79fdc78",
+    "reviews/auto-cycle-009.md": "726228c5fa760253bb774f4890cf1b19e03233994e1c5d552c124f48c930783e"
+  },
+  "lp2_pages_dispatched": 0,
+  "unsolved_page_candidates": [],
+  "gate_status": "failed",
+  "positive_passes": 8,
+  "negative_false_accepts": 0,
+  "reason": "power_gate_failed",
+  "formal_confirmation": false,
+  "controls_completed": 0,
+  "finished_at_utc": "2026-09-19T11:24:56.835855+00:00",
+  "elapsed_seconds": 1.8429999999934807
+}
